@@ -82,6 +82,7 @@ html {
         .intro #title {
             cursor: pointer;
             letter-spacing: -2px;
+            border-bottom: 3px solid rgba(255, 255, 255, .15);
         }
     
         .links a {
