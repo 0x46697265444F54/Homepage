@@ -1,4 +1,5 @@
 :root {
   --background-color: #1a1f2e;
   --primary-color: #ff5b32;
+  --footer-color: color-mix(in hsl, var(--background-color), white 10%);
 }

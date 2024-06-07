@@ -1,54 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
   <head>
     <title>FireDOT</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#FF7043" />
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/scale-extreme.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/themes/default-orange.css" />
     <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale-extreme.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" />
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
-    <script src="assets/js/app.js"></script>
   </head>
-  <body onload="initialize()">
-    <div style="position: absolute; width: 100%; height: 100%" id="particles-js"></div>
+  <body>
+    <div style="position: absolute; width: 100%; height: 100%" id="particles"></div>
     <main>
       <div class="intro">
-        <span id="title" onclick="toClipboard('play.firedot.pl')">firedot.pl</span>
+        <div class="animation-wrapper">
+          <span id="title" class="animated">firedot.pl</span>
+        </div>
+        
       </div>
-      <div class="icons-social">
+      <div class="links">
         <a id="discord" href="https://discord.com/invite/rTQUYUDcQn"><i class="lni lni-discord-alt"></i></a>
       </div>
+      <footer>
+        <a href="https://github.com/0x46697265444F54/Homepage">FireDOT (r) 2024</a>
+      </footer>
     </main>
   </body>
-  
 </html>
+
+<!-- Reponsible for configuring particle.js particles. -->
+<script>
+  // Loading particle settings from JSON configuration.
+  particlesJS.load("particles", "assets/particles.json");
+</script>
 
 <!-- Reponsible for creating embedded content directly on the webpage. -->
 <script>
-  
   // Initializes and creates tooltips.
-  function initialize() {
-    const common = { inertia: true, offset: [0, 15], animation: 'scale-extreme' }
+  document.addEventListener("DOMContentLoaded", () => {
+    const common = { inertia: true, offset: [0, 15], animation: "scale-extreme" }
     // Creating copy-to-clipboard tooltip for non-mobile devices. This is to prevent overlapping of both tooltips when clicking title on a moble device.
     if (navigator.userAgentData.mobile == false)
       tippy("#title", Object.assign({ placement: "top", content: "Kliknij, aby skopiować adres serwera..." }, common));
     // Creating copied-to-clipboard tooltip which is displayed when user clicks the #title element.
-    tippy('#title', Object.assign({ placement: 'top', content: 'Skopiowano!', trigger: 'click' }, common));
+    tippy("#title", Object.assign({ placement: "top", content: "Skopiowano!", trigger: "click" }, common));
     // Creating discord tooltip which is displayed when hovering #discord element.
-    tippy('#discord', Object.assign({ placement: 'bottom', content: 'Discord' }, common));
-  }
-  // Copies text to the clipboard.
-  function toClipboard(text) {
+    tippy("#discord", Object.assign({ placement: "bottom", content: "Discord" }, common));
+  })
+  title.addEventListener("click", () => {
     if (navigator.clipboard)
-      navigator.clipboard.writeText(text);
-  }
+      navigator.clipboard.writeText(title.innerHTML);
+  })
 </script>
 

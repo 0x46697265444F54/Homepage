@@ -1,0 +1,112 @@
+/* Minimal CSS Reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Default Style Colors */
+
+:root {
+    --background-color: black;
+    --primary-color: white;
+    --footer-color: color-mix(in srgb, var(--primary-color), transparent 75%);
+}
+
+/* Default Style */
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+html {
+    overflow: hidden;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+	font-family: 'JetBrains Mono', sans-serif;
+
+    main {
+        display: flex;
+        padding: 0 30px;
+        min-height: 100vh;
+        user-select: none;
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    
+        .intro {
+            font-size: 3.75em;
+            font-weight: 600;
+        }
+
+        .intro #title {
+            cursor: pointer;
+            letter-spacing: -2px;
+        }
+    
+        .links a {
+            color: var(--primary-color);
+        }
+    
+        .links i {
+            padding: 10px;
+            font-size: 2.5em;
+            margin: 0 0.5rem 0 0.5rem;
+        }
+
+        footer {
+            left: 0;
+            right: 0;
+            bottom: 25px;
+            display: flex;
+            position: fixed;
+            justify-content: center;
+            color: var(--footer-color);
+        }
+
+        footer a {
+            color: inherit;
+        }
+    }
+}
+
