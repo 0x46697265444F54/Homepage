@@ -24,7 +24,7 @@ body {
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'JetBrains Mono', sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -69,12 +69,11 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
-#ip {
+#title {
 	cursor: pointer;
 }
 

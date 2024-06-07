@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>FireDOT</title>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#FF7043" />
-    <title>FireDOT</title>
-    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet" />
-    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/themes/default-orange.css" />
     <link rel="stylesheet" href="assets/css/scale-extreme.css" />
+    <link rel="stylesheet" href="assets/css/themes/default-orange.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="assets/js/app.js"></script>
   </head>
-  <body>
-    <div style="position: absolute; width: 100%; height: 100%;" id="particles-js"></div>
+  <body onload="initialize()">
+    <div style="position: absolute; width: 100%; height: 100%" id="particles-js"></div>
     <main>
       <div class="intro">
-        <span id="ip" onclick="copyServerAddress()">firedot.pl</span>
+        <span id="title" onclick="toClipboard('play.firedot.pl')">firedot.pl</span>
       </div>
       <div class="icons-social">
         <a id="discord" href="https://discord.com/invite/rTQUYUDcQn"><i class="fab fa-discord"></i></a>
       </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="https://unpkg.com/tippy.js@6"></script>
-    <script src="assets/js/app.js"></script>
-    <script>
-      // Tooltips
-      tippy("#discord", { placement: "bottom", animation: "scale-extreme", inertia: true, offset: [0, 15], content: "Discord", });
-      tippy("#donate", { placement: "bottom", animation: "scale-extreme", inertia: true, offset: [0, 15], content: "Wesprzyj", });
-      tippy("#vote", { placement: "bottom", animation: "scale-extreme", inertia: true, offset: [0, 15], content: "Zagłosuj", });
-      if (!/android.+mobile|ip(hone|[oa]d)/i.test(navigator.userAgent)) {
-        tippy("#ip", { placement: "top", animation: "scale-extreme", inertia: true, offset: [0, 15], content: "Kliknij, aby skopiować adres serwera...", });
-      }
-      tippy("#ip", { trigger: "click", placement: "top", animation: "scale-extreme", inertia: true, offset: [0, 15], content: "Skopiowano!",       });
-      // Copy address to clipboard
-      function copyServerAddress() {
-        if (!navigator.clipboard) return;
-        navigator.clipboard.writeText("play.firedot.pl");
-      }
-    </script>
   </body>
 </html>
+
+<!-- Reponsible for creating embedded content directly on the webpage. -->
+<script>
+  // Initializes and creates tooltips.
+  function initialize() {
+    const common = { inertia: true, offset: [0, 15], animation: 'scale-extreme' }
+    // Creating tooltips...
+    tippy('#discord', Object.assign({ placement: 'bottom', content: 'Discord' }, common));
+    tippy('#title', Object.assign({ placement: 'top', content: 'Skopiowano!', trigger: 'click' }, common));
+    tippy("#title", Object.assign({ placement: "top", content: "Kliknij, aby skopiować adres serwera..." }, common));
+  }
+  // Copies text to the clipboard.
+  function toClipboard(text) {
+    if (navigator.clipboard)
+      navigator.clipboard.writeText(text);
+  }
+</script>
+
