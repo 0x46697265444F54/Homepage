@@ -35,10 +35,13 @@
   // Initializes and creates tooltips.
   function initialize() {
     const common = { inertia: true, offset: [0, 15], animation: 'scale-extreme' }
-    // Creating tooltips...
-    tippy('#discord', Object.assign({ placement: 'bottom', content: 'Discord' }, common));
+    // Creating copy-to-clipboard tooltip for non-mobile devices. This is to prevent overlapping of both tooltips when clicking title on a moble device.
+    if (navigator.userAgentData.mobile == false)
+      tippy("#title", Object.assign({ placement: "top", content: "Kliknij, aby skopiować adres serwera..." }, common));
+    // Creating copied-to-clipboard tooltip which is displayed when user clicks the #title element.
     tippy('#title', Object.assign({ placement: 'top', content: 'Skopiowano!', trigger: 'click' }, common));
-    tippy("#title", Object.assign({ placement: "top", content: "Kliknij, aby skopiować adres serwera..." }, common));
+    // Creating discord tooltip which is displayed when hovering #discord element.
+    tippy('#discord', Object.assign({ placement: 'bottom', content: 'Discord' }, common));
   }
   // Copies text to the clipboard.
   function toClipboard(text) {
