@@ -75,6 +75,7 @@ main > .intro {
 
 #title {
 	cursor: pointer;
+    letter-spacing: -4px;
 }
 
 main > .tagline {
