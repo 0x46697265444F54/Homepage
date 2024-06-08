@@ -74,25 +74,35 @@ html {
         flex-direction: column;
         justify-content: center;
     
+        .intro, .links {
+            text-shadow: 3px 3px 1px rgba(0, 0, 0, .1);
+        }
+
         .intro {
             font-size: 3.75em;
             font-weight: 600;
         }
 
         .intro #title {
+            opacity: 0;
             cursor: pointer;
             letter-spacing: -2px;
             border-bottom: 3px solid rgba(255, 255, 255, .15);
+            animation: fade-in 0.8s forwards 0.2s;
         }
     
+        .links {
+            padding-top: 10px;
+        }
+
         .links a {
             color: var(--primary-color);
         }
     
         .links i {
-            padding: 10px;
+            opacity: 0;
             font-size: 2.5em;
-            margin: 0 0.5rem 0 0.5rem;
+            animation: fade-in 0.8s forwards 1s;
         }
 
         footer {
@@ -102,12 +112,17 @@ html {
             display: flex;
             position: fixed;
             justify-content: center;
-            color: var(--footer-color);
         }
 
         footer a {
-            color: inherit;
+            color: var(--footer-color);
         }
     }
 }
 
+/* Animation Keyframes */
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

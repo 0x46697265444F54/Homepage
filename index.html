@@ -7,27 +7,24 @@
     <meta name="theme-color" content="#FF7043" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/themes/default-orange.css" />
-    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale-extreme.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
   </head>
   <body>
-    <div style="position: absolute; width: 100%; height: 100%" id="particles"></div>
+    <div style="position: absolute; width: 100%; height: 100%; opacity: 0.8"id="particles"></div>
     <main>
       <div class="intro">
-        <div class="animation-wrapper">
-          <span id="title" class="animated">firedot.pl</span>
-        </div>
-        
+        <span id="title">firedot.pl</span>
       </div>
       <div class="links">
-        <a id="discord" href="https://discord.com/invite/rTQUYUDcQn"><i class="lni lni-discord-alt"></i></a>
+        <a id="discord" href="https://discord.com/invite/rTQUYUDcQn"><i class="bi bi-discord"></i></a>
       </div>
       <footer>
-        <a href="https://github.com/0x46697265444F54/Homepage">FireDOT (r) 2024</a>
+        <a href="https://github.com/0x46697265444F54/Homepage">FireDOT (c) 2024</a>
       </footer>
     </main>
   </body>
@@ -41,7 +38,7 @@
 
 <!-- Reponsible for creating embedded content directly on the webpage. -->
 <script>
-  // Initializes and creates tooltips.
+  // Initializes and creates tooltips when page content is loaded.
   document.addEventListener("DOMContentLoaded", () => {
     const common = { inertia: true, offset: [0, 15], animation: "scale-extreme" }
     // Creating copy-to-clipboard tooltip for non-mobile devices. This is to prevent overlapping of both tooltips when clicking title on a moble device.
@@ -52,6 +49,7 @@
     // Creating discord tooltip which is displayed when hovering #discord element.
     tippy("#discord", Object.assign({ placement: "bottom", content: "Discord" }, common));
   })
+  // Copies text to clipboard when clicking the #title element.
   title.addEventListener("click", () => {
     if (navigator.clipboard)
       navigator.clipboard.writeText(title.innerHTML);
