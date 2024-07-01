@@ -1,0 +1,2 @@
+- [firedot.pl](https://firedot.pl)
+- [firedot.pl/discord](https://firedot.pl/discord)
