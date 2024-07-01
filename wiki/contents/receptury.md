@@ -1,5 +1,5 @@
 # **Receptury**
-Część domyślnych receptur została zmodyfikowana na potrzebny balansu i dynamiki rozgrywki.
+Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
 ## **Wyposażenie**
 Maksymalny poziom wyposażenia, jakie można wytworzyć w stole rzemieślniczym to **kamienny** (narzędzia) i **skórzany** (zbroje). Aby uzyskać lepsze wyposażenie, należy ulepszyć obecne korzystająć ze **stołu kowalskiego** i szablonów ulepszeń.

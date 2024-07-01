@@ -27,7 +27,7 @@ Kilka nowych zaklęć możliwych do uzyskania za pomocą stołu do zaklęć i zn
 - **Scholar of Mobs** — Broń  
   Zabite moby dają więcej punktów doświadczenia.
 
-- **Posion Aspect**  — Broń  
+- **Poison Aspect**  — Broń  
   Uderzona ofiara otrzymuje efekt trucizny.
 
 - **Slowness Aspect** — Broń  
