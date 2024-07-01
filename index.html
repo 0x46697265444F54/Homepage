@@ -22,6 +22,7 @@
       </div>
       <div class="links">
         <a id="discord" href="https://discord.com/invite/rTQUYUDcQn"><i class="bi bi-discord"></i></a>
+        <a id="wiki" href="https://firedot.pl/wiki"><i class="bi bi-postcard-fill"></i></a>
       </div>
       <footer>
         <a href="https://github.com/0x46697265444F54/Homepage">FireDOT (c) 2024</a>
@@ -48,6 +49,8 @@
     tippy("#title", Object.assign({ placement: "top", content: "Skopiowano!", trigger: "click" }, common));
     // Creating discord tooltip which is displayed when hovering #discord element.
     tippy("#discord", Object.assign({ placement: "bottom", content: "Discord" }, common));
+    // Creating wiki tooltip which is displayed when hovering #wiki element.
+    tippy("#wiki", Object.assign({ placement: "bottom", content: "Wiki" }, common));
   })
   // Copies text to clipboard when clicking the #title element.
   title.addEventListener("click", () => {

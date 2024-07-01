@@ -102,6 +102,8 @@ html {
         .links i {
             opacity: 0;
             font-size: 2.5em;
+            margin-left: 15px;
+            margin-right: 15px;
             animation: fade-in 0.8s forwards 1s;
         }
 
