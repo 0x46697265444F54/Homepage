@@ -125,7 +125,7 @@ Ziemniaki rosną też na innych biomach:
 
 Na pozostałych biomach, ziemniaki rosną z prędkością <span class="bold yellow">50%</span>.
 
-###
+### Dynie
 Dynie najlepiej rosną na biomach chłodnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Taiga**, **Old Growth Pine Taiga**, **Old Growth Spruce Taiga**
 - **Cold Ocean**, **Deep Cold Ocean**

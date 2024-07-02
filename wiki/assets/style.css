@@ -1,0 +1,55 @@
+:root {
+    /* THEME COLORS */
+    --theme-color: #ff714e;
+    /* BASE PROPERTIES */
+    --base-font-family: 'Exo 2';
+    /* CONTENT */
+    --content-max-width: 90%;
+    /* LINKS */
+    --link-color: #ff714e;
+    /* SIDEBAR */
+    --sidebar-background: rgba(0, 0, 0, .05);
+
+    /* SIDEBAR TOGGLE BUTTON */
+    --sidebar-toggle-background: rgba(0, 0, 0, 0);
+    --sidebar-toggle-offset-top: 15px;
+    --sidebar-toggle-offset-left: 15px;
+}
+
+/* IMG STYLING */
+
+.generator-img:not(.medium-zoom-image--opened) {
+    max-width: 29%;
+    margin: 5px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.upgrade-recipes {
+    max-width: 30% !important;
+    padding: 5px;
+    max-height: 171px
+}
+
+.smithing-recipes {
+    max-width: 45% !important;
+    padding: 5px;
+}
+
+/* TEXT DECORATIONS */
+
+.bold {
+    font-weight: bold;
+}
+
+.green {
+    color: #259646
+}
+
+.yellow {
+    color: #CF940A;
+}
+
+.red {
+    color: #E04F44;
+}

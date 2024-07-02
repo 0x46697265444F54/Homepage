@@ -6,7 +6,7 @@ Terenem nazywany jest **chroniony obszar**, który powstaje poprzez postawienie 
 
 Podstawowy blok można wytworzyć za pomocą poniższej receptury:
 
-![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](../assets/claim_block_recipe.png ":no-zoom")
+![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](assets/img/claim_block_recipe.png ":no-zoom")
 
 Każdy gracz może postawić maksymalnie **pięć** terenów, a każdy z nich ma dodatkowo **pięć** poziomów ulepszeń.
 
@@ -18,7 +18,7 @@ Panel zarządzania można otworzyć poprzez **interakcję** z blokiem terenu, lu
 - Zmianę miejsca teleportu.
 - Ulepszenie do następnego poziomu.
 
-![Panel Zarządzania Terenem](../assets/claims_ui.png ":no-zoom")
+![Panel Zarządzania Terenem](assets/img/claims_ui.png ":no-zoom")
 
 ### Ulepszanie
 Każdy teren może zostać ulepszony **pięć** razy. Aby postawić nowy teren, każdy poprzedni musi być ulepszony do maksymalnego poziomu.

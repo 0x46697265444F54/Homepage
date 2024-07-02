@@ -4,7 +4,7 @@ W tym miejscu znajdziesz informacje na temat nowych, dodanych przez nas przedmio
 ### Przedmioty
 Kilka nowych gatunków ryb możliwych do złowienia za pomocą wędki.
 
-![Ryby](../assets/fish.png ":no-zoom")  
+![Ryby](assets/img/fish.png ":no-zoom")  
 <sup>Część tekstur pochodzi z modyfikacji [Fishing101](https://github.com/Macck209/Fishing101).</sup>
 
 ### Zaklęcia

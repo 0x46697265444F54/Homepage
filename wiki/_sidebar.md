@@ -1,9 +1,11 @@
-- **INFORMACJE**
+- **FIREDOT WIKI**
   - [Strona Główna](/)
-  - [Generator Świata](/contents/generator.md)
-  - [Chronione Tereny](/contents/tereny.md)
-  - [Teleporty](/contents/teleporty.md)
-  - [Dodatkowa Zawartość](/contents/zawartosc.md)
-  - [Rolnictwo](/contents/rolnictwo.md)
-  - [Receptury](/contents/receptury.md)
-  - [Ekonomia](/contents/ekonomia.md)
+  - [Generator Świata](/generator.md)
+  - [Chronione Tereny](/tereny.md)
+  - [Teleporty](/teleporty.md)
+  - [Dodatkowa Zawartość](/zawartosc.md)
+  - [Rolnictwo](/rolnictwo.md)
+  - [Receptury](/receptury.md)
+
+
+
