@@ -6,6 +6,7 @@
   - [Dodatkowa Zawartość](/zawartosc.md)
   - [Rolnictwo](/rolnictwo.md)
   - [Receptury](/receptury.md)
+  - [Inne](/inne.md)
 
 
 

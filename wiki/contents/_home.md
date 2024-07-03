@@ -33,5 +33,5 @@ Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limito
 Gra na naszym serwerze wymaga zaakceptowania paczki zasobów, jest ona bowiem niezbędna do poprawnego wyświetlania się niestandardowych tekstur oraz czcionek. Przed wejściem na serwer zalecamy wyłączyć wszystkie inne zainstalowane resource-packi.
 
 ### Open-Source
-Stawiamy na transparentność, a więc tworzymy i używamy głównie rozwiązań **open-source**. Większość napisanych przez nas wtyczek jest dostępna na profilach **[Grabsky](https://github.com/Grabsky)** oraz **[0x46697265444F54](https://github.com/0x46697265444F54)**.  
+Wspieramy, tworzymy i korzystamy głównie rozwiązań **open-source**. Większość napisanych przez nas wtyczek można znaleźć na profilach **[Grabsky](https://github.com/Grabsky)** oraz **[0x46697265444F54](https://github.com/0x46697265444F54)**. 
 
