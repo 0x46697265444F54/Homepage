@@ -26,7 +26,7 @@ Poniższy wykres przedstawia ścieżkę ulepszenia dla każdego poziomu wyposaż
 
 ![Diagram Ulepszeń](assets/img/upgrade_diagram2.png ":no-zoom")
 
-Tym samym można zauważyć, że złotego wyposażenia nie można zdobyć za pomocą ulepszeń. Jest ono unikalne i można je znaleźć tylko jako łup w strukturach.
+Tym samym można zauważyć, że złotego wyposażenia nie da się zdobyć za pomocą ulepszeń. Jest ono unikalne i można je znaleźć tylko jako łup w strukturach.
 
 <hr>
 

@@ -18,6 +18,10 @@
 
 /* IMG STYLING */
 
+.img-width-479 {
+    width: 479px;
+}
+
 .generator-img:not(.medium-zoom-image--opened) {
     max-width: 29%;
     margin: 5px;

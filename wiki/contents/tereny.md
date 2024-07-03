@@ -8,20 +8,20 @@ Podstawowy blok można wytworzyć za pomocą poniższej receptury:
 
 ![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](assets/img/claim_block_recipe.png ":no-zoom")
 
-Każdy gracz może postawić maksymalnie **pięć** terenów, a każdy z nich ma dodatkowo **pięć** poziomów ulepszeń.
+Każdy gracz może posiadać maksymalnie **pięć** aktywnych terenów, a każdy z nich ma dodatkowo **pięć** poziomów ulepszeń.
 
 ### Panel Zarządzania
 Panel zarządzania można otworzyć poprzez **interakcję** z blokiem terenu, lub za pomocą komendy **/claims**. Obecnie udostępnia on poniższe funkcje:
-- Teleportacja na spawn, magnetyt lub inny teren.
-- Dodanie i usunięcie graczy z terenu.
-- Modyfikacja ustawień dotyczących środowiska terenu i interakcji ze znajdującymi się na nim blokami.
+- Teleportacja na **spawn**, **magnetyt** lub **inny teren**.
+- **Dodanie** i **usunięcie** graczy z terenu.
+- **Modyfikacja ustawień** dotyczących **środowiska** terenu i **interakcji** ze znajdującymi się na nim blokami.
 - Zmianę miejsca teleportu.
-- Ulepszenie do następnego poziomu.
+- **Ulepszenie** do następnego poziomu.
 
-![Panel Zarządzania Terenem](assets/img/claims_ui.png ":no-zoom")
+<img class="img-width-479" src="assets/img/claims_ui.png" data-no-zoom>
 
 ### Ulepszanie
-Każdy teren może zostać ulepszony **pięć** razy. Aby postawić nowy teren, każdy poprzedni musi być ulepszony do maksymalnego poziomu.
+Każdy teren może zostać ulepszony **pięć** razy. Aby postawić **nowy** teren, **każdy poprzedni musi być ulepszony do maksymalnego poziomu**. Wykopanie bloku zwraca jego odpowiednik zachwoując obecny poziom ulepszenia.
 
 - **Węgiel** ⟶ **Żelazo** 
   - Koszt: **16x Sztabka Żelaza**
@@ -38,3 +38,4 @@ Każdy teren może zostać ulepszony **pięć** razy. Aby postawić nowy teren, 
 - **Szmaragd** ⟶ **Netheryt** 
   - Koszt: **4x Sztabka Netherytu**
   - Rozmiar: **81 x 81**
+  
