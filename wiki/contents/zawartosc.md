@@ -21,7 +21,7 @@ Kilka nowych zaklęć możliwych do uzyskania za pomocą stołu do zaklęć i zn
 - **Rejuvenation** — Tarcza  
   Zwiększa maksymalną ilość punktów życia.
 
-- **Scholar of Blocks** — Kilof, Siekiera, Motyka  
+- **Scholar of Blocks** — Narzędzia   
   Wykopane bloki dają więcej punktów doświadczenia.
 
 - **Scholar of Mobs** — Broń  
