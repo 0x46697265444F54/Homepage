@@ -33,5 +33,5 @@
 - Mamy prawo podjąć działania wedle uznania.
 
 ### §6 UŻYWANE SERWISY I API <!-- {docsify-ignore} -->
-- https://www.docsify.js.org/ - silnik, na którym działa dokumentacja serwera.
-- https://www.freepik.com/ - ikony i grafiki użyte w projekcie.
+- https://docsify.js.org/ - silnik, na którym działa dokumentacja serwera.
+- https://freepik.com/ - ikony i grafiki użyte w projekcie.
