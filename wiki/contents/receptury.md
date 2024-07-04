@@ -1,3 +1,18 @@
+<style>
+.upgrade-recipes {
+    max-width: 30% !important;
+    padding: 5px;
+    max-height: 171px
+}
+
+.smithing-recipes {
+    max-width: 45% !important;
+    padding: 5px;
+}
+</style>
+
+<!-- PAGE BEGINS HERE -->
+
 # **Receptury**
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 

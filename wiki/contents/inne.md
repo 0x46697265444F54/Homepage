@@ -1,12 +1,14 @@
 <style>
-    .stylish-img:not(.medium-zoom-image--opened) {
-        max-height: 280px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        box-shadow: 0 0 8px 4px rgba(0, 0, 0, .1);
-        border-radius: 10px;
-    }
+img:not(.medium-zoom-image--opened) {
+    max-height: 280px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
 </style>
+
+<!-- PAGE BEGINS HERE -->
 
 # **Inne**
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
@@ -15,26 +17,26 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
 - **Ognisko**  
   Przebywanie w pobliżu ogniska powoli regeneruje punkty życia.  
-  <img class="stylish-img" src="assets/img/campfire.jpeg"></img>  
+  ![Ognisko](assets/img/campfire.jpeg)  
 
 - **Śmierć**  
   Po śmierci zachowane zostają tylko przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku, w tym przedmioty trzymane w obu rękach, wypada.  
-  <img class="stylish-img" src="assets/img/keep_inventory.jpeg"></img>  
+  ![Keep Inventory](assets/img/keep_inventory.jpeg)  
   <sup>Kolorem zielonym oznaczone zostały "bezpieczne" przedmioty.</sup>
 
 - **Kompas**  
   Kompas pokazuje pozycję podczas gdy jest trzymany w ręce. Ekran debugowania (F3) nie pokazuje koordynatów.  
-  <img class="stylish-img" src="assets/img/compass.jpeg"></img>  
+  ![Kompas](assets/img/compass.jpeg)  
   <sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>
 
 - **Zegar**  
   Zegar pokazuje dokładną godzinę podczas gdy jest trzymany w ręce.  
-  <img class="stylish-img" src="assets/img/clock.jpeg"></img>  
+  ![Zegar](assets/img/clock.jpeg)  
   <sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>
 
 - **Obrażenia**  
   Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.  
-  <img class="stylish-img" src="assets/img/floaters.jpeg"></img>
+  ![Obrażenia](assets/img/floaters.jpeg)  
 
 ### Moby
 
