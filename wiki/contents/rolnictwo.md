@@ -6,9 +6,11 @@ Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozg
 - Kompostownik w pobliżu upraw zwiększa prędkość ich wzrostu o **20%**. Efekt się nie stackuje a łączna prędkość wzrostu nie może przekroczyć **100%**.
 
 ### Bambus
-Bambus rośnie tylko na biomach tropikalnych:  
+Bambus najlepiej rośnie na biomach tropikalnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 - **Swamp**, **Mangrove Swamp**
+
+Bambus rośnie też na biomie **Cherry Grove**. <span class="red">(Prędkość: <span class="bold">20%</span>)</span>  
 
 ### Kaktusy
 Kaktus rośnie tylko na biomach pustynnych:  
