@@ -4,12 +4,11 @@
     /* BASE PROPERTIES */
     --base-font-family: 'Exo 2';
     /* CONTENT */
-    --content-max-width: 90%;
+    --content-max-width: 80em;
     /* LINKS */
     --link-color: #ff714e;
     /* SIDEBAR */
     --sidebar-background: rgba(0, 0, 0, .05);
-
     /* SIDEBAR TOGGLE BUTTON */
     --sidebar-toggle-background: rgba(0, 0, 0, 0);
     --sidebar-toggle-offset-top: 15px;
