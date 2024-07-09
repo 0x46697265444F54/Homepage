@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
-  <body onload="toggleInitialTheme()">
+  <body onload="toggleTheme(true)">
     <div id="app"></div>
     <script>
         window.$docsify = {
@@ -58,33 +58,34 @@
     function updateThemeIcon() {
         const isDarkTheme = localStorage.getItem("isDarkMode") === "true"
         const icon = document.getElementById("theme")
-        // ...
-        icon.classList.add(isDarkTheme ? "bi-toggle-on" : "bi-toggle-off")
-        icon.classList.remove(isDarkTheme ? "bi-toggle-off" : "bi-toggle-on")
+        // Replacing icons based on current theme preference. (ENABLING)
+        if (isDarkTheme == true)
+            icon.classList.replace("bi-toggle-off", "bi-toggle-on")
+        // Replacing icons based on current theme preference. (DISABLING)
+        else icon.classList.replace("bi-toggle-on", "bi-toggle-off")
     }
 
-    function toggleInitialTheme() {
-        if (localStorage.getItem("isDarkMode") === "true")
+    function toggleTheme(isInitial) {
+        // Getting theme preference.
+        let isDarkTheme = localStorage.getItem("isDarkMode") === "true"
+        // When 'isInitial' is 'true', theme is not toggled but applied based on user preference.
+        if (isInitial == true) {
+            if (isDarkTheme == true) {
+                for (const key in props)
+                    document.documentElement.style.setProperty(key, props[key]);
+            }
+            return;
+        }
+        // Inverting theme as it has been toggled.
+        isDarkTheme = !isDarkTheme
+        // Applying or removing dark theme.
+        if (isDarkTheme == true)
             for (const key in props)
                 document.documentElement.style.setProperty(key, props[key]);
-    }
-
-    function toggleTheme() {
-        if (localStorage.getItem("isDarkMode") === "true")
-            setLightTheme()
-        else setDarkTheme()
-        // ...
+        else document.documentElement.removeAttribute("style");
+        // Updating local storage with new preference.
+        localStorage.setItem("isDarkMode", isDarkTheme);
+        // Updating theme icon.
         updateThemeIcon()
-    }
-
-    function setLightTheme() {
-        localStorage.setItem("isDarkMode", false);
-        document.documentElement.removeAttribute("style");
-    }
-
-    function setDarkTheme() {
-        localStorage.setItem("isDarkMode", true);
-        for (const key in props)
-            document.documentElement.style.setProperty(key, props[key]);
     }
 </script>
