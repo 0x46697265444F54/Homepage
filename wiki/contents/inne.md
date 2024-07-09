@@ -1,5 +1,5 @@
 <style>
-img:not(.medium-zoom-image--opened) {
+img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
     max-height: 280px;
     margin-top: 5px;
     margin-bottom: 5px;
