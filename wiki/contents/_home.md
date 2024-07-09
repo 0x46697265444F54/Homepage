@@ -8,25 +8,25 @@ Na serwerze nie ma elementów **pay-to-win**, wszystkich graczy traktujemy równ
 ### Najważniejsze Funkcje
 Niekompletna lista najważniejszych zmian i dodatków obecnych na naszym serwerze.
 
-- **[Poprawiony Generator Świata](/generator)**  
+- 🌍 &nbsp; **[Poprawiony Generator Świata](/generator)**  
 Generator świata skupiający się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.
 
-- **[Chronione Tereny](/tereny)**  
+- 🚩 &nbsp; **[Chronione Tereny](/tereny)**  
 Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.
 
-- **[Teleporty](/teleporty)**  
+- 🌀 &nbsp; **[Teleporty](/teleporty)**  
 Blok magnetytu na serwerze pełni funkcję prywatnego teleportu.
 
-- **[Dodatkowa Zawartość](/zawartosc)**  
+- 📦 &nbsp; **[Dodatkowa Zawartość](/zawartosc)**  
 Dodanych zostało kilka nowych przedmiotów i zaklęć... w planach jest wiele więcej.
 
-- **[Realistyczne Rolnictwo](/rolnictwo)**  
+- 🌽 &nbsp; **[Realistyczne Rolnictwo](/rolnictwo)**  
 Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozgrywki.
 
-- **[Zbalansowane Receptury](/receptury)**  
+- ⚙️ &nbsp; **[Zbalansowane Receptury](/receptury)**  
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
-- **[Podstawowa Ekonomia]()**  
+- 💲 &nbsp; **[Podstawowa Ekonomia]()**  
 Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.
 
 ### Paczka Zasobów
