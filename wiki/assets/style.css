@@ -3,6 +3,7 @@
     --theme-color: #ff714e;
     /* BASE PROPERTIES */
     --base-font-family: 'Exo 2';
+    --base-background-color: #FFFFFF;
     /* CONTENT */
     --content-max-width: 80em;
     /* LINKS */
@@ -20,8 +21,6 @@
 .img-width-479 {
     width: 479px;
 }
-
-
 
 /* TEXT DECORATIONS */
 

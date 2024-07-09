@@ -1,12 +1,17 @@
 <style>
-.navbar-link-icon {
-    padding-bottom: 3px;
-    font-size: 12px;
-    width: 13px;
-}
+    #theme {
+        color: var(--base-color)
+    }
+    #theme:hover {
+        cursor: pointer;
+    }
 </style>
 
+- <a href="../">FIREDOT.PL</a>
+- <a href="../discord">DISCORD</a>
+- <a href="#/regulamin"></i>REGULAMIN</a> <!-- By using '#' in the URL we make sure page is not reladed. --> 
+- []()
+- <i id="theme" class="bi" onclick="toggleTheme()"></i>
 
-- <a href="../"><img class="navbar-link-icon" src="assets/svg/box-arrow-up-right.svg">FIREDOT.PL</a>
-- <a href="../discord"><img class="navbar-link-icon" src="assets/svg/box-arrow-up-right.svg">DISCORD</a>
-- <a href="#/regulamin">REGULAMIN</a> <!-- By using '#' in the URL we make sure page is not reladed. -->
+<!-- Looks like scripts cannot be executed from within '_navbar.md' so here's a hacky solution to that. -->
+<img onerror="updateThemeIcon()" src /></img>

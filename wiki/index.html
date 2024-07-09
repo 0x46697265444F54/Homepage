@@ -7,15 +7,17 @@
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
-  <body>
+  <body onload="toggleInitialTheme()">
     <div id="app"></div>
     <script>
         window.$docsify = {
             homepage: "contents/_home.md",
             loadNavbar: "contents/_navbar.md",
             loadSidebar: "contents/_sidebar.md",
+            mergeNavbar: true,
             alias: {
                 "/regulamin": "contents/regulamin",
                 "/generator": "contents/generator",
@@ -37,3 +39,52 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   </body>
 </html>
+
+<!-- Responsible for switching theme upon button click. -->
+<script>
+    const props = {
+        "--heading-color": "#E3E3E3",
+        "--base-color": "#DDD",
+        "--base-background-color": "#191919",
+        "--hr-border": "1px solid rgba(255, 255, 255, .1)",
+        // SIDEBAR
+        "--sidebar-border-color": "rgba(255, 255, 255, .1)",
+        "--sidebar-toggle-offset-top": "15px",
+        "--sidebar-toggle-offset-left": "15px",
+        // PAGINATION PLUGIN
+        "--pagination-border-top": "1px solid rgba(255, 255, 255, .1)",
+    }
+
+    function updateThemeIcon() {
+        const isDarkTheme = localStorage.getItem("isDarkMode") === "true"
+        const icon = document.getElementById("theme")
+        // ...
+        icon.classList.add(isDarkTheme ? "bi-toggle-on" : "bi-toggle-off")
+        icon.classList.remove(isDarkTheme ? "bi-toggle-off" : "bi-toggle-on")
+    }
+
+    function toggleInitialTheme() {
+        if (localStorage.getItem("isDarkMode") === "true")
+            for (const key in props)
+                document.documentElement.style.setProperty(key, props[key]);
+    }
+
+    function toggleTheme() {
+        if (localStorage.getItem("isDarkMode") === "true")
+            setLightTheme()
+        else setDarkTheme()
+        // ...
+        updateThemeIcon()
+    }
+
+    function setLightTheme() {
+        localStorage.setItem("isDarkMode", false);
+        document.documentElement.removeAttribute("style");
+    }
+
+    function setDarkTheme() {
+        localStorage.setItem("isDarkMode", true);
+        for (const key in props)
+            document.documentElement.style.setProperty(key, props[key]);
+    }
+</script>

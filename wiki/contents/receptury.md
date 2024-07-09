@@ -9,6 +9,10 @@
     max-width: 45% !important;
     padding: 5px;
 }
+
+.upgrades-diagram {
+    max-width: 75% !important;
+}
 </style>
 
 <!-- PAGE BEGINS HERE -->
@@ -39,7 +43,9 @@ Ulepszenia dowolnego narzędzia wymaga jednego szablonu, natomiast ulepszenie do
 
 Poniższy wykres przedstawia ścieżkę ulepszenia dla każdego poziomu wyposażenia.
 
-![Diagram Ulepszeń](assets/img/upgrade_diagram2.png ":no-zoom")
+<div>
+    <img class="upgrades-diagram" src="assets/img/upgrade_diagram.png" data-no-zoom>
+</div>
 
 Tym samym można zauważyć, że złotego wyposażenia nie da się zdobyć za pomocą ulepszeń. Jest ono unikalne i można je znaleźć tylko jako łup w strukturach.
 
