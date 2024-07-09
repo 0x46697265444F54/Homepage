@@ -1,5 +1,5 @@
 # **Regulamin**
-<sup>Utworzono **2023/08/26** &nbsp; · &nbsp; Zmodyfikowano **2024/07/04**</sup>
+<sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **09/07/2024**</sup>
 
 ### §1 CZAT DISCORD <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
@@ -31,7 +31,3 @@
 - Mamy prawo wyczyścić serwer i wprowadzić nową edycję.
 - Mamy prawo wprowadzić przerwę techniczną.
 - Mamy prawo podjąć działania wedle uznania.
-
-### §6 UŻYWANE SERWISY I API <!-- {docsify-ignore} -->
-- https://docsify.js.org/ - silnik, na którym działa dokumentacja serwera.
-- https://freepik.com/ - ikony i grafiki użyte w projekcie.
