@@ -6,29 +6,18 @@ Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozg
 - Kompostownik w pobliżu upraw zwiększa prędkość ich wzrostu o **20%**. Efekt się nie stackuje a łączna prędkość wzrostu nie może przekroczyć **100%**.
 
 ### Bambus
-Bambus najlepiej rośnie na biomach tropikalnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
+Bambus rośnie tylko na biomach tropikalnych:
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 - **Swamp**, **Mangrove Swamp**
 
-Bambus rośnie też na biomie **Cherry Grove**. <span class="red">(Prędkość: <span class="bold">20%</span>)</span>  
-
 ### Kaktusy
-Kaktus rośnie tylko na biomach pustynnych:  
+Kaktusy rosną tylko na biomach pustynnych:  
 - **Badlands**, **Eroded Badlands**, **Wooden Badlands**
 - **Desert**
 
 ### Kakao
 Kakao rośnie tylko na biomach dżunglowych:  
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
-
-### Netherowe Brodawki
-Netherowa brodawka najlepiej rośnie w netherze. <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
-
-Netherowa brodawka rośnie też na innych biomach:  
-- Pustynne: <span class="yellow">(Prędkość: <span class="bold">60%</span>)</span>  
-  - **Desert**, **Badlands**, **Eroded Badlands**, **Wooden Badlands**
-- Sawanna: <span class="red">(Prędkość: <span class="bold">20%</span>)</span>  
-  - **Savanna**, **Savanna Plateau**
 
 ### Trzcina Cukrowa
 Trzcina cukrowa najlepiej rośnie w biomach tropikalnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
@@ -153,6 +142,10 @@ Melony rosną też na innych biomach:
   - **Forest**, **Birch Forest**, **Dark Forest**, **Flower Forest**, **Old Growth Birch Forest**
   - **Plains**, **Sunflower Plains**
   - **Mushroom Fields**, **Cherry Groove**, **Meadow**
+
+### Netherowe Brodawki
+Netherowe brodawki rosną tylko w netherze.
+- **Nether Wastes**, **Soul Sand Valley**, **Crimson Forest**, **Warped Forest**, **Basalt Deltas**
 
 ### Szkarłatne Grzyby
 Szkarłatne grzyby rosną tylko w netherowych lasach:  
