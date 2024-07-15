@@ -23,10 +23,6 @@
 - Zakaz wznoszenia obraźliwych lub niestosownych budowli.
 - Zakaz griefowania oraz utrudniania rozgrywki innym graczom.
 
-### §4 WSPARCIE <!-- {docsify-ignore} -->
-- Wpłaty na serwer są dobrowolne i nie ulegają zwrotom.
-- Ewentualne korzyści w postaci wirtualnych przedmiotów/rang za dobrowolne wpłaty są przyznawane ręcznie po uprzednim kontakcie z administracją serwera.
-
 ### §5 POSTANOWIENIA KOŃCOWE <!-- {docsify-ignore} -->
 - Mamy prawo wyczyścić serwer i wprowadzić nową edycję.
 - Mamy prawo wprowadzić przerwę techniczną.
