@@ -34,4 +34,4 @@ Dziękuję wszystkim za obecność na otwarciu i miłe przyjęcie konfiguracji i
 - Naprawiono okazjonalne problemy z wysyłaniem wiadomości na czacie.
 - Naprawiono odradzanie się na łóżku i kotwicy odrodzenia.
 - Naprawiono zasady zachowywania ekwipunku po śmierci.
-- Naprawiono dostęp do komendy /overlay dla rangi Media.
+- Naprawiono dostęp do komendy **/overlay** dla rangi **Media**.
