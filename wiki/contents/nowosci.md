@@ -10,6 +10,7 @@ Druga aktualizacja już dostępna na serwerze. Obecnie skupiam się na poprawkac
 - Podczas trzymania w ręku mapy, na górze ekranu wyświetla się nazwa biomu na którym obecnie znajduje się gracz.
 
 #### <span class="yellow">ZMIANY ⤵</span>
+- Zmieniono reguły zachowywanie ekwipunku. Przedmioty trzymane w rękach nie wypadają już po śmierci.
 - Dodano **słodkie jagody** do sklepu rolniczego.
 - Zwiększono limity sprzedawania przedmiotów w sklepie rolniczym z **64** do **96** na każdy artykuł.
 - Wyłączono losową szansę na uschnięcie rośliny. Rośliny usychają teraz tylko gdy zostały posadzone na niewłaściwym biomie.
