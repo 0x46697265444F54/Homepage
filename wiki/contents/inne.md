@@ -34,6 +34,10 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   ![Zegar](assets/img/clock.jpeg)  
   <sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>
 
+- **Mapa**  
+  Mapa pokazuje aktualny biom podczas gdy jest trzymana w ręce.  
+  ![Zegar](assets/img/map.jpeg)  
+
 - **Obrażenia**  
   Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.  
   ![Obrażenia](assets/img/floaters.jpeg)  
