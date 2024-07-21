@@ -20,9 +20,9 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   ![Ognisko](assets/img/campfire.jpeg)  
 
 - **Śmierć**  
-  Po śmierci zachowane zostają tylko przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku, w tym przedmioty trzymane w obu rękach, wypada.  
+  Po śmierci zachowane zostają tylko przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.
   ![Keep Inventory](assets/img/keep_inventory.jpeg)  
-  <sup>Kolorem zielonym oznaczone zostały "bezpieczne" przedmioty.</sup>
+  <sup>Kolorem czerwonym oznaczone zostały przedmioty, które wypadną po śmierci.</sup>
 
 - **Kompas**  
   Kompas pokazuje pozycję podczas gdy jest trzymany w ręce. Ekran debugowania (F3) nie pokazuje koordynatów.  
