@@ -6,7 +6,7 @@ Naszym priorytetem jest tworzenie odświeżonej i zbalansowanej rozgrywki, któr
 Na serwerze nie ma elementów **pay-to-win**, wszystkich graczy traktujemy równo i sprawiedliwie.
 
 ### Najważniejsze Funkcje
-Niekompletna lista najważniejszych zmian i dodatków obecnych na naszym serwerze.
+Niekompletna lista zmian i dodatków dostępnych dla graczy.
 
 - 🌍 &nbsp; **[Poprawiony Generator Świata](/generator)**  
 Generator świata skupiający się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.

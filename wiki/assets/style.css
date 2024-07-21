@@ -14,6 +14,8 @@
     --sidebar-toggle-background: rgba(0, 0, 0, 0);
     --sidebar-toggle-offset-top: 15px;
     --sidebar-toggle-offset-left: 15px;
+    /* NAVBAR */
+    --navbar-root-margin: 0 0 0 1.2em;
 }
 
 .app-name {
