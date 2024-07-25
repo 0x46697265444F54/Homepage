@@ -3,6 +3,19 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](../discord), aby o
 
 ---
 
+### AKTUALIZACJA v1.0.3 &nbsp; — &nbsp;  23/07/2024 <!-- {docsify-ignore} -->
+Trzecia, mniejsza aktualizacja z kolejną porcją zmian i poprawek.
+
+#### <span class="yellow">ZMIANY ⤵</span>
+- Zwiększono zasięg rysowania z **8** chunków na **12**.
+- Enchant **Magnet** teraz przyciąga też bloki rud.
+
+#### <span class="red">POPRAWKI ⤵</span>
+- Naprawiono wyświetlanie się obrażeń zadanych mobom i graczom.
+- Naprawiono przyciski wyświetlające się w niewłaściwym miejscu podczas przeglądania listy graczy dodanych do terenu.
+
+---
+
 ### AKTUALIZACJA v1.0.2 &nbsp; — &nbsp;  21/07/2024 <!-- {docsify-ignore} -->
 Druga aktualizacja już dostępna na serwerze. Obecnie skupiam się na poprawkach i zmianach proponowanych przez graczy. Wkrótce jednak wprowadzanych będzie więcej nowości!
 
