@@ -19,11 +19,11 @@ Wymiar kresu na serwerze jest obecnie niedostępny. Mamy na niego ciekawy plan, 
 ### Środowisko
 Większość zmian środowiska zawdzięczamy modyfikacji **[Geophilic](https://modrinth.com/datapack/geophilic)**.
 
-![Birch Forest](https://cdn.modrinth.com/data/hl5OLM95/images/47e1149e0ef37e4b41ea69a52b808da99babb15c.jpeg)
-![Flower Forest](https://cdn.modrinth.com/data/hl5OLM95/images/bf8da8c0738d0d774ddace95991cd4e7cae74be1.jpeg)
-![Windeswept Forest](https://cdn.modrinth.com/data/hl5OLM95/images/f637a304aa04e0de6055313fde3c9c7beee60089.jpeg)
-![Stony Shore](https://cdn.modrinth.com/data/hl5OLM95/images/3e82432a098be8139f5781f6bf2c3136d393dcd2.jpeg)
-![Desert](https://cdn.modrinth.com/data/hl5OLM95/images/25515fd7f9e8585b98f44d9bf0d68156e5d119c4.jpeg)
+![Birch Forest](assets/img/generator_1.jpeg)
+![Savanna](assets/img/generator_2.jpeg)
+![Desert](assets/img/generator_3.jpeg)
+![Meadows](assets/img/generator_4.jpeg)
+![Cherry Grove](assets/img/generator_5.jpeg)
 
 ### Struktury
 Większość dodatkowych struktur zawdzięczamy modyfikacji **[Explorify](https://modrinth.com/datapack/explorify)**.
