@@ -3,6 +3,21 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](../discord), aby o
 
 ---
 
+### AKTUALIZACJA v1.1.0 &nbsp; — &nbsp;  25/07/2024 <!-- {docsify-ignore} -->
+Czwarta aktualizacja serwera, dodająca między innymi możliwość przekazania magnetytu innemu graczowi.
+
+#### <span class="green">NOWOŚCI ⤵</span>
+- Dodano możliwość **przekazania magnetytu innemu graczowi**.
+- Teleportacja w pojeździe, np. łódce, **teleportuje teraz również pojazd wraz z pasażerami**. Można w ten sposób zabrać ze sobą innego gracza lub moba w miejsce docelowe.
+
+#### <span class="yellow">ZMIANY ⤵</span>
+- Eksperymentalnie zwiększono długość dnia z **10min** na **15min**. Cykl nocy pozostaje bez zmian i nadal trwa **10min**.
+- Otworzyć panel zarządzania terenem lub magnetytem można teraz trzymając w ręce dowolny przedmiot.
+- Zmieniono kolory wiadomości i przycisków w panelu zarządzania terenem i magnetytem.
+- Ulepszono kilka wiadomości na czacie, m.in. gdy stawiany jest blok terenu.
+
+---
+
 ### AKTUALIZACJA v1.0.3 &nbsp; — &nbsp;  23/07/2024 <!-- {docsify-ignore} -->
 Trzecia, mniejsza aktualizacja z kolejną porcją zmian i poprawek.
 
