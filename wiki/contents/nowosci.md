@@ -3,6 +3,37 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](../discord), aby o
 
 ---
 
+### AKTUALIZACJA v1.2.0 &nbsp; — &nbsp;  29/07/2024 <!-- {docsify-ignore} -->
+Kolejna aktualizacja serwera już dostępna. Więcej zmian skupiających się na ekonomii w niedalekiej przyszłości.
+
+#### <span class="green">NOWOŚCI ⤵</span>
+- Dodano rangę kosmetyczną **Booster** dla osób boostujących nasz serwer Discord.
+- Dodano sklep rybacki znajdujący się w pobliżu pomostu w porcie.
+- Dodano możliwość sprzedaży drewna w sklepie u drwala.
+- Dodano automatyczne wiadomości na czacie.
+- Dodano możliwość siadania na schodkach.
+- Dodano na czacie informacje o śmierciach.
+- Dodano **[tesktury (podstawowych) emoji](<https://modrinth.com/resourcepack/pixel-twemoji-9x>)**, które mogą być wysyłane przez użytkowników korzystających ze zintegrowanego kanału #chat.
+
+#### <span class="yellow">ZMIANY ⤵</span>
+- Zwiększono ceny sprzedaży w sklepie rolniczym o **50%**.
+- Zmniejszono czas pomiędzy resetami limitu sprzedaży w sklepie rolniczym z **8h** do **4h**.
+- Nowo postawione stojaki na zbroję mają teraz dwie ręce, które można wyposażyć w wybrany przedmiot.
+- W panelu zarządzania widać teraz świat w którym postawiony został magnetyt bądź teren.
+- Upiększono wygląd listy graczy i dodano więcej informacji:
+  - Dodano zegar serwera.
+  - Dodano liczbę graczy online.
+  - Dodano liczbę aktywnych terenów / działek.
+  - Dodano liczbę aktywnych magnetytów / teleportów.
+
+#### <span class="red">POPRAWKI ⤵</span>
+- Naprawiono dźwięk otwierania skrzynki, który grał wszystkom graczom zamiast tylko tym w pobliżu skrzynki.
+- Poprawiono datę utworzenia magnetytu i terenu. Teraz wyświetla się we właściwej strefie czasowej i formacie 24-godzinnym.
+- Punkty doświadczenia zdobyte z zaklęciem **Magnet** wpadają nawet gdy ten nie ma miejsca w ekwipunku.
+- Naprawiono błąd, przez który czasami niemożliwe było otwarcie panelu zarządzania terenem.
+
+---
+
 ### AKTUALIZACJA v1.1.0 &nbsp; — &nbsp;  25/07/2024 <!-- {docsify-ignore} -->
 Czwarta aktualizacja serwera, dodająca między innymi możliwość przekazania magnetytu innemu graczowi.
 
