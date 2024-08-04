@@ -3,6 +3,42 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](../discord), aby o
 
 ---
 
+### AKTUALIZACJA v1.2.1 &nbsp; — &nbsp;  04/09/2024 <!-- {docsify-ignore} -->
+Klika zmian i poprawek zaproponowanych przez graczy.
+
+#### <span class="green">NOWOŚCI ⤵</span>
+- Dodano nagrody za głosowanie na serwer. Więcej informacji po komendą **/pomoc glosowanie**.
+- Dodano komendę **/rtp** wyjaśniającą proces losowej teleportacji.
+
+#### <span class="yellow">ZMIANY ⤵</span>
+- Współdzielone tereny są teraz przedstawiane w panelu za pomocą **główek ich właścicieli**.
+- Zmieniono nieco układ receptur dostępnych pod komendą **/crafting**.
+- Zmiany w sklepach prowadzonych przez mieskańców spawna. (NPC)
+  - **Farmer**: Dodano możliwość zakupu pszenicy (**$120**).
+  - **Farmer**: Dodano możliwość zakupu i sprzedaży **kaktusów** (**$180** / **$45**) oraz **netherowych brodawek** (**$480** / **$80**).
+  - **Kowal**: Usunięto sztabki żelaza i sztabki złota ze sklepu. Nadal można kupić lub sprzedać surowe odpowiedniki tych minerałów.
+  - **Kowal**: Dodano możliwość zakupu i sprzedaży odłamków netherytu. (**$16,400** / **$2,750**)
+  - **Robotnik**: Dodano możliwość sprzedaży bloków.
+  - **Robotnik**: Dodano kilka nowych bloków do kupienia.
+- Zmodyfikowano niektóre zaklęcia:
+  - Zmniejszono maksymalny poziom zaklęcia **Rejuvenation** (Żywotność) z **5** na **3**.
+  - Zaklęcia **Scholar of Blocks** (Znawca bloków) i **Scholar of Mobs** (Znawca mobów) są teraz niekompatybilne z **Looting** (Grabież).
+  - Zaklęcia **Scholar of Blocks** (Znawca bloków) i **Scholar of Mobs** (Znawca mobów) mają teraz szansę na pojawienie się w stole do zaklinania równą zaklęciu **Fortune** (Szczęście).
+  - Zaklęcie **Gravity** (Grawitacja) pozwala teraz skoczyć na wysokość **~3.6 bloków**. (wcześniej ~2.6 bloków)
+  - Poniższe zaklęcia mogą teraz, za pomocą książek, zostać nałożone na siekierę:
+    - **Fire Aspect** (Zaklęty ogień)
+    - **Poison Aspect** (Zatrucie)
+    - **Wither Aspect** (Obumieranie)
+    - **Slowness Aspect** (Spowolnienie)
+    - **Weakness Aspect** (Osłabienie)
+
+#### <span class="red">POPRAWKI ⤵</span>
+- Poprawiono błędne wyświetlanie się czcionek po zalogowaniu się w pobliżu hologramów.
+- Poprawiono wyświetlanie się nieprawidłowych przedmiotów (powietrze) podczas linkowania na czacie za pomocą **<item>**. 
+- Poprawiono błędnie ustawioną prędkość wzrostu roślin na biomach, na których nie powinny rosnąć w ogóle. Teraz wynosi ona **5%**.
+
+---
+
 ### AKTUALIZACJA v1.2.0 &nbsp; — &nbsp;  29/07/2024 <!-- {docsify-ignore} -->
 Kolejna aktualizacja serwera już dostępna. Więcej zmian skupiających się na ekonomii w niedalekiej przyszłości.
 
