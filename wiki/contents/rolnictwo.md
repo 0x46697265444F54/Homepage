@@ -2,21 +2,21 @@
 Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozgrywki.
 - Prędkość wzrostu upraw jest teraz zależna od biomu, na którym się znajdują.
 - Niektóre rodzaje upraw są unikalne dla poszczególnych biomów. (np. **Bambus**)
-  - Na innych biomach, mogą urosnąć tylko z pomocą **mączki kostnej** lub **kompostownika**.
-- Kompostownik w pobliżu upraw zwiększa prędkość ich wzrostu o **20%**. Efekt się nie stackuje a łączna prędkość wzrostu nie może przekroczyć **100%**.
+  - Na innych biomach rosną z bardzo niską prędkością (**5%**), a proces ten może zostać przyspieszony za pomocą **mączki kostnej** lub **kompostownika**.
+- Wypełniony kompostownik w pobliżu upraw zwiększa prędkość ich wzrostu o **20%**. Efekt się nie stackuje a łączna prędkość wzrostu nie może przekroczyć **100%**.
 
 ### Bambus
-Bambus rośnie tylko na biomach tropikalnych:
+Bambus dobrze rośnie tylko na biomach tropikalnych:
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 - **Swamp**, **Mangrove Swamp**
 
 ### Kaktusy
-Kaktusy rosną tylko na biomach pustynnych:  
+Kaktusy dobrze rośnie tylko na biomach pustynnych:  
 - **Badlands**, **Eroded Badlands**, **Wooden Badlands**
 - **Desert**
 
 ### Kakao
-Kakao rośnie tylko na biomach dżunglowych:  
+Kakao dobrze rośnie tylko na biomach dżunglowych:  
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 
 ### Trzcina Cukrowa
@@ -144,7 +144,7 @@ Melony rosną też na innych biomach:
   - **Mushroom Fields**, **Cherry Groove**, **Meadow**
 
 ### Netherowe Brodawki
-Netherowe brodawki rosną tylko w netherze.
+Netherowe brodawki dobrze rosną tylko w netherze.
 - **Nether Wastes**, **Soul Sand Valley**, **Crimson Forest**, **Warped Forest**, **Basalt Deltas**
 
 ### Szkarłatne Grzyby
