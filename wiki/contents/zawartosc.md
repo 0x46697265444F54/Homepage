@@ -9,34 +9,34 @@ Kilka nowych gatunków ryb możliwych do złowienia za pomocą wędki.
 
 ### Zaklęcia
 Kilka nowych zaklęć możliwych do uzyskania za pomocą stołu do zaklęć i znalezionych zaklętych książek.
-- **Magnet** — Kilof  
+- **Magnet** (Maks. 1) — Kilof  
   Wykopane minerały i złoża trafiają bezpośrednio do ekwipunku.  
 
-- **Gravity** — Buty  
+- **Gravity** (Maks. 1) — Buty  
   Dodaje efekt pomniejszonej grawitacji, pozwalając tym samym na wyższy, ale wolniejszy skok.
 
-- **Sonic Shield** — Tarcza  
+- **Sonic Shield** (Maks. 1) — Tarcza  
   Pozwala ochronić się przed falą dźwiękową wardena.
 
-- **Rejuvenation** — Tarcza  
+- **Rejuvenation** (Maks. 3) — Tarcza  
   Zwiększa maksymalną ilość punktów życia.
 
-- **Scholar of Blocks** — Narzędzia   
+- **Scholar of Blocks** (Maks. 3) — Narzędzia   
   Wykopane bloki dają więcej punktów doświadczenia.
 
-- **Scholar of Mobs** — Broń  
+- **Scholar of Mobs** (Maks. 3) — Broń  
   Zabite moby dają więcej punktów doświadczenia.
 
-- **Poison Aspect**  — Broń  
+- **Poison Aspect** (Maks. 2) — Broń  
   Uderzona ofiara otrzymuje efekt trucizny.
 
-- **Slowness Aspect** — Broń  
+- **Slowness Aspect** (Maks. 2) — Broń  
   Uderzona ofiara otrzymuje efekt spowolnienia.
 
-- **Weakness Aspect** — Broń  
+- **Weakness Aspect** (Maks. 2) — Broń  
   Uderzona ofiara otrzymuje efekt osłabienia.
 
-- **Wither Aspect** — Broń  
+- **Wither Aspect** (Maks. 2) — Broń  
   Uderzona ofiara otrzymuje efekt obumierania.
 
 <sup>Część zaklęć pochodzi z modyfikacji [Enchantments Encore](https://github.com/NiceKaleido/Enchantments-Encore).</sup>
