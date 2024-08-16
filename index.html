@@ -22,8 +22,13 @@
         <span id="title">firedot.pl</span>
       </div>
       <div class="links">
-        <a id="discord" href="/discord"><i class="bi bi-discord"></i></a>
-        <a id="wiki" href="/wiki"><i class="bi bi-postcard-fill"></i></a>
+        <a id="discord" href="/discord">DISCORD</a>
+        ・
+        <a id="wiki" href="/wiki">WIKI</a>
+        ・
+        <a id="vote" href="/vote">GŁOSOWANIE</i></a>
+        ・
+        <a id="donate" href="https://buycoffee.to/grabsky">WSPARCIE</i></a>
       </div>
       <footer>
         <a href="https://github.com/0x46697265444F54/Homepage">FireDOT (c) 2024</a>
@@ -51,9 +56,13 @@
     // Creating copied-to-clipboard tooltip which is displayed when user clicks the #title element.
     tippy("#title", Object.assign({ placement: "top", content: "Skopiowano!", trigger: "click" }, common));
     // Creating discord tooltip which is displayed when hovering #discord element.
-    tippy("#discord", Object.assign({ placement: "bottom", content: "Discord" }, common));
+    tippy("#discord", Object.assign({ placement: "bottom", content: "https://firedot.pl/discord" }, common));
     // Creating wiki tooltip which is displayed when hovering #wiki element.
-    tippy("#wiki", Object.assign({ placement: "bottom", content: "Wiki" }, common));
+    tippy("#wiki", Object.assign({ placement: "bottom", content: "https://firedot.pl/wiki" }, common));
+    // Creating voting tooltip which is displayed when hovering #glosowanie element.
+    tippy("#vote", Object.assign({ placement: "bottom", content: "https://firedot.pl/vote" }, common));
+    // Creating voting tooltip which is displayed when hovering #glosowanie element.
+    tippy("#donate", Object.assign({ placement: "bottom", content: "https://buycoffee.to/grabsky" }, common));
   })
   // Copies text to clipboard when clicking the #title element.
   title.addEventListener("click", () => {

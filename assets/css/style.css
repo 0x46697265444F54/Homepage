@@ -79,7 +79,7 @@ html {
         }
 
         .intro {
-            font-size: 3.75em;
+            font-size: 6em;
             font-weight: 600;
         }
 
@@ -92,19 +92,20 @@ html {
         }
     
         .links {
-            padding-top: 10px;
+            padding-top: 20px;
+            opacity: 0;
+            font-size: 1.25em;
+            font-weight: 600;
+            
+            vertical-align: top;
+            animation: fade-in 0.8s forwards 1s;
         }
 
         .links a {
             color: var(--primary-color);
-        }
-    
-        .links i {
-            opacity: 0;
-            font-size: 2.5em;
-            margin-left: 15px;
-            margin-right: 15px;
-            animation: fade-in 0.8s forwards 1s;
+            margin-left: 5px;
+            text-decoration: none;
+            margin-right: 5px;
         }
 
         footer {
