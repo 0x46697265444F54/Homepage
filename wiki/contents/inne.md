@@ -46,6 +46,3 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
 - **Phantomy**  
 Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.
-
-- **Creepery**  
-Creepery wybuchają w wyniku kontaktu z ogniem.
