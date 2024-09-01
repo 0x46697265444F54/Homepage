@@ -3,7 +3,52 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](../discord), aby o
 
 ---
 
-### AKTUALIZACJA v1.2.1 &nbsp; — &nbsp;  04/09/2024 <!-- {docsify-ignore} -->
+### AKTUALIZACJA v1.3.0 &nbsp; — &nbsp;  31/08/2024 <!-- {docsify-ignore} -->
+Nowości i zmiany wprowadzone na serwer w minionym czasie.
+
+#### <span class="green">NOWOŚCI ⤵</span>
+- Dodano niską szansę na wypadnięcie głowy moba po jego śmierci. Pełna kolekcja liczy **150** główek.
+- Dodano głowę gracza do przedmiotów, które upuszcza w przypadku śmierci z ręki innego gracza.
+- Dodano (opcjonalną) integrację z modem **[Ping Wheel](https://modrinth.com/mod/ping-wheel)**. **¹**
+- Dodano (opcjonalną) integrację z modem **[Simple Voice Chat](<https://modrinth.com/plugin/simple-voice-chat>)**. **²**
+- Dodano brakujące przyciski na **[stronie internetowej serwera](https://firedot.pl)**.
+- Dodano **3** nowe przedmioty do sklepu u **Farmera**.
+- Dodano **13** nowych bloków do sklepu u **Robotnika**.
+- Dodano nowego NPC - **Łowcę** - u którego możesz kupić lub sprzedać niektóre przedmioty pozyskane z mobów.
+- Dodano nowego NPC - **Tułacza** - u którego możesz kupić lub sprzedać niektóre przedmioty pozyskane w wymiarze piekła.
+- Dodano nowy przedmiot -  **Młotek** - zwiększający zasięg budowania o kilka bloków. Można go kupić u handlarza obok tabeli z rankingiem.
+- Dodano bezpieczne wymiany pomiędzy graczami. Kucnij i naciśnij **PPM** patrząc na gracza, z którym chcesz się wymienić.
+- Dodano (wizualny) status **AFK**, który po 5 minutach nieaktywności wyświetla się obok nicku na liście graczy.
+
+#### <span class="yellow">ZMIANY ⤵</span>
+- Kilka drobnych poprawek wizualnych na spawnie mających na celu ułatwienie nawigacji.
+- Do przedmiotów startowych dodane zostały dwa magnetyty.
+- Transfer pieniędzy jest teraz również dostępny pod komendą **/pay**.
+- Wykluczono moba **Silverfish** (Rybik cukrowy) z rankingu zabitych mobów.
+- Komenda **/claims** może teraz zostać użyta również przez członków terenu.
+- Dywany i tym podobne nie blokują już przestrzeni pomiędzy stołem do zaklęć a biblioteczkami.
+
+#### <span class="red">POPRAWKI ⤵</span>
+- Poprawiono stabilność połączenia z serwerem. **³**
+- Poprawiono brak możliwości interakcji z łódkami na terenie spawnu.
+- Poprawiono znikające skiny niektórych NPC znajdujących się na spawnie.
+- Poprawiono pustą wiadomość na czacie w grze gdy na kanale zintegrowanym wysłany został załącznik bez żadnego tekstu.
+- Poprawiono błąd sprawiający że zaklęcie **Rejuvenation** (Żywotność) wykluczało się z zaklęciem **Unbreaking**.
+- ...kilka innych, mniej widocznych poprawek technicznych.
+
+<br>
+
+<div style="color:gray;font-size:80%">
+
+1. Wymagane jest ustawienie prywatnego kanału w konfiguracji: **/pingwheel config**
+2. Czat głosowy podlega takiej samej moderacji jak czat tekstowy.
+3. Zmieniony został dostawca usług hostingowych, a więc tym samym specyfikacja, lokalizacja oraz parametry sieciowe.
+
+</div>
+
+---
+
+### AKTUALIZACJA v1.2.1 &nbsp; — &nbsp;  04/08/2024 <!-- {docsify-ignore} -->
 Klika zmian i poprawek zaproponowanych przez graczy.
 
 #### <span class="green">NOWOŚCI ⤵</span>
