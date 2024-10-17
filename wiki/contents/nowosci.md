@@ -1,3 +1,5 @@
+<span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
+
 # **Nowości**
 Lista zmian i nowości. Dołącz do [naszego serwera Discord](../discord), aby otrzymywać powiadomienia o aktualizacjach i być na bieżąco.
 

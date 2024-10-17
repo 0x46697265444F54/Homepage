@@ -1,3 +1,5 @@
+<span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
+
 # **Dodatkowa Zawartość**
 W tym miejscu znajdziesz informacje na temat nowych, dodanych przez nas przedmiotów.
 

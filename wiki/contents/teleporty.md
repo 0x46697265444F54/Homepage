@@ -1,3 +1,5 @@
+<span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
+
 # **Teleporty**
 Teleportacja to nieodłączny element wielu serwerów Minecraft, ale zazwyczaj wiąże się z używaniem komend. Wyszliśmy naprzeciw i opracowaliśmy unikalny system teleportacji opierający się na fizycznych, tzw. waypointach... a dodatkowo blok Magnetytu zyskał nową funkcję.
 

@@ -1,21 +1,77 @@
 :root {
     /* THEME COLORS */
-    --theme-color: #ff714e;
+    --theme-color: #ff7a59;
     /* BASE PROPERTIES */
-    --base-font-family: 'Exo 2';
+    --base-font-family: 'Maven Pro';
     --base-background-color: #FFFFFF;
     /* CONTENT */
     --content-max-width: 80em;
     /* LINKS */
     --link-color: #ff714e;
     /* SIDEBAR */
+    --sidebar-name-font-family: 'Exo 2';
     --sidebar-background: rgba(0, 0, 0, .05);
+    --sidebar-border-color: rgba(255, 255, 255, .0);
     /* SIDEBAR TOGGLE BUTTON */
     --sidebar-toggle-background: rgba(0, 0, 0, 0);
-    --sidebar-toggle-offset-top: 15px;
-    --sidebar-toggle-offset-left: 15px;
+    --sidebar-toggle-height: 36px;
+    --sidebar-toggle-width: 36px;
+    --sidebar-toggle-offset-top: 18px;
+    --sidebar-toggle-offset-left: 8px;
+    --sidebar-toggle-border-radius: 8px;
     /* NAVBAR */
     --navbar-root-margin: 0 0 0 1.2em;
+    /* */
+    --sidebar-nav-pagelink-background--active: none;
+    --sidebar-nav-pagelink-background--collapse: none;
+    --sidebar-nav-pagelink-background--loaded: none;
+    --sidebar-nav-pagelink-background: none;
+    --sidebar-nav-pagelink-padding: 0.25em;
+    --sidebar-nav-link-padding: 0.25em;
+    --sidebar-nav-strong-padding: none;
+    --sidebar-nav-strong-border-width: 0;
+    --sidebar-nav-link-border-width: 0;
+    /* CUSTOM */
+    --custom-sidebar-hover-background-color: rgba(0, 0, 0, .05);
+    --custom-sidebar-hover-color: rgba(0, 0, 0, .9);
+}
+
+.app-nav ul li a {
+    padding: 8px 8px;
+}
+
+.app-nav li:has(a) {
+    border-radius: 8px;
+}
+
+.app-nav li:hover:has(a), .sidebar-toggle-button:hover {
+    background-color: var(--custom-sidebar-hover-background-color);
+    color: var(--custom-sidebar-hover-color);
+    cursor: pointer;
+}
+
+.sidebar-toggle-button:hover {
+    transition: 0.3s;
+}
+
+.sidebar-nav {
+    li {
+        padding-left: 0.5em;
+        margin: 0.25em;
+    }
+    li.active > a {
+        font-weight: 600;
+    }
+    li:hover:has(a) {
+        background-color: var(--custom-sidebar-hover-background-color);
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    a:hover {
+        text-decoration: none;
+        color: var(--custom-sidebar-hover-color);
+        transition: 0.3s;
+    }
 }
 
 .app-name {

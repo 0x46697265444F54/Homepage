@@ -1,3 +1,5 @@
+<span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
+
 # **Rolnictwo**
 Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozgrywki.
 - Prędkość wzrostu upraw jest teraz zależna od biomu, na którym się znajdują.

@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./assets/style.css" />
@@ -32,7 +33,7 @@
             },
             cornerExternalLinkTarget: "_self",
             auto2top: true,
-            subMaxLevel: 3,
+            subMaxLevel: 1,
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -51,11 +52,13 @@
         "--hr-border": "1px solid rgba(255, 255, 255, .1)",
         "--blockquote-background": "rgba(255, 255, 255, .05)",
         // SIDEBAR
-        "--sidebar-border-color": "rgba(255, 255, 255, .1)",
-        "--sidebar-toggle-offset-top": "15px",
-        "--sidebar-toggle-offset-left": "15px",
+        "--sidebar-background": "rgba(0, 0, 0, .1)",
+        "--sidebar-border-color": "rgba(255, 255, 255, .0)",
         // PAGINATION PLUGIN
         "--pagination-border-top": "1px solid rgba(255, 255, 255, .1)",
+        // CUSTOM
+        "--custom-sidebar-hover-background-color": "rgba(255, 255, 255, .025)",
+        "--custom-sidebar-hover-color": "rgba(255, 255, 255, .9)"
     }
 
     function updateThemeIcon() {
@@ -63,9 +66,9 @@
         const icon = document.getElementById("theme")
         // Replacing icons based on current theme preference. (ENABLING)
         if (isDarkTheme == true)
-            icon.classList.replace("bi-toggle-off", "bi-toggle-on")
+            icon.classList.replace("bi-sun-fill", "bi-moon-fill")
         // Replacing icons based on current theme preference. (DISABLING)
-        else icon.classList.replace("bi-toggle-on", "bi-toggle-off")
+        else icon.classList.replace("bi-moon-fill", "bi-sun-fill")
     }
 
     function toggleTheme(isInitial) {

@@ -27,7 +27,6 @@
         a       { color: rgb(24, 179, 86) }
         a:hover { color: rgba(24, 179, 86, 0.75) }
     }
-
 </style>
 
 # **FireDOT**
@@ -37,7 +36,7 @@ Jest to serwer przede wszystkim dla tych, którzy **szukają wyzwania** i **odsk
 
 - Gra na serwerze wymaga zaakceptowania i pobrania paczki zasobów. (**~10MB**)
 - Brak elementów **pay-to-win**. Wszystkich graczy traktujemy równo i sprawiedliwie.
-- Komendy **/spawn**, **/home**, **/tpa** zostały zastąpione **systemem waypointów**.
+- Komendy **/spawn**, **/home**, **/tpa** zostały zastąpione **systemem waypointów**. 
 
 ### Najważniejsze Funkcje
 Niekompletna lista zmian i dodatków dostępnych na serwerze.
