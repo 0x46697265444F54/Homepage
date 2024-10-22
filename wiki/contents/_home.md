@@ -15,6 +15,10 @@
     a       { color: rgb(193, 142, 88) }
     a:hover { color: rgba(193, 142, 88, 0.75) }
 }
+.zaklecia {
+    a       { color: rgb(176, 127, 209) }
+    a:hover { color: rgba(176, 127, 209, 0.75) }
+}
 .rolnictwo {
     a       { color: rgb(229, 198, 20) }
     a:hover { color: rgba(229, 198, 20, 0.75) }
@@ -49,8 +53,11 @@ Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.
 - 🌀 &nbsp; <span class="teleporty">**[Teleporty](/teleporty)**</span>  
 Blok magnetytu na serwerze pełni funkcję prywatnego teleportu.
 
-- 📦 &nbsp; <span class="zawartosc">**[Dodatkowa Zawartość](/zawartosc)**</span>  
-Kilka nowych przedmiotów i zaklęć... z czasem będzie tego więcej.
+- 📦 &nbsp; <span class="zawartosc">**[Nowe Przedmioty](/przedmioty)**</span>  
+Kilka nowych, mniej lub bardziej użytecznych przedmiotów.
+
+- 🔮 &nbsp; <span class="zaklecia">**[Nowe Zaklęcia](/zaklecia)**</span>  
+Kilka nowych zaklęć przenoszących rozgrywkę na wyższy poziom.
 
 - 🌽 &nbsp; <span class="rolnictwo">**[Realistyczne Rolnictwo](/rolnictwo)**</span>  
 Rośliny rosną z różną prędkością w zależności od biomu, na którym się znajdują.

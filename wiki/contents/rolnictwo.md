@@ -8,7 +8,6 @@
         margin-top: 8px;
         margin-bottom: 0;
     }
-
 }
 </style>
 
