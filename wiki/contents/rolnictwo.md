@@ -1,11 +1,48 @@
+<style>
+.contents {
+    font-weight: bold;
+
+    ol {
+        font-family: 'Ubuntu Mono';
+        margin-left: 1em;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+}
+</style>
+
 <span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
 
 # **Rolnictwo**
 Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozgrywki.
-- Prędkość wzrostu upraw jest teraz zależna od biomu, na którym się znajdują.
-- Niektóre rodzaje upraw są unikalne dla poszczególnych biomów. (np. **Bambus**)
-  - Na innych biomach rosną z bardzo niską prędkością (**5%**), a proces ten może zostać przyspieszony za pomocą **mączki kostnej** lub **kompostownika**.
-- Wypełniony kompostownik w pobliżu upraw zwiększa prędkość ich wzrostu o **20%**. Efekt się nie stackuje a łączna prędkość wzrostu nie może przekroczyć **100%**.
+- **Prędkość wzrostu** upraw jest teraz **zależna od biomu**, na którym się znajdują.
+- Niektóre rodzaje upraw są **unikalne** dla poszczególnych biomów (np. **Bambus**) i na innych biomach rosną z **bardzo niską prędkością**.
+- **Pełny kompostownik** w pobliżu upraw **zwiększa prędkość** ich wzrostu o **20%**. (Efekt się nie stackuje, a łączna prędkość wzrostu nie może przekroczyć **100%**)
+
+### Szybki Wybór
+
+<div class="contents">
+
+1.  [Bambus](#bambus) (Bamboo)
+2.  [Kaktusy](#kaktusy) (Cactus)
+3.  [Kakao](#kakao) (Cocoa Beans)
+4.  [Trzcina Cukrowa](#trzcina-cukrowa) (Sugar Cane)
+5.  [Słodkie Jagody](#słodkie-jagody) (Sweet Berries)
+6.  [Pszenica](#pszenica) (Wheat)
+7.  [Buraki](#buraki) (Beetroot)
+8.  [Marchewki](#marchewki) (Carrot)
+9.  [Ziemniaki](#ziemniaki) (Potato)
+10. [Dynie](#dynie) (Pumpkin)
+11. [Melony](#melony) (Melon)
+12. [Netherowe Brodawki](#netherowe-brodawki) (Nether Wart)
+13. [Szkarłatne Grzyby](#szkarłatne-grzyby) (Warped Fungus)
+14. [Płaczące Pnącza](#płaczące-pnącza) (Warped Vines)
+15. [Spaczone Grzyby](#spaczone-grzyby) (Crimson Fungus)
+16. [Spaczone Pnącza](#spaczone-pnącza) (Crimson Vines)
+17. [Wodorosty](#wodorosty) (Kelp)
+
+</span>
 
 ### Bambus
 Bambus dobrze rośnie tylko na biomach tropikalnych:
