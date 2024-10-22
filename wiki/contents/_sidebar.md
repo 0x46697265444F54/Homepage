@@ -10,3 +10,5 @@
 - [<i class="bi bi-tree-fill"></i>Rolnictwo](/rolnictwo.md)
 - [<i class="bi bi-gear-fill"></i>Receptury](/receptury.md)
 - [<i class="bi bi-wrench-adjustable"></i>Inne](/inne.md)
+- **PRZEWODNIK**
+- [<i class="bi bi-compass-fill"></i>Nawigacja](/nawigacja.md)
