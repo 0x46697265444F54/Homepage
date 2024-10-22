@@ -62,7 +62,8 @@ html {
     overflow: hidden;
     color: var(--primary-color);
     background-color: var(--background-color);
-	font-family: 'JetBrains Mono', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
+    letter-spacing: 1px;
 
     main {
         display: flex;
@@ -73,22 +74,20 @@ html {
         text-align: center;
         flex-direction: column;
         justify-content: center;
-    
-        .intro, .links {
-            text-shadow: 3px 3px 1px rgba(0, 0, 0, .1);
-        }
+        font-family: 'Pixelify Sans', sans-serif;
 
         .intro {
             font-size: 6em;
             font-weight: 600;
+            text-shadow: 4px 4px 1px rgba(0, 0, 0, .1);
         }
 
         .intro #title {
             opacity: 0;
             cursor: pointer;
             letter-spacing: -2px;
-            border-bottom: 3px solid rgba(255, 255, 255, .15);
             animation: fade-in 0.8s forwards 0.2s;
+            border-bottom: 3px solid rgba(255, 255, 255, .15);
         }
     
         .links {
@@ -96,16 +95,16 @@ html {
             opacity: 0;
             font-size: 1.25em;
             font-weight: 600;
-            
             vertical-align: top;
             animation: fade-in 0.8s forwards 1s;
+            text-shadow: 3px 3px 1px rgba(0, 0, 0, .1);
         }
 
         .links a {
             color: var(--primary-color);
-            margin-left: 5px;
+            margin-left: 0.25em;
             text-decoration: none;
-            margin-right: 5px;
+            margin-right: 0.25em;
         }
 
         footer {
