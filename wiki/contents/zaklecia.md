@@ -18,7 +18,6 @@
 .translation {
     margin-left: 0.25em;
     font-weight: normal;
-    color: var(--base-color)
 }
 </style>
 
@@ -34,7 +33,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 1.  [Magnes](#magnes-magnet) (Magnet)
 2.  [Grawitacja](#grawitacja-gravity) (Gravity)
 3.  [Tarcza Soniczna](#tarcza-soniczna-sonic-shield) (Sonic Shield)
-4.  [Żywotność](#żywotność-rejuvenation)) (Rejuvenation)
+4.  [Żywotność](#żywotność-rejuvenation) (Rejuvenation)
 5.  [Znawca Bloków](#znawca-bloków-scholar-of-blocks) (Scholar of Blocks)
 6.  [Znawca Stworów](#znawca-stworów-scholar-of-mobs) (Scholar of Mobs)
 7.  [Zatrucie](#zatrucie-poison-aspect) (Poison Aspect)
@@ -42,8 +41,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 9.  [Osłabienie](#osłabienie-weakness-aspect) (Weakness Aspect)
 10. [Obumieranie](#obumieranie-wither-aspect) (Wither Aspect)
 
-
-</span>
+</div>
 
 <br/>
 <br/>
@@ -67,14 +65,14 @@ Pozwala ochronić się przed falą dźwiękową wardena.
 - Przeznaczenie: **Tarcza**
 - Maks. Poziom: **I**
 
-<sub>To zaklęcie można zdobyć tylko jako łup ze skrzyni w antycznych miastach.</sub>
+<sub>To zaklęcie można zdobyć tylko jako łup ze skrzyni w pradawnych miastach.</sub>
 
 ### Żywotność <span class="translation">(Rejuvenation)</span>
 Zwiększa maksymalną ilość punktów życia. Dodaje **1x** <i style="font-size: .8em;" class="bi bi-heart-fill"></i> za każdy poziom zaklęcia.
 - Przeznaczenie: **Tarcza**
 - Maks. Poziom: **III**
 
-<sub>To zaklęcie można zdobyć tylko jako łup ze skrzyni w antycznych miastach.</sub>
+<sub>To zaklęcie można zdobyć tylko jako łup ze skrzyni w pradawnych miastach.</sub>
 
 ### Znawca Bloków <span class="translation">(Scholar of Blocks)</span>
 Wykopane bloki dają więcej punktów doświadczenia.

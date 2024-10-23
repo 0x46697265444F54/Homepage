@@ -15,28 +15,14 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
 ### Ogólne
 
-- **Ognisko**  
-  Przebywanie w pobliżu ogniska powoli regeneruje punkty życia.  
-  ![Ognisko](assets/img/campfire.jpeg)  
-
-- **Śmierć**  
-  Po śmierci zachowane zostają tylko przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.
+- **Zachowywanie Ekwipunku**  
+  Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.
   ![Keep Inventory](assets/img/keep_inventory.jpeg)  
   <sup>Kolorem czerwonym oznaczone zostały przedmioty, które wypadną po śmierci.</sup>
 
-- **Kompas**  
-  Kompas pokazuje pozycję podczas gdy jest trzymany w ręce. Ekran debugowania (F3) nie pokazuje koordynatów.  
-  ![Kompas](assets/img/compass.jpeg)  
-  <sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>
-
-- **Zegar**  
-  Zegar pokazuje dokładną godzinę podczas gdy jest trzymany w ręce.  
-  ![Zegar](assets/img/clock.jpeg)  
-  <sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>
-
-- **Mapa**  
-  Mapa pokazuje aktualny biom podczas gdy jest trzymana w ręce.  
-  ![Zegar](assets/img/map.jpeg)  
+- **Ognisko**  
+  Przebywanie w pobliżu ogniska powoli regeneruje punkty życia.  
+  ![Ognisko](assets/img/campfire.jpeg)  
 
 - **Obrażenia**  
   Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.  

@@ -30,7 +30,7 @@ Kilka nowych gatunków ryb możliwych do złowienia za pomocą wędki.
 <sup>Część tekstur pochodzi z modyfikacji [Fishing101](https://github.com/Macck209/Fishing101).</sup>
 
 ### Młotek
-Młotek to przedmiot specjalny, który trzymany w ręce zwiększa zasięŋ stawiania i niszczenia bloków. Można go stworzyć za pomocą poniższej receptury:  
+Młotek to przedmiot specjalny, który trzymany w ręce zwiększa zasięg stawiania i niszczenia bloków. Można go stworzyć za pomocą poniższej receptury:  
 ![Młotek](assets/img/hammer.png ":no-zoom")  
 
 </page>
