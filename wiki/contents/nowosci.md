@@ -62,7 +62,7 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 
 <div class="container zmiany">
 
-<h3><i class="bi bi-arrow-up-circle-fill"></i></i>ZMIANY</h3>
+<h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
 
 - TO-DO
 
@@ -70,7 +70,7 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 
 <div class="container poprawki">
 
-<h3><i class="bi bi-exclamation-circle-fill"></i>POPRAWKI</h3>
+<h3><i class="bi bi-bug-fill"></i>POPRAWKI</h3>
 
 - TO-DO
 
