@@ -4,8 +4,8 @@
     a:hover { color: rgba(111, 163, 106, 0.75) }
 }
 .tereny{
-    a       { color: rgb(214, 37, 27) }
-    a:hover { color: rgba(214, 37, 27, 0.75) }
+    a       { color: rgb(225, 88, 81) }
+    a:hover { color: rgba(225, 88, 81, 0.75) }
 }
 .teleporty {
     a       { color: rgb(25, 136, 253) }
@@ -20,8 +20,8 @@
     a:hover { color: rgba(176, 127, 209, 0.75) }
 }
 .rolnictwo {
-    a       { color: rgb(229, 198, 20) }
-    a:hover { color: rgba(229, 198, 20, 0.75) }
+    a       { color: rgb(212, 165, 22) }
+    a:hover { color: rgba(212, 165, 22, 0.75) }
 }
 .receptury {
     a       { color: rgb(126, 172, 190) }
