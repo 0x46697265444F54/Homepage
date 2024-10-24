@@ -48,7 +48,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 ## **2.0.0 — DRUGA EDYCJA** <!-- {docsify-ignore} -->
 <sup>Opublikowano: **XX/XX/XXXX**</sup>
 
-Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom nich dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej.
+Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom nich dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej. Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
 
 <br/>
 
@@ -77,7 +77,5 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 </div>
 
 **Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
-
----
 
 </div>
