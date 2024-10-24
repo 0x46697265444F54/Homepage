@@ -32,23 +32,23 @@ Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozg
 
 <div class="contents">
 
-1.  [Bambus](#bambus-bamboo) (Bamboo)
-2.  [Kaktusy](#kaktusy-cactus) (Cactus)
-3.  [Kakao](#kakao-cocoa-beans) (Cocoa Beans)
-4.  [Trzcina Cukrowa](#trzcina-cukrowa-sugar-cane) (Sugar Cane)
-5.  [Słodkie Jagody](#słodkie-jagody-sweet-berries) (Sweet Berries)
-6.  [Pszenica](#pszenica-wheat) (Wheat)
-7.  [Buraki](#buraki-beetroot) (Beetroot)
-8.  [Marchewki](#marchewki-carrot) (Carrot)
-9.  [Ziemniaki](#ziemniaki-potato) (Potato)
-10. [Dynie](#dynie-pumpkin) (Pumpkin)
-11. [Melony](#melony-melon) (Melon)
-12. [Netherowe Brodawki](#netherowe-brodawki-nether-wart) (Nether Wart)
-13. [Szkarłatne Grzyby](#szkarłatne-grzyby-warped-fungus) (Warped Fungus)
-14. [Płaczące Pnącza](#płaczące-pnącza-warped-vines) (Warped Vines)
-15. [Spaczone Grzyby](#spaczone-grzyby-crimson-fungus) (Crimson Fungus)
-16. [Spaczone Pnącza](#spaczone-pnącza-crimson-vines) (Crimson Vines)
-17. [Wodorosty](#wodorosty-kelp) (Kelp)
+1.  [Bambus](#bambus) (Bamboo)
+2.  [Kaktusy](#kaktusy) (Cactus)
+3.  [Kakao](#kakao) (Cocoa Beans)
+4.  [Trzcina Cukrowa](#trzcina-cukrowa) (Sugar Cane)
+5.  [Słodkie Jagody](#slodkie-jagody) (Sweet Berries)
+6.  [Pszenica](#pszenica) (Wheat)
+7.  [Buraki](#buraki) (Beetroot)
+8.  [Marchewki](#marchewki) (Carrot)
+9.  [Ziemniaki](#ziemniaki) (Potato)
+10. [Dynie](#dynie) (Pumpkin)
+11. [Melony](#melony) (Melon)
+12. [Netherowe Brodawki](#netherowe-brodawki) (Nether Wart)
+13. [Szkarłatne Grzyby](#szkarlatne-grzyby) (Warped Fungus)
+14. [Płaczące Pnącza](#placzace-pnacza) (Warped Vines)
+15. [Spaczone Grzyby](#spaczone-grzyby) (Crimson Fungus)
+16. [Spaczone Pnącza](#spaczone-pnacza) (Crimson Vines)
+17. [Wodorosty](#wodorosty) (Kelp)
 
 </div>
 
@@ -57,21 +57,21 @@ Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozg
 
 <div class="page">
 
-### Bambus <span class="translation">(Bamboo)</span>
+### Bambus <span class="translation">(Bamboo)</span> :id=bambus
 Bambus dobrze rośnie tylko na biomach tropikalnych:
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 - **Swamp**, **Mangrove Swamp**
 
-### Kaktusy <span class="translation">(Cactus)</span>
+### Kaktusy <span class="translation">(Cactus)</span> :id=kaktusy
 Kaktusy dobrze rośnie tylko na biomach pustynnych:  
 - **Badlands**, **Eroded Badlands**, **Wooden Badlands**
 - **Desert**
 
-### Kakao <span class="translation">(Cocoa Beans)</span>
+### Kakao <span class="translation">(Cocoa Beans)</span> :id=kakao
 Kakao dobrze rośnie tylko na biomach dżunglowych:  
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 
-### Trzcina Cukrowa <span class="translation">(Sugar Cane)</span>
+### Trzcina Cukrowa <span class="translation">(Sugar Cane)</span> :id=trzcina-cukrowa
 Trzcina cukrowa najlepiej rośnie w biomach tropikalnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 - **Swamp**, **Mangrove Swamp**
@@ -85,7 +85,7 @@ Trzcina cukrowa rośnie też na innych biomach:
   - **Plains**, **Sunflower Plains**
   - **Mushroom Fields**, **Cherry Groove**, **Meadow**
 
-### Słodkie Jagody <span class="translation">(Sweet Berries)</span>
+### Słodkie Jagody <span class="translation">(Sweet Berries)</span> :id=slodkie-jagody
 Słodkie jagody najlepiej rosną na biomach chłodnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Taiga**, **Old Growth Pine Taiga**, **Old Growth Spruce Taiga**
 - **Cold Ocean**, **Deep Cold Ocean**
@@ -100,7 +100,7 @@ Słodkie jagody rosną też na innych biomach:
 - Górzyste: <span class="red">(Prędkość: <span class="bold">25%</span>)</span>  
   - **Windswept Forest**, **Windswept Gravelly Hills**, **Windswept Hills**
 
-### Pszenica <span class="translation">(Wheat)</span>
+### Pszenica <span class="translation">(Wheat)</span> :id=pszenica
 Pszenica najlepiej rośnie w biomach umiarkowanych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Ocean**, **Deep Ocean**, **Lukewarm Ocean**, **Deep Lukewarm Ocean**, **Warm Ocean**
 - **Forest**, **Birch Forest**, **Dark Forest**, **Flower Forest**, **Old Growth Birch Forest**
@@ -117,7 +117,7 @@ Pszenica rośnie też na innych biomach:
 
 Na pozostałych biomach, pszenica rośnie z prędkością <span class="bold yellow">50%</span>.
 
-### Buraki <span class="translation">(Beetroot)</span>
+### Buraki <span class="translation">(Beetroot)</span> :id=buraki
 Buraki najlepiej rosną w biomach umiarkowanych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Ocean**, **Deep Ocean**, **Lukewarm Ocean**, **Deep Lukewarm Ocean**, **Warm Ocean**
 - **Forest**, **Birch Forest**, **Dark Forest**, **Flower Forest**, **Old Growth Birch Forest**
@@ -134,7 +134,7 @@ Buraki rosną też na innych biomach:
 
 Na pozostałych biomach, buraki rosną z prędkością <span class="bold yellow">50%</span>.
 
-### Marchewki <span class="translation">(Carrot)</span>
+### Marchewki <span class="translation">(Carrot)</span> :id=marchewki
 Marchewki najlepiej rosną w biomach umiarkowanych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Ocean**, **Deep Ocean**, **Lukewarm Ocean**, **Deep Lukewarm Ocean**, **Warm Ocean**
 - **Forest**, **Birch Forest**, **Dark Forest**, **Flower Forest**, **Old Growth Birch Forest**
@@ -151,7 +151,7 @@ Marchewki rosną też na innych biomach:
 
 Na pozostałych biomach, marchewki rosną z prędkością <span class="bold yellow">50%</span>.
 
-### Ziemniaki <span class="translation">(Potato)</span>
+### Ziemniaki <span class="translation">(Potato)</span> :id=ziemniaki
 Ziemniaki najlepiej rosną w biomach umiarkowanych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Ocean**, **Deep Ocean**, **Lukewarm Ocean**, **Deep Lukewarm Ocean**, **Warm Ocean**
 - **Forest**, **Birch Forest**, **Dark Forest**, **Flower Forest**, **Old Growth Birch Forest**
@@ -168,7 +168,7 @@ Ziemniaki rosną też na innych biomach:
 
 Na pozostałych biomach, ziemniaki rosną z prędkością <span class="bold yellow">50%</span>.
 
-### Dynie <span class="translation">(Pumpkin)</span>
+### Dynie <span class="translation">(Pumpkin)</span> :id=dynie
 Dynie najlepiej rosną na biomach chłodnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Taiga**, **Old Growth Pine Taiga**, **Old Growth Spruce Taiga**
 - **Cold Ocean**, **Deep Cold Ocean**
@@ -183,7 +183,7 @@ Dynie rosną też na innych biomach:
 
 Na pozostałych biomach, dynie rosną z prędkością <span class="bold yellow">50%</span>.
 
-### Melony <span class="translation">(Melon)</span>
+### Melony <span class="translation">(Melon)</span> :id=melony
 Melony najlepiej rosną na biomach tropikalnych: <span class="green">(Prędkość: <span class="bold">100%</span>)</span>  
 - **Jungle**, **Bamboo Jungle**, **Sparse Jungle**
 - **Swamp**, **Mangrove Swamp**
@@ -195,27 +195,27 @@ Melony rosną też na innych biomach:
   - **Plains**, **Sunflower Plains**
   - **Mushroom Fields**, **Cherry Groove**, **Meadow**
 
-### Netherowe Brodawki <span class="translation">(Nether Wart)</span>
+### Netherowe Brodawki <span class="translation">(Nether Wart)</span> :id=netherowe-brodawki
 Netherowe brodawki dobrze rosną tylko w netherze.
 - **Nether Wastes**, **Soul Sand Valley**, **Crimson Forest**, **Warped Forest**, **Basalt Deltas**
 
-### Szkarłatne Grzyby <span class="translation">(Warped Fungus)</span>
+### Szkarłatne Grzyby <span class="translation">(Warped Fungus)</span> :id=szkarlatne-grzyby
 Szkarłatne grzyby rosną tylko w netherowych lasach:  
 - **Crimson Forest**, **Warped Forest**
 
-### Płaczące Pnącza <span class="translation">(Warped Vines)</span>
+### Płaczące Pnącza <span class="translation">(Warped Vines)</span> :id=placzace-pnacza
 Szkarłatne pnącza rosną tylko w netherowych lasach:  
 - **Crimson Forest**, **Warped Forest**
 
-### Spaczone Grzyby <span class="translation">(Crimson Fungus)</span>
+### Spaczone Grzyby <span class="translation">(Crimson Fungus)</span> :id=spaczone-grzyby
 Spaczone grzyby rosną tylko w netherowych lasach:  
 - **Crimson Forest**, **Warped Forest**
 
-### Spaczone Pnącza <span class="translation">(Crimson Vines)</span>
+### Spaczone Pnącza <span class="translation">(Crimson Vines)</span> :id=spaczone-pnacza
 Spaczone pnącza rosną tylko w netherowych lasach:  
 - **Crimson Forest**, **Warped Forest**
 
-### Wodorosty <span class="translation">(Kelp)</span>
+### Wodorosty <span class="translation">(Kelp)</span> :id=wodorosty
 Wodorosty rosną tylko na niektórych biomach oceanicznych:  
 - **Ocean**, **Deep Ocean**
 - **Lukewarm Ocean**, **Deep Lukewarm Ocean**
