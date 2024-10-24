@@ -5,6 +5,10 @@
     --base-font-family: 'Maven Pro';
     --base-color: #454545;
     --base-background-color: #FFFFFF;
+    /* HEADING */
+    --heading-h2-border-style: none;
+    --heading-h2-margin: 0;
+    --heading-h2-padding: 0;
     /* CONTENT */
     --content-max-width: 80em;
     /* LINKS */
