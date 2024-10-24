@@ -10,7 +10,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
 <!-- PAGE BEGINS HERE -->
 
 # **Generator Świata**
-Generator świata skupiaja się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.
+Generator świata skupia się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.
 
 Świat jest otoczony granicą o wielkości **16,000** na **16,000** bloków.
 
