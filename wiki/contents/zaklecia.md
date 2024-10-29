@@ -31,15 +31,21 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <div class="contents">
 
 1.  [Magnes](#magnes) (Magnet)
-2.  [Grawitacja](#grawitacja-gravity) (Gravity)
-3.  [Tarcza Soniczna](#tarcza-soniczna-sonic-shield) (Sonic Shield)
-4.  [Żywotność](#żywotność-rejuvenation) (Rejuvenation)
-5.  [Znawca Bloków](#znawca-bloków-scholar-of-blocks) (Scholar of Blocks)
-6.  [Znawca Stworów](#znawca-stworów-scholar-of-mobs) (Scholar of Mobs)
-7.  [Zatrucie](#zatrucie-poison-aspect) (Poison Aspect)
-8.  [Spowolnienie](#spowolnienie-slowness-aspect) (Slowness Aspect)
-9.  [Osłabienie](#osłabienie-weakness-aspect) (Weakness Aspect)
-10. [Obumieranie](#obumieranie-wither-aspect) (Wither Aspect)
+2.  [Grawitacja](#grawitacja) (Gravity)
+3.  [Tarcza Soniczna](#tarcza-soniczna) (Sonic Shield)
+4.  [Żywotność](#zywotnosc) (Rejuvenation)
+5.  [Znawca Bloków](#znawca-blokow) (Scholar of Blocks)
+6.  [Znawca Stworów](#znawca-stworow) (Scholar of Mobs)
+7.  [Zatrucie](#zatrucie) (Poison Aspect)
+8.  [Spowolnienie](#spowolnienie) (Slowness Aspect)
+9.  [Osłabienie](#oslabienie) (Weakness Aspect)
+10. [Obumieranie](#obumieranie) (Wither Aspect)
+11. [Oszczędność](#oszczednosc) (Replenish)
+12. [Zasięg](#zasieg) (Reach)
+13. [Poręczność](#porecznosc) (Swift Strike)
+14. [Ognisty Piechur](#ognisty-piechur) (Scorch Walker)
+15. [Piechur](#piechur) (Stride)
+16. [Wabik](#wabik) (Bait)
 
 </div>
 
@@ -68,13 +74,13 @@ Pozwala ochronić się przed falą dźwiękową wardena.
 - Maks. Poziom: **I**
 - Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**.
 
-### Żywotność <span class="translation">(Rejuvenation)</span>
+### Żywotność <span class="translation">(Rejuvenation)</span>  :id=zywotnosc
 Zwiększa maksymalną ilość punktów życia. Dodaje **1x** <i style="font-size: .8em;" class="bi bi-heart-fill"></i> za każdy poziom zaklęcia.
 - Przeznaczenie: **Tarcza**
 - Maks. Poziom: **III**
 - Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**.
 
-### Znawca Bloków <span class="translation">(Scholar of Blocks)</span>
+### Znawca Bloków <span class="translation">(Scholar of Blocks)</span>  :id=znawca-blokow
 Wykopane bloki dają więcej punktów doświadczenia.
 - Przeznaczenie: **Narzędzia**
 - Maks. Poziom: **III**
