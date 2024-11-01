@@ -25,14 +25,14 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
 <div class="page">
 
 ### Ryby
-Kilka nowych gatunków ryb możliwych do złowienia za pomocą wędki.  
+Kilka nowych gatunków ryb możliwych do **złowienia** za pomocą wędki.  
 ![Ryby](assets/img/fish.png ":no-zoom")  
-<sup>Część tekstur pochodzi z modyfikacji [Fishing101](https://github.com/Macck209/Fishing101).</sup>
+<sup>Część tekstur pochodzi z modyfikacji **[Fishing101](https://github.com/Macck209/Fishing101)**.</sup>
 
 ### Koszyk
-Koszyk to przedmiot specjalny, który służy do podnoszenia stworzeń i przechowywania ich w formie przedmiotu. Jest to szczególnie przydatne, gdy chcemy przetransportować większą ilość mobów z jednego miejsca w drugie. Pusty koszyk można zakupić u handlarza na spawnie. Przedmiot jest jednokrotnego użytku.
+Koszyk to przedmiot specjalny, który służy do **podnoszenia stworzeń** i **przechowywania** ich w formie **przedmiotu**. Jest to szczególnie **przydatne**, gdy chcemy **przetransportować** większą ilość mobów. Pusty koszyk można zakupić u **handlarza** na spawnie. Przedmiot jest **jednokrotnego** użytku.
 ![Koszyk](assets/img/basket.png ":no-zoom")  
-<sup>Część tekstur pochodzi z paczki [Mob Crates](https://modrinth.com/resourcepack/mob-crates).</sup>
+<sup>Część tekstur pochodzi z paczki **[Mob Crates](https://modrinth.com/resourcepack/mob-crates)**.</sup>
 
 
 ### Młotek
