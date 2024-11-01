@@ -44,7 +44,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 12. [Zasięg](#zasieg) (Reach)
 13. [Poręczność](#porecznosc) (Swift Strike)
 14. [Ognisty Piechur](#ognisty-piechur) (Scorch Walker)
-15. [Piechur](#piechur) (Stride)
+15. [Wędrowiec](#wedrowiec) (Stride)
 16. [Wabik](#wabik) (Bait)
 
 </div>
@@ -165,7 +165,7 @@ Zamienia powierzchnię magmy w lawę.
 - Wyklucza: **Mroźny Piechur** (Frost Walker)
 - Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**.
 
-### Piechur <span class="translation">(Stride)</span> :id=piechur
+### Wędrowiec <span class="translation">(Stride)</span> :id=wedrowiec
 Pozwala wchodzić po pełnych blokach jak po schodach.
 - Przeznaczenie: **Nogawice**
 - Maks. Poziom: **I**
