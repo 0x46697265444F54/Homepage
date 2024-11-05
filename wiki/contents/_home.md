@@ -94,20 +94,20 @@ Proces pobierania i ładowania paczki zasobów jest **w pełni automatyczny** i 
 
 1. **[3D Default](https://modrinth.com/resourcepack/3d-default)** <span class="bright">(GeForceLegend)</span> --- A light-weight resource pack providing vanilla-look 3D models.
 2. **[Angel's Weather](https://modrinth.com/resourcepack/angels-weather)** <span class="bright">(Liminal_Angel)</span> --- You can now transform the weather textures & sounds, into a visually & acoustically captivating phenomenon!
-3. **[Circular Logs](https://modrinth.com/resourcepack/circular-logs)** <span class="bright">(watakak)</span> --- A circulared texture of log's top.
-4. **[Gurkis Texture Variations](https://modrinth.com/resourcepack/gurkis-texture-variations)** <span class="bright">(Gurkis)</span> --- This pack variates foliage and crop colors and height, making big fields way nicer to look at.
-5. **[Farcr's Better Dirt](https://www.curseforge.com/minecraft/texture-packs/farcrs-better-dirt)** <span class="bright">(Farcr)</span> --- Significantly improves the game's most iconic block: Dirt!
-6. **[Hidey Hidey Debris](https://modrinth.com/resourcepack/hidey-hidey-debris)** <span class="bright">(Sammy019)</span> --- Makes debris more natural by embedding it in netherrack.
-7. **[Mob Crates](https://modrinth.com/resourcepack/mob-crates)** <span class="bright">(NoCube, Futureazoo)</span> --- Replaces spawn eggs with mobs in Crates.
-8. **[More Fungi](https://modrinth.com/resourcepack/more-fungi)** <span class="bright">(\_daggsy\_)</span> --- Adds variants for brown and red mushrooms.
-9. **[Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x)** <span class="bright">(AmberW, Twitter)</span> --- Adds all of Twemoji, redrawn by hand as pixel art at 9x9 resolution.
-10. **[Round Up GUI](https://modrinth.com/resourcepack/roundupgui)** <span class="bright">(Dremix)</span> --- A resource pack that makes the whole game UI prettier and rounder!
-11. **[Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)** <span class="bright">(2DWisp)</span> --- Gives Grass, Podzol, Mycelium, Crimson Nylium, and Warped Nylium vanilla-friendly flowers, clovers, and rocks!
-12. **[Smoother Glowing](https://modrinth.com/shader/smoother-glowing)** <span class="bright">(MelonRind)</span> --- Replace vanilla glowing shader with optimized and subjectively prettier.
-13. **[Spring Flowers](https://modrinth.com/resourcepack/spring-flowers)** <span class="bright">(\_daggsy\_)</span> --- Adds more variants for each flower.
-14. **[Unobtrusive Shields and Fire](https://vanillatweaks.net/picker/resource-packs/)** <span class="bright">(VanillaTweaks)</span>
-15. **[Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)** <span class="bright">(N0mish)</span> --- Changes the Armor Trim item texture to look more like the Netherite Upgrade.
-16. **[Wireframe Display](https://github.com/HalbFettKaese/WireframeDisplay)** <span class="bright">(HalbFettKaese)</span> --- A small resource pack that makes it easy to create and display wireframes that look like vanilla.
+3. **[Gurkis Texture Variations](https://modrinth.com/resourcepack/gurkis-texture-variations)** <span class="bright">(Gurkis)</span> --- This pack variates foliage and crop colors and height, making big fields way nicer to look at.
+4. **[Farcr's Better Dirt](https://www.curseforge.com/minecraft/texture-packs/farcrs-better-dirt)** <span class="bright">(Farcr)</span> --- Significantly improves the game's most iconic block: Dirt!
+5. **[Hidey Hidey Debris](https://modrinth.com/resourcepack/hidey-hidey-debris)** <span class="bright">(Sammy019)</span> --- Makes debris more natural by embedding it in netherrack.
+6. **[Mob Crates](https://modrinth.com/resourcepack/mob-crates)** <span class="bright">(NoCube, Futureazoo)</span> --- Replaces spawn eggs with mobs in Crates.
+7. **[More Fungi](https://modrinth.com/resourcepack/more-fungi)** <span class="bright">(\_daggsy\_)</span> --- Adds variants for brown and red mushrooms.
+8. **[Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x)** <span class="bright">(AmberW, Twitter)</span> --- Adds all of Twemoji, redrawn by hand as pixel art at 9x9 resolution.
+9.  **[Round Up GUI](https://modrinth.com/resourcepack/roundupgui)** <span class="bright">(Dremix)</span> --- A resource pack that makes the whole game UI prettier and rounder!
+10. **[Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)** <span class="bright">(2DWisp)</span> --- Gives Grass, Podzol, Mycelium, Crimson Nylium, and Warped Nylium vanilla-friendly flowers, clovers, and rocks!
+11. **[Smoother Glowing](https://modrinth.com/shader/smoother-glowing)** <span class="bright">(MelonRind)</span> --- Replace vanilla glowing shader with optimized and subjectively prettier.
+12. **[Spring Flowers](https://modrinth.com/resourcepack/spring-flowers)** <span class="bright">(\_daggsy\_)</span> --- Adds more variants for each flower.
+13. **[Unobtrusive Shields and Fire](https://vanillatweaks.net/picker/resource-packs/)** <span class="bright">(VanillaTweaks)</span>
+14. **[Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)** <span class="bright">(N0mish)</span> --- Changes the Armor Trim item texture to look more like the Netherite Upgrade.
+15. **[Wireframe Display](https://github.com/HalbFettKaese/WireframeDisplay)** <span class="bright">(HalbFettKaese)</span> --- A small resource pack that makes it easy to create and display wireframes that look like vanilla.
+16. **[VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)** <span class="bright">(VanillaTweaks)</span> --- Modify Minecraft's textures, models, shaders, and sounds, letting you customize the feel of your game.
 
 <div style="margin-left:0.5em">
 
