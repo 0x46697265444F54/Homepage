@@ -69,7 +69,7 @@
         const isDarkTheme = localStorage.getItem("isDarkMode") === "true"
         const icon = document.getElementById("theme")
         // Replacing icons based on current theme preference. (ENABLING)
-        if (isDarkTheme == true)
+        if (isDarkTheme === true)
             icon.classList.replace("bi-sun-fill", "bi-moon-fill")
         // Replacing icons based on current theme preference. (DISABLING)
         else icon.classList.replace("bi-moon-fill", "bi-sun-fill")
@@ -79,8 +79,8 @@
         // Getting theme preference.
         let isDarkTheme = localStorage.getItem("isDarkMode") === "true"
         // When 'isInitial' is 'true', theme is not toggled but applied based on user preference.
-        if (isInitial == true) {
-            if (isDarkTheme == true) {
+        if (isInitial === true) {
+            if (isDarkTheme === true) {
                 for (const key in props)
                     document.documentElement.style.setProperty(key, props[key]);
             }
@@ -89,7 +89,7 @@
         // Inverting theme as it has been toggled.
         isDarkTheme = !isDarkTheme
         // Applying or removing dark theme.
-        if (isDarkTheme == true)
+        if (isDarkTheme === true)
             for (const key in props)
                 document.documentElement.style.setProperty(key, props[key]);
         else document.documentElement.removeAttribute("style");
