@@ -159,7 +159,7 @@ Zwiększa szybkość ataku o **12.5%** za każdy poziom.
 - Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**.
 
 ### Ognisty Piechur <span class="translation">(Scorch Walker)</span> :id=ognisty-piechur
-Zamienia powierzchnię magmy w lawę.
+Zamienia powierzchnię lawy w magmę.
 - Przeznaczenie: **Buty**
 - Maks. Poziom: **II**
 - Wyklucza: **Mroźny Piechur** (Frost Walker)
@@ -172,7 +172,7 @@ Pozwala wchodzić po pełnych blokach jak po schodach.
 - Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**.
 
 ### Wabik <span class="translation">(Bait)</span> :id=wabik
-Pozwala wchodzić po pełnych blokach jak po schodach.
+Szansa na złowienie kilku przedmiotów za jednym razem.
 - Przeznaczenie: **Wędka**
 - Maks. Poziom: **I**
 - Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie**
