@@ -18,6 +18,8 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 # **Nawigacja**
 Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy na większości innych serwerów. Ukryliśmy część informacji na ekranie debugowania oraz dodaliśmy nowe funkcje dla przedmiotów, które istnieją w grze od samego początku, ale dotychczas oferowały zbyt mało możliwości.
 
+<sup>**Ważne:** Szybka teleportacja za pomocą popularnych komend jest **wyłączona**. Więcej informacji znajdziesz tutaj: **[Teleporty](teleporty)**</sup>
+
 <br/>
 
 <div class="page">
