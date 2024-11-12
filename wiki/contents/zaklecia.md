@@ -1,18 +1,17 @@
 <style>
 .contents {
-    font-weight: bold;
-
+    a {
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
     ol {
         font-family: 'Ubuntu Mono';
-        margin-left: 1em;
-        margin-top: 8px;
-        margin-bottom: 0;
+        margin: 0.25em 0 0 1em;
     }
 }
 .page {
     p, ul, ol {
-        margin-top: 0.25em;
-        margin-bottom: 0.25em;
+        margin: 0.25em 0 0.25em 0;
     }
 }
 .translation {

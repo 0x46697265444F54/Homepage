@@ -1,36 +1,5 @@
 <style>
-.generator {
-    a       { color: rgb(111, 163, 106) }
-    a:hover { color: rgba(111, 163, 106, 0.75) }
-}
-.tereny{
-    a       { color: rgb(225, 88, 81) }
-    a:hover { color: rgba(225, 88, 81, 0.75) }
-}
-.teleporty {
-    a       { color: rgb(25, 136, 253) }
-    a:hover { color: rgba(25, 136, 253, 0.75) }
-}
-.zawartosc {
-    a       { color: rgb(193, 142, 88) }
-    a:hover { color: rgba(193, 142, 88, 0.75) }
-}
-.zaklecia {
-    a       { color: rgb(176, 127, 209) }
-    a:hover { color: rgba(176, 127, 209, 0.75) }
-}
-.rolnictwo {
-    a       { color: rgb(212, 165, 22) }
-    a:hover { color: rgba(212, 165, 22, 0.75) }
-}
-.receptury {
-    a       { color: rgb(126, 172, 190) }
-    a:hover { color: rgba(126, 172, 190, 0.75) }
-}
-.ekonomia {
-    a       { color: rgb(24, 179, 86) }
-    a:hover { color: rgba(24, 179, 86, 0.75) }
-}
+
 .contents {
     font-family: 'Ubuntu Mono';
 
@@ -43,6 +12,50 @@
         list-style-type: none;
     }
 }
+
+.feature {
+    a {
+        color: var(--color);
+        transition: 0.3s;
+    }
+    a:hover {
+        color: color-mix(in srgb, var(--color), transparent 25%);
+        transition: 0.3s;
+    }
+}
+
+.feature.generator {
+    --color: rgb(111, 163, 106)
+}
+
+.feature.tereny {
+    --color: rgb(225, 88, 81)    
+}
+
+.feature.teleporty {
+    --color: rgb(25, 136, 253)
+}
+
+.feature.zawartosc {
+    --color: rgb(193, 142, 88)
+}
+
+.feature.zaklecia  {
+    --color: rgb(176, 127, 209)
+}
+
+.feature.rolnictwo {
+    --color: rgb(212, 165, 22)
+}
+
+.feature.receptury {
+    --color: rgb(126, 172, 190)
+}
+
+.feature.ekonomia  {
+    --color: rgb(24, 179, 86)
+}
+
 .bright {
     color: var(--heading-color);
 }
@@ -62,25 +75,25 @@ Niekompletna lista zmian i dodatków dostępnych na serwerze.
 - 🌍 &nbsp; <span class="feature generator">**[Poprawiony Generator Świata](/generator)**</span>  
 Generator świata skupiający się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.
 
-- 🚩 &nbsp; <span class="tereny">**[Chronione Tereny](/tereny)**</span>  
+- 🚩 &nbsp; <span class="feature tereny">**[Chronione Tereny](/tereny)**</span>  
 Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.
 
-- 🌀 &nbsp; <span class="teleporty">**[Teleporty](/teleporty)**</span>  
+- 🌀 &nbsp; <span class="feature teleporty">**[Teleporty](/teleporty)**</span>  
 Blok magnetytu na serwerze pełni funkcję prywatnego teleportu.
 
-- 📦 &nbsp; <span class="zawartosc">**[Nowe Przedmioty](/przedmioty)**</span>  
+- 📦 &nbsp; <span class="feature zawartosc">**[Nowe Przedmioty](/przedmioty)**</span>  
 Kilka nowych, mniej lub bardziej użytecznych przedmiotów.
 
-- 🔮 &nbsp; <span class="zaklecia">**[Nowe Zaklęcia](/zaklecia)**</span>  
+- 🔮 &nbsp; <span class="feature zaklecia">**[Nowe Zaklęcia](/zaklecia)**</span>  
 Kilka nowych zaklęć przenoszących rozgrywkę na wyższy poziom.
 
-- 🌽 &nbsp; <span class="rolnictwo">**[Realistyczne Rolnictwo](/rolnictwo)**</span>  
+- 🌽 &nbsp; <span class="feature rolnictwo">**[Realistyczne Rolnictwo](/rolnictwo)**</span>  
 Rośliny rosną z różną prędkością w zależności od biomu, na którym się znajdują.
 
-- ⚙️ &nbsp; <span class="receptury">**[Zbalansowane Receptury](/receptury)**</span>  
+- ⚙️ &nbsp; <span class="feature receptury">**[Zbalansowane Receptury](/receptury)**</span>  
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
-- 💲 &nbsp; <span class="ekonomia">**[Podstawowa Ekonomia]()**</span>  
+- 💲 &nbsp; <span class="feature ekonomia">**[Podstawowa Ekonomia]()**</span>  
 Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.
 
 ### Paczka Zasobów
@@ -104,10 +117,9 @@ Proces pobierania i ładowania paczki zasobów jest **w pełni automatyczny** i 
 10. **[Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)** <span class="bright">(2DWisp)</span> --- Gives Grass, Podzol, Mycelium, Crimson Nylium, and Warped Nylium vanilla-friendly flowers, clovers, and rocks!
 11. **[Smoother Glowing](https://modrinth.com/shader/smoother-glowing)** <span class="bright">(MelonRind)</span> --- Replace vanilla glowing shader with optimized and subjectively prettier.
 12. **[Spring Flowers](https://modrinth.com/resourcepack/spring-flowers)** <span class="bright">(\_daggsy\_)</span> --- Adds more variants for each flower.
-13. **[Unobtrusive Shields and Fire](https://vanillatweaks.net/picker/resource-packs/)** <span class="bright">(VanillaTweaks)</span>
-14. **[Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)** <span class="bright">(N0mish)</span> --- Changes the Armor Trim item texture to look more like the Netherite Upgrade.
-15. **[Wireframe Display](https://github.com/HalbFettKaese/WireframeDisplay)** <span class="bright">(HalbFettKaese)</span> --- A small resource pack that makes it easy to create and display wireframes that look like vanilla.
-16. **[VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)** <span class="bright">(VanillaTweaks)</span> --- Modify Minecraft's textures, models, shaders, and sounds, letting you customize the feel of your game.
+13. **[Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)** <span class="bright">(N0mish)</span> --- Changes the Armor Trim item texture to look more like the Netherite Upgrade.
+14. **[Wireframe Display](https://github.com/HalbFettKaese/WireframeDisplay)** <span class="bright">(HalbFettKaese)</span> --- A small resource pack that makes it easy to create and display wireframes that look like vanilla.
+15. **[VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)** <span class="bright">(VanillaTweaks)</span> --- Modify Minecraft's textures, models, shaders, and sounds, letting you customize the feel of your game.
 
 <div style="margin-left:0.5em">
 
