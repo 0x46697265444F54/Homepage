@@ -15,7 +15,7 @@ Teleportacja na naszym serwerze jest możliwa **tylko** za pośrednictwem **fizy
 <div class="page">
 
 ### Magnetyt
-Magnetyt to uzyskał zupełnie nowe zastosowanie i pełni on funkcję punktu teleportacji. Za jego pomocą możemy się teleportać na obszar **spawnu**, posiadany lub współdzielony **teren**, lub inny należący do nas **magnetyt**. Ponadto, jeżeli nie stoi w chronionym miejscu, może zostać **zniszczony** przez **innego gracza**. Nie można go też przestawić, bowiem po wykopaniu ulega zniszczeniu.
+Magnetyt uzyskał zupełnie nowe zastosowanie i pełni on funkcję punktu teleportacji. Za jego pomocą możemy się teleportać na obszar **spawnu**, posiadany lub współdzielony **teren**, lub inny należący do nas **magnetyt**. Ponadto, jeżeli nie stoi w chronionym miejscu, może zostać **zniszczony** przez **innego gracza**. Nie można go też przestawić, bowiem po wykopaniu ulega zniszczeniu.
 
 <br />
 
