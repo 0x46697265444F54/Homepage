@@ -5,32 +5,62 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
     box-shadow: 0 0 6px 4px rgba(0, 0, 0, .1);
     border-radius: 8px;
 }
+.page {
+    p, ul, ol {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+    }
+    h4:hover {
+        text-decoration: none;
+    }
+    .dimension {
+        font-size: 1.20em;
+    }
+}
 </style>
 
 <!-- PAGE BEGINS HERE -->
 
 # **Generator Świata**
-Generator świata skupia się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.
+Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
 
-Świat jest otoczony granicą o wielkości **16,000** na **16,000** bloków.
+<br>
+
+<div class="page">
+
+**<i class="bi bi-globe-americas"></i> &nbsp; <span class="dimension">Overworld</span>**  
+Główny świat służy do **eksploracji**, **wydobywania surowców**, **budowania** i zakładania **chronionych działek**.
+- Rozmiar: **16,000** x **16,000**
+
+<br>
+
+**<i class="bi bi-fire"></i> &nbsp; <span class="dimension">Nether</span>**  
+Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**. Łup w skrzyniach jest indywidualny dla każdego gracza.
+- Rozmiar: **16,000** x **16,000**
+
+<br>
+
+**<i class="bi bi-moon-fill"></i> &nbsp; <span class="dimension">The End</span>**  
+Wymiar kresu został całkowicie **zredefiniowany** i służy jako miejsce do **zaliczania wyzwań** i **zdobywania nowych przedmiotów**.
 
 ### Środowisko
-Większość zmian środowiska zawdzięczamy modyfikacji **[Geophilic](https://modrinth.com/datapack/geophilic)**.
+Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack))** oraz **[Hearths](https://modrinth.com/datapack/hearths)**.
 
-![Birch Forest](assets/img/generator_1.jpeg)
-![Savanna](assets/img/generator_2.jpeg)
-![Desert](assets/img/generator_3.jpeg)
-![Meadows](assets/img/generator_4.jpeg)
-![Cherry Grove](assets/img/generator_5.jpeg)
-![Stony Shore](assets/img/generator_6.jpeg)
+![Taiga](assets/img/generator_1.webp)
+![Snowy Peaks](assets/img/generator_2.webp)
+![Snowy Taiga](assets/img/generator_3.webp)
+![Oasis](assets/img/generator_4.webp)
+![River](assets/img/generator_5.webp)
+![Sparse Jungle](assets/img/generator_6.webp)
 
 ### Struktury
-Większość dodatkowych struktur zawdzięczamy modyfikacji **[Explorify](https://modrinth.com/datapack/explorify)**.
+Używamy zmodyfikowanej wersji **[Explorify](https://modrinth.com/datapack/explorify)**.
 
-![Watchtower](https://cdn.modrinth.com/data/HSfsxuTo/images/967717efb7db9b67ac5978249d3fd5d1dbf1cabd.jpeg)
-![Guide Post](https://cdn.modrinth.com/data/HSfsxuTo/images/7f442e33491c428fcc8f4f906d25943f605471c2.jpeg)
-![Dark Forest Settlement](https://cdn.modrinth.com/data/HSfsxuTo/images/e803f27353f096a399acf8a2c416470e4f08e423.jpeg)
-![Ruins](https://cdn.modrinth.com/data/HSfsxuTo/images/cdd23ed1412f1966d8c0c5b8545a793534015feb.jpeg)
-![Campsite](https://cdn.modrinth.com/data/HSfsxuTo/images/8eedce58b5f48085e0cb091ad5358b56d9b698bf.jpeg)
+![Campsite](assets/img/struktury_1.webp)
+![Ruins](assets/img/struktury_2.webp)
+![Savanna Watchtower](assets/img/struktury_3.webp)
+![Guide Post](assets/img/struktury_4.webp)
+![Tavern](assets/img/struktury_5.webp)
 ![Black Spiral](https://cdn.modrinth.com/data/HSfsxuTo/images/4bdde9d88700b9fe35c30403580ad63fde3c4f43.jpeg)
 
+</div>

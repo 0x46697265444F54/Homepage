@@ -78,7 +78,7 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
   - Dodano **Sakwy** (Bundles), **małe warianty mobów** (delfin, kałamarnica, łosoś), oraz **wiele nowości technicznych**.
   - Pełna lista zmian dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.2**
 - Zupełnie **nowy**, **realistyczny** i bardzo **różnorodny** generator świata, który pozwala **poznać** świat gry **na nowo**.
-  - Więcej informacji na (jeszcze nie-)zaktualizowanej stronie: **[Generator Świata](generator.md)**
+  - Więcej informacji na zaktualizowanej stronie: **[Generator Świata](generator.md)**
 - Zupełnie **nowy** i bardziej **funkcjonalny** obszar spawnu.
   - Więcej informacji wokoło i mniej niewykorzystanej przestrzeni powinny poprawić pierwsze wrażenia z rozgrywki.
   - Dodano kilka interaktywnych NPC i hologramów pomagających w poznaniu serwera i nawigacji po okolicy. Między innymi:
