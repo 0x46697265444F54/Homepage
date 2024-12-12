@@ -85,6 +85,10 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
     - **Handlarz** --- Szybki dostęp do wybranego sklepu bez konieczności szukania poszczególnych sklepikarzy.
     - ...
 - Dodano nowy przedmiot --- **[Koszyk](przedmioty?id=koszyk)**, który pozwala **przechować** lub **przenieść** przyjaznego moba w dowolne miejsce.
+- **(TODO)** Dodano system **poziomów**, aby wyróżnić stałych graczy na serwerze.
+  - Dodana została nowa kategoria rankingu - **Maksymalny Poziom**, która wyróżniać będzie graczy z największą wartością poziomu.
+  - Wartością jest maksymalny poziom doświadczenia jaki gracz posiadał w jednym momencie.
+  - Poziomy wyświetlają się na czacie i na ten moment stanowią jedynie element kosmetyczny.
 - Dodano **6** nowych **zaklęć** na przedmioty.
   - **[Oszczędność](zaklecia?id=oszczednosc)** (Replenish) --- Szansa, że wystrzelona strzała nie zostanie użyta podczas strzału.
   - **[Zasięg](zaklecia?id=zasieg)** (Reach) --- Zwiększa zasięg ataku o **0.25** bloku za każdy poziom.
