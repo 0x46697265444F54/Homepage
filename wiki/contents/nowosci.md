@@ -63,7 +63,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
-## **2.0.0 — DRUGA EDYCJA** &nbsp; (WORK IN PROGRESS) <!-- {docsify-ignore} -->
+## **2.0.0 — DRUGA EDYCJA**<!-- {docsify-ignore} -->
 <sup>Opublikowano: **XX/XX/XXXX**</sup>
 
 Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom nich dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej. Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
@@ -75,9 +75,10 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 <h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
 <hr>
 
-- Zaktualizowano wersję **Minecrafta**, na której działa serwer: **1.21.1** ➜ **1.21.3**
-  - Dodano **Sakwy** (Bundles), **małe warianty mobów** (delfin, kałamarnica, łosoś), oraz **wiele nowości technicznych**.
-  - Pełna lista zmian dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.2**
+- Zaktualizowano wersję **Minecrafta**, na której działa serwer: **1.21.1** ➜ **1.21.4**
+  - Dodano **Sakwy** (Bundles), biom **Blady Ogród** (Pale Garden), moba **Trzeszcz** (Creaking) i wiele innych nowości.
+  - Pełna lista zmian w **1.21.2** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.2**
+  - Pełna lista zmian w **1.21.4** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.4**
 - Zupełnie **nowy**, **realistyczny** i bardzo **różnorodny** generator świata, który pozwala **poznać** świat gry **na nowo**.
   - Więcej informacji na zaktualizowanej stronie: **[Generator Świata](generator.md)**
 - Zupełnie **nowy** i bardziej **funkcjonalny** obszar spawnu.
