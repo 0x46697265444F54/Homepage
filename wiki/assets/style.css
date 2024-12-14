@@ -129,3 +129,13 @@ a {
 .red {
     color: #E04F44;
 }
+
+.soon {
+    font-weight: bold;
+    font-size: 0.85em;
+    color: white;
+    border-radius: 5px;
+    text-align: middle;
+    padding: 5px;
+    background-color: rgb(225, 88, 81);
+}

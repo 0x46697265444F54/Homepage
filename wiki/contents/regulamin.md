@@ -1,5 +1,7 @@
 <span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
 
+<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+
 # **Regulamin**
 <sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **09/07/2024**</sup>
 

@@ -17,6 +17,8 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 }
 </style>
 
+<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+
 # **Przedmioty**
 Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z nich można napotkać przypadkiem podczas normalnej rozgrywki, jednak niektóre przedmioty specjalne uzyskać można tylko w określony sposób.
 

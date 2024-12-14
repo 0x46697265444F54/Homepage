@@ -22,6 +22,8 @@
 
 <!-- PAGE BEGINS HERE -->
 
+<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+
 # **Zaklęcia**
 Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadaniem jest ułatwienie rozgrywki na wielu płaszczyznach. Większość enchantów można uzyskać za pomocą stołu do zaklęć, ale zdobycie niektórych z nich wymaga trochę więcej wysiłku.
 

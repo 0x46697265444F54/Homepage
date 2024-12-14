@@ -15,6 +15,8 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 
 <!-- PAGE BEGINS HERE -->
 
+<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+
 # **Nawigacja**
 Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy na większości innych serwerów. Ukryliśmy część informacji na ekranie debugowania oraz dodaliśmy nowe funkcje dla przedmiotów, które istnieją w grze od samego początku, ale dotychczas oferowały zbyt mało możliwości.
 

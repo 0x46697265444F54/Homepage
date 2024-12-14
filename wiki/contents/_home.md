@@ -61,6 +61,8 @@
 }
 </style>
 
+<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+
 # **FireDOT v2**
 Druga odsłona **casualowego** serwera opierającego się na klasycznym trybie **przetrwania** o zwiększonym poziomie trudności i zbalansowanym specjalnie pod rozgrywkę wieloosobową.
 

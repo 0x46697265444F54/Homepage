@@ -17,6 +17,8 @@
 
 <!-- PAGE BEGINS HERE -->
 
+<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+
 # **Receptury**
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
