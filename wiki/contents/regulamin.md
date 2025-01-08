@@ -3,7 +3,7 @@
 <span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
 
 # **Regulamin**
-<sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **09/07/2024**</sup>
+<sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **08/01/2025**</sup>
 
 ### §1 CZAT DISCORD <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
@@ -25,7 +25,7 @@
 - Zakaz wykorzystywania błędów gry lub serwera.
 - Zakaz działania na szkodę serwera.
 - Zakaz wznoszenia obraźliwych lub niestosownych budowli.
-- Zakaz griefowania oraz utrudniania rozgrywki innym graczom.
+- Zakaz griefowania, oszukiwania, okradania i utrudniania rozgrywki innym graczom.
 
 ### §5 POSTANOWIENIA KOŃCOWE <!-- {docsify-ignore} -->
 - Mamy prawo wyczyścić serwer i wprowadzić nową edycję.
