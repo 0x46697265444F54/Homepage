@@ -12,7 +12,7 @@ Podstawowy blok można wytworzyć za pomocą poniższej receptury:
 
 ![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](assets/img/claim_block_recipe.png ":no-zoom")
 
-Każdy gracz może posiadać maksymalnie **pięć** aktywnych terenów, a każdy z nich ma dodatkowo **pięć** poziomów ulepszeń.
+Domyślnie każdy z graczy może utworzyć utworzyć jeden chroniony obszar. Zwiększyć ten limit można poprzez zakup ulepszeń u handlarza na spawnie.
 
 ### Panel Zarządzania
 Panel zarządzania można otworzyć poprzez **interakcję** z blokiem terenu, lub za pomocą komendy **/claims**. Obecnie udostępnia on poniższe funkcje:
@@ -40,6 +40,6 @@ Każdy teren może zostać ulepszony **pięć** razy. Aby postawić **nowy** ter
   - Koszt: **16x Szmaragd**
   - Rozmiar: **71 x 71**
 - **Szmaragd** ⟶ **Netheryt** 
-  - Koszt: **4x Sztabka Netherytu**
+  - Koszt: **2x Sztabka Netherytu**
   - Rozmiar: **81 x 81**
   
