@@ -36,9 +36,13 @@ Koszyk to przedmiot specjalny, który służy do **podnoszenia stworzeń** i **p
 ![Koszyk](assets/img/basket.png ":no-zoom")  
 <sup>Część tekstur pochodzi z paczki **[Mob Crates](https://modrinth.com/resourcepack/mob-crates)**.</sup>
 
-
 ### Młotek
-Młotek to przedmiot specjalny, który trzymany w ręce zwiększa zasięg stawiania i niszczenia bloków. Można go stworzyć za pomocą poniższej receptury:  
+Młotek to przedmiot specjalny, który trzymany w ręce **zwiększa zasięg stawiania** i **niszczenia bloków**. Jest on szczególnie przydatny podczas budowania na wysokości i w trudno dostępnych miejscach.
+Młotek można kupić u **handlarza na spawnie**.  
 ![Młotek](assets/img/hammer.png ":no-zoom")  
+
+### Enderyt
+Enderyt to **nowy surowiec**, który można **pozyskać** poprzez **zaliczanie wyzwań** w wymiarze kresu. Stanowi **jeden ze składników** szablonu, pozwalającego na **ulepszenie netherytowych narzędzi i zbroi** do **kolejnego poziomu**.  
+![Enderyt](assets/img/enderite.png ":no-zoom")  
 
 </page>
