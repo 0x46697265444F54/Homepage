@@ -30,6 +30,10 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.  
   ![Obrażenia](assets/img/floaters.jpeg)  
 
+- **Handel z Osadnikami**  
+  Na serwerze włączona została eksperymentalna paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
+  ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
+
 ### Moby
 
 - **Phantomy**  
