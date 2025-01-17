@@ -63,7 +63,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
-## **2.0.0 — DRUGA EDYCJA**<!-- {docsify-ignore} -->
+## **2.0.0 — DRUGA EDYCJA** <!-- {docsify-ignore} -->
 <sup>Opublikowano: **XX/XX/XXXX**</sup>
 
 Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom nich dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej. Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
@@ -79,28 +79,58 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
   - Dodano **Sakwy** (Bundles), biom **Blady Ogród** (Pale Garden), moba **Trzeszcz** (Creaking) i wiele innych nowości.
   - Pełna lista zmian w **1.21.2** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.2**
   - Pełna lista zmian w **1.21.4** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.4**
-- Zupełnie **nowy**, **realistyczny** i bardzo **różnorodny** generator świata, który pozwala **poznać** świat gry **na nowo**.
-  - Więcej informacji na zaktualizowanej stronie: **[Generator Świata](generator.md)**
-- Zupełnie **nowy** i bardziej **funkcjonalny** obszar spawnu.
-  - Więcej informacji wokoło i mniej niewykorzystanej przestrzeni powinny poprawić pierwsze wrażenia z rozgrywki.
-  - Dodano kilka interaktywnych NPC i hologramów pomagających w poznaniu serwera i nawigacji po okolicy. Między innymi:
-    - **Handlarz** --- Szybki dostęp do wybranego sklepu bez konieczności szukania poszczególnych sklepikarzy.
-    - ...
-- Dodano nowy przedmiot --- **[Koszyk](przedmioty?id=koszyk)**, który pozwala **przechować** lub **przenieść** przyjaznego moba w dowolne miejsce.
-- **(TODO)** Dodano system **poziomów**, aby wyróżnić stałych graczy na serwerze.
-  - Dodana została nowa kategoria rankingu - **Maksymalny Poziom**, która wyróżniać będzie graczy z największą wartością poziomu.
-  - Wartością jest maksymalny poziom doświadczenia jaki gracz posiadał w jednym momencie.
-  - Poziomy wyświetlają się na czacie i na ten moment stanowią jedynie element kosmetyczny.
-- Dodano **6** nowych **zaklęć** na przedmioty.
+- Dodano nowy, realistyczny **[Generator Świata](generator.md)** charakteryzujący się bardzo dużą różnorodnością.
+- Dodano nowy, bardziej przejrzysty **Punkt Spawnu** zaprojektowany z myślą o funkcjonalności.
+- Dodano całkowicie zredefiniowany **Wymiar Kresu**.
+  - Dostęp przez portal z **dowolnej twierdzy** znajdującej się na mapie.
+  - Głównym zajęciem na wyspie jest **zaliczanie wyzwań** i **otwieranie skarbców** z zupełnie nowymi nagrodami.
+- Dodano **Dom Aukcyjny**, jako formę handlu pomiędzy graczami.
+  - Komenda **/auctions** otwiera interfejs domu aukcyjnego.
+  - Komenda **/offer (cena)** wystawia na sprzedaż trzymany w ręce przedmiot.
+  - Komenda może zostać użyta tylko w obrębie spawnu lub autoryzowanego terenu.
+- Dodano **System Ulepszeń**, dzięki którym można:
+  - Zwiększyć maks. liczbę **aktywnych terenów**. (Maks. **10**)
+  - Zwiększyć maks. liczbę **aktywnych magnetytów**. (Maks. **10**)
+  - Zwiększyć maks. liczbę **aktywnych ofert** w **domu aukcyjnym**. (Maks. **12**)
+- Dodano **System Poziomów**, zwany **Stopniami**.
+  - Stopień to liczba zależna od różnych czynników, mająca na celu wyróżnić graczy aktywnie spędzających czas na serwerze.
+  - System będzie rozbudowywany wraz z rozwojem serwera.
+- Dodano **System Weryfikacji** pozwalający na przypisanie konta **Discord** do nicku.
+  - Zweryfikowani gracze mają dostęp do dodatkowego zadania dziennego.
+  - System będzie rozbudowywany wraz z rozwojem serwera.
+- Dodano losowo generowane **Zadania Dzienne**, za których wykonanie przyznawana jest nagroda.
+  - Komenda **/quests** otwiera listę dostępnych zadań.
+- Dodano **20** nowych **Przedmiotów**:
+  - Cztery nowe płyty muzyczne, które można zdobyć m.in. ze skrzynki za oddanie głosu na serwer.
+  - **[Koszyk](przedmioty?id=koszyk)** --- Umożliwia przechowywanie i przeniesienie przyjaznego moba w dowolne miejsce.
+  - **[Zwój Powrotu](teleporty?id=zwoje)** --- Umożliwia teleportację na spawn z dowolnego miejsca na mapie.
+  - **[Zwój Odzyskania](teleporty?id=zwoje)** --- Umożliwia teleportację do miejsca ostatniej śmierci, z dowolnego miejsca na mapie.
+  - **[Enderyt](przedmioty?id=enderyt)** --- Grupa przedmiotów charakterystycznych dla wymiaru kresu:
+    - **Enderytowy Klucz** --- Klucz do skarbców znajdujących się w wymiarze kresu.
+    - **Sztabka Enderytu** --- Główny składnik receptury na enderytowe ulepszenie.
+    - **Enderytowe Ulepszenie** --- Za jego pomocą można ulepszyć netherytowe wyposażenie do kolejnego poziomu.
+    - **Enderytowa Zbroja** --- Dodatkowy poziom zbroi z ulepszonymi statystykami.
+    - **Enderytowe Narzędzia** --- Dodatkowy poziom narzędzi z ulepszonymi statystykami.
+- Dodano **6** nowych **Zaklęć** na przedmioty.
   - **[Oszczędność](zaklecia?id=oszczednosc)** (Replenish) --- Szansa, że wystrzelona strzała nie zostanie użyta podczas strzału.
   - **[Zasięg](zaklecia?id=zasieg)** (Reach) --- Zwiększa zasięg ataku o **0.25** bloku za każdy poziom.
   - **[Poręczność](zaklecia?id=porecznosc)** (Swift Strike) --- Zwiększa szybkość ataku o **12.5%** za każdy poziom.
   - **[Ognisty Piechur](zaklecia?id=ognisty-piechur)** (Scorch Walker) --- Zamienia powierzchnię lawy a magmę.
   - **[Wędrowiec](zaklecia?id=wedrowiec)** (Stride) --- Pozwala wchodzić po pełnych blokach jak po schodach.
   - **[Wabik](zaklecia?id=wabik)** (Bait) --- Szansa na złowienie kilku przedmiotów za jednym razem.
-- Dodano komendę **/border**, za pomocą której można sprawdzić granice dowolnego terenu.
+- Dodano **4** nowe **Kategorie Rankingu**:
+  - **Stopień** --- Liczba odzwierciedlająca zaangażowanie gracza na serwerze.
+  - **Wykonane Zadania** --- Liczba wykonanych zadań dziennych.
+  - **Wykopane Bloki** --- Łączna liczby wszystkich wykopanych bloków.
+  - **Zaklęte Przedmioty** --- Łączna liczba wszystkich zaklętych przedmiotów.
+- Dodano **2** nowe **Obrazy** do odkrycia przez graczy.
+- Dodano **2** nowe **Skrzynki**, do których klucze można kupić za serwerową walutę.
 - Dodano powiadomienie na czacie, gdy z zabitego moba wypadła jego głowa.
-- ...
+- Dodano komendę **/border**, za pomocą której można sprawdzić granice dowolnego terenu.
+- Dodano komendę **/efekty** dostępną dla graczy z rangą **Donator** oraz **Booster**.
+  - **Cząsteczka** wybrana za pomocą tej komendy **podąża za graczem**.
+- Dodano komendę **/shops**, za pomocą której można otworzyć listę sklepów.
+  - Komenda może zostać użyta tylko w obrębie spawnu lub autoryzowanego terenu.
 
 </div>
 
@@ -109,31 +139,35 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 <h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
 <hr>
 
-- Paczki zasobów dostarczane przez serwer zostały zaktualizowane i skompletowane na nowo.
+- Zaktuzlizowano **Paczki Zasobów** dostarczane przez serwer.
   - Kilka nowych tekstur poprawiających doświadczenia wizualne podczas rozgrywki.
   - Odświeżony wygląd interfejsu gracza i niestandardowych ekranów.
   - Banery na tarczach mają teraz jednakową rozdzielczość jak te w formie bloku.
-- Zaktualizowano wygląd strony głównej serwera i dokumentacji.
+- Zaktualizowano wygląd **Strony Głównej** serwera i **Dokumentacji**.
   - Nowa czcionka tytułowa i bardziej przejrzysta czcionka główna w dokumentacji serwera.
   - Zmiany w kolorystyce i układzie pasków nawigacyjnych i stron dokumentacji.
-- Zaktualizowano zawartość dokumentacji serwera.
-  - Przepisano tekst na większości stronach.
+- Zaktualizowano zawartość **Dokumentacji** serwera.
+  - Przepisano tekst na większości stron.
   - Na niektórych stronach można teraz znaleźć spis treści.
   - Dodano kilka nowych stron zawierających przydatne informacje:
     - **[Nawigacja](nawigacja.md)** --- Poradnik w nawigacji po mapie serwera.
     - **[Zaklęcia](zaklecia.md)** --- Lista niestandardowych zaklęć dostępnych na serwerze.
     - **[Przedmioty](przedmioty.md)** --- Lista niestandardowych przedmiotów dostępnych na serwerze.
-- Ulepszono **integrację** czatu **Minecraft** ⟷ **Discord**.
+  - Dodano listę dozwolonych i zabronionych modyfikacji do regulaminu.
+- Ulepszono **Integrację Czatu** z serwerem **Discord**.
   - Wzmianki są teraz wyszczególnione specjalnym kolorem.
   - Dodano oznaczenie, gdy użytkownik odpowiada na czyjąś wiadomość.
-- Dodano **1x Sakwa** (Bundle) do przedmiotów startowych i zwiększono ilość otrzymywanego pożywienia.
-- Skrzynie w **bastionach** i innych strukturach generujących się w **wymiarze netheru**, mają teraz **unikalną zawartość** dla **każdego** gracza.
-  - Zawartość jest generowana w momencie, gdy gracz otwiera skrzynię.
+- Skrzynie w **Bastionach** i innych strukturach generujących się w **Wymiarze Netheru**, mają teraz unikalną zawartość dla każdego gracza.
   - Każdy gracz może wygenerować zawartość tylko jeden raz.
-  - Każdorazowe wygenerowanie zawartości nakłada cooldown o długości 12-48h, podczas którego skrzynia nie może wygenerować nowych przedmiotów.
-  - Celem jest wyrównanie szansy na zdobycie unikalnych dla wymiaru przedmiotów, a zarazem zminimalizować konieczność jego regularnego resetowania.
-- Banery na tarczach mają teraz jednakową rozdzielczość jak te w formie bloku.
-- ...
+  - Każdorazowe wygenerowanie zawartości nakłada cooldown o długości od **12h** do **48h**, podczas którego skrzynia nie może wygenerować nowych przedmiotów.
+  - Celem jest wyrównanie szansy na zdobycie unikalnych dla wymiaru przedmiotów.
+- Zmieniono działanie **Ogniska**.
+  - Regeneracja punktów życia jest teraz szybsza i bardziej skuteczna.
+  - Gracz znajdujący się w promieniu ogniska nie jest teraz obierany za cel przez moby agresywne.
+    - Aktywne tylko przy niskim poziomie oświetlenia oraz w nocy.
+- Dodano **1x Sakwa** (Bundle) do przedmiotów startowych i zwiększono ilość otrzymywanego pożywienia.
+- Zmniejszono koszt ostatniego ulepszenia terenu: ~~**4x Sztabka Netherytu**~~ ➜ **2x Sztabka Netherytu**
+- Indywidualna pozycja w rankingu jest teraz widoczna w tabeli.
 
 </div>
 
@@ -146,9 +180,9 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
   - Spawnery stanowią wyjatęk i nie są już blokowane przez tę flagę.
   - Ryby, aksoloty i kijanki nie znikają już po użyciu wiaderka.
 - Poprawiono teleportację poprzez portal powrotny w wymiarze piekła. Gracz nie zostanie już przeniesiony w miejsce, w którym nie może niszczyć ani stawiać bloków.
-- Poprawiono nieprawidłowe wyświetlanie się skomplikowanych emoji na czacie w grze.
+- Poprawiono nieprawidłowe wyświetlanie się skomplikowanych emoji na czacie.
 - Wyłączono możliwość użycia placeholdera **\<item>** przy zmianie nazwy terenu lub magnetytu.
-- ...
+- Cała masa innych poprawek...
 
 </div>
 
