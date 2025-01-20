@@ -52,8 +52,12 @@
     --color: rgb(126, 172, 190)
 }
 
-.feature.ekonomia  {
+.feature.ekonomia {
     --color: rgb(24, 179, 86)
+}
+
+.feature.ekwipunek {
+    --color: rgb(121, 132, 136)
 }
 
 .bright {
@@ -64,12 +68,12 @@
 <span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
 
 # **FireDOT v2**
-Druga odsłona **casualowego** serwera opierającego się na klasycznym trybie **przetrwania** o zwiększonym poziomie trudności i zbalansowanym specjalnie pod rozgrywkę wieloosobową.
+Druga odsłona **CASUALOWEGO** serwera opierającego się na klasycznym trybie **PRZETRWANIA** o zwiększonym poziomie trudności i zbalansowanym specjalnie pod rozgrywkę wieloosobową.
 
-Jest to serwer przede wszystkim dla tych, którzy **szukają wyzwania** i odrobiny **świeżości** względem innych serwerów Minecraft.
+Jest to serwer przede wszystkim dla tych, którzy **SZUKAJĄ WYZWANIA** i odrobiny **ŚWIEŻOŚCI** względem innych serwerów Minecraft.
 
-- Absolutnie brak elementów **pay-to-win**. Wszystkich graczy traktujemy równo i sprawiedliwie.
-- Komendy **/spawn**, **/home**, **/tpa** zostały zastąpione **systemem waypointów**.
+- Absolutnie **BRAK ELEMENTÓW PAY2WIN**. Wszystkich graczy traktujemy równo i sprawiedliwie.
+- Komendy **/SPAWN**, **/HOME**, **/TPA** zostały zastąpione **SYSTEMEM WAYPOINTÓW**.
 
 ### Najważniejsze Funkcje
 Niekompletna lista zmian i dodatków dostępnych na serwerze.
@@ -97,6 +101,9 @@ Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynam
 
 - 💲 &nbsp; <span class="feature ekonomia">**[Podstawowa Ekonomia](/ekonomia)**</span>  
 Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.
+ 
+- 🪦 &nbsp; <span class="feature ekwipunek">**[Zasady Ekwipunku](/inne?id=ogolne)**</span>  
+W momencie śmierci, gracz zachowuje przedmioty z paska szybkiego dostępu oraz noszoną zbroję.
 
 ### Paczka Zasobów
 Gra na naszym serwerze **wymaga** zaakceptowania paczki zasobów. Zawiera ona tekstury, których używamy do wyświetlania **niestandardowych ekranów**, **przedmiotów**, **ikon** i **efektów**. Ponadto, w celu **poprawy wrażeń z rozgrywki** i **wprowadzeniu odrobiny świeżości**, znajdują się w niej starannie wybrane tesktury **poprawiające ogólny wygląd gry** jednocześnie nie odbiegając w znaczący sposób od jej oryginalnego stylu.
