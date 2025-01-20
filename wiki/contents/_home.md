@@ -32,7 +32,7 @@
     --color: rgb(225, 88, 81)    
 }
 
-.feature.teleporty {
+.feature.teleportacja {
     --color: rgb(25, 136, 253)
 }
 
@@ -80,7 +80,7 @@ Generator świata skupiający się na upiększeniu istniejących biomów i urozm
 - 🚩 &nbsp; <span class="feature tereny">**[Chronione Tereny](/tereny)**</span>  
 Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.
 
-- 🌀 &nbsp; <span class="feature teleporty">**[Teleporty](/teleporty)**</span>  
+- 🌀 &nbsp; <span class="feature teleportacja">**[Teleportacja](/teleportacja)**</span>  
 Blok magnetytu na serwerze pełni funkcję prywatnego teleportu.
 
 - 📦 &nbsp; <span class="feature zawartosc">**[Nowe Przedmioty](/przedmioty)**</span>  

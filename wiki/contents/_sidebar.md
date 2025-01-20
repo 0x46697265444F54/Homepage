@@ -6,7 +6,7 @@
 - [<i class="bi bi-compass-fill"></i>Nawigacja](/nawigacja.md)
 - [<i class="bi bi-globe-americas"></i>Generator Świata](/generator.md)
 - [<i class="bi bi-flag-fill"></i>Chronione Tereny](/tereny.md)
-- [<i class="bi bi-rocket-takeoff-fill"></i>Teleporty](/teleporty.md)
+- [<i class="bi bi-rocket-takeoff-fill"></i>Teleportacja](/teleportacja.md)
 - [<i class="bi bi-magic"></i>Zaklęcia](/zaklecia.md)
 - [<i class="bi bi-box-seam-fill"></i>Przedmioty](/przedmioty.md)
 - [<i class="bi bi-tree-fill"></i>Rolnictwo](/rolnictwo.md)

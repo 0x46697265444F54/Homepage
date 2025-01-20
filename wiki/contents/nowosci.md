@@ -103,8 +103,8 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 - Dodano **20** nowych **Przedmiotów**:
   - Cztery nowe płyty muzyczne, które można zdobyć m.in. ze skrzynki za oddanie głosu na serwer.
   - **[Koszyk](przedmioty?id=koszyk)** --- Umożliwia przechowywanie i przeniesienie przyjaznego moba w dowolne miejsce.
-  - **[Zwój Powrotu](teleporty?id=zwoje)** --- Umożliwia teleportację na spawn z dowolnego miejsca na mapie.
-  - **[Zwój Odzyskania](teleporty?id=zwoje)** --- Umożliwia teleportację do miejsca ostatniej śmierci, z dowolnego miejsca na mapie.
+  - **[Zwój Powrotu](teleportacja?id=zwoje)** --- Umożliwia teleportację na spawn z dowolnego miejsca na mapie.
+  - **[Zwój Odzyskania](teleportacja?id=zwoje)** --- Umożliwia teleportację do miejsca ostatniej śmierci, z dowolnego miejsca na mapie.
   - **[Enderyt](przedmioty?id=enderyt)** --- Grupa przedmiotów charakterystycznych dla wymiaru kresu:
     - **Enderytowy Klucz** --- Klucz do skarbców znajdujących się w wymiarze kresu.
     - **Sztabka Enderytu** --- Główny składnik receptury na enderytowe ulepszenie.
