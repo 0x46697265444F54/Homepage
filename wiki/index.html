@@ -66,7 +66,7 @@
     }
 
     function updateThemeIcon() {
-        const isDarkTheme = localStorage.getItem("isDarkMode") === "true"
+        const isDarkTheme = localStorage.getItem("isDarkMode") === null || localStorage.getItem("isDarkMode") === "true"
         const icon = document.getElementById("theme")
         // Replacing icons based on current theme preference. (ENABLING)
         if (isDarkTheme === true)
@@ -77,7 +77,7 @@
 
     function toggleTheme(isInitial) {
         // Getting theme preference.
-        let isDarkTheme = localStorage.getItem("isDarkMode") === "true"
+        let isDarkTheme = localStorage.getItem("isDarkMode") === null || localStorage.getItem("isDarkMode") === "true"
         // When 'isInitial' is 'true', theme is not toggled but applied based on user preference.
         if (isInitial === true) {
             if (isDarkTheme === true) {
