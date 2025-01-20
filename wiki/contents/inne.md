@@ -31,7 +31,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   ![Obrażenia](assets/img/floaters.jpeg)  
 
 - **Handel z Osadnikami**  
-  Na serwerze włączona została eksperymentalna paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
+  Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
   ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
 
 ### Moby

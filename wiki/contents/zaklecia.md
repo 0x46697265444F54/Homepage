@@ -139,7 +139,7 @@ Uderzona ofiara otrzymuje efekt obumierania.
 - Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
 
 ### Oszczędność <span class="translation">(Replenish)</span> :id=oszczednosc
-Szansa (50%), że wystrzelona strzała nie zostanie użyta podczas strzału.
+Szansa (50%), że wystrzelona strzała nie zostanie utracona.
 - Przeznaczenie: **Łuk**, **Kusza**
 - Maks. Poziom: **I**
 - Wyklucza: **Nieskończoność** (Infinity)

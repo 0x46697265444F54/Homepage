@@ -112,7 +112,7 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
     - **Enderytowa Zbroja** --- Dodatkowy poziom zbroi z ulepszonymi statystykami.
     - **Enderytowe Narzędzia** --- Dodatkowy poziom narzędzi z ulepszonymi statystykami.
 - Dodano **6** nowych **Zaklęć** na przedmioty.
-  - **[Oszczędność](zaklecia?id=oszczednosc)** (Replenish) --- Szansa, że wystrzelona strzała nie zostanie użyta podczas strzału.
+  - **[Oszczędność](zaklecia?id=oszczednosc)** (Replenish) --- Szansa, że wystrzelona strzała nie zostanie utracona.
   - **[Zasięg](zaklecia?id=zasieg)** (Reach) --- Zwiększa zasięg ataku o **0.25** bloku za każdy poziom.
   - **[Poręczność](zaklecia?id=porecznosc)** (Swift Strike) --- Zwiększa szybkość ataku o **12.5%** za każdy poziom.
   - **[Ognisty Piechur](zaklecia?id=ognisty-piechur)** (Scorch Walker) --- Zamienia powierzchnię lawy a magmę.
