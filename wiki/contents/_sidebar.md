@@ -10,6 +10,7 @@
 - [<i class="bi bi-magic"></i>Zaklęcia](/zaklecia.md)
 - [<i class="bi bi-box-seam-fill"></i>Przedmioty](/przedmioty.md)
 - [<i class="bi bi-tree-fill"></i>Rolnictwo](/rolnictwo.md)
+- [<i class="bi bi-currency-dollar"></i>Ekonomia](/ekonomia.md)
 - [<i class="bi bi-gear-fill"></i>Receptury](/receptury.md)
 - [<i class="bi bi-wrench-adjustable"></i>Inne](/inne.md)
 

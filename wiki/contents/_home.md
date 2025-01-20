@@ -95,7 +95,7 @@ Rośliny rosną z różną prędkością w zależności od biomu, na którym si�
 - ⚙️ &nbsp; <span class="feature receptury">**[Zbalansowane Receptury](/receptury)**</span>  
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
-- 💲 &nbsp; <span class="feature ekonomia">**[Podstawowa Ekonomia]()**</span>  
+- 💲 &nbsp; <span class="feature ekonomia">**[Podstawowa Ekonomia](/ekonomia)**</span>  
 Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.
 
 ### Paczka Zasobów
