@@ -68,12 +68,9 @@
 <span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
 
 # **FireDOT v2**
-Druga odsłona **CASUALOWEGO** serwera opierającego się na klasycznym trybie **PRZETRWANIA** o zwiększonym poziomie trudności i zbalansowanym specjalnie pod rozgrywkę wieloosobową.
+Serwer opierający się na trybie **przetrwania** stworzony z myślą o prawdziwie wymagających i znudzonych graczach. Stylizowany na **vanilla-friendly**, lecz z pasującymi do świata i intuicyjnymi w obsłudze dodatkami.
 
-Jest to serwer przede wszystkim dla tych, którzy **SZUKAJĄ WYZWANIA** i odrobiny **ŚWIEŻOŚCI** względem innych serwerów Minecraft.
-
-- Absolutnie **BRAK ELEMENTÓW PAY2WIN**. Wszystkich graczy traktujemy równo i sprawiedliwie.
-- Komendy **/SPAWN**, **/HOME**, **/TPA** zostały zastąpione **SYSTEMEM WAYPOINTÓW**.
+Nasza społeczność jest **pomocna** i preferuje rozgrywkę **PVE**. Na serwerze nie znajdziesz żadnych elementów **pay-to-win**.
 
 ### Najważniejsze Funkcje
 Niekompletna lista zmian i dodatków dostępnych na serwerze.
@@ -85,10 +82,10 @@ Generator świata skupiający się na upiększeniu istniejących biomów i urozm
 Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.
 
 - 🌀 &nbsp; <span class="feature teleportacja">**[Teleportacja](/teleportacja)**</span>  
-Blok magnetytu na serwerze pełni funkcję prywatnego teleportu.
+Magnetytu na serwerze pełni funkcję prywatnego teleportu.
 
 - 📦 &nbsp; <span class="feature zawartosc">**[Nowe Przedmioty](/przedmioty)**</span>  
-Kilka nowych, mniej lub bardziej użytecznych przedmiotów.
+Kilka nowych i użytecznych przedmiotów.
 
 - 🔮 &nbsp; <span class="feature zaklecia">**[Nowe Zaklęcia](/zaklecia)**</span>  
 Kilka nowych zaklęć przenoszących rozgrywkę na wyższy poziom.
@@ -97,7 +94,7 @@ Kilka nowych zaklęć przenoszących rozgrywkę na wyższy poziom.
 Rośliny rosną z różną prędkością w zależności od biomu, na którym się znajdują.
 
 - ⚙️ &nbsp; <span class="feature receptury">**[Zbalansowane Receptury](/receptury)**</span>  
-Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
+Nowe i zmodyfikowane receptury balansujące dynamikę rozgrywki.
 
 - 💲 &nbsp; <span class="feature ekonomia">**[Podstawowa Ekonomia](/ekonomia)**</span>  
 Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.
