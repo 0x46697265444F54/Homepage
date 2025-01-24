@@ -77,9 +77,9 @@ html {
         font-family: 'Pixelify Sans', sans-serif;
 
         .intro {
-            font-size: 6em;
+            font-size: 7.5em;
             font-weight: 600;
-            text-shadow: 4px 4px 1px rgba(0, 0, 0, .1);
+            text-shadow: 5px 5px 0px rgba(0, 0, 0, .15);
         }
 
         .intro #title {
@@ -94,7 +94,7 @@ html {
             color: rgba(255, 255, 255, .15);
             padding-top: 20px;
             opacity: 0;
-            font-size: 1.25em;
+            font-size: 2.5em;
             font-weight: 600;
             vertical-align: top;
             animation: fade-in 0.8s forwards 1s;
@@ -106,7 +106,7 @@ html {
             margin-left: 0.25em;
             text-decoration: none;
             margin-right: 0.25em;
-            text-shadow: 3px 3px 1px rgba(0, 0, 0, .1);
+            text-shadow: 4px 4px 0px rgba(0, 0, 0, .15);
         }
 
         footer {
