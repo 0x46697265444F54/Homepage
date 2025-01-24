@@ -66,7 +66,11 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 ## **2.0.0 — DRUGA EDYCJA** <!-- {docsify-ignore} -->
 <sup>Opublikowano: **XX/XX/XXXX**</sup>
 
-Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom nich dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej. Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
+Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom niż dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej.
+
+<br>
+
+Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
 
 <br/>
 
@@ -89,9 +93,9 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
   - Komenda **/offer (cena)** wystawia na sprzedaż trzymany w ręce przedmiot.
   - Komenda może zostać użyta tylko w obrębie spawnu lub autoryzowanego terenu.
 - Dodano **System Ulepszeń**, dzięki którym można:
-  - Zwiększyć maks. liczbę **aktywnych terenów**. (Maks. **10**)
-  - Zwiększyć maks. liczbę **aktywnych magnetytów**. (Maks. **10**)
-  - Zwiększyć maks. liczbę **aktywnych ofert** w **domu aukcyjnym**. (Maks. **12**)
+  - Zwiększyć maks. liczbę **aktywnych terenów**. (Maks. **10**)
+  - Zwiększyć maks. liczbę **aktywnych magnetytów**. (Maks. **10**)
+  - Zwiększyć maks. liczbę **aktywnych ofert** w **domu aukcyjnym**. (Maks. **12**)
 - Dodano **System Poziomów**, zwany **Stopniami**.
   - Stopień to liczba zależna od różnych czynników, mająca na celu wyróżnić graczy aktywnie spędzających czas na serwerze.
   - System będzie rozbudowywany wraz z rozwojem serwera.
@@ -139,7 +143,7 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 <h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
 <hr>
 
-- Zaktuzlizowano **Paczki Zasobów** dostarczane przez serwer.
+- Zaktualizowano **Paczki Zasobów** dostarczane przez serwer.
   - Kilka nowych tekstur poprawiających doświadczenia wizualne podczas rozgrywki.
   - Odświeżony wygląd interfejsu gracza i niestandardowych ekranów.
   - Banery na tarczach mają teraz jednakową rozdzielczość jak te w formie bloku.
@@ -154,6 +158,8 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
     - **[Zaklęcia](zaklecia.md)** --- Lista niestandardowych zaklęć dostępnych na serwerze.
     - **[Przedmioty](przedmioty.md)** --- Lista niestandardowych przedmiotów dostępnych na serwerze.
   - Dodano listę dozwolonych i zabronionych modyfikacji do regulaminu.
+- Zaktualizowano komendę **/crafting**, która wyświetla receptury dostępne na serwerze.
+  - Interfejs został odświeżony i jest teraz bardziej przejrzysty.
 - Ulepszono **Integrację Czatu** z serwerem **Discord**.
   - Wzmianki są teraz wyszczególnione specjalnym kolorem.
   - Dodano oznaczenie, gdy użytkownik odpowiada na czyjąś wiadomość.
@@ -165,6 +171,10 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
   - Regeneracja punktów życia jest teraz szybsza i bardziej skuteczna.
   - Gracz znajdujący się w promieniu ogniska nie jest teraz obierany za cel przez moby agresywne.
     - Aktywne tylko przy niskim poziomie oświetlenia oraz w nocy.
+- Zaktualizowano **System Głosowania** na serwerze.
+  - Dodano komendę **/vote**, która otwiera interfejs pomagający w procesie głosowania.
+  - Dodano **2** dodatkowe strony, na których gracz każdego dnia może oddać głos.
+  - Zaktualizowano zawartość skrzynki **Głosowanie**.
 - Dodano **1x Sakwa** (Bundle) do przedmiotów startowych i zwiększono ilość otrzymywanego pożywienia.
 - Zmniejszono koszt ostatniego ulepszenia terenu: ~~**4x Sztabka Netherytu**~~ ➜ **2x Sztabka Netherytu**
 - Indywidualna pozycja w rankingu jest teraz widoczna w tabeli.
@@ -177,9 +187,10 @@ Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym roz
 <hr>
 
 - Poprawiono problemy związane z flagą **Spawn Mobów**.
-  - Spawnery stanowią wyjatęk i nie są już blokowane przez tę flagę.
-  - Ryby, aksoloty i kijanki nie znikają już po użyciu wiaderka.
-- Poprawiono teleportację poprzez portal powrotny w wymiarze piekła. Gracz nie zostanie już przeniesiony w miejsce, w którym nie może niszczyć ani stawiać bloków.
+  - Spawnery stanowią wyjatęk i nie są już blokowane przez tę flagę.
+  - Problemy z nie pojawiającymi się mobami zostały rozwiązane.
+- Poprawiono teleportację przez portal powrotny w wymiarze piekła.
+  - Gracz nie zostanie już przeniesiony w miejsce, w którym nie może niszczyć ani stawiać bloków.
 - Poprawiono nieprawidłowe wyświetlanie się skomplikowanych emoji na czacie.
 - Wyłączono możliwość użycia placeholdera **\<item>** przy zmianie nazwy terenu lub magnetytu.
 - Cała masa innych poprawek...
