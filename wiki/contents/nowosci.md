@@ -64,7 +64,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 <div class="page">
 
 ## **2.0.0 — DRUGA EDYCJA** <!-- {docsify-ignore} -->
-<sup>Opublikowano: **XX/XX/XXXX**</sup>
+<sup>Opublikowano: **01/02/2025**</sup>
 
 Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom niż dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej.
 
@@ -84,6 +84,7 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
   - Pełna lista zmian w **1.21.2** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.2**
   - Pełna lista zmian w **1.21.4** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.4**
 - Dodano nowy, realistyczny **[Generator Świata](generator.md)** charakteryzujący się bardzo dużą różnorodnością.
+  - Mapa świata została powiększona i jej rozmiar wynosi teraz **20,000** x **20,000**.
 - Dodano nowy, bardziej przejrzysty **Punkt Spawnu** zaprojektowany z myślą o funkcjonalności.
 - Dodano całkowicie zredefiniowany **Wymiar Kresu**.
   - Dostęp przez portal z **dowolnej twierdzy** znajdującej się na mapie.
@@ -99,7 +100,7 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
 - Dodano **System Poziomów**, zwany **Stopniami**.
   - Stopień to liczba zależna od różnych czynników, mająca na celu wyróżnić graczy aktywnie spędzających czas na serwerze.
   - System będzie rozbudowywany wraz z rozwojem serwera.
-- Dodano **System Weryfikacji** pozwalający na przypisanie konta **Discord** do nicku.
+- Dodano **System Weryfikacji** pozwalający na przypisanie konta **Discord** do konta na serwerze.
   - Zweryfikowani gracze mają dostęp do dodatkowego zadania dziennego.
   - System będzie rozbudowywany wraz z rozwojem serwera.
 - Dodano losowo generowane **Zadania Dzienne**, za których wykonanie przyznawana jest nagroda.
@@ -131,9 +132,13 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
 - Dodano **2** nowe **Skrzynki**, do których klucze można kupić za serwerową walutę.
 - Dodano powiadomienie na czacie, gdy z zabitego moba wypadła jego głowa.
 - Dodano komendę **/border**, za pomocą której można sprawdzić granice dowolnego terenu.
-- Dodano komendę **/efekty** dostępną dla graczy z rangą **Donator** oraz **Booster**.
-  - **Cząsteczka** wybrana za pomocą tej komendy **podąża za graczem**.
+- Dodano komendę **/particles** dostępną dla graczy z rangą **Donator** oraz **Booster**.
+  - Cząsteczka wybrana za pomocą tej komendy podąża za graczem.
 - Dodano komendę **/shops**, za pomocą której można otworzyć listę sklepów.
+  - Komenda może zostać użyta tylko w obrębie spawnu lub autoryzowanego terenu.
+- Dodano komendę **/trader**, za pomocą której można otworzyć sklep **Handlarza**.
+  - Komenda może zostać użyta tylko w obrębie spawnu lub autoryzowanego terenu.
+- Dodano komendę **/upgrades**, za pomocą której można otworzyć sklep z ulepszeniami.
   - Komenda może zostać użyta tylko w obrębie spawnu lub autoryzowanego terenu.
 
 </div>
@@ -150,6 +155,7 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
 - Zaktualizowano wygląd **Strony Głównej** serwera i **Dokumentacji**.
   - Nowa czcionka tytułowa i bardziej przejrzysta czcionka główna w dokumentacji serwera.
   - Zmiany w kolorystyce i układzie pasków nawigacyjnych i stron dokumentacji.
+  - Domyślnie ustawiony jest teraz ciemny motyw.
 - Zaktualizowano zawartość **Dokumentacji** serwera.
   - Przepisano tekst na większości stron.
   - Na niektórych stronach można teraz znaleźć spis treści.
@@ -157,6 +163,7 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
     - **[Nawigacja](nawigacja.md)** --- Poradnik w nawigacji po mapie serwera.
     - **[Zaklęcia](zaklecia.md)** --- Lista niestandardowych zaklęć dostępnych na serwerze.
     - **[Przedmioty](przedmioty.md)** --- Lista niestandardowych przedmiotów dostępnych na serwerze.
+    - **[Ekonomia](ekonomia.md)** --- Informacje na temat ekonomii serwera.
   - Dodano listę dozwolonych i zabronionych modyfikacji do regulaminu.
 - Zaktualizowano komendę **/crafting**, która wyświetla receptury dostępne na serwerze.
   - Interfejs został odświeżony i jest teraz bardziej przejrzysty.
@@ -175,6 +182,7 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
   - Dodano komendę **/vote**, która otwiera interfejs pomagający w procesie głosowania.
   - Dodano **2** dodatkowe strony, na których gracz każdego dnia może oddać głos.
   - Zaktualizowano zawartość skrzynki **Głosowanie**.
+- Zaktualizowano komendy pomocy i ogólne informacje dostępne w grze.
 - Dodano **1x Sakwa** (Bundle) do przedmiotów startowych i zwiększono ilość otrzymywanego pożywienia.
 - Zmniejszono koszt ostatniego ulepszenia terenu: ~~**4x Sztabka Netherytu**~~ ➜ **2x Sztabka Netherytu**
 - Indywidualna pozycja w rankingu jest teraz widoczna w tabeli.
