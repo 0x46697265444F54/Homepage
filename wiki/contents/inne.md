@@ -34,7 +34,13 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
   ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
 
+- **Siedzenie**  
+  Schody mogą być używane jako krzesła. Aby usiąść, należy kliknąć na blok prawym przyciskiem myszy.  
+
+- **Przesypianie Nocy**  
+  Do przespania nocy wymagane jest, aby tylko 1/3 graczy na serwerze była w łóżku.  
+
 ### Moby
 
 - **Phantomy**  
-Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.
+  Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.  
