@@ -32,7 +32,7 @@ Generator świata został przygotowany w taki sposób, aby gracze mogli doświad
 
 **<i class="bi bi-globe-americas"></i> &nbsp; <span class="dimension">Overworld</span>**  
 Główny świat służy do **eksploracji**, **wydobywania surowców**, **budowania** i zakładania **chronionych działek**.
-- Rozmiar: **16,000** x **16,000**
+- Rozmiar: **20,000** x **20,000**
 
 <br>
 
