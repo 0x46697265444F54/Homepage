@@ -10,7 +10,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon" style="background-color:rgb(176, 127, 209)">WORK IN PROGRESS</span> <span class="soon">FIREDOT 2.0 JUŻ WKRÓTCE</span>
+<span class="soon" style="background-color:rgb(176, 127, 209)">W TRAKCIE PRZEBUDOWY</span> <span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
 
 # **Inne**
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
