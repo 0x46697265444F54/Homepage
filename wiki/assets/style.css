@@ -5,6 +5,8 @@
     --base-font-family: 'Maven Pro';
     --base-color: #454545;
     --base-background-color: #FFFFFF;
+    /* SELECTION */
+    --selection-color: color-mix(in srgb, var(--base-color), transparent 80%);
     /* HEADING */
     --heading-h2-border-style: none;
     --heading-h2-margin: 0;
