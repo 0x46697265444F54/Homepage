@@ -1,8 +1,7 @@
 <style>
 .upgrade-recipes {
-    max-width: 30% !important;
+    max-width: 45% !important;
     padding: 5px;
-    max-height: 171px
 }
 
 .smithing-recipes {
@@ -31,7 +30,11 @@ Szablony ulepszeń można wytworzyć za pomocą poniższych receptur:
 <div>
     <img class="upgrade-recipes" src="assets/img/iron_upgrade_recipe.png" data-no-zoom>
     <img class="upgrade-recipes" src="assets/img/diamond_upgrade_recipe.png" data-no-zoom>
+</div>
+
+<div>
     <img class="upgrade-recipes" src="assets/img/netherite_upgrade_recipe.png"data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/enderite_upgrade_recipe.png"data-no-zoom>
 </div>
 <sup>Układ jest dowolny, a zamiast <strong>Deepslate</strong> można też użyć <strong>Cobbled Deepslate</strong>.</sup>
 
