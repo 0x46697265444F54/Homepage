@@ -15,7 +15,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 # **Inne**
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
-### Ogólne :id=ogolne
+<br>
 
 - **Zachowywanie Ekwipunku**  
   Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.
@@ -38,11 +38,19 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   Do przespania nocy wymagane jest, aby tylko 1/3 graczy na serwerze była w łóżku.  
   ![Przesypianie Nocy](assets/img/sleep.png)  
 
+- **Linkowanie Przedmiotów**  
+  Za pomocą frazy **\<item>** można podlinkować przedmiot na czat.  
+  ![Przesypianie Nocy](assets/img/item.png)  
+
 - **Handel z Osadnikami**  
   Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
   ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
 
 ### Moby
+
+- **Wither**  
+  Wither może zostać przywołany tylko w netherze.  
+  ![Przesypianie Nocy](assets/img/wither.png)  
 
 - **Phantomy**  
   Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.  
