@@ -15,7 +15,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 # **Inne**
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
-<br>
+### Ogólne
 
 - **Zachowywanie Ekwipunku**  
   Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.
