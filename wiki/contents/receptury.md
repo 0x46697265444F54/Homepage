@@ -32,20 +32,20 @@ Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynam
 Maksymalny poziom wyposażenia, jakie można wytworzyć w stole rzemieślniczym to **Kamienny** (Narzędzia) i **Skórzany** (Zbroja). Aby uzyskać lepsze wyposażenie, należy ulepszyć obecne korzystająć ze **Stołu Kowalskiego** i **Szablonów Ulepszeń**.
 
 <div>
-    <img class="upgrade-recipes" src="assets/img/smithing_table_recipe.png" alt="Stół Kowalski: 4x Deski, 2x Sztabka Żelaza" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/crafting_recipes/smithing_table.png" alt="Stół Kowalski: 4x Deski, 2x Sztabka Żelaza" data-no-zoom>
 </div>
 
 ### Szablony Ulepszeń :id=szablony-ulepszen
 Szablony ulepszeń można wytworzyć za pomocą poniższych receptur:
 
 <div>
-    <img class="upgrade-recipes" src="assets/img/iron_upgrade_recipe.png" alt="Żelazne Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Żelaza" data-no-zoom>
-    <img class="upgrade-recipes" src="assets/img/diamond_upgrade_recipe.png" alt="Diamentowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Diament" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/crafting_recipes/iron_upgrade.png" alt="Żelazne Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Żelaza" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/crafting_recipes/diamond_upgrade.png" alt="Diamentowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Diament" data-no-zoom>
 </div>
 
 <div>
-    <img class="upgrade-recipes" src="assets/img/netherite_upgrade_recipe.png" alt="Netherytowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Netherytu" data-no-zoom>
-    <img class="upgrade-recipes" src="assets/img/enderite_upgrade_recipe.png" alt="Enderytowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Enderytu" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/crafting_recipes/netherite_upgrade.png" alt="Netherytowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Netherytu" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/crafting_recipes/enderite_upgrade.png" alt="Enderytowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Enderytu" data-no-zoom>
 </div>
 <sup>Układ jest dowolny, a zamiast <strong>Deepslate</strong> można też użyć <strong>Cobbled Deepslate</strong>.</sup>
 

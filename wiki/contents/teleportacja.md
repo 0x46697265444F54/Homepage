@@ -33,8 +33,8 @@ Zwoje teleportacji to przedmioty jednorazowe, których celem jest ułatwienie te
   - Przedmiot jest jednorazowy i po użyciu nakłada **15-minutowy cooldown** na siebie oraz **indywidualny cooldown** na inne zwoje.
   - Można go stworzyć (**1 szt.**) za pomocą receptury: **8x Papier**, **1x Odłamek Echa**
 
-![Zwoj Powrotu: 8x Paper, 1x Amethyst Shard](assets/img/recipe_scroll_of_return.png ":no-zoom :class=scroll-recipes")
-![Zwój Odzyskania: 8x Paper, 1x Echo Shard](assets/img/recipe_scroll_of_recovery.png ":no-zoom :class=scroll-recipes")  
+![Zwoj Powrotu: 8x Paper, 1x Amethyst Shard](assets/img/crafting_recipes/scroll_of_return.png ":no-zoom :class=scroll-recipes")
+![Zwój Odzyskania: 8x Paper, 1x Echo Shard](assets/img/crafting_recipes/scroll_of_recovery.png ":no-zoom :class=scroll-recipes")  
 <sup>**Objaśnienie:** Pierwsza receptura przedstawia **Zwój Powrotu**, druga natomiast **Zwój Odzyskania**. Układ przedmiotów **nie jest** przypadkowy.
 
 <br>
@@ -46,7 +46,7 @@ Postawiony Magnetyt to nic innego jak **fizyczny punkt**, za którego pomocą mo
 
 <br />
 
-![Magnetyt: 8x Deepslate|Cobbled Deepslate, 1x Amethyst Shard](assets/img/lodestone_recipe.png ":no-zoom")  
+![Magnetyt: 8x Deepslate|Cobbled Deepslate, 1x Amethyst Shard](assets/img/crafting_recipes/lodestone.png ":no-zoom")  
 <sup>**Objaśnienie:** Receptura składa się z: **8x Deepslate** (Łupek) lub **8x Cobbled Deepslate** (Łupkowy Bruk), oraz 1x **Amethyst Shard** (Odłamek Ametystu).</sup>
 
 <br />

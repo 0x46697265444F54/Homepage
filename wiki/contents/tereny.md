@@ -10,7 +10,7 @@ Terenem nazywany jest **chroniony obszar**, który powstaje poprzez postawienie 
 
 Podstawowy blok można wytworzyć za pomocą poniższej receptury:
 
-![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](assets/img/claim_block_recipe.png ":no-zoom")
+![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](assets/img/crafting_recipes/claim_block.png ":no-zoom")
 
 Domyślnie każdy z graczy może utworzyć utworzyć jeden chroniony obszar. Zwiększyć ten limit można poprzez zakup ulepszeń u handlarza na spawnie.
 
