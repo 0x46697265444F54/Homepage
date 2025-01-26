@@ -11,7 +11,7 @@
 }
 </style>
 
-<span class="soon" style="background-color:rgb(176, 127, 209)">W TRAKCIE PRZEBUDOWY</span> <span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
 
 # **Teleportacja**
 Teleportacja na naszym serwerze bazuje na **systemie fizycznych waypointów** i przedmiotach specjalnych, takich jak zwoje. Gracze **nie mają dostępu** do komend typu **/spawn**, **/home** czy **/tpa** ponieważ uważamy, że taka forma przemieszczania się jest **przestarzała**, **nieintuicyjna** i **psuje wrażenia z rozgrywki**. Nasza implementacja jest w dużej mierze inspirowana **modyfikacjami** do Minecrafta i **innymi grami** tego gatunku.

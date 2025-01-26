@@ -21,7 +21,7 @@
 }
 </style>
 
-<span class="soon" style="background-color:rgb(176, 127, 209)">W TRAKCIE PRZEBUDOWY</span> <span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
 
 # **Rolnictwo**
 Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozgrywki. Prędkość wzrostu upraw jest teraz zależna od biomu, na którym się znajdują. Ma to na celu zachęcenie graczy do eksploracji świata w poszukiwaniu nowych biomów i zakładania na nich farm, a także ograniczenie wpływu automatycznych farm na gospodarkę serwera.

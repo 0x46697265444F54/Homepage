@@ -13,7 +13,7 @@
 }
 </style>
 
-<span class="soon" style="background-color:rgb(176, 127, 209)">W TRAKCIE PRZEBUDOWY</span> <span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
 
 # **Regulamin**
 <sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **08/01/2025**</sup>

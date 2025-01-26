@@ -65,7 +65,7 @@
 }
 </style>
 
-<span class="soon" style="background-color:rgb(176, 127, 209)">W TRAKCIE PRZEBUDOWY</span> <span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
 
 # **FireDOT v2**
 Serwer opierający się na trybie **przetrwania** stworzony z myślą o prawdziwie wymagających i znudzonych graczach. Stylizowany na **vanilla-friendly**, lecz z pasującymi do świata i intuicyjnymi w obsłudze dodatkami.
