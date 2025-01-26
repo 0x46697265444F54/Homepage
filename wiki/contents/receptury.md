@@ -1,4 +1,7 @@
 <style>
+.page p {
+    margin-top: 0;
+}
 .upgrade-recipes {
     max-width: 45% !important;
     padding: 5px;
@@ -21,40 +24,57 @@
 # **Receptury**
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
-### Wyposażenie
-Maksymalny poziom wyposażenia, jakie można wytworzyć w stole rzemieślniczym to **kamienny** (narzędzia) i **skórzany** (zbroje). Aby uzyskać lepsze wyposażenie, należy ulepszyć obecne korzystająć ze **stołu kowalskiego** i **szablonów ulepszeń**.
+<br>
 
-### Szablony Ulepszeń
+<div class="page">
+
+### Wyposażenie :id=wyposazenie
+Maksymalny poziom wyposażenia, jakie można wytworzyć w stole rzemieślniczym to **Kamienny** (Narzędzia) i **Skórzany** (Zbroja). Aby uzyskać lepsze wyposażenie, należy ulepszyć obecne korzystająć ze **Stołu Kowalskiego** i **Szablonów Ulepszeń**.
+
+<div>
+    <img class="upgrade-recipes" src="assets/img/smithing_table_recipe.png" alt="Stół Kowalski: 4x Deski, 2x Sztabka Żelaza" data-no-zoom>
+</div>
+
+### Szablony Ulepszeń :id=szablony-ulepszen
 Szablony ulepszeń można wytworzyć za pomocą poniższych receptur:
 
 <div>
-    <img class="upgrade-recipes" src="assets/img/iron_upgrade_recipe.png" data-no-zoom>
-    <img class="upgrade-recipes" src="assets/img/diamond_upgrade_recipe.png" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/iron_upgrade_recipe.png" alt="Żelazne Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Żelaza" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/diamond_upgrade_recipe.png" alt="Diamentowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Diament" data-no-zoom>
 </div>
 
 <div>
-    <img class="upgrade-recipes" src="assets/img/netherite_upgrade_recipe.png"data-no-zoom>
-    <img class="upgrade-recipes" src="assets/img/enderite_upgrade_recipe.png"data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/netherite_upgrade_recipe.png" alt="Netherytowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Netherytu" data-no-zoom>
+    <img class="upgrade-recipes" src="assets/img/enderite_upgrade_recipe.png" alt="Enderytowe Ulepszenie: 6x Deepslate | Cobbled Deepslate, 3x Sztabka Enderytu" data-no-zoom>
 </div>
 <sup>Układ jest dowolny, a zamiast <strong>Deepslate</strong> można też użyć <strong>Cobbled Deepslate</strong>.</sup>
 
-Ulepszenia dowolnego narzędzia wymaga jednego szablonu, natomiast ulepszenie dowolnej części zbroi, wymaga już dwóch szablonów.
+### Ulepszanie Wyposażenia :id=ulepszanie-wyposazenia
+Do ulepszenia narzędzi potrzebny jest jeden szablon ulepszeń. Ulepszone przedmioty nie tracą zaklęć ani innych parametrów.
 
 <div>
-    <img class="smithing-recipes" src="assets/img/tool_upgrade.png" data-no-zoom>
-    <img class="smithing-recipes" src="assets/img/armor_upgrade.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/equipment_upgrades/stone.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/equipment_upgrades/iron.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/equipment_upgrades/gold.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/equipment_upgrades/diamond.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/equipment_upgrades/netherite.png" data-no-zoom>
 </div>
-<sup>Podczas ulepszenia zachowywane są zaklęcia i inne parametry przedmiotów.</sup>
 
-Poniższy wykres przedstawia ścieżkę ulepszenia dla każdego poziomu wyposażenia.
+### Ulepszanie Zbroi :id=ulepszanie-zbroi
+Do ulepszenia zbroi potrzebne są dwa szablony ulepszeń. Ulepszone przedmioty nie tracą zaklęć ani innych parametrów.
 
 <div>
-    <img class="upgrades-diagram" src="assets/img/upgrade_diagram.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/armor_upgrades/leather.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/armor_upgrades/chainmail.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/armor_upgrades/iron.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/armor_upgrades/gold.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/armor_upgrades/diamond.png" data-no-zoom>
+    <img class="smithing-recipes" src="assets/img/armor_upgrades/netherite.png" data-no-zoom>
 </div>
-
-Tym samym można zauważyć, że złotego wyposażenia nie da się zdobyć za pomocą ulepszeń. Jest ono unikalne i można je znaleźć tylko jako łup w strukturach.
 
 <hr>
 
 ### Przetapianie
 Przetapianie rud i pożywienia w **zwykłym piecu** jest **dwa razy wolniejsze**. Korzystaj z specjalistycznych stacji, aby zyskać na czasie i otrzymać więcej **punktów doświadczenia**.
+
+</div>
