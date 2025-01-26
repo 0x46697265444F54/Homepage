@@ -30,15 +30,17 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.  
   ![Obrażenia](assets/img/floaters.jpeg)  
 
-- **Handel z Osadnikami**  
-  Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
-  ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
-
 - **Siedzenie**  
   Schody mogą być używane jako krzesła. Aby usiąść, należy kliknąć na blok prawym przyciskiem myszy.  
+  ![Siedzenie](assets/img/chairs.png)  
 
 - **Przesypianie Nocy**  
   Do przespania nocy wymagane jest, aby tylko 1/3 graczy na serwerze była w łóżku.  
+  ![Przesypianie Nocy](assets/img/sleep.png)  
+
+- **Handel z Osadnikami**  
+  Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
+  ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
 
 ### Moby
 
