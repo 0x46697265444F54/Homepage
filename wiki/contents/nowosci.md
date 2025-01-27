@@ -182,10 +182,13 @@ Dziękujemy za udział w poprzednim, i zapraszamy na nowy rozdział serwera!
   - Dodano komendę **/vote**, która otwiera interfejs pomagający w procesie głosowania.
   - Dodano **2** dodatkowe strony, na których gracz każdego dnia może oddać głos.
   - Zaktualizowano zawartość skrzynki **Głosowanie**.
-- Zaktualizowano komendy pomocy i ogólne informacje dostępne w grze.
+- Przywrócono klasyczną długość trwania dnia i nocy.
+  - W przyszłości planujemy z tym jeszcze poeksperymentować.
 - Dodano **1x Sakwa** (Bundle) do przedmiotów startowych i zwiększono ilość otrzymywanego pożywienia.
 - Zmniejszono koszt ostatniego ulepszenia terenu: ~~**4x Sztabka Netherytu**~~ ➜ **2x Sztabka Netherytu**
+- Zaktualizowano komendy pomocy i ogólne informacje dostępne w grze.
 - Indywidualna pozycja w rankingu jest teraz widoczna w tabeli.
+- Wither może teraz zostać przywołany tylko w netherze.
 
 </div>
 
