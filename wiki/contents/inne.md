@@ -48,6 +48,10 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
 ### Moby
 
+- **Kolekcjonowanie Główek**  
+  Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.
+  ![Główki](assets/img/mob_heads.png)  
+
 - **Wither**  
   Wither może zostać przywołany tylko w netherze.  
   ![Przesypianie Nocy](assets/img/wither.png)  
