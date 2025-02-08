@@ -10,7 +10,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Inne**
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.

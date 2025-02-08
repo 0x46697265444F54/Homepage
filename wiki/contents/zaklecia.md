@@ -22,7 +22,7 @@
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Zaklęcia**
 Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadaniem jest ułatwienie rozgrywki na wielu płaszczyznach. Większość enchantów można uzyskać za pomocą stołu do zaklęć, ale zdobycie niektórych z nich wymaga trochę więcej wysiłku.

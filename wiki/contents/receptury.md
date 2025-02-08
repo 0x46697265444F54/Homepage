@@ -19,7 +19,7 @@
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Receptury**
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.

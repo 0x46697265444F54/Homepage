@@ -17,7 +17,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 }
 </style>
 
-<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Przedmioty**
 Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z nich można napotkać przypadkiem podczas normalnej rozgrywki, jednak niektóre przedmioty specjalne uzyskać można tylko w określony sposób.

@@ -21,7 +21,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA EDYCJA JUŻ 1 LUTEGO O 18:00</span>
+<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Generator Świata**
 Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
