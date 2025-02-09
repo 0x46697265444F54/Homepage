@@ -63,7 +63,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
-## **2.1 — POPRAWKI I BALANS** <!-- {docsify-ignore} -->
+## **2.1 — POPRAWKI I BALANS** :id=u21 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **09/02/2025**</sup>
 
 Pierwsza porcja **Nowości**, **Zmian** i **Poprawek** po starcie **Drugiej Edycji**. Witamy nowych graczy i dziękujemy wszystkim za aktywność na serwerze.
@@ -124,7 +124,7 @@ Pierwsza porcja **Nowości**, **Zmian** i **Poprawek** po starcie **Drugiej Edyc
 
 ---
 
-## **2.0.0 — DRUGA EDYCJA** <!-- {docsify-ignore} -->
+## **2.0 — DRUGA EDYCJA** :id=u20 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **01/02/2025**</sup>
 
 Serwer został wyczyszczony i przebudowany od podstaw, przenosząc tym samym rozgrywkę na jeszcze wyższy poziom niż dotychczas. Wraz z nową edycją wprowadzonych zostało wiele zmian i nowości których listę znajdziesz poniżej.
