@@ -86,7 +86,6 @@ Pierwsza porcja **Nowości**, **Zmian** i **Poprawek** po starcie **Drugiej Edyc
 - Dodano informację na czacie gdy przedmiot wystawiony na aukcję został sprzedany.
 - Dodano komendę **/wiki**, pokazującą link do dokumentacji serwera.
 - Dodano hologram z liczbą otwartych skrzynek i oddanych głosów.
-- Gdy gracz spojrzy na zegar w ramce, na górze ekranu pokaże się aktualna godzina na serwerze.
 
 </div>
 
