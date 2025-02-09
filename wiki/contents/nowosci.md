@@ -63,6 +63,67 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
+## **2.1 — POPRAWKI I BALANS** <!-- {docsify-ignore} -->
+<sup>Opublikowano: **09/02/2025**</sup>
+
+Pierwsza porcja **Nowości**, **Zmian** i **Poprawek** po starcie **Drugiej Edycji**. Witamy nowych graczy i dziękujemy wszystkim za aktywność na serwerze.
+
+<br/>
+
+<div class="container nowosci">
+
+<h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
+<hr>
+
+- Wydłużono długość dnia o **5** minut.  
+  <sup>Długość nocy pozostaje bez zmian.</sup>
+- Gdy gracz spojrzy na zegar w ramce, na górze ekranu pokaże się aktualna godzina na serwerze.
+- Dodano **3** nowe flagi do panelu zarządzania działką.
+  - **Wzrost Trawy** - Przełącza rozprzestrzenianie się trawy na terenie.
+  - **Wzrost Pnącz** - Przełącza rozprzestrzenianie się pnącz na terenie.
+  - **Znikanie Liści** - Przełącza znikanie liści.
+- Dodano informacje dotyczące sprzedanych przedmiotów do interfejsu aukcji.
+- Dodano informację na czacie gdy przedmiot wystawiony na aukcję został sprzedany.
+- Dodano komendę **/wiki**, pokazującą link do dokumentacji serwera.
+- Dodano hologram z liczbą otwartych skrzynek i oddanych głosów.
+- Gdy gracz spojrzy na zegar w ramce, na górze ekranu pokaże się aktualna godzina na serwerze.
+
+</div>
+
+<div class="container zmiany">
+
+<h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
+<hr>
+
+- Osadnik sprzedający **Diamentową Motykę** uzupełnia teraz **1** przedmiot zamiast **3**.  
+  <sup>W połączeniu z możliwością przepalenia narzędzi w piecu hutniczym, było to wykorzystywane do generowania dużej ilości diamentów bardzo niskim kosztem.</sup>
+- Zmieniono tytuł ekranu sprzedawania i kupowania w sklepie. Ma to na celu zmniejszyć ryzyko pomyłki.
+
+</div>
+
+<div class="container poprawki">
+
+<h3><i class="bi bi-bug-fill"></i>POPRAWKI</h3>
+<hr>
+
+- Naprawiono błędy związane z przyznawaniem przedmiotów startowych.  
+  <sup>Jeżeli ich nigdy nie dostałeś, skontaktuj się z administracją serwera.</sup>
+- Naprawiono problemy związane z komendą **/money**.
+- Naprawiono brakujące lub nieprawidłowe kolorowanie nicków w niektórych wiadomościach.
+- Naprawiono błąd, który powodował że **$25,000** wylosowane ze skrzyni skarbów nie wpływało na konto.
+- Naprawiono błąd, który powodował że **Słodkie Jagody** usychały zamiast rosnąć z bardzo wolną prędkością.
+- Naprawiono błąd, który powodował że informacja o wypadnięciu główki nie pojawiała się na czacie. (Creeper, Zombie, Szkielet)
+- Naprawiono błąd, który powodował że wodorosty niszczyły się podczas próby wzrostu.
+- ...oraz kilka innych, mniejszych poprawek.
+
+</div>
+
+**Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
+
+<br>
+
+---
+
 ## **2.0.0 — DRUGA EDYCJA** <!-- {docsify-ignore} -->
 <sup>Opublikowano: **01/02/2025**</sup>
 
