@@ -42,9 +42,16 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   Za pomocą frazy **\<item>** można podlinkować przedmiot na czat.  
   ![Przesypianie Nocy](assets/img/item.png)  
 
+- **Kolorowanie Znaczników**  
+  Połączenie nazwanego znacznika z wybranym barwnikiem tworzy kolorowy tekst.  
+  ![Tomisław](assets/img/nametag.png)  
+
 - **Handel z Osadnikami**  
   Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
   ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
+
+
+
 
 ### Moby
 
