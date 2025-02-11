@@ -75,6 +75,6 @@ Do ulepszenia zbroi potrzebne są dwa szablony ulepszeń. Ulepszone przedmioty n
 <hr>
 
 ### Przetapianie
-Przetapianie rud i pożywienia w **zwykłym piecu** jest **dwa razy wolniejsze**. Korzystaj z specjalistycznych stacji, aby zyskać na czasie i otrzymać więcej **punktów doświadczenia**.
+Przetapianie rud i pożywienia w **Zwykłym Piecu** jest **2x Wolniejsze**. Korzystaj ze specjalistycznych stacji, aby zyskać na czasie i otrzymać więcej **Punktów Doświadczenia**.
 
 </div>
