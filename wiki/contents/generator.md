@@ -31,19 +31,26 @@ Generator świata został przygotowany w taki sposób, aby gracze mogli doświad
 <div class="page">
 
 **<i class="bi bi-globe-americas"></i> &nbsp; <span class="dimension">Overworld</span>**  
-Główny świat służy do **eksploracji**, **wydobywania surowców**, **budowania** i zakładania **chronionych działek**.
+Główny świat służy do **eksploracji**, **wydobywania surowców**, **budowania** i zakładania **chronionych działek**.  
 - Rozmiar: **20,000** x **20,000**
 
 <br>
 
 **<i class="bi bi-fire"></i> &nbsp; <span class="dimension">Nether</span>**  
-Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**. Łup w skrzyniach jest indywidualny dla każdego gracza.
+Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**.  
 - Rozmiar: **16,000** x **16,000**
+- Łup w skrzyniach jest unikalny dla każdego gracza.
+  - Każdy gracz może wygenerować zawartość tylko jeden raz.
+  - Każdorazowe wygenerowanie zawartości nakłada cooldown o długości od **12h** do **48h**, podczas którego skrzynia nie może wygenerować nowych przedmiotów. 
 
 <br>
 
 **<i class="bi bi-moon-fill"></i> &nbsp; <span class="dimension">The End</span>**  
-Wymiar kresu został całkowicie **zredefiniowany** i służy jako miejsce do **zaliczania wyzwań** i **zdobywania nowych przedmiotów**.
+Wymiar kresu został całkowicie **zredefiniowany** i służy jako miejsce do **zaliczania wyzwań** i **zdobywania nowych przedmiotów**.  
+- Na każdej wieży znajduje się **Skrzynia**, **Skarbiec**, **Złowieszczy Skarbiec** oraz **Spawner Próby**.
+  - Łup w **Skrzyni** jest unikalny dla każdego gracza.
+  - Pokonanie mobów ze **Spawnera Próby** gwarantuje **Enderytowy Klucz** lub **Złowieszczy Enderytowy Klucz**, zależnie od statusu efektu.
+  - Zdobyte klucze służą do otwierania **Skarbców** oraz **Złowieszczych Skarbców**. Skarbce można otwierać co **12h**.
 
 ### Środowisko
 Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack))** oraz **[Hearths](https://modrinth.com/datapack/hearths)**.
