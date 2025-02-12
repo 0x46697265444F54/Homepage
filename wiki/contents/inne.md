@@ -50,9 +50,6 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
   ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
 
-
-
-
 ### Moby
 
 - **Kolekcjonowanie Główek**  
