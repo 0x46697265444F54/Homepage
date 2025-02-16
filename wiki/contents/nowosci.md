@@ -63,6 +63,102 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
+## **2.2 — EKONOMIA** :id=u22 <!-- {docsify-ignore} -->
+<sup>Opublikowano: **16/02/2025**</sup>
+
+Lista zmian i nowości wprowadzona od poprzedniej aktualizacji. Dodatkowo w tym tygodniu odbył się pierwszy, bardzo podstawowy event i pomimo kilku niedociągnięć zakończył się on sukcesem. W przyszłości można spodziewać się więcej tego typu wydarzeń. Wszelkie sugestie są mile widziane!
+
+<br/>
+
+<div class="container nowosci">
+
+<h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
+<hr>
+
+- Dodano możliwość **Kolorowania** nazwanych **Znaczników**.  
+  <sup>Wystarczy połączyć nazwany znacznik z wybranym barwnikiem w stole to wytwarzania.</sup>
+- Dodano recepturę do wytworzenia **Koszyka**.  
+  <sup>Receptura: **4x Bambus**, **4x Nić**, **1x Królicza Skóra** (**[Wzór](przedmioty.md?id=koszyk)**)</sup>
+- Dodano **Skrzynię Eventową**, do której klucze można zdobyć na organizowanych przez nas eventach.
+- Dodano **1** nowy obraz o wymiarach **3x3**. 
+- Dodano nowe przedmioty do sklepu **Gospodarstwo**.
+  - <u>**Wodorost**</u>
+    - Wartość: **$40** / **$10**
+    - Limit: **96 szt.** / **4 godz.**
+  - <u>**Butelka Miodu**</u>
+    - Wartość: **$1,440** / **$360**
+    - Limit: **24 szt.** / **4 godz.**
+  - <u>**Surowa Wieprzowina**</u>
+    - Wartość: **$120** / **$20**
+    - Limit: **96 szt.** / **4 godz.**
+  - <u>**Surowa Wołowina**</u>
+    - Wartość: **$240** / **$40**
+    - Limit: **96 szt.** / **4 godz.**
+  - <u>**Surowy Kurczak**</u>
+    - Wartość: **$180** /  **$30**
+    - Limit: **96 szt.** / **4 godz.**
+  - <u>**Surowy Królik**</u>
+    - Wartość: **$180** / **$30**
+    - Limit: **96 szt.** / **4 godz.**
+- Dodano **2** dodatkowe ulepszenia limitu aktywnych ofert w domu aukcyjnym.
+- Dodano hologram pokazujący pozostały czas oczekiwania na spawner w endzie.
+
+</div>
+
+<div class="container zmiany">
+
+<h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
+<hr>
+
+- Zaklęcie **Wędrowiec** (Stride) jest teraz dezaktywowane podczas kucania.
+- Zaklęcie **Wędrowiec** (Stride) jest teraz trudniejsze do zdobycia przez stół do zaklinania.
+- Zmieniono wygląd skinów graczy na kanale ⁠**💬｜chat** na naszym serwerze Discord.  
+  <sup>Obrazy są w nieco innym stylu, zachęcam do podzielenia się opinią na temat tej zmiany.</sup>
+- Osadnik sprzedający **Zaklęte Książki** uzupełnia teraz mniej książek niż domyślnie.  
+  <sup>Zmiana ta ma na celu zmniejszyć prędkość z jaką pozyskiwane są zaklęte książki:</sup>  
+  - **Naprawa** (Mending): ~~**12**~~ ➜ **1**
+  - **Nieskończoność** (Infinity): ~~**12**~~ ➜ **1**
+  - **Jedwabny Dotyk** (Silk Touch): ~~**12**~~ ➜ **1**
+  - **Mroźny Piechur** (Frost Walker): ~~**12**~~ ➜ **1**  
+  - Pozostałe książki są uzupełniane są po maks. **4**, zamiast domyślnie **12**.
+  - Uzupełnianie ofert handlowych odbywa się **do dwóch razy dziennie**, to pozostaje bez zmian. (**[Odnośnik](https://minecraft.wiki/w/Trading#Trades)**)
+- Wprowadzono limity sprzedaży do sklepu **Surowce** i zmodyfikowano ceny niektórych przedmiotów.  
+  <sup>Zmiana ta ma na celu zmniejszyć prędkość z jaką pozyskiwana jest waluta na serwerze.</sup>
+  - <u>**Ruda Miedzi**</u>
+    - Wartość: **$40** / **$10**
+    - Limit: **768 szt.** / **4 godz.**
+  - <u>**Lazuryt**</u>
+    - Wartość: **$40** / **$10**
+    - Limit: **768 szt.** / **4 godz.**
+  - <u>**Redstone**</u>
+    - Wartość: **$120** / **$30**
+    - Limit: **768 szt.** / **4 godz.**
+  - <u>**Węgiel**</u>
+    - Wartość: **$160** / **$40**
+    - Limit: **768 szt.** / **4 godz.**
+  - <u>**Ruda Żelaza**</u>
+    - Wartość: **$480** / **$120**
+    - Limit: **256 szt.** / **4 godz.**
+  - <u>**Ruda Złota**</u>
+    - Wartość: **$720** / **$180**
+    - Limit: **256 szt.** / **4 godz.**
+  - <u>**Diament**</u>
+    - Wartość: **$2,560** / **$640**
+    - Limit: **64 szt.** / **4 godz.**
+  - <u>**Odłamek Netherytu**</u>
+    - Wartość: **$12,000** / **$3,000**
+    - Limit: **32 szt.** / **4 godz.**
+  - Współczynnik sprzedaży do zakupu wynosi teraz **1:4**. Oznacza to, że surowce można teraz kupić w niższej cenie niż uprzednio.
+  - Limit sprzedaży musiał zostać wprowadzony aby skutecznie zbalansować automatyczne farmy surowców pozwalające na zarabianie bardzo dużej ilości pieniędzy. Nie jest to rozwiązanie idealne i w przyszłości planujemy ponownie odwiedzić ten obszar w celu znalezienia rozwiązania, które zadowoliłoby obie strony.
+
+</div>
+
+**Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
+
+<br>
+
+---
+
 ## **2.1 — POPRAWKI I BALANS** :id=u21 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **09/02/2025**</sup>
 
