@@ -64,7 +64,7 @@ Bambus dobrze rośnie tylko na biomach tropikalnych:
 - **Swamp**, **Mangrove Swamp**
 
 ### Kaktusy <span class="translation">(Cactus)</span> :id=kaktusy
-Kaktusy dobrze rośnie tylko na biomach pustynnych:  
+Kaktusy dobrze rosną tylko na biomach pustynnych:  
 - **Badlands**, **Eroded Badlands**, **Wooden Badlands**
 - **Desert**
 
