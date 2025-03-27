@@ -1,3 +1,12 @@
+/* Custom Fonts */
+
+@font-face {
+    font-family: 'Born2bSporty FS';
+    src: url('/assets/fonts/born2bsporty-fs.regular.otf') format('opentype');
+}
+
+/* Docsify Style */
+
 :root {
     /* THEME COLORS */
     --theme-color: #ff7a59;
@@ -17,8 +26,8 @@
     --link-color: #ff714e;
     --link-color--hover: color-mix(in srgb, var(--link-color), black 20%);
     /* SIDEBAR */
-    --sidebar-name-font-family: 'Pixelify Sans';
-    --sidebar-name-font-size: 26px;
+    --sidebar-name-font-family: 'Born2bSporty FS';
+    --sidebar-name-font-size: 2em;
     --sidebar-background: rgba(0, 0, 0, .05);
     --sidebar-border-color: rgba(255, 255, 255, .0);
     /* SIDEBAR TOGGLE BUTTON */
@@ -104,7 +113,6 @@ a {
 }
 
 .app-name-link {
-    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -132,12 +140,20 @@ a {
     color: #E04F44;
 }
 
-.soon {
+.badge {
     font-weight: bold;
     font-size: 0.85em;
     color: white;
     border-radius: 5px;
     text-align: middle;
+    text-shadow: 0 0 2px #454545;
     padding: 5px;
-    background-color: rgb(47, 165, 57);
+    background-color: #2C9635;
+}
+
+sup {
+    display: inline-block;
+    margin-top: 0.25em;
+    margin-left: 0.1em;
+    line-height: 1.25;
 }

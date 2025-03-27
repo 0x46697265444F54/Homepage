@@ -41,8 +41,11 @@
         color: color-mix(in srgb, var(--color), black 5%);
         transition: 0.3s
     }
-
-    i {
+    h2 > i {
+        font-size: 0.2em;
+        padding-right: 0.5em;
+    }
+    h3 > i {
         font-size: 0.9em;
         padding-right: 0.5em;
     }
@@ -54,7 +57,7 @@
 }
 </style>
 
-<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Nowości**
 Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl/discord), aby otrzymywać powiadomienia o aktualizacjach i być na bieżąco.
@@ -62,6 +65,107 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 ---
 
 <div class="page">
+
+## **2.3 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
+<sup>Opublikowano: **27/03/2025**</sup>
+
+Aktualizacja wprowadza kilka ciekawych nowości i zmian zaproponowanych przez graczy.  
+
+Problemy techniczne spowodowane przez poprzedniego dostawcę spowolniły prace nad serwerem i aktualizacja została opóźniona. Zmieniliśmy hosting i gracze mogą ponownie cieszyć się rozgrywką bez przeszkód. Dziękujemy za cierpliwość i przepraszamy za związane z tym niedogodności.
+
+<br/>
+
+<div class="container nowosci">
+
+
+<h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
+<hr>
+
+- Włączono możliwość zgłaszania wiadomości na czacie i ignorowania graczy.  
+  <sup>System jest częścią gry, a nie serwerowym dodatkiem. Zgłoszenia wysłane za pomocą tego systemu nie są weryfikowane przez administrację serwera.<br> Więcej informacji: **[Blog](https://www.minecraft.net/en-us/article/addressing-player-chat-reporting-tool)**, **[Player Reporting FAQ](https://help.minecraft.net/hc/en-us/articles/7317376541197)**, **[EULA](https://www.minecraft.net/en-us/eula)**, **[Commercial Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines#terms-commercial_guidelines)**, **[Community Standards](https://www.minecraft.net/en-us/community-standards)**</sup>
+- Dodano zaklęcie **Ogrodnik** (Gardener), które można nałożyć na **Motykę**.  
+  <sup>Plony zebrane za pomocą zaklętej motyki zostają ponownie zasadzone.
+- Dodano możliwość **wstrzymania wzrostu** moba za pomocą **Świecącej Jagody**.  
+  <sup>Aby ponownie odblokować wzrost, należy nakarmić moba **Złotą Marchewką**.</sup>
+- Dodano możliwość zwiększenia **Rysowania Świata** za pomocą systemu ulepszeń.  
+  <sup>**12** (Domyślne) ➜ **13** ($50,000) ➜ **14** ($100,000) ➜ **15** ($150,000) ➜ **16** ($200,000)</sup>
+- Dodano **3** dodatkowe ulepszenia limitu aktywnych ofert w domu aukcyjnym.  
+  <sup>Podstawowy limit został zwiększony z **4** do **6**, a maksymalny wynosi aż **24**.</sup>
+- Dodano przycisk **Wypełnij** do menu sprzedaży.  
+  <sup>Naciśnięcie przycisku powoduje wypełnienie menu maksymalną ilością przedmiotów jakie gracz może w danym momencie sprzedać.</sup>
+- Dodano możliwość nałożenia zaklęcia **Magnes** (Magnet) na inne narzędzia.  
+  <sup>Na ten moment są to: **Kilof**, **Motyka**, **Miecz**, **Trójząb**, **Buzdygan**, **Łuk** oraz **Kusza**</sup>
+- Dodano komendę **/glow** dla wspierających z rangą **Donator** i **Booster**.  
+  <sup>Komenda przełącza tryb kolorowego podświetlenie dla gracza.</sup>
+- Dodano nową flagę do panelu zarządzania terenem.  
+  - **Enderman** - Przełącza podnoszenie / stawianie bloków przez endermany.
+- Dodano możliwość rozmnażania większości pojedynczych kwiatów za pomocą **Mączki Kostnej**.
+- Dodano możliwość przyspieszenia wzrostu **Trzciny Cukrowej** i **Kaktusów** za pomocą **Mączki Kostnej**.
+
+</div>
+
+<div class="container zmiany">
+
+<h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
+<hr>
+
+- Wyłączono podnoszenie i stawianie bloków przez endermany na terenie całego świata.  
+  <sup>Jeżeli gracz życzy sobie włączyć tę funkcję na swoim terenie, może to zrobić za pomocą flagi **Enderman**.</sup>
+- Dodano **1-minutowy** cooldown dla komendy **/defeat**.  
+  <sup>Komenda ta była nadużywana do szybkiego powrotu na spawn w przypadku poszukiwania określonego biomu na losowym teleporcie.</sup>
+- Śmierć w wymiarze kresu odradza gracza na spawnie wymiaru, zamiast w ustawionym punktcie odrodzenia.  
+  <sup>Respawn w endzie nie nadpisuje punktu odrodzenia gracza w innych wymiarach.</sup>
+- Zaklęcie **Grawitacja** (Gravity) zwiększa teraz odporność na odrzut.  
+  <sup>Otrzymywanie obrażeń nie powinno już wyrzucać gracza w powietrze tak wysoko jak dotychczas.</sup>
+- Przedmioty podlinkowane na czat za pomocą frazy **<item>** pokazują teraz również ilość.  
+  <sup>Dodatkowo dodane zostały aliasy **[item]** oraz **[i]**.
+- Przepisano system zdobywania kolekcjonerskich główek.  
+  <sup>Poza zmianami technicznymi, wprowadzone zostało kilka poprawek.</sup>  
+  - Dodano brakujące główki **Brązowej Pandy**, **Brązowej Krowy Grzybowej** oraz **Dewastatora**.
+  - Zwiększono szansę na zdobycie głów z poniższych mobów:
+    - Podst. **10%**, Maks. **17.5%** (Grabież III)
+      - **Wilk** (Wolf), **Kot** (Cat), **Papuga** (Parrot),
+      - **Koń Szkielet** (Skeleton Horse), **Koń Zombie** (Zombie Horse), **Niuchacz** (Sniffer),
+      - **Osadnik** (Villager), **Osadnik Zombie** (Zombie Villager), **Dewastator** (Ravager), **Nadzorca** (Warden)
+    - Podst. **20%**, Maks. **35%** (Grabież III)
+      - **Starszy Strażnik** (Elder Guardian)
+- Ulepszono wygląd tagu / nicku wyświetlanego nad głową gracza.
+- Wiadomości o śmierci spowodowanej przez moba zawierają teraz jego nazwę.
+- Wzmianki nicku na czacie wydają teraz dźwięk.
+- Zaktualizowano treść komend **/donator** oraz **/booster**.
+
+</div>
+
+<div class="container poprawki">
+
+<h3><i class="bi bi-bug-fill"></i>POPRAWKI</h3>
+<hr>
+
+- Naprawiono błędnie ustawiony poziom trudności w wymiarze kresu: ~**Łatwy**~ ➜ **Trudny**  
+  <sup>Naturalnym efektem tej zmiany jest ograniczenie dostępu do nowych przedmiotów dla słabo wyposażonych graczy.</sup>
+- Naprawiono stackowanie się płyty muzycznej **Endgame**, którą można zdobyć w wymiarze kresu.  
+  <sup>Płyta **Endgame**, tak jak pozostałe utwory, nie może się teraz stackować.</sup>
+- Poprawiono interakcję z blokami użytkowymi gdy gracz trzyma w ręce koszyk.  
+  <sup>Tym samym zmniejszone zostało ryzyko przypadkowego postawienia moba, podczas interakcji np. ze skrznią.</sup>
+- Naprawiono wykluwanie się żółwii na chronionym terenie.  
+  <sup>Wyłączenie flagi **Spawn Mobów** powodowało, że żółwie znikały od razu po wykluciu.</sup>
+- Naprawiono wiadomości przy wchodzeniu / wychodzeniu z serwera oraz te publikowane na kanale **💬 | chat**.  
+- Naprawiono nieprawidłowe modele enderytowych narzędzi.
+- Naprawiono nie wyświetlające się zdobienia na teksturze enderytowej zbroi w ekwipunku.
+- Naprawiono kolorowanie nawiasów w formacie przedmiotów podlinkowanych na czat.
+
+</div>
+
+### CO PLANUJEMY NASTĘPNIE?
+Przyszła aktualizacja to głównie zmiany związane z ekonomią, a co za tym idzie - jeszcze więcej sposobów na zarobek. Dodatkowo planujemy dodać interfejs, za pomocą którego można będzie sprawdzić postęp w zdobywaniu główek oraz kilka innych rzeczy, o których nie mogę jeszcze za dużo mówić.
+
+<br>
+
+**Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
+
+<br>
+
+---
 
 ## **2.2 — EKONOMIA** :id=u22 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **16/02/2025**</sup>
@@ -79,7 +183,7 @@ Lista zmian i nowości wprowadzona od poprzedniej aktualizacji. Dodatkowo w tym 
   <sup>Wystarczy połączyć nazwany znacznik z wybranym barwnikiem w stole to wytwarzania.</sup>
 - Dodano recepturę do wytworzenia **Koszyka**.  
   <sup>Receptura: **4x Bambus**, **4x Nić**, **1x Królicza Skóra** (**[Wzór](przedmioty.md?id=koszyk)**)</sup>
-- Dodano **Skrzynię Eventową**, do której klucze można zdobyć na organizowanych przez nas eventach.
+- Dodano **Skrzynię Eventową**, do której klucze można zdobyć na organizowanych przez nas eventach.
 - Dodano **1** nowy obraz o wymiarach **3x3**. 
 - Dodano nowe przedmioty do sklepu **Gospodarstwo**.
   - <u>**Wodorost**</u>

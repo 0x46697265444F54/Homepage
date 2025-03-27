@@ -10,7 +10,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Inne**
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
@@ -23,7 +23,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   <sup>Kolorem czerwonym oznaczone zostały przedmioty, które wypadną po śmierci.</sup>
 
 - **Ognisko**  
-  Przebywanie w pobliżu ogniska powoli regeneruje punkty życia.  
+  Przebywanie w pobliżu ogniska powoli regeneruje punkty życia i odstrasza pobliskie moby.  
   ![Ognisko](assets/img/campfire.jpeg)  
 
 - **Obrażenia**  
@@ -59,6 +59,11 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 - **Kolekcjonowanie Główek**  
   Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.
   ![Główki](assets/img/mob_heads.png)  
+
+- **Zatrzymywanie Wzrostu**  
+  Wzrost mobów może zostać zatrzymany za pomocą **Świecących Jagód**.  
+  ![Zatrzymywanie Wzrostu](assets/img/age_lock.png)  
+  <sup>Wznowić wzrost możesz poprzez nakarmienie moba **Złotą Marchewką**.</sup>
 
 - **Wither**  
   Wither może zostać przywołany tylko w netherze.  

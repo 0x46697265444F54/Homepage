@@ -22,7 +22,7 @@
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Zaklęcia**
 Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadaniem jest ułatwienie rozgrywki na wielu płaszczyznach. Większość enchantów można uzyskać za pomocą stołu do zaklęć, ale zdobycie niektórych z nich wymaga trochę więcej wysiłku.
@@ -47,6 +47,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 14. [Ognisty Piechur](#ognisty-piechur) (Scorch Walker)
 15. [Wędrowiec](#wedrowiec) (Stride)
 16. [Wabik](#wabik) (Bait)
+17. [Ogrodnik](#ogrodnik) (Gardener)
 
 </div>
 
@@ -57,7 +58,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 
 ### Magnes <span class="translation">(Magnet)</span> :id=magnes
 Wykopane minerały i złoża trafiają bezpośrednio do ekwipunku.
-- Przeznaczenie: **Kilof**
+- Przeznaczenie: **Kilof**, **Motyka**, **Miecz**, **Buzdygan**, **Łuk**, **Kusza**
 - Maks. Poziom: **I**
 - Wyklucza: **Jedwabny Dotyk** (Silk Touch)
 - Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
@@ -177,5 +178,11 @@ Szansa na złowienie kilku przedmiotów za jednym razem.
 - Przeznaczenie: **Wędka**
 - Maks. Poziom: **I**
 - Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie**
+
+### Ogrodnik <span class="translation">(Gardener)</span> :id=ogrodnik
+Zebrane plony zostają ponownie zasadzone.
+- Przeznaczenie: **Motyka**
+- Maks. Poziom: **I**
+- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
 
 </div>

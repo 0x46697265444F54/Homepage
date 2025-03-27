@@ -19,7 +19,7 @@
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Receptury**
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.

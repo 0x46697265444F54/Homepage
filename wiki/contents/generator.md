@@ -21,7 +21,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="soon">DRUGA ODSŁONA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Generator Świata**
 Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
