@@ -121,6 +121,7 @@ Problemy techniczne spowodowane przez poprzedniego dostawcę spowolniły prace n
   <sup>Dodatkowo dodane zostały aliasy **[item]** oraz **[i]**.
 - Przepisano system zdobywania kolekcjonerskich główek.  
   <sup>Poza zmianami technicznymi, wprowadzone zostało kilka poprawek.</sup>  
+  - Główki umieszczone na bloku dźwiękowym wydają teraz odpowiedni dźwięk.
   - Dodano brakujące główki **Brązowej Pandy**, **Brązowej Krowy Grzybowej** oraz **Dewastatora**.
   - Zwiększono szansę na zdobycie głów z poniższych mobów:
     - Podst. **10%**, Maks. **17.5%** (Grabież III)
