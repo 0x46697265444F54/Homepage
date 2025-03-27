@@ -120,13 +120,13 @@ Problemy techniczne spowodowane przez poprzedniego dostawcę spowolniły prace n
 - Przedmioty podlinkowane na czat za pomocą frazy **<item>** pokazują teraz również ilość.  
   <sup>Dodatkowo dodane zostały aliasy **[item]** oraz **[i]**.
 - Przepisano system zdobywania kolekcjonerskich główek.  
-  <sup>Poza zmianami technicznymi, wprowadzone zostało kilka poprawek.</sup>  
+  <sup>Poza zmianami technicznymi, wprowadzonych zostało kilka poprawek.</sup>  
   - Główki umieszczone na bloku dźwiękowym wydają teraz odpowiedni dźwięk.
   - Dodano brakujące główki **Brązowej Pandy**, **Brązowej Krowy Grzybowej** oraz **Dewastatora**.
   - Zwiększono szansę na zdobycie głów z poniższych mobów:
     - Podst. **10%**, Maks. **17.5%** (Grabież III)
-      - **Wilk** (Wolf), **Kot** (Cat), **Papuga** (Parrot),
-      - **Koń Szkielet** (Skeleton Horse), **Koń Zombie** (Zombie Horse), **Niuchacz** (Sniffer),
+      - **Otuszek** (Alllay), **Wilk** (Wolf), **Kot** (Cat), **Papuga** (Parrot), **Niuchacz** (Sniffer),
+      - **Koń Szkielet** (Skeleton Horse), **Wędrowny Handlarz** (Wandering Trader),
       - **Osadnik** (Villager), **Osadnik Zombie** (Zombie Villager), **Dewastator** (Ravager), **Nadzorca** (Warden)
     - Podst. **20%**, Maks. **35%** (Grabież III)
       - **Starszy Strażnik** (Elder Guardian)
