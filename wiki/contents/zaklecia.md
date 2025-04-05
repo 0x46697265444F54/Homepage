@@ -164,7 +164,7 @@ Zwiększa szybkość ataku o **12.5%** za każdy poziom.
 Zamienia powierzchnię lawy w magmę.
 - Przeznaczenie: **Buty**
 - Maks. Poziom: **II**
-- Wyklucza: **Mroźny Piechur** (Frost Walker), **Głębinowy Wędrowiec** (Depth Stride)
+- Wyklucza: **Mroźny Piechur** (Frost Walker), **Głębinowy Wędrowiec** (Depth Strider)
 - Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
 
 ### Wędrowiec <span class="translation">(Stride)</span> :id=wedrowiec
