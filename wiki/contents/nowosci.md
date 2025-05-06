@@ -66,6 +66,78 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
+## **2.4 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
+<sup>Opublikowano: **XX/XX/2025**</sup>
+
+Tak jak wspomniano wcześniej, aktualizacja **2.4** skupia się na zmianach w ekonomii serwera. Dodatkowo dodane zostały komendy **/collections** oraz **/enchantments**. Więcej informacji znajdziesz w liście zmian. 
+
+<br/>
+
+<div class="container nowosci">
+
+
+<h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
+<hr>
+
+- Dodano nowe przedmioty: **Tuńczyk** oraz **Pieczony Tuńczyk**.
+- Dodano komendę **/collections**, która wyświetla postęp zdobytych przedmiotów kolekcjonerskich.  
+  <sup>Zebrane do tej pory przedmioty nie zostały automatycznie dodane, lecz administracja może w bardzo prosty sposób uzupełnić kolekcję o brakujące elementy. Skontaktuj się z nami na Discordzie lub na czacie.</sup> 
+- Dodano komendę **/enchantments**, która wyświetla niestandardowe zaklęcia dostępne na serwerze.
+- Dodano **5** dodatkowych ulepszeń limitu aktywnych terenów oraz magnetytów.  
+  <sup>Dla najbardziej zaangażowanych graczy. Ulepszenia są dość drogie.</sup>
+
+
+</div>
+
+<div class="container zmiany">
+
+<h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
+<hr>
+
+- **Skarbce** oraz **Złowieszcze Skarbce** w normalnym świecie resetują się teraz co 12 godzin.  
+  <sup>W przeciwieństwie do skarbców w wymiarze kresu, skarbce w normalnym świecie nie wyświetlają licznika resetu. W przyszłości planujemy to zmienić.</sup>   
+- Wprowadzono limity sprzedaży do pozostałych sklepów.  
+  <sup>Limity sprzedaży mają na celu zbalansować poziom zarobku i jednocześnie zachęcić graczy do odkrywania innych sposobów na zdobywanie waluty.</sup>
+- Zmodyfikowano ceny niektórych przedmiotów. (Cena Kupna / Cena Sprzedaży)
+  - **Drewno Świerkowe**: (~~$100~~ / ~~$16~~) 🡒 ($80 / $12)
+  - **Drewno Bladego Dębu**: (~~$220~~ / ~~$36~~) 🡒 ($260 / $42)
+- Dodano nowe przedmioty do sklepu **Wędkarstwo**.
+  - **Surowy Tuńczyk** ($240 / $120)
+  - **Zaklęta Książka – Wabik** ($21,400)
+- Dodano nowe przedmioty do sklepu **Pozostałe**.
+  - **Strzała** ($80 / $10)
+  - **Królicza Skóra** ($240 / $12)
+  - **Kula Szlamu** ($120 / $20) 
+  - **Skorupa Pancernika** ($640 / $40)
+  - **Skorupa Żółwia** ( — / $360)
+  - **Ametyst** ( — / $280)
+- Rozpoczęto proces przepisywania niektórych elementów serwera do nowego systemu.
+  <sup>Zmiany te nie są na ten moment widoczne Zmiana ta nie powinna mieć wpływu na rozgrywkę, ale powinna w przyszłości ułatwić nam rozbudowę i mody
+
+</div>
+
+<div class="container poprawki">
+
+<h3><i class="bi bi-bug-fill"></i>POPRAWKI</h3>
+<hr>
+
+- 
+
+</div>
+
+### CO PLANUJEMY NASTĘPNIE?
+Następne w kolejce są zmiany techniczne i poprawki związane z integracją Discord. 
+
+<br>
+
+**Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
+
+<br>
+
+---
+
+<div class="page">
+
 ## **2.3 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **27/03/2025**</sup>
 
