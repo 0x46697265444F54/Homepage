@@ -126,7 +126,7 @@ Następna w kolejce jest aktualizacja do wersji **1.21.5**, która niestety ze w
     <sup>Jeżeli na liście brakuje niektórych kanałów, sprawdź zakładkę **Kanały i role** (Channels & Roles) znajdującą się na samej górze listy.</sup>
   - Poprawiono wygląd kanałów tylko do odczytu, tj. **#start**, **#regulamin**, **#weryfikacja**.  
     <sup>Wykorzystują one teraz nowy styl wiadomości, nazywany **Components v2**.</sup>
-  - Usunięto kanał **#faq**. Informacje te od dawna znajdują się od dawna na tablicy informacyjnej w grze oraz na serwerowej wiki.
+  - Usunięto kanał **#faq**. Informacje te od dawna znajdują się na tablicy informacyjnej w grze oraz na serwerowej wiki.
   - Zmieniono ikony większości kanałów, aby wprowadzić odrobinę świeżości.
 
 </div>
