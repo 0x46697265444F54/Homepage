@@ -67,25 +67,33 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 <div class="page">
 
 ## **2.4 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
-<sup>Opublikowano: **XX/XX/2025**</sup>
+<sup>Opublikowano: **12/05/2025**</sup>
 
-Tak jak wspomniano wcześniej, aktualizacja **2.4** skupia się na zmianach w ekonomii serwera. Dodatkowo dodane zostały komendy **/collections** oraz **/enchantments**. Więcej informacji znajdziesz w liście zmian. 
+Tak jak wspomniałem wcześniej, aktualizacja **2.4** skupia się na zmianach w ekonomii serwera, ale nie brakuje w niej kilku niespodzianek.
+
+<br>
+
+Od momentu opublikowania poprzedniej aktualizacji, swoje prace skupiłem głównie na ulepszaniu narzędzi z których korzystam do pracy nad serwerem.
+- **[Grabsky/DisplayEntities](https://github.com/Grabsky/DisplayEntities)** — Nowy plugin mający na celu rozwiązać większość problemów z dotychczasowym systemem hologramów na serwerze.
+- **[LuaLink/LuaLinkV2](https://github.com/LuaLink/LuaLinkV2)** — Plugin pozwalający na szybką i efektowną rozbudowę serwera o nowe funkcje. Nie jestem jego autorem, lecz brałem udział w procesie powstawania i testowania nowej wersji. Wszystkie kompnenty serwera napisane w LuaLink zostały zaktualizowane do wersji V2.
+
+#### CO DALEJ?
+Następna w kolejce jest aktualizacja do wersji **1.21.5**, która niestety ze względów technicznych musiała zostać przesunięta na inny termin. Dodatkowo planuję całkowicie przepisać integrację **Discord** ⟷ **Minecraft** oraz powoli wprowadzać kolejne zmiany techniczne, mające na celu usprawnić przebieg prac nad serwerem i powoli przygotować go do następnego sezonu.
+
+<br>
 
 <br/>
 
 <div class="container nowosci">
-
 
 <h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
 <hr>
 
 - Dodano nowe przedmioty: **Tuńczyk** oraz **Pieczony Tuńczyk**.
 - Dodano komendę **/collections**, która wyświetla postęp zdobytych przedmiotów kolekcjonerskich.  
-  <sup>Zebrane do tej pory przedmioty nie zostały automatycznie dodane, lecz administracja może w bardzo prosty sposób uzupełnić kolekcję o brakujące elementy. Skontaktuj się z nami na Discordzie lub na czacie.</sup> 
+  <sup>Aby dodać uprzednio zebrane przedmioty do kolekcji, wystarczy umieścić je na chwilę w ekwipunku.</sup> 
 - Dodano komendę **/enchantments**, która wyświetla niestandardowe zaklęcia dostępne na serwerze.
-- Dodano **5** dodatkowych ulepszeń limitu aktywnych terenów oraz magnetytów.  
-  <sup>Dla najbardziej zaangażowanych graczy. Ulepszenia są dość drogie.</sup>
-
+- Dodano **System Zgłoszeń** na serwerze Discord. Wszystkie sprawy do administracji prosimy kierować za jego pośrednictwem.
 
 </div>
 
@@ -111,24 +119,17 @@ Tak jak wspomniano wcześniej, aktualizacja **2.4** skupia się na zmianach w ek
   - **Skorupa Pancernika** ($640 / $40)
   - **Skorupa Żółwia** ( — / $360)
   - **Ametyst** ( — / $280)
-- Rozpoczęto proces przepisywania niektórych elementów serwera do nowego systemu.
-  <sup>Zmiany te nie są na ten moment widoczne Zmiana ta nie powinna mieć wpływu na rozgrywkę, ale powinna w przyszłości ułatwić nam rozbudowę i mody
+- Przepisano część komponentów serwera do nowych systemów.  
+  <sup>Nie powinno to na ten moment wpłynąć na rozgrywkę, ale z pewnością pomoże w rozbudowie serwera w przyszłości.</sup>
+- Wprowadzono kilka zmian i poprawek na serwerze Discord.
+  - Skonfigurowano **Onboarding** i wyłączono przestarzały już **Welcome Screen**.  
+    <sup>Jeżeli na liście brakuje niektórych kanałów, sprawdź zakładkę **Kanały i role** (Channels & Roles) znajdującą się na samej górze listy.</sup>
+  - Poprawiono wygląd kanałów tylko do odczytu, tj. **#start**, **#regulamin**, **#weryfikacja**.  
+    <sup>Wykorzystują one teraz nowy styl wiadomości, nazywany **Components v2**.</sup>
+  - Usunięto kanał **#faq**. Informacje te od dawna znajdują się od dawna na tablicy informacyjnej w grze oraz na serwerowej wiki.
+  - Zmieniono ikony większości kanałów, aby wprowadzić odrobinę świeżości.
 
 </div>
-
-<div class="container poprawki">
-
-<h3><i class="bi bi-bug-fill"></i>POPRAWKI</h3>
-<hr>
-
-- 
-
-</div>
-
-### CO PLANUJEMY NASTĘPNIE?
-Następne w kolejce są zmiany techniczne i poprawki związane z integracją Discord. 
-
-<br>
 
 **Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
 
