@@ -13,7 +13,7 @@
 }
 </style>
 
-<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Regulamin**
 <sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **08/01/2025**</sup>

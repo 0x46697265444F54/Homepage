@@ -65,7 +65,7 @@
 }
 </style>
 
-<span class="badge">2.3</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
+<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **FireDOT v2**
 Serwer opierający się na trybie **przetrwania** stworzony z myślą o prawdziwie wymagających i znudzonych graczach. Stylizowany na **vanilla-friendly**, lecz z pasującymi do świata i intuicyjnymi w obsłudze dodatkami.
