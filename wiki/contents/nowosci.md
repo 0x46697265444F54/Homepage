@@ -66,6 +66,79 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
+## **2.4 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
+<sup>Opublikowano: **12/05/2025**</sup>
+
+Tak jak wspomniałem wcześniej, aktualizacja **2.4** skupia się na zmianach w ekonomii serwera, ale nie brakuje w niej kilku niespodzianek.
+
+<br>
+
+Od momentu opublikowania poprzedniej aktualizacji, swoje prace skupiłem głównie na ulepszaniu narzędzi z których korzystam do pracy nad serwerem.
+- **[Grabsky/DisplayEntities](https://github.com/Grabsky/DisplayEntities)** — Nowy plugin mający na celu rozwiązać większość problemów z dotychczasowym systemem hologramów na serwerze.
+- **[LuaLink/LuaLinkV2](https://github.com/LuaLink/LuaLinkV2)** — Plugin pozwalający na szybką i efektowną rozbudowę serwera o nowe funkcje. Nie jestem jego autorem, lecz brałem udział w procesie powstawania i testowania nowej wersji. Wszystkie kompnenty serwera napisane w LuaLink zostały zaktualizowane do wersji V2.
+
+#### CO DALEJ?
+Następna w kolejce jest aktualizacja do wersji **1.21.5**, która niestety ze względów technicznych musiała zostać przesunięta na inny termin. Dodatkowo planuję całkowicie przepisać integrację **Discord** ⟷ **Minecraft** oraz powoli wprowadzać kolejne zmiany techniczne, mające na celu usprawnić przebieg prac nad serwerem i powoli przygotować go do następnego sezonu.
+
+<br>
+
+<br/>
+
+<div class="container nowosci">
+
+<h3><i class="bi bi-stars"></i>NOWOŚCI</h3>
+<hr>
+
+- Dodano nowe przedmioty: **Tuńczyk** oraz **Pieczony Tuńczyk**.
+- Dodano komendę **/collections**, która wyświetla postęp zdobytych przedmiotów kolekcjonerskich.  
+  <sup>Aby dodać uprzednio zebrane przedmioty do kolekcji, wystarczy umieścić je na chwilę w ekwipunku.</sup> 
+- Dodano komendę **/enchantments**, która wyświetla niestandardowe zaklęcia dostępne na serwerze.
+- Dodano **System Zgłoszeń** na serwerze Discord. Wszystkie sprawy do administracji prosimy kierować za jego pośrednictwem.
+
+</div>
+
+<div class="container zmiany">
+
+<h3><i class="bi bi-gear-fill"></i></i>ZMIANY</h3>
+<hr>
+
+- **Skarbce** oraz **Złowieszcze Skarbce** w normalnym świecie resetują się teraz co 12 godzin.  
+  <sup>W przeciwieństwie do skarbców w wymiarze kresu, skarbce w normalnym świecie nie wyświetlają licznika resetu. W przyszłości planujemy to zmienić.</sup>   
+- Wprowadzono limity sprzedaży do pozostałych sklepów.  
+  <sup>Limity sprzedaży mają na celu zbalansować poziom zarobku i jednocześnie zachęcić graczy do odkrywania innych sposobów na zdobywanie waluty.</sup>
+- Zmodyfikowano ceny niektórych przedmiotów. (Cena Kupna / Cena Sprzedaży)
+  - **Drewno Świerkowe**: (~~$100~~ / ~~$16~~) 🡒 ($80 / $12)
+  - **Drewno Bladego Dębu**: (~~$220~~ / ~~$36~~) 🡒 ($260 / $42)
+- Dodano nowe przedmioty do sklepu **Wędkarstwo**.
+  - **Surowy Tuńczyk** ($240 / $120)
+  - **Zaklęta Książka – Wabik** ($21,400)
+- Dodano nowe przedmioty do sklepu **Pozostałe**.
+  - **Strzała** ($80 / $10)
+  - **Królicza Skóra** ($240 / $12)
+  - **Kula Szlamu** ($120 / $20) 
+  - **Skorupa Pancernika** ($640 / $40)
+  - **Skorupa Żółwia** ( — / $360)
+  - **Ametyst** ( — / $280)
+- Przepisano część komponentów serwera do nowych systemów.  
+  <sup>Nie powinno to na ten moment wpłynąć na rozgrywkę, ale z pewnością pomoże w rozbudowie serwera w przyszłości.</sup>
+- Wprowadzono kilka zmian i poprawek na serwerze Discord.
+  - Skonfigurowano **Onboarding** i wyłączono przestarzały już **Welcome Screen**.  
+    <sup>Jeżeli na liście brakuje niektórych kanałów, sprawdź zakładkę **Kanały i role** (Channels & Roles) znajdującą się na samej górze listy.</sup>
+  - Poprawiono wygląd kanałów tylko do odczytu, tj. **#start**, **#regulamin**, **#weryfikacja**.  
+    <sup>Wykorzystują one teraz nowy styl wiadomości, nazywany **Components v2**.</sup>
+  - Usunięto kanał **#faq**. Informacje te od dawna znajdują się od dawna na tablicy informacyjnej w grze oraz na serwerowej wiki.
+  - Zmieniono ikony większości kanałów, aby wprowadzić odrobinę świeżości.
+
+</div>
+
+**Masz ciekawy pomysł?** Podziel się nim na **[naszym serwerze Discord](https://firedot.pl/discord)**.
+
+<br>
+
+---
+
+<div class="page">
+
 ## **2.3 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **27/03/2025**</sup>
 
