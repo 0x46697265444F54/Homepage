@@ -66,7 +66,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
 <div class="page">
 
-## **2.4 — OGÓLNA AKTUALIZACJA** :id=u23 <!-- {docsify-ignore} -->
+## **2.4 — OGÓLNA AKTUALIZACJA** :id=u24 <!-- {docsify-ignore} -->
 <sup>Opublikowano: **12/05/2025**</sup>
 
 Tak jak wspomniałem wcześniej, aktualizacja **2.4** skupia się na zmianach w ekonomii serwera, ale nie brakuje w niej kilku niespodzianek.
