@@ -4,7 +4,16 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
     margin: 0 8px 4px 0;
     box-shadow: 0 0 6px 4px rgba(0, 0, 0, .1);
     border-radius: 8px;
+    filter: grayscale(50%);
+    opacity: 0.5;
+    transition: all 0.5s ease !important;
 }
+
+img:not(.medium-zoom-image--opened):not(.navbar-link-icon):hover {
+    filter: grayscale(0%);    
+    opacity: 1.0;
+}
+
 .page {
     p, ul, ol {
         margin-top: 0.25em;
@@ -20,8 +29,6 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
 </style>
 
 <!-- PAGE BEGINS HERE -->
-
-<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **Generator Świata**
 Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
@@ -52,8 +59,12 @@ Wymiar kresu został całkowicie **zredefiniowany** i służy jako miejsce do **
   - Pokonanie mobów ze **Spawnera Próby** gwarantuje **Enderytowy Klucz** lub **Złowieszczy Enderytowy Klucz**, zależnie od statusu efektu.
   - Zdobyte klucze służą do otwierania **Skarbców** oraz **Złowieszczych Skarbców**. Skarbce można otwierać co **12h**.
 
+<br>
+
 ### Środowisko
 Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack))** oraz **[Hearths](https://modrinth.com/datapack/hearths)**.
+
+<br>
 
 ![Taiga](assets/img/generator_1.webp)
 ![Snowy Peaks](assets/img/generator_2.webp)
@@ -62,8 +73,12 @@ Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https:/
 ![River](assets/img/generator_5.webp)
 ![Sparse Jungle](assets/img/generator_6.webp)
 
+<br>
+
 ### Struktury
 Używamy zmodyfikowanej wersji **[Explorify](https://modrinth.com/datapack/explorify)**.
+
+<br>
 
 ![Campsite](assets/img/struktury_1.webp)
 ![Ruins](assets/img/struktury_2.webp)

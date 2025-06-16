@@ -11,8 +11,6 @@
 }
 </style>
 
-<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
-
 # **Teleportacja**
 Teleportacja na naszym serwerze bazuje na **systemie fizycznych waypointów** i przedmiotach specjalnych, takich jak zwoje. Gracze **nie mają dostępu** do komend typu **/spawn**, **/home** czy **/tpa** ponieważ uważamy, że taka forma przemieszczania się jest **przestarzała**, **nieintuicyjna** i **psuje wrażenia z rozgrywki**. Nasza implementacja jest w dużej mierze inspirowana **modyfikacjami** do Minecrafta i **innymi grami** tego gatunku.
 

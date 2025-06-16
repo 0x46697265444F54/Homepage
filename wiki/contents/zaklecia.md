@@ -22,8 +22,6 @@
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
-
 # **Zaklęcia**
 Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadaniem jest ułatwienie rozgrywki na wielu płaszczyznach. Większość enchantów można uzyskać za pomocą stołu do zaklęć, ale zdobycie niektórych z nich wymaga trochę więcej wysiłku.
 

@@ -15,8 +15,6 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 
 <!-- PAGE BEGINS HERE -->
 
-<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
-
 # **Nawigacja**
 Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy na większości innych serwerów. Ukryliśmy część informacji na ekranie debugowania oraz dodaliśmy nowe funkcje dla przedmiotów, które istnieją w grze od samego początku, ale dotychczas oferowały zbyt mało możliwości.
 
@@ -27,7 +25,7 @@ Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy 
 <div class="page">
 
 ### Kompas
-Kompas, gdy trzymany w ręce, na **górze ekranu** wyświetla Twoje **aktualne koordynaty**. Jest to jeden z kilku przedmiotów startowych i **nie powinieneś się z nim rozstawać**, bowiem gdy nie masz w pobliżu magnetytu lub innego środka teleportacji, ułatwi Ci on na pewno dotarcie w miejsce docelowe.
+Kompas, gdy trzymany w ręce, na **górze ekranu** wyświetla Twoje **aktualne koordynaty**. Jest to jeden z kilku przedmiotów startowych i **nie powinieneś się z nim rozstawać**, bowiem gdy nie masz w pobliżu magnetytu lub innego środka teleportacji, ułatwi Ci on na pewno dotarcie w miejsce docelowe.  
 ![Kompas](assets/img/compass.jpeg)  
 <sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>  
 
