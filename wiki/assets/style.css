@@ -183,3 +183,19 @@ sup {
     line-height: 1.25;
     opacity: 0.75
 }
+
+footer {
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-s);
+    color: var(--color-mono-4);
+}
+
+@media (max-width: 175vh) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}

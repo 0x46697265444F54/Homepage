@@ -100,8 +100,3 @@ Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem
 <sup>**UWAGA:** Używanie nieoficjalnego launchera może wiązać się z ryzykiem niebezpieczeństwa konta. Używaj na własną odpowiedzialność.</sup>
 
 </div>
-
-<br>
-<br>
-
-<sup>Not affiliated with, or approved by 'Mojang Studios', 'Microsoft', or any other mentioned entities. All trademarks and copyrights are the property of their respective owners.</sup>

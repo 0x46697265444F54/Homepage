@@ -50,6 +50,18 @@
                             document.title = "Strona Główna | FireDOT"
                         else document.title = document.title.replace(" - " + window.$docsify.name, " | FireDOT");
                     });
+                },
+                function pageFooter(hook, vm) {
+                    const footer = [
+                        "<hr>",
+                        "<footer>",
+                            "<span>FireDOT &copy; 2025</span>",
+                            "<span>Not affiliated with, or approved by 'Mojang Studios', 'Microsoft', or any other mentioned entities. All trademarks and copyrights are the property of their respective owners.</span>",
+                        "</footer>"
+                    ]
+                    hook.afterEach(html => {
+                        return html + footer.join("");
+                    });
                 }
             ]
         }
