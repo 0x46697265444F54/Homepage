@@ -64,35 +64,35 @@ Najważniejsze funkcje dostępne serwerze. Bardziej szczegółowy opis znajdzies
   </tr>
   <tr class="feature tereny">
     <td><i class="bi bi-flag-fill"></i></td>
-    <td><a href="./#/generator">Chronione Tereny</a><br>Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.</td>
+    <td><a href="./#/tereny">Chronione Tereny</a><br>Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.</td>
   </tr>
   <tr class="feature teleportacja">
     <td><i class="bi bi-rocket-takeoff-fill"></i></td>
-    <td><a href="./#/generator">Teleportacja</a><br>Magnetyt na serwerze pełni funkcję prywatnego teleportu.</td>
+    <td><a href="./#/teleportacja">Teleportacja</a><br>Magnetyt na serwerze pełni funkcję prywatnego teleportu.</td>
   </tr>
   <tr class="feature zawartosc">
     <td><i class="bi bi-box-fill"></i></td>
-    <td><a href="./#/generator">Nowe Przedmioty</a><br>Kilka nowych i użytecznych przedmiotów.</td>
+    <td><a href="./#/przedmioty">Nowe Przedmioty</a><br>Kilka nowych i użytecznych przedmiotów.</td>
   </tr>
   <tr class="feature zaklecia">
     <td><i class="bi bi-magic"></i></td>
-    <td><a href="./#/generator">Nowe Zaklęcia</a><br>Wiele nowych zaklęć przenoszących rozgrywkę na wyższy poziom.</td>
+    <td><a href="./#/zaklecia">Nowe Zaklęcia</a><br>Wiele nowych zaklęć przenoszących rozgrywkę na wyższy poziom.</td>
   </tr>
   <tr class="feature rolnictwo">
     <td><i class="bi bi-thermometer-sun"></i></td>
-    <td><a href="./#/generator">Realistyczne Rolnictwo</a><br>Rośliny rosną z różną prędkością w zależności od biomu, na którym się znajdują.</td>
+    <td><a href="./#/rolnictwo">Realistyczne Rolnictwo</a><br>Rośliny rosną z różną prędkością w zależności od biomu, na którym się znajdują.</td>
   </tr>
   <tr class="feature receptury">
     <td><i class="bi bi-gear-fill"></i></td>
-    <td><a href="./#/generator">Zbalansowane Receptury</a><br>Nowe i zmodyfikowane receptury balansujące dynamikę rozgrywki.</td>
+    <td><a href="./#/receptury">Zbalansowane Receptury</a><br>Nowe i zmodyfikowane receptury balansujące dynamikę rozgrywki.</td>
   </tr>
   <tr class="feature ekonomia">
-    <td><i class="bi bi-coin"></i></td>
-    <td><a href="./#/generator">Podstawowa Ekonomia</a><br>Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.</td>
+    <td><i class="bi bi-bank2"></i></td>
+    <td><a href="./#/ekonomia">Podstawowa Ekonomia</a><br>Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.</td>
   </tr>
   <tr class="feature ekwipunek">
     <td><i class="bi bi-backpack-fill"></i></td>
-    <td><a href="./#/generator">Zachowywanie Ekwipunku</a><br>W momencie śmierci, gracz zachowuje przedmioty z paska szybkiego dostępu oraz noszoną zbroję.</td>
+    <td><a>Zachowywanie Ekwipunku</a><br>W momencie śmierci, gracz zachowuje przedmioty z paska szybkiego dostępu oraz noszoną zbroję.</td>
   </tr>
 </table>
 
