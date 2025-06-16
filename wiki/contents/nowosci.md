@@ -244,9 +244,9 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
   > > - Osadnik sprzedający **Zaklęte Książki** uzupełnia teraz mniej książek niż domyślnie.  
   > >   <sup>Zmiana ta ma na celu zmniejszyć prędkość z jaką pozyskiwane są zaklęte książki:</sup>  
   > >   - **Naprawa** (Mending): **~~12~~** ➜ **1**
-  > >   - **Nieskończoność** (Infinity): **~~12~~**➜ **1**
-  > >   - **Jedwabny Dotyk** (Silk Touch): **~~12~~**➜ **1**
-  > >   - **Mroźny Piechur** (Frost Walker): **~~12~~**➜ **1**  
+  > >   - **Nieskończoność** (Infinity): **~~12~~** ➜ **1**
+  > >   - **Jedwabny Dotyk** (Silk Touch): **~~12~~** ➜ **1**
+  > >   - **Mroźny Piechur** (Frost Walker): **~~12~~** ➜ **1**  
   > >   - Pozostałe książki są uzupełniane są po maks. **4**, zamiast domyślnie **12**.
   > >   - Uzupełnianie ofert handlowych odbywa się **do dwóch razy dziennie**, to pozostaje bez zmian. (**[Odnośnik](https://minecraft.wiki/w/Trading#Trades)**)
   > > - Wprowadzono limity sprzedaży do sklepu **Surowce** i zmodyfikowano ceny niektórych przedmiotów.  
@@ -445,7 +445,7 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
   > > - Przywrócono klasyczną długość trwania dnia i nocy.
   > >   - W przyszłości planujemy z tym jeszcze poeksperymentować.
   > > - Dodano **1x Sakwa** (Bundle) do przedmiotów startowych i zwiększono ilość otrzymywanego pożywienia.
-  > > - Zmniejszono koszt ostatniego ulepszenia terenu: ~~**4x Sztabka Netherytu**~~ ➜ **2x Sztabka Netherytu**
+  > > - Zmniejszono koszt ostatniego ulepszenia terenu: **~~4x Sztabka Netherytu~~** ➜ **2x Sztabka Netherytu**
   > > - Zaktualizowano komendy pomocy i ogólne informacje dostępne w grze.
   > > - Indywidualna pozycja w rankingu jest teraz widoczna w tabeli.
   > > - Wither może teraz zostać przywołany tylko w netherze.
