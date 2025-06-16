@@ -57,8 +57,6 @@
 }
 </style>
 
-<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
-
 # **Nowości**
 Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl/discord), aby otrzymywać powiadomienia o aktualizacjach i być na bieżąco.
 
