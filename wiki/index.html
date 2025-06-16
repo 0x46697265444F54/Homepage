@@ -23,7 +23,6 @@
             loadNavbar: "contents/_navbar.md",
             loadSidebar: "contents/_sidebar.md",
             alias: {
-                "/changelog"    : "contents/changelog",
                 "/regulamin"    : "contents/regulamin",
                 "/nawigacja"    : "contents/nawigacja",
                 "/generator"    : "contents/generator",
@@ -39,7 +38,16 @@
             },
             cornerExternalLinkTarget: "_self",
             auto2top: true,
-            subMaxLevel: 1
+            subMaxLevel: 1,
+            plugins: [
+                function(hook, vm) {
+                    hook.doneEach(function() {
+                        if (document.title === window.$docsify.name)
+                            document.title = "Strona Główna | FireDOT"
+                        else document.title = document.title.replace(" - " + window.$docsify.name, " | FireDOT");
+                    });
+                }
+            ]
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/docsify.min.js"></script>
