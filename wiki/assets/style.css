@@ -31,7 +31,7 @@ a[href] { &:hover { translate: none !important; } }
     --link-underline-color: inherit;
     --link-underline-thickness: 1px;
     --link-underline-thickness-hover: 1px;
-        /* NAVBAR */
+    /* NAVBAR */
     --navbar-root-margin: 0 0 0 1.2em;
     /* SIDEBAR */
     --sidebar-name-font-family: Potta One;
@@ -48,6 +48,16 @@ a[href] { &:hover { translate: none !important; } }
     --sidebar-toggle-color-hover: var(--color-mono-4);
 }
 
+.callout.tip {
+    --callout-bg: var(--color-mono-1);
+    --callout-border-color: #4989f4;
+    --callout-charm-content: '?';
+
+    strong {
+        color: #4989f4 !important;
+    }
+}
+
 /* GLOBAL STYLE */
 
 a {
@@ -56,16 +66,22 @@ a {
 
 /* NAVBAR */
 
-.app-nav ul li a {
-    padding: 8px 8px;
+.app-nav li:has(a):hover {
+    transition: background 0.3s;
+    background-color: var(--color-mono-2);
+
+    a {
+        color: var(--color-text) !important;
+        text-decoration: none;
+    }
 }
 
 .app-nav li:has(a) {
     border-radius: 8px;
-}
 
-.app-nav li:has(a) {
-    transition: background 0.3s;
+    a {
+        padding: 8px;
+    }
 }
 
 .sidebar-nav {

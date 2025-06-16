@@ -13,7 +13,4 @@
 - [<i class="bi bi-currency-dollar"></i>Ekonomia](/ekonomia.md)
 - [<i class="bi bi-gear-fill"></i>Receptury](/receptury.md)
 - [<i class="bi bi-wrench-adjustable"></i>Inne](/inne.md)
-- **LINKI**
-- [<i class="bi bi-discord"></i>Odwiedź nasz Discord](https://firedot.pl/discord)
-- [<i class="bi bi-cup-hot-fill"></i>Przekaż Darowiznę](https://buycoffee.to/Grabsky/)
 
