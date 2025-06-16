@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/core.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/style.css"/>
   </head>
-  <body onload="toggleTheme(true)">
+  <body class="sidebar-toggle-chevron">
     <div id="app"></div>
     <script>
         window.$docsify = {
-            name: "FIREDOT.PL WIKI",
+            name: "FIREDOT.PL",
             homepage: "contents/_home.md",
             loadNavbar: "contents/_navbar.md",
             loadSidebar: "contents/_sidebar.md",
@@ -37,65 +39,11 @@
             },
             cornerExternalLinkTarget: "_self",
             auto2top: true,
-            subMaxLevel: 1,
+            subMaxLevel: 1
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/docsify.min.js"></script>
+    <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/plugins/zoom-image.min.js"></script>
   </body>
 </html>
-
-<!-- Responsible for switching theme upon button click. -->
-<script>
-    const props = {
-        "--heading-color": "#E3E3E3",
-        "--base-color": "#BBBBBB",
-        "--base-background-color": "#191919",
-        "--hr-border": "1px solid rgba(255, 255, 255, .1)",
-        "--blockquote-background": "rgba(255, 255, 255, .05)",
-        // SIDEBAR
-        "--sidebar-background": "rgba(0, 0, 0, .1)",
-        "--sidebar-border-color": "rgba(255, 255, 255, .0)",
-        // PAGINATION PLUGIN
-        "--pagination-border-top": "1px solid rgba(255, 255, 255, .1)",
-        // CUSTOM
-        "--custom-sidebar-hover-background-color": "rgba(255, 255, 255, .025)",
-        "--custom-sidebar-hover-color": "rgba(255, 255, 255, .9)"
-    }
-
-    function updateThemeIcon() {
-        const isDarkTheme = localStorage.getItem("isDarkMode") === null || localStorage.getItem("isDarkMode") === "true"
-        const icon = document.getElementById("theme")
-        // Replacing icons based on current theme preference. (ENABLING)
-        if (isDarkTheme === true)
-            icon.classList.replace("bi-sun-fill", "bi-moon-fill")
-        // Replacing icons based on current theme preference. (DISABLING)
-        else icon.classList.replace("bi-moon-fill", "bi-sun-fill")
-    }
-
-    function toggleTheme(isInitial) {
-        // Getting theme preference.
-        let isDarkTheme = localStorage.getItem("isDarkMode") === null || localStorage.getItem("isDarkMode") === "true"
-        // When 'isInitial' is 'true', theme is not toggled but applied based on user preference.
-        if (isInitial === true) {
-            if (isDarkTheme === true) {
-                for (const key in props)
-                    document.documentElement.style.setProperty(key, props[key]);
-            }
-            return;
-        }
-        // Inverting theme as it has been toggled.
-        isDarkTheme = !isDarkTheme
-        // Applying or removing dark theme.
-        if (isDarkTheme === true)
-            for (const key in props)
-                document.documentElement.style.setProperty(key, props[key]);
-        else document.documentElement.removeAttribute("style");
-        // Updating local storage with new preference.
-        localStorage.setItem("isDarkMode", isDarkTheme);
-        // Updating theme icon.
-        updateThemeIcon()
-    }
-</script>

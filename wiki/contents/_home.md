@@ -63,12 +63,37 @@
 .bright {
     color: var(--heading-color);
 }
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.feature-box {
+    flex: 25% 1 300px;
+    min-width: 100px;
+    border: 1px solid var(--color-mono-1);
+    border-radius: 16px;
+    height: 300px;
+    background-color: color-mix(in srgb, black, transparent 90%);
+    backdrop-filter: blur(300px);
+}
+
 </style>
 
-<span class="badge">2.4</span> <span class="badge">NOWA WERSJA SERWERA JUŻ DOSTĘPNA</span>
 
 # **FireDOT v2**
 Serwer opierający się na trybie **przetrwania** stworzony z myślą o prawdziwie wymagających i znudzonych graczach. Stylizowany na **vanilla-friendly**, lecz z pasującymi do świata i intuicyjnymi w obsłudze dodatkami.
+
+<div class="feature-container">
+  <div class="feature-box">
+    <span class="feature generator"><a>Poprawiony Generator Świata</a></span>  
+  </div>
+  <div class="feature-box">123</div>
+  <div class="feature-box">123</div>
+  <div class="feature-box">123</div>
+</div>
 
 Nasza społeczność jest **pomocna** i preferuje rozgrywkę **PVE**. Na serwerze nie znajdziesz żadnych elementów **pay-to-win**.
 
