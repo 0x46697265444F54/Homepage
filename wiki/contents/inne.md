@@ -10,7 +10,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
 
 <!-- PAGE BEGINS HERE -->
 
-# **Inne**
+# Inne
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
 ### Ogólne
