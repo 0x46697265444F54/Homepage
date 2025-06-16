@@ -1,6 +1,6 @@
 <span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
 
-# **Chronione Tereny**
+# Chronione Tereny
 Chronione tereny to podstawa każdego publicznego serwera Minecraft. Pozwalają one ochronić budowle i przedmioty graczy przed nieporządanymi gośćmi. Nasza implementacja jest możliwie prosta i zarazem bogata w możliwości zarządzania.
 
 ### Blok Terenu

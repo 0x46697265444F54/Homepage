@@ -30,7 +30,7 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon):hover {
 
 <!-- PAGE BEGINS HERE -->
 
-# **Generator Świata**
+# Generator Świata
 Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
 
 <br>

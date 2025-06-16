@@ -19,7 +19,7 @@
 
 <!-- PAGE BEGINS HERE -->
 
-# **Receptury**
+# Receptury
 Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynamiki rozgrywki.
 
 <br>

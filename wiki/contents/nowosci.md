@@ -51,7 +51,7 @@ blockquote:not(sup) {
 
 </style>
 
-# **Nowości**
+# Nowości
 Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl/discord), aby otrzymywać powiadomienia o aktualizacjach i być na bieżąco.
 
 ---

@@ -13,7 +13,7 @@
 }
 </style>
 
-# **Regulamin**
+# Regulamin
 <sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **08/01/2025**</sup>
 
 ### §1 CZAT DISCORD <!-- {docsify-ignore} -->
