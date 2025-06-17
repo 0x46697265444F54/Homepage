@@ -61,6 +61,43 @@ Lista zmian i nowości. Dołącz do [naszego serwera Discord](https://firedot.pl
 
   <div class="gray">
 
+  > ##### 30 Maja, 2025 :id=30-05-2025 <!-- {docsify-ignore} -->
+  > 
+  > Hej, kilka dni temu serwer został zaktualizowany do wersji **1.21.5**, a co za tym idzie - dostępne są wszystkie nowości dodane w tej wersji.
+  > 
+  > Z tej też okazji, do odwołania wprowadzone zostały następujące zmiany:
+  > - **3x więcej** waluty ze skrzynki **Głosowanie**:  **~~$3,000~~** ⟶ $9,000 (Łącznie)
+  > - **3x więcej** waluty za wykonanie **Zadań Dziennych**:  **~~$6,600~~** ⟶ $19,800 (Łącznie)
+  > 
+  > Świat na serwerze został wygenerowany już na początku edycji, więc nowe bloki nie pojawią się w nim automatycznie.
+  > 
+  > Ze względu na bardziej skomplikowany niż dotychczas proces aktualizacji, istnieje szansa że pojawiło się kilka błędów. Każdy znaleziony błąd nagradzam **$25,000** serwerowej waluty oraz **kluczem do eventowej skrzynki**. Błędy można zgłaszać dowolną formą kontaktu, preferuję jednak skorzystanie z systemu zgłoszeń na naszym serwerze Discord.
+  > 
+  > <div class="green">
+  > 
+  > > ##### <i class="bi bi-stars"></i>NOWOŚCI
+  > > - Dodano **Sklep Sezonowy**, w którym można zakupić dekoracje dodane w wersji **1.21.5**.
+  > >   - **Krzew** (Bush)
+  > >   - **Krzew Świetlików** (Firefly Bush)
+  > >   - **Kwiat Kaktusa** (Cactus Flower)
+  > >   - **Ściółka** (Leaf Litter)
+  > >   - **Niska Sucha Trawa** (Short Dry Grass)
+  > >   - **Wysoka Sucha Trawa** (Tall Dry Grass)
+  > >   - **Polne Kwiaty** (Wildflowers)
+  > > - Dodano nowe przedmioty do sklepu **Gospodarstwo**.
+  > >   - **Brązowe Jajko** (Brown Egg)
+  > >   - **Niebieskie Jajko** (Blue Egg)
+  > > - Dodane nowe warianty kolekcjonerskich głów możliwych do zdobycia z krów, świń i kurczaków.  
+  > >   <sup>Więcej informacji dostępne pod komendą: **/collections** 
+  > 
+  > </div>
+
+  </div>
+
+  ---
+  
+  <div class="gray">
+
   > ##### 12 Maja, 2025 :id=u24 <!-- {docsify-ignore} -->
   > 
   > Dzisiejsza aktualizacja skupia się na zmianach w ekonomii serwera, ale nie brakuje w niej kilku niespodzianek.  
