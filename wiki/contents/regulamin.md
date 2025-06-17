@@ -54,7 +54,7 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 #### <i class="bi bi-check-lg"></i>INTEGRACJE :id=integracje
 Opcjonalne modyfikacje, z którymi zintegrowany jest nasz serwer:
-- **[Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)** (Czat Głosowy)
+- ~~**[Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)** (Czat Głosowy)~~ (Wyłączone)
 - **[Ping Wheel](https://modrinth.com/mod/ping-wheel)** (Znaczniki)
 
 #### <i class="bi bi-check-lg"></i>MAPA ŚWIATA / MINI-MAPA :id=mapa-swiata-i-mini-mapa
