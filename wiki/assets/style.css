@@ -31,8 +31,6 @@ a[href] { &:hover { translate: none !important; } }
     --link-underline-color: inherit;
     --link-underline-thickness: 1px;
     --link-underline-thickness-hover: 1px;
-    /* NAVBAR */
-    --navbar-root-margin: 0 0 0 1.2em;
     /* SIDEBAR */
     --sidebar-name-font-family: Potta One;
     --sidebar-name-font-size: 32px;
