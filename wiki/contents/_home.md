@@ -115,7 +115,7 @@ Proces pobierania i ładowania paczki zasobów jest **w pełni automatyczny** i 
 6. **[Mob Crates](https://modrinth.com/resourcepack/mob-crates)** <span class="bright">(NoCube, Futureazoo)</span> — Replaces spawn eggs with mobs in Crates.
 7. **[More Fungi](https://modrinth.com/resourcepack/more-fungi)** <span class="bright">(\_daggsy\_)</span> — Adds variants for brown and red mushrooms.
 8. **[Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x)** <span class="bright">(AmberW, Twitter)</span> — Adds all of Twemoji, redrawn by hand as pixel art at 9x9 resolution.
-9.  **[Round Up GUI](https://modrinth.com/resourcepack/roundupgui)** <span class="bright">(Dremix)</span> — A resource pack that makes the whole game UI prettier and rounder!
+9. **[Round Up GUI](https://modrinth.com/resourcepack/roundupgui)** <span class="bright">(Dremix)</span> — A resource pack that makes the whole game UI prettier and rounder!
 10. **[Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)** <span class="bright">(2DWisp)</span> — Gives Grass, Podzol, Mycelium, Crimson Nylium, and Warped Nylium vanilla-friendly flowers, clovers, and rocks!
 11. **[Smoother Glowing](https://modrinth.com/shader/smoother-glowing)** <span class="bright">(MelonRind)</span> — Replace vanilla glowing shader with optimized and subjectively prettier.
 12. **[Spring Flowers](https://modrinth.com/resourcepack/spring-flowers)** <span class="bright">(\_daggsy\_)</span> — Adds more variants for each flower.

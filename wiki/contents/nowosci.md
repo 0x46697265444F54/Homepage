@@ -74,10 +74,47 @@ blockquote:not(sup) {
 <div class="page">
 
   <!-------------------------------------------------------->
+  <h4 class="separator" id="14-07-2025">14 Lipca, 2025</h4>
+  <!-------------------------------------------------------->
+
+  <div class="gray">
+
+  > Serwer został zaktualizowany do wersji **1.21.7**, a co za tym idzie - dostępne są wszystkie nowości dodane w tej wersji.
+  > 
+  > Korzystając z okazji przenieślimy serwer do innego dostawcy. Połączenie powinno być stabilniejsze.
+
+  </div>
+  <div class="green">
+
+  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > - Paczki zasobów są teraz ładowane podczas gdy gracz łączy się z serwerem, a nie dopiero po wejściu i załadowaniu świata.
+  >   <sup>Wewnętrzny system został znacząco uproszczony i jest mniej podatny na błędy. Ryzyko śmierci podczas ładowania paczek zostało zmniejszone do minimum.</sup>
+  > - Dodano głowę **Szczęśliwego Ghasta** - przedmiot kolekcjonerski.  
+  >   <sup>Wszystkie przedmioty kolekcjonerskie znajdziesz pod komendą: **/collections**</sup>
+  > - Dodano komendy **/home** oraz **/sethome** wyświetlające informacje na temat teleportacji na serwerze.
+  > - Dodano komendę **/discord** wyświetlającą link do serwera Discord.
+
+  </div>
+  <div class="yellow">
+  
+  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > - Tymczasowo wyłączono komendę **/border**, pozwalającą sprawdzenie granic terenu.
+  >   <sup>Implementacja stwarzała problemy podczas aktualizacji do coraz to nowszych wersji, aż w końcu przestała działać całkowicie. Planujemy reimplementację tej funkcji w niedalekiej przyszłości.</sup>
+  
+  </div>
+  <div class="red">
+  
+  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > - Naprawiono wyświetlanie się ikony **AFK** (away-from-keyboard) na liście graczy.
+  > - Dodano brakujący przycisk wstecz na drugiej stronie sklepu **Gospodarstwo**.
+
+  </div>
+
+  <!-------------------------------------------------------->
   <h4 class="separator" id="16-06-2025">16 Czerwca, 2025</h4>
   <!-------------------------------------------------------->
 
-  <div class="gray" id="16">
+  <div class="gray">
 
   > Kilka mniejszych zmian wprowadzonych na serwer w przeciągu ostatnich 2-3 tygodni.
   
@@ -90,7 +127,7 @@ blockquote:not(sup) {
   >   - Jeden surowiec odnawia teraz **100%** punktów wytrzymałości narzędzia.
   >   - Koszt w postaci doświadczenia jest liczony na podstawie sumy wszystkich enchantów znajdujących się na narzędziu.
   >   - Koszt naprawy jest stały i każda kolejna naprawa go **nie zwiększa**.
-  > 
+
   </div>
   <div class="yellow">
   
