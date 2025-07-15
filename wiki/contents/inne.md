@@ -16,7 +16,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 ### Ogólne
 
 - **Zachowywanie Ekwipunku**  
-  Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.
+  Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.  
   ![Keep Inventory](assets/img/keep_inventory.jpeg)  
   <sup>Kolorem czerwonym oznaczone zostały przedmioty, które wypadną po śmierci.</sup>
 
@@ -55,7 +55,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 ### Moby
 
 - **Kolekcjonowanie Główek**  
-  Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.
+  Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.  
   ![Główki](assets/img/mob_heads.png)  
 
 - **Zatrzymywanie Wzrostu**  
