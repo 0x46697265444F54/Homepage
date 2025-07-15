@@ -12,7 +12,7 @@
 </style>
 
 # Teleportacja
-Teleportacja na naszym serwerze opiera się na **systemie fizycznych waypointów** oraz na przedmiotach specjalnych, takich jak zwoje. Gracze **nie mają dostępu** do komend typu **/spawn**, **/home** czy **/tpa**,ponieważ uważamy, że taka forma przemieszczania się jest **przestarzała** i **nieintuicyjna**. Nasza implementacja jest w dużej mierze inspirowana **modyfikacjami** do Minecrafta i **innymi grami** tego gatunku.
+Teleportacja na naszym serwerze opiera się na **systemie fizycznych waypointów** oraz na przedmiotach specjalnych, takich jak zwoje. Gracze **nie mają dostępu** do komend typu **/spawn**, **/home** czy **/tpa**, ponieważ uważamy, że taka forma przemieszczania się jest **przestarzała** i **nieintuicyjna**. Nasza implementacja jest w dużej mierze inspirowana **modyfikacjami** do Minecrafta i **innymi grami** tego gatunku.
 
 <br />
 
