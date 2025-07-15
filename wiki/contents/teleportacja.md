@@ -12,14 +12,14 @@
 </style>
 
 # Teleportacja
-Teleportacja na naszym serwerze bazuje na **systemie fizycznych waypointów** i przedmiotach specjalnych, takich jak zwoje. Gracze **nie mają dostępu** do komend typu **/spawn**, **/home** czy **/tpa** ponieważ uważamy, że taka forma przemieszczania się jest **przestarzała**, **nieintuicyjna** i **psuje wrażenia z rozgrywki**. Nasza implementacja jest w dużej mierze inspirowana **modyfikacjami** do Minecrafta i **innymi grami** tego gatunku.
+Teleportacja na naszym serwerze opiera się na **systemie fizycznych waypointów** oraz na przedmiotach specjalnych, takich jak zwoje. Gracze **nie mają dostępu** do komend typu **/spawn**, **/home** czy **/tpa**,ponieważ uważamy, że taka forma przemieszczania się jest **przestarzała** i **nieintuicyjna**. Nasza implementacja jest w dużej mierze inspirowana **modyfikacjami** do Minecrafta i **innymi grami** tego gatunku.
 
 <br />
 
 <div class="page">
 
 ### Zwoje
-Zwoje teleportacji to przedmioty jednorazowe, których celem jest ułatwienie teleportacji gdy w pobliżu nie ma dostępu do magnetytu. Wyróżniamy następujące rodzaje zwojów:
+Zwoje teleportacji to przedmioty jednorazowe, których celem jest ułatwienie teleportacji, gdy w pobliżu nie ma dostępu do magnetytu. Wyróżniamy następujące rodzaje zwojów:
 
 <br>
 
@@ -37,7 +37,7 @@ Zwoje teleportacji to przedmioty jednorazowe, których celem jest ułatwienie te
 
 <br>
 
-Aby zbalansować dostępność tych przedmiotów na serwerze, **zmniejszona** została liczba **Odłamków Ametystu** i **Odłamków Echa** jakie można znaleźć w skrzyniach w **Pradawnym Mieście** (Ancient City). Dodatkowo, **Odłamek Echa** można zdobyć również z niewielką szansą podczas zbierania **Odłamków Ametystu**.
+Aby zbalansować dostępność tych przedmiotów na serwerze, **zmniejszona** została liczba **Odłamków Ametystu** i **Odłamków Echa**, jakie można znaleźć w skrzyniach w **Pradawnym Mieście** (Ancient City). Dodatkowo, **Odłamek Echa** można zdobyć również z niewielką szansą podczas zbierania **Odłamków Ametystu**.
 
 ### Magnetyt
 Postawiony Magnetyt to nic innego jak **fizyczny punkt**, za którego pomocą możemy się **teleportać** na **obszar spawnu**, **posiadany** lub **współdzielony teren**, lub **inny należący do nas magnetyt**. Ponadto, jeżeli nie stoi w chronionym miejscu, może zostać **zniszczony przez innego gracza**. Nie można go też przestawić, bowiem po wykopaniu ulega zniszczeniu.
@@ -51,7 +51,7 @@ Postawiony Magnetyt to nic innego jak **fizyczny punkt**, za którego pomocą mo
 
 Domyślnie każdy z graczy może mieć aktywny jeden blok magnetytu. Zwiększyć ten limit można poprzez zakup ulepszeń u handlarza na spawnie.
 
-<sup>**Tip:** Każdy **Blok Terenu** ma wbudowany **Magnetyt**, co umożliwia na zapisanie jeszcze większej liczby lokalizacji.
+<sup>**Tip:** Każdy **Blok Terenu** ma wbudowany **Magnetyt**, co umożliwia zapisanie jeszcze większej liczby lokalizacji.
 
 ### Panel Zarządzania
 Panel zarządzania można otworzyć poprzez **interakcję** z blokiem magnetytu. Obecnie udostępnia on poniższe funkcje:

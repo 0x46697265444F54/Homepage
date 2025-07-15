@@ -1,7 +1,7 @@
 <span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
 
 # Chronione Tereny
-Chronione tereny to podstawa każdego publicznego serwera Minecraft. Pozwalają one ochronić budowle i przedmioty graczy przed nieporządanymi gośćmi. Nasza implementacja jest możliwie prosta i zarazem bogata w możliwości zarządzania.
+Chronione tereny to podstawa każdego publicznego serwera Minecraft. Pozwalają one ochronić budowle i przedmioty graczy przed niepożądanymi gośćmi. Nasza implementacja jest możliwie prosta i zarazem bogata w możliwości zarządzania.
 
 ### Blok Terenu
 Terenem nazywany jest **chroniony obszar**, który powstaje poprzez postawienie **specjalnego bloku**.  
@@ -10,10 +10,10 @@ Podstawowy blok można wytworzyć za pomocą poniższej receptury:
 
 ![Block Terenu: 8x Węgiel, 1x Czerwony Proszek](assets/img/crafting_recipes/claim_block.png ":no-zoom")
 
-Domyślnie każdy z graczy może utworzyć utworzyć jeden chroniony obszar. Zwiększyć ten limit można poprzez zakup ulepszeń u handlarza na spawnie.
+Domyślnie każdy z graczy może utworzyć jeden chroniony obszar. Zwiększyć ten limit można poprzez zakup ulepszeń u handlarza na spawnie.
 
 ### Panel Zarządzania
-Panel zarządzania można otworzyć poprzez **interakcję** z blokiem terenu, lub za pomocą komendy **/claims**. Obecnie udostępnia on poniższe funkcje:
+Panel zarządzania można otworzyć poprzez **interakcję** z blokiem terenu lub za pomocą komendy **/claims**. Obecnie udostępnia on poniższe funkcje:
 - Teleportacja na **spawn**, **magnetyt** lub **inny teren**.
 - **Dodanie** i **usunięcie** graczy z terenu.
 - **Modyfikacja ustawień** dotyczących **środowiska** terenu i **interakcji** ze znajdującymi się na nim blokami.
@@ -23,7 +23,7 @@ Panel zarządzania można otworzyć poprzez **interakcję** z blokiem terenu, lu
 <img class="img-width-479" src="assets/img/claims_ui.png" data-no-zoom>
 
 ### Ulepszanie
-Każdy teren może zostać ulepszony **pięć** razy. Aby postawić **nowy** teren, **każdy poprzedni musi być ulepszony do maksymalnego poziomu**. Wykopanie bloku zwraca jego odpowiednik zachwoując obecny poziom ulepszenia.
+Każdy teren może zostać ulepszony **pięć** razy. Aby postawić **nowy** teren, **każdy poprzedni musi być ulepszony do maksymalnego poziomu**. Wykopanie bloku zwraca jego odpowiednik zachowując obecny poziom ulepszenia.
 
 - **Węgiel** ⟶ **Żelazo** 
   - Koszt: **16x Sztabka Żelaza**

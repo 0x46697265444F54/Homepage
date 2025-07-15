@@ -25,7 +25,7 @@
 Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozgrywki. Prędkość wzrostu upraw jest teraz zależna od biomu, na którym się znajdują. Ma to na celu zachęcenie graczy do eksploracji świata w poszukiwaniu nowych biomów i zakładania na nich farm, a także ograniczenie wpływu automatycznych farm na gospodarkę serwera.
 - **Prędkość wzrostu** upraw jest teraz **zależna od biomu**, na którym się znajdują.
 - Niektóre rodzaje upraw są **unikalne** dla poszczególnych biomów (np. **Bambus**) i na innych biomach rosną z **bardzo niską prędkością**.
-- **Pełny kompostownik** w pobliżu upraw **zwiększa prędkość** ich wzrostu o **20%**. (Efekt się nie stackuje, a łączna prędkość wzrostu nie może przekroczyć **100%**)
+- **Pełny kompostownik** w pobliżu upraw **zwiększa prędkość** ich wzrostu o **20%**. Efekt się nie stackuje, a łączna prędkość wzrostu nie może przekroczyć **100%**.
 
 ### Szybki Wybór
 

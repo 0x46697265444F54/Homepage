@@ -55,7 +55,7 @@ Wyjątkowy serwer **survival** stworzony z myślą o **casualowych** i **prawdzi
 <br>
 
 ### Najważniejsze Funkcje
-Najważniejsze funkcje dostępne serwerze. Bardziej szczegółowy opis znajdziesz na pozostałych stronach dokumentacji.
+Najważniejsze funkcje dostępne na serwerze. Bardziej szczegółowy opis znajdziesz na pozostałych stronach dokumentacji.
 
 <table>
   <tr class="feature generator">
@@ -99,7 +99,7 @@ Najważniejsze funkcje dostępne serwerze. Bardziej szczegółowy opis znajdzies
 <br>
 
 ### Paczka Zasobów
-Gra na naszym serwerze **wymaga** zaakceptowania paczki zasobów. Zawiera ona tekstury, których używamy do wyświetlania **niestandardowych ekranów**, **przedmiotów**, **ikon** i **efektów**. Ponadto, w celu **poprawy wrażeń z rozgrywki** i **wprowadzeniu odrobiny świeżości**, znajdują się w niej starannie wybrane tesktury **poprawiające ogólny wygląd gry** jednocześnie nie odbiegając w znaczący sposób od jej oryginalnego stylu.
+Gra na naszym serwerze **wymaga** zaakceptowania paczki zasobów. Zawiera ona tekstury, których używamy do wyświetlania **niestandardowych ekranów**, **przedmiotów**, **ikon** i **efektów**. Ponadto, w celu **poprawy wrażeń z rozgrywki** i **wprowadzeniu odrobiny świeżości**, znajdują się w niej starannie wybrane tekstury **poprawiające ogólny wygląd gry** jednocześnie nie odbiegając w znaczący sposób od jej oryginalnego stylu.
 
 Proces pobierania i ładowania paczki zasobów jest **w pełni automatyczny** i nie wymaga żadnej akcji ze strony gracza. Przed wejściem na serwer zalecamy wyłączyć wszystkie inne zainstalowane resource-packi.
 

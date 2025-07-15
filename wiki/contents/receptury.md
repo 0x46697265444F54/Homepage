@@ -27,7 +27,7 @@ Część domyślnych receptur została zmodyfikowana na potrzeby balansu i dynam
 <div class="page">
 
 ### Wyposażenie :id=wyposazenie
-Maksymalny poziom wyposażenia, jakie można wytworzyć w stole rzemieślniczym to **Kamienny** (Narzędzia) i **Skórzany** (Zbroja). Aby uzyskać lepsze wyposażenie, należy ulepszyć obecne korzystająć ze **Stołu Kowalskiego** i **Szablonów Ulepszeń**.
+Maksymalny poziom wyposażenia, jakie można wytworzyć w stole rzemieślniczym, to **Kamienny** (Narzędzia) i **Skórzany** (Zbroja). Aby uzyskać lepsze wyposażenie, należy ulepszyć obecne, korzystając ze **Stołu Kowalskiego** i **Szablonów Ulepszeń**.
 
 <div>
     <img class="upgrade-recipes" src="assets/img/crafting_recipes/smithing_table.png" alt="Stół Kowalski: 4x Deski, 2x Sztabka Żelaza" data-no-zoom>

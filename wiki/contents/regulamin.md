@@ -19,7 +19,7 @@
 ### §1 CZAT DISCORD <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
 - Zakaz udostępniania prywatnych/osobistych danych bez zgody ich właściciela.
-- Zakaz dyskusji na nieodpowiednie, sporne, lub kontrowersyjne tematy.
+- Zakaz dyskusji na nieodpowiednie, sporne lub kontrowersyjne tematy.
 - Zakaz używania nieodpowiednich, obraźliwych i wulgarnych słów.
 - Prosimy o używanie kanałów zgodnie z ich przeznaczeniem.
 - Prosimy o przestrzeganie [wytycznych społeczności Discord](https://discord.com/guidelines).
@@ -27,7 +27,7 @@
 ### §2 CZAT MINECRAFT <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
 - Zakaz udostępniania prywatnych/osobistych danych bez zgody ich właściciela.
-- Zakaz dyskusji na nieodpowiednie, sporne, lub kontrowersyjne tematy.
+- Zakaz dyskusji na nieodpowiednie, sporne lub kontrowersyjne tematy.
 - Zakaz używania nieodpowiednich, obraźliwych i wulgarnych słów.
 - Prosimy o przestrzeganie [standardów społeczności Minecraft](https://www.minecraft.net/en-us/community-standards).
 
@@ -77,7 +77,7 @@ Niewielkie modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem ż
 - **[Zoomify](https://modrinth.com/mod/zoomify)** (Zoom)
 
 #### <i class="bi bi-x-lg"></i>WSPOMAGANIE WIDOCZNOŚCI :id=wspomaganie-widocznosci
-Wszystkie modyfikacje i paczki pomagające w namierzaniu bloków, wychodzące kamerą z perspektywy gracza, oraz mające na celu rozjaśnienia niewidocznych dla gracza obszarów są zabronione.
+Wszystkie modyfikacje i paczki pomagające w namierzaniu bloków, wychodzące kamerą z perspektywy gracza, oraz mające na celu rozjaśnienie niewidocznych dla gracza obszarów są zabronione.
 
 #### <i class="bi bi-x-lg"></i>CHEATY I WSPOMAGACZE :id=cheaty-i-wspomagacze
 Zabronione są wszystkie modyfikacje należące do grupy cheatów i wspomagaczy, oraz inne mody o podobnym przeznaczeniu, czyli ułatwiające rozgrywkę w znaczący i niesprawiedliwy sposób.  
@@ -92,11 +92,11 @@ Paczki zasobów są dozwolone pod warunkiem, że są zgodne z założeniami powy
 #### <i class="bi bi-exclamation-triangle"></i></i>KLIENTY 3RD PARTY :id=klienty-3rd-party
 Klienty z pre-instalowanymi modyfikacjami są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.
 
-<sup>**UWAGA:** Niektóre klienty są znane łamania licencji i kradzieży istniejących modyfikacji. Używaj na własną odpowiedzianość.</sup>
+<sup>**UWAGA:** Niektóre klienty są znane z łamania licencji i kradzieży istniejących modyfikacji. Używaj na własną odpowiedzianość.</sup>
 
 #### <i class="bi bi-exclamation-triangle"></i></i>LAUNCHERY 3RD PARTY :id=launchery-3rd-party
 Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem konta Mojang lub Microsoft.
 
-<sup>**UWAGA:** Używanie nieoficjalnego launchera może wiązać się z ryzykiem niebezpieczeństwa konta. Używaj na własną odpowiedzialność.</sup>
+<sup>**UWAGA:** Używanie nieoficjalnego launchera może wiązać się z ryzykiem dla bezpieczeństwa konta. Używaj na własną odpowiedzialność.</sup>
 
 </div>

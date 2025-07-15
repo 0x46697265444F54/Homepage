@@ -87,7 +87,7 @@ blockquote:not(sup) {
   <div class="green">
 
   > ##### <i class="bi bi-stars"></i> NOWOŚCI
-  > - Paczki zasobów są teraz ładowane podczas gdy gracz łączy się z serwerem, a nie dopiero po wejściu i załadowaniu świata.
+  > - Paczki zasobów są teraz ładowane, gdy gracz łączy się z serwerem, a nie dopiero po wejściu i załadowaniu świata.
   >   <sup>Wewnętrzny system został znacząco uproszczony i jest mniej podatny na błędy. Ryzyko śmierci podczas ładowania paczek zostało zmniejszone do minimum.</sup>
   > - Dodano głowę **Szczęśliwego Ghasta** - przedmiot kolekcjonerski.  
   >   <sup>Wszystkie przedmioty kolekcjonerskie znajdziesz pod komendą: **/collections**</sup>
@@ -133,7 +133,7 @@ blockquote:not(sup) {
   
   > ##### <i class="bi bi-gear-fill"></i> ZMIANY
   > - Usunięto integrację z modem **Simple Voice Chat**.  
-  >   <sup>Integracja przestała działać ze względu zmiany w infrastrukturze serwera i na ten moment nie jest możliwe jej ponowne włączenie.</sup>
+  >   <sup>Integracja przestała działać z powodu zmiany w infrastrukturze serwera i na ten moment nie jest możliwe jej ponowne włączenie.</sup>
   > - Zaktualizowano wygląd strony internetowej serwera.  
   >   <sup>Większość zmian wizualnych jest trudna do zauważenia. Poprawiona struktura portalu ułatwi modernizację strony w przyszłości.  
   > - Zmieniono wygląd tablicy ze statystykami.
@@ -147,7 +147,7 @@ blockquote:not(sup) {
   > - Naprawiono rozmnażanie niestandardowych roślin mączką kostną.  
   >   <sup>Funkcja została dodana w jednej z poprzednich aktualizacji, ale wygląda na to że nie została nigdy włączona.</sup>
   > - Całkowicie przepisano system odpowiedzialny za odbieranie nagród za głosowanie.  
-  >   <sup>Odbieranie nagród powinno być teraz mniej problemtyczne niż dotychczas.</sup>
+  >   <sup>Odbieranie nagród powinno być teraz mniej problematyczne niż dotychczas.</sup>
 
   </div>
 
@@ -165,7 +165,7 @@ blockquote:not(sup) {
   > 
   > Świat na serwerze został wygenerowany już na początku edycji, więc nowe bloki nie pojawią się w nim automatycznie.
   > 
-  > Ze względu na bardziej skomplikowany niż dotychczas proces aktualizacji, istnieje szansa że pojawiło się kilka błędów. Każdy znaleziony błąd nagradzam **$25,000** serwerowej waluty oraz **kluczem do eventowej skrzynki**. Błędy można zgłaszać dowolną formą kontaktu, preferuję jednak skorzystanie z systemu zgłoszeń na naszym serwerze Discord.
+  > Ze względu na bardziej skomplikowany niż dotychczas proces aktualizacji, istnieje szansa, że pojawiło się kilka błędów. Każdy znaleziony błąd nagradzam **$25,000** serwerowej waluty oraz **kluczem do eventowej skrzynki**. Błędy można zgłaszać dowolną formą kontaktu, preferuję jednak skorzystanie z systemu zgłoszeń na naszym serwerze Discord.
    
   </div>
   <div class="green">
@@ -406,7 +406,7 @@ blockquote:not(sup) {
   >     - Wartość: **$12,000** / **$3,000**
   >     - Limit: **32 szt.** / **4 godz.**
   >   - Współczynnik sprzedaży do zakupu wynosi teraz **1:4**. Oznacza to, że surowce można teraz kupić w niższej cenie niż uprzednio.
-  >   - Limit sprzedaży musiał zostać wprowadzony aby skutecznie zbalansować automatyczne farmy surowców pozwalające na zarabianie bardzo dużej ilości pieniędzy. Nie jest to rozwiązanie idealne i w przyszłości planujemy ponownie odwiedzić ten obszar w celu znalezienia rozwiązania, które zadowoliłoby obie strony.
+  >   - Limit sprzedaży musiał zostać wprowadzony, aby skutecznie zbalansować automatyczne farmy surowców, pozwalające na zarabianie bardzo dużej ilości pieniędzy. Nie jest to rozwiązanie idealne i w przyszłości planujemy ponownie odwiedzić ten obszar w celu znalezienia rozwiązania, które zadowoliłoby obie strony.
 
   </div>
 
@@ -584,7 +584,7 @@ blockquote:not(sup) {
   
   > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
   > - Poprawiono problemy związane z flagą **Spawn Mobów**.
-  >   - Spawnery stanowią wyjatęk i nie są już blokowane przez tę flagę.
+  >   - Spawnery stanowią wyjątek i nie są już blokowane przez tę flagę.
   >   - Problemy z nie pojawiającymi się mobami zostały rozwiązane.
   > - Poprawiono teleportację przez portal powrotny w wymiarze piekła.
   >   - Gracz nie zostanie już przeniesiony w miejsce, w którym nie może niszczyć ani stawiać bloków.
