@@ -70,7 +70,7 @@ Modyfikacje optymalizujące grę i skupiające się na poprawkach wizualnych są
 - **[Euphonium](https://modrinth.com/mod/euphonium)** (Dźwięki Otoczenia)
 - **[Camera Overhaul](https://modrinth.com/mod/cameraoverhaul)** (Animacje Kamery)
 
-#### <i class="bi bi-check-lg"></i>MAŁE QOL (Quality of Life) id=male-qol
+#### <i class="bi bi-check-lg"></i>MAŁE QOL (Quality of Life) :id=male-qol
 Niewielkie modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem że ich funkcjonalność nie wpływa na innych graczy. Rekomendowane modyfikacje:  
 - **[Inventive Inventory](https://modrinth.com/mod/inventive-inventory)** (Sortowanie)
 - **[Scribble](https://modrinth.com/mod/inventive-inventory)** (Edytor Książek)
