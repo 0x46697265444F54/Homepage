@@ -1,3 +1,3 @@
-- [<i class="bi bi-map-fill"></i> Mapa](https://firedot.pl/mapa)
+- [<i class="bi bi-map-fill"></i> Mapa](https://firedot.pl/mapa ":target=_self") 
 - [<i class="bi bi-discord"></i> Discord](https://firedot.pl/discord)
 - [<i class="bi bi-cup-hot-fill"></i> Wsparcie](https://buycoffee.to/Grabsky/)
