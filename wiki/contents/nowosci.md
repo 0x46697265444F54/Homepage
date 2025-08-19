@@ -74,6 +74,35 @@ blockquote:not(sup) {
 <div class="page">
 
   <!-------------------------------------------------------->
+  <h4 class="separator" id="XX-08-2025">XX Sierpnia, 2025</h4>
+  <!-------------------------------------------------------->
+
+  <div class="yellow">
+
+  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > - ...
+
+  </div>
+
+  <div class="red">
+
+  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > - Naprawiono dodatkowe zadanie dziennie za połączenie konta w grze z kontem Discord.
+
+  </div>
+
+  <!-------------------------------------------------------->
+  <h4 class="separator" id="21-07-2025">21 Lipca, 2025</h4>
+  <!-------------------------------------------------------->
+
+  <div class="yellow">
+
+  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > - Usprawioniono wewnętrzny system monitorowania wydajności i statusu serwera.  
+
+  </div>
+
+  <!-------------------------------------------------------->
   <h4 class="separator" id="14-07-2025">14 Lipca, 2025</h4>
   <!-------------------------------------------------------->
 

@@ -1,7 +1,7 @@
 - **WSTĘP**
 - [<i class="bi bi-house-door-fill"></i>Strona Główna](/)
 - [<i class="bi bi-file-text-fill"></i>Regulamin](/regulamin.md)
-- [<i class="bi bi-megaphone-fill"></i>Nowości](/nowosci)
+- [<i class="bi bi-megaphone-fill"></i>Nowości](/nowosci.md)
 - **O SERWERZE**
 - [<i class="bi bi-compass-fill"></i>Nawigacja](/nawigacja.md)
 - [<i class="bi bi-globe-americas"></i>Generator Świata](/generator.md)

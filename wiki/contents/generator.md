@@ -33,6 +33,8 @@ img:not(.medium-zoom-image--opened):not(.navbar-link-icon):hover {
 # Generator Świata
 Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
 
+Mapa online serwera jest dostępna pod adresem **[https://firedot.pl/mapa](https://firedot.pl/mapa)**.
+
 <br>
 
 <div class="page">

@@ -84,7 +84,7 @@ html {
         font-family: 'Born2bSporty FS', sans-serif;
 
         .intro {
-            font-size: 7.5em;
+            font-size: 8em;
             font-weight: 600;
             text-shadow: 5px 5px 0px rgba(0, 0, 0, .15);
         }
@@ -101,7 +101,7 @@ html {
             color: rgba(255, 255, 255, .15);
             padding-top: 20px;
             opacity: 0;
-            font-size: 2.75em;
+            font-size: 2em;
             letter-spacing: 2px;
             vertical-align: top;
             animation: fade-in 0.8s forwards 1s;
