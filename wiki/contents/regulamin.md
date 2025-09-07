@@ -14,11 +14,14 @@
 </style>
 
 # Regulamin
-<sup>Utworzono **27/08/2023** &nbsp; · &nbsp; Zmodyfikowano **08/01/2025**</sup>
+<sup>Ostatnia Modyfikacja: **07/09/2025**</sup>
+<br>
+<sup>Any questions or inquiries about the project should be forwarded to the following e-mail address: **contact\@firedot.pl**</sup>
+
 
 ### §1 CZAT DISCORD <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
-- Zakaz udostępniania prywatnych/osobistych danych bez zgody ich właściciela.
+- Zakaz udostępniania prywatnych/osobistych/poufnych danych bez zgody ich właściciela.
 - Zakaz dyskusji na nieodpowiednie, sporne lub kontrowersyjne tematy.
 - Zakaz używania nieodpowiednich, obraźliwych i wulgarnych słów.
 - Prosimy o używanie kanałów zgodnie z ich przeznaczeniem.
@@ -26,7 +29,7 @@
 
 ### §2 CZAT MINECRAFT <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
-- Zakaz udostępniania prywatnych/osobistych danych bez zgody ich właściciela.
+- Zakaz udostępniania prywatnych/osobistych/poufnych danych bez zgody ich właściciela.
 - Zakaz dyskusji na nieodpowiednie, sporne lub kontrowersyjne tematy.
 - Zakaz używania nieodpowiednich, obraźliwych i wulgarnych słów.
 - Prosimy o przestrzeganie [standardów społeczności Minecraft](https://www.minecraft.net/en-us/community-standards).
