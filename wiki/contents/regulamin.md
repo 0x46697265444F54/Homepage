@@ -18,7 +18,6 @@
 <br>
 <sup>Any questions or inquiries about the project should be forwarded to the following e-mail address: **contact\@firedot.pl**</sup>
 
-
 ### §1 CZAT DISCORD <!-- {docsify-ignore} -->
 - Zakaz udostępniania nieodpowiednich treści.
 - Zakaz udostępniania prywatnych/osobistych/poufnych danych bez zgody ich właściciela.
