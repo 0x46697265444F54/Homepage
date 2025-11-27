@@ -17,7 +17,7 @@
 <!-- PAGE BEGINS HERE -->
 
 # Generator Świata
-Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś **zupełnie nowego**. Piękne krajobrazy, bujna i **zróżnicowana roślinność** oraz **nowe struktury**... a wszystko to idealnie współgra z oryginalnym stylem gry.
+Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś zupełnie nowego. Piękne krajobrazy, bujna i zróżnicowana roślinność oraz nowe struktury... a wszystko to idealnie współgra z oryginalnym stylem gry.
 
 Mapa online serwera jest dostępna pod adresem **[https://firedot.pl/mapa](https://firedot.pl/mapa)**.
 
@@ -34,9 +34,6 @@ Główny świat służy do **eksploracji**, **wydobywania surowców**, **budowan
 **<i class="bi bi-fire"></i> &nbsp; <span class="dimension">Nether</span>**  
 Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**.  
 - Rozmiar: **16,000** x **16,000**
-- Łup w skrzyniach jest unikalny dla każdego gracza.
-  - Każdy gracz może wygenerować zawartość tylko jeden raz.
-  - Każdorazowe wygenerowanie zawartości nakłada cooldown o długości od **12h** do **48h**, podczas którego skrzynia nie może wygenerować nowych przedmiotów. 
 
 <br>
 
@@ -50,7 +47,7 @@ Wymiar kresu został całkowicie **zredefiniowany** i służy jako miejsce do **
 <br>
 
 ### Środowisko
-Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack))** oraz **[Hearths](https://modrinth.com/datapack/hearths)**.
+Każdy biom został całkowicie przekształcony, aby stworzyć bardziej imersyjny, głęboki i realistyczny świat. Poniżej znajduje się kilka przykładowych lokacji.
 
 <br>
 
@@ -91,7 +88,21 @@ Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https:/
 <br>
 
 ### Struktury
-Używamy zmodyfikowanej wersji **[Explorify](https://modrinth.com/datapack/explorify)**.
+Większość struktur została przebudowana, oferując ciekawszy, mniej powtarzalny układ oraz więcej wartościowych przedmiotów.
+- **Twierdza** (Stronghold)
+- **Leśna Posiadłość** (Mansion)
+- **Posterunek** (Pillager Outpost)
+- **Chatka Wiedźmy** (Swamp Hut)
+- **Pradawne Miasto** (Ancient City)
+- **Dżunglowe Świątynia** (Jungle Temple)
+- **Podwodna Świątynia** (Ocean Monument)
+- **Pustynna Świątynia / Piramida** (Desert Temple)
+- **Netherowa Forteca** (Nether Fortress)
+- **Komnaty Próby** (Trial Chambers)
+
+<br>
+
+Dodanych zostało również kilka nowych, pasujących do świata struktur. Niektóre z nich znajdują się na zrzutach ekranu poniżej, lecz większość pozostaje do odkrycia przez graczy.
 
 <br>
 
