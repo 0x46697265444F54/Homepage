@@ -1,18 +1,4 @@
 <style>
-img:not(.medium-zoom-image--opened):not(.navbar-link-icon) {
-    max-width: 29%;
-    margin: 0 8px 4px 0;
-    box-shadow: 0 0 6px 4px rgba(0, 0, 0, .1);
-    border-radius: 8px;
-    filter: grayscale(50%);
-    opacity: 0.5;
-    transition: all 0.5s ease !important;
-}
-
-img:not(.medium-zoom-image--opened):not(.navbar-link-icon):hover {
-    filter: grayscale(0%);    
-    opacity: 1.0;
-}
 
 .page {
     p, ul, ol {
@@ -68,12 +54,39 @@ Używamy zmodyfikowanej wersji **[William Wythers' Overhauled Overworld](https:/
 
 <br>
 
-![Taiga](assets/img/generator_1.webp)
-![Snowy Peaks](assets/img/generator_2.webp)
-![Snowy Taiga](assets/img/generator_3.webp)
-![Oasis](assets/img/generator_4.webp)
-![River](assets/img/generator_5.webp)
-![Sparse Jungle](assets/img/generator_6.webp)
+<div class="container-row">
+
+  <div class="card">
+    <img src="assets/img/generator/taiga.webp"></img>
+    <p><strong>Tajga</strong> (Taiga)</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/generator/snowy_peaks.webp"></img>
+    <p><strong>Ośnieżone Szczyty</strong> (Snowy Peaks)</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/generator/snowy_taiga.webp"></img>
+    <p><strong>Ośnieżona Tajga</strong> (Snowy Taiga)</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/generator/oasis.webp"></img>
+    <p><strong>Oaza</strong> (Oasis)</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/generator/river.webp"></img>
+    <p><strong>Rzeka</strong> (River)</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/generator/sparse_jungle.webp"></img>
+    <p><strong>Przerzedzona Dżungla</strong> (Sparse Jungle)</p>
+  </div>
+
+</div>
 
 <br>
 
@@ -82,11 +95,41 @@ Używamy zmodyfikowanej wersji **[Explorify](https://modrinth.com/datapack/explo
 
 <br>
 
-![Campsite](assets/img/struktury_1.webp)
-![Ruins](assets/img/struktury_2.webp)
-![Savanna Watchtower](assets/img/struktury_3.webp)
-![Guide Post](assets/img/struktury_4.webp)
-![Tavern](assets/img/struktury_5.webp)
-![Black Spiral](https://cdn.modrinth.com/data/HSfsxuTo/images/4bdde9d88700b9fe35c30403580ad63fde3c4f43.jpeg)
+<div class="container-row">
+
+  <div class="card">
+    <img src="assets/img/structures/campsite.webp"></img>
+    <p><strong>Kemping</strong> (Campsite)</p>
+  </div>
+
+  
+  <div class="card">
+    <img src="assets/img/structures/ruins.webp"></img>
+    <p><strong>Dżunglowe Ruiny</strong> (Ruins)</p>
+  </div>
+
+
+  <div class="card">
+    <img src="assets/img/structures/savanna_watchtower.webp"></img>
+    <p><strong>Strażnica</strong> (Watchtower)</p>
+  </div>
+
+
+  <div class="card">
+    <img src="assets/img/structures/guide_post.webp"></img>
+    <p><strong>Wieża Sygnalizacyjna</strong> (Guide Post)</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/structures/tavern.webp"></img>
+    <p><strong>Tawerna</strong> (Tavern)</p>
+  </div>
+
+  <div class="card">
+    <img src="https://cdn.modrinth.com/data/HSfsxuTo/images/4bdde9d88700b9fe35c30403580ad63fde3c4f43.jpeg"></img>
+    <p><strong>Bastionowa Spirala</strong> (Black Spiral)</p>
+  </div>
+
+</div>
 
 </div>

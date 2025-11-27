@@ -18,7 +18,7 @@
     <div id="app"></div>
     <script>
         window.$docsify = {
-            name: "FIREDOT.PL",
+            name: "FireDOT",
             homepage: "contents/_home.md",
             loadNavbar: "contents/_navbar.md",
             loadSidebar: "contents/_sidebar.md",
@@ -46,6 +46,13 @@
             plugins: [
                 function(hook, vm) {
                     hook.doneEach(function() {
+                        // Adding [WIKI] styled text to the sidebar name.
+                        document.querySelectorAll('.app-name-link').forEach(it => {
+                            if (it.children.length == 0) {
+                                it.insertAdjacentHTML('beforeend', '<span class="app-name-tag">WIKI</span>')
+                            }
+                        });
+                        // Updating website title.
                         if (document.title === window.$docsify.name)
                             document.title = "Strona Główna | FireDOT"
                         else document.title = document.title.replace(" - " + window.$docsify.name, " | FireDOT");

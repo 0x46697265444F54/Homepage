@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 
 /* Reverts Safari compatibility hack, as this introduces small offset issue for non-Safari browsers. Inline to take less space. */
 a[href] { &:hover { translate: none !important; } }
@@ -11,11 +12,13 @@ a[href] { &:hover { translate: none !important; } }
 
 :root {
     /* BASE PROPERTIES */
-    --font-family: 'Maven Pro';
+    --font-family: 'Ubuntu Sans';
+    --font-size: 15px;
+    --font-weight: 400;
     --color-text: #BBBBBB;
     --color-bg: #191919;
     /* THEME COLORS */
-    --theme-color: #ff7a59;
+    --theme-color: #FF7A59;
     /* HEADING */
     --heading-color: #DDDDDD;
     --heading-h2-border-style: none;
@@ -25,18 +28,20 @@ a[href] { &:hover { translate: none !important; } }
     --content-max-width: 85em;
     /* DECORATIONS */
     --strong-color: #DDDDDD;
+    --strong-font-weight: 1000;
     /* LINKS */
-    --link-color: #ff714e;
+    --link-color: #FF714E;
     --link-color-hover: color-mix(in srgb, var(--link-color), black 20%);
     --link-underline-color: inherit;
     --link-underline-thickness: 1px;
     --link-underline-thickness-hover: 1px;
     /* SIDEBAR */
-    --sidebar-name-font-family: Potta One;
-    --sidebar-name-font-size: 32px;
-    --sidebar-name-font-weight: none;
+    --sidebar-name-font-family: 'Ubuntu Sans';
+    --sidebar-name-font-weight: 1000;
+    --sidebar-name-font-size: 36px;
     --sidebar-bg: color-mix(in srgb, var(--color-bg), black 10%);
     --sidebar-border-color: none;
+    --sidebar-font-size: 16px;
     /* SIDEBAR TOGGLE BUTTON */
     --sidebar-toggle-width: 18px;
     --sidebar-toggle-height: 36px;
@@ -96,17 +101,19 @@ h2 {
 /* NAVBAR */
 
 .app-nav li:has(a):hover {
-    transition: background 0.3s;
+    transition: background, border 0.3s;
     background-color: var(--color-mono-2);
 
     a {
-        color: var(--color-text) !important;
+        color: var(--strong-color) !important;
         text-decoration: none;
+        
     }
 }
 
 .app-nav li:has(a) {
     border-radius: 8px;
+    border: 2px solid transparent;
 
     a {
         padding: 8px;
@@ -155,13 +162,30 @@ h2 {
 }
 
 .app-name {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-bottom: 0.3em;
     text-shadow: 1px 1px 8px rgba(0, 0, 0, .25), -1px -1px 8px rgba(0, 0, 0, .25);
+    user-select: none;
+    border-bottom: 1px solid var(--color-mono-2);
 
     > a {
         text-decoration: none;
         color: var(--theme-color) !important;
+        
+    }
+
+    .app-name-tag {
+        margin-left: 1em;
+        font-size: 14px;
+        background-color: var(--theme-color-1);
+        color: var(--theme-color);
+        border: 2px solid var(--theme-color-2);
+        padding: 3px;
+        border-radius: 6px;
+        padding: 4px;
+        line-height: 0;
+        bottom: 60px;
+        vertical-align: 9px;
         
     }
 }
@@ -223,4 +247,54 @@ footer {
         text-align: center;
         gap: 10px;
     }
+}
+
+
+/* CARDS */
+
+.container-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card:hover {
+  img {
+    transition: 0.3s ease !important;
+    opacity: 1.0 !important;
+    filter: grayscale(0%) !important;
+  }
+}
+
+.card {
+  flex: 1 1 100%;
+  border-radius: 8px;
+  border: 1px solid var(--color-mono-3);
+  min-width: 200px;
+  background-color: var(--color-mono-1);
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, .15);
+  user-select: none;
+  padding-bottom: 8px;
+
+  img {
+    transition: 0.5s ease !important;
+    filter: grayscale(50%);
+    opacity: 0.75;
+    border-radius: 8px 8px 0 0 !important;
+    margin-bottom: 4px;
+  }
+
+  h5, p {
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .card {
+    flex: 1 1 calc(33.333% - 1em);
+    max-width: calc(33.333% - 1em);
+  }
 }

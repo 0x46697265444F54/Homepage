@@ -1,71 +1,101 @@
-<style>
-img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
-    max-height: 280px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-shadow: 0 0 8px 4px rgba(0, 0, 0, .1);
-    border-radius: 10px;
-}
-</style>
-
-<!-- PAGE BEGINS HERE -->
-
 # Inne
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
+<br>
+
 ### Ogólne
 
-- **Zachowywanie Ekwipunku**  
-  Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.  
-  ![Keep Inventory](assets/img/keep_inventory.jpeg)  
-  <sup>Kolorem czerwonym oznaczone zostały przedmioty, które wypadną po śmierci.</sup>
+<div class="container-row">
 
-- **Ognisko**  
-  Przebywanie w pobliżu ogniska powoli regeneruje punkty życia i odstrasza pobliskie moby.  
-  ![Ognisko](assets/img/campfire.jpeg)  
+  <div class="card">
+    <img src="assets/img/inne/keep_inventory.webp"></img>
+    <h5>Zachowywanie Ekwipunku</h5>
+    <p>Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.</p>
+  </div>
 
-- **Obrażenia**  
-  Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.  
-  ![Obrażenia](assets/img/floaters.jpeg)  
+  <div class="card">
+    <img src="assets/img/inne/campfire.webp"></img>
+    <h5>Ognisko</h5>
+    <p>Przebywanie w pobliżu ogniska powoli regeneruje punkty życia i odstrasza pobliskie moby.</p>
+  </div>
 
-- **Siedzenie**  
-  Schody mogą być używane jako krzesła. Aby usiąść, należy kliknąć na blok prawym przyciskiem myszy.  
-  ![Siedzenie](assets/img/chairs.png)  
+  <div class="card">
+    <img src="assets/img/inne/floaters.webp"></img>
+    <h5>Obrażenia</h5>
+    <p>Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.</p>
+  </div>
 
-- **Przesypianie Nocy**  
-  Do przespania nocy wymagane jest, aby tylko 1/3 graczy na serwerze była w łóżku.  
-  ![Przesypianie Nocy](assets/img/sleep.png)  
+  <div class="card">
+    <img src="assets/img/inne/chairs.webp"></img>
+    <h5>Siedzenie</h5>
+    <p>Schody mogą być używane jako krzesła. Aby usiąść, należy kliknąć na blok prawym przyciskiem myszy.</p>
+  </div>
 
-- **Linkowanie Przedmiotów**  
-  Za pomocą frazy **\<item>** można podlinkować przedmiot na czat.  
-  ![Przesypianie Nocy](assets/img/item.png)  
+  <div class="card">
+    <img src="assets/img/inne/sleep.webp"></img>
+    <h5>Przesypianie Nocy</h5>
+    <p>Do przespania nocy wymagane jest, aby tylko 1/3 graczy na serwerze była w łóżku.</p>
+  </div>
 
-- **Kolorowanie Znaczników**  
-  Połączenie nazwanego znacznika z wybranym barwnikiem tworzy kolorowy tekst.  
-  ![Pokolorowany Znacznik](assets/img/nametag.png)  
+  <div class="card">
+    <img src="assets/img/inne/item.webp"></img>
+    <h5>Linkowanie Przedmiotów</h5>
+    <p>Używając pomocą frazy <strong>&lt;item&gt;</strong> można podlinkować przedmiot na czat.</p>
+  </div>
 
-- **Stojaki**  
-  Stojaki na zbroję mają ręce, do których można włożyć dowolny przedmiot.  
-  ![Stojak](assets/img/armor_stand.png)  
+  <div class="card">
+    <img src="assets/img/inne/nametag.webp"></img>
+    <h5>Kolorowanie Znaczników</h5>
+    <p>Połączenie nazwanego znacznika z wybranym barwnikiem tworzy kolorowy tekst.</p>
+  </div>
 
-- **Handel z Osadnikami**  
-  Włączona została paczka **[Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance)**, która zmienia sposób pozyskiwania niektórych przedmiotów podczas handlu z osadnikami. Dodatkowo, aby zbalansować dostępność rzadkich zasobów, zablokowana została możliwość zmieniania ofert handlowych poprzez przestawianie stacji roboczych.  
-  ![Villager Trade Rebalance](assets/img/villager_trade_rebalance.png)  
+  <div class="card">
+    <img src="assets/img/inne/armor_stand.webp"></img>
+    <h5>Stojaki</h5>
+    <p>Stojaki na zbroję mają ręce, do których można włożyć dowolny przedmiot.</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/inne/villager_trade_rebalance.webp"></img>
+    <h5>Zbalansowany Handel</h5>
+    <p>Włączono <a style="font-weight: 600" href="https://minecraft.wiki/w/Villager_Trade_Rebalance">Villager Trade Rebalance</a> i zablokowano możliwość zmiany ofert handlowych poprzez przestawianie stacji roboczych.</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/inne/day_night_cycle.webp"></img>
+    <h5>Dłuższy Dzień</h5>
+    <p>Długość dnia została zwiększona o dodatkowe 5 minut.</p>
+  </div>
+
+</div>
 
 ### Moby
 
-- **Kolekcjonowanie Główek**  
-  Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.  
-  ![Główki](assets/img/mob_heads.png)  
+<div class="container-row">
 
-- **Zatrzymywanie Wzrostu**  
-  Wzrost mobów może zostać zatrzymany za pomocą **Świecących Jagód**.  
-  ![Zatrzymywanie Wzrostu](assets/img/age_lock.png)  
-  <sup>Wznowić wzrost możesz poprzez nakarmienie moba **Złotą Marchewką**.</sup>
+  <div class="card">
+    <img src="assets/img/inne/mob_heads.webp"></img>
+    <h5>Kolekcjonowanie Główek</h5>
+    <p>Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.</p>
+  </div>
 
-- **Wither**  
-  Wither może zostać przywołany tylko w netherze.  
-  ![Przesypianie Nocy](assets/img/wither.png)  
+  <div class="card">
+    <img src="assets/img/inne/age_lock.webp"></img>
+    <h5>Zatrzymywanie Wzrostu</h5>
+    <p>Wzrost mobów może zostać zatrzymany za pomocą Świecących Jagód, a wznowiony za pomocą Złotej Marchewki.</p>
+  </div>
 
-- **Phantomy**  
-  Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.  
+  <div class="card">
+    <img src="assets/img/inne/wither.webp"></img>
+    <h5>Wither</h5>
+    <p>Wither może zostać przywołany tylko w netherze.</p>
+  </div>
+
+  <div class="card">
+    <img src="assets/img/inne/phantomy.webp"></img>
+    <h5>Phantomy</h5>
+    <p>Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.  </p>
+  </div>
+
+</div>
+
