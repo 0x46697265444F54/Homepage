@@ -50,7 +50,8 @@ table, tr, td {
 # **FireDOT v2**
 Wyjątkowy serwer **survival** stworzony z myślą o **casualowych** i **prawdziwie wymagających** graczach. Stylizowany na **vanilla-friendly**, lecz wzbogacony o **pasujące do świata** i **intuicyjne** w obsłudze **dodatki**. Tworzymy **pomocną** społeczność nastawioną na rozgrywkę **PVE**.
 
-?> Aby wejść na serwer, połącz się z adresem **FIREDOT.PL** dowolnym klientem na wersji **1.21.7**.<br><sup>Grać na serwerze mogą tylko osoby posiadające oryginalną wersję gry.<sup>
+> [!WARNING]
+> Aby wejść na serwer, połącz się z adresem **FIREDOT.PL** dowolnym klientem na wersji **1.21.10**.<br><sub><strong>Uwaga:</strong> Grać na serwerze mogą tylko osoby posiadające oryginalną wersję gry.<sub>
 
 <br>
 
