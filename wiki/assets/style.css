@@ -75,7 +75,14 @@ h2 {
     color: color-mix(in srgb, var(--callout-border-color), var(--color-text) 25%) !important;
 
     b, strong {
-        filter: brightness(1.25)
+        filter: brightness(1.1)
+    }
+    h1, h2, h3, h4, h5, a:not(a:hover) {
+        color: color-mix(in srgb, var(--callout-border-color), var(--color-text) 25%) !important;
+        filter: brightness(1.1)
+    }
+    a:hover {
+        color: color-mix(in srgb, currentColor, black 20%) !important;
     }
 }
 
@@ -95,17 +102,6 @@ h2 {
     --callout-border-color: var(--color-mono-5) !important;
 }
 
-
-
-/* GLOBAL STYLE */
-
-a {
-    transition: color 0.3s;
-}
-
-h2 {
-    border-style: none !important;
-}
 
 /* NAVBAR */
 
@@ -237,7 +233,6 @@ h2 {
 sup {
     display: inline-block;
     margin-top: 0.25em;
-    margin-left: 0.1em;
     line-height: 1.25;
     opacity: 0.75
 }
@@ -306,4 +301,9 @@ footer {
     flex: 1 1 calc(33.333% - 1em);
     max-width: calc(33.333% - 1em);
   }
+}
+
+
+.no-underline a {
+    text-decoration: none !important;
 }
