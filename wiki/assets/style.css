@@ -10,6 +10,14 @@ a[href] { &:hover { translate: none !important; } }
     background-color: color-mix(in srgb, var(--color-text), transparent 80%);
 }
 
+a {
+    transition: color 0.3s;
+}
+
+h2 {
+    border-style: none !important;
+}
+
 :root {
     /* BASE PROPERTIES */
     --font-family: 'Ubuntu Sans';
@@ -58,6 +66,7 @@ a[href] { &:hover { translate: none !important; } }
     --fd-warning-color: #CF940A;
     --fd-caution-color: #E04F44;
 }
+
 
 /* CALLOUT */
 .callout {

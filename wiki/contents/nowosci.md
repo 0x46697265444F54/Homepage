@@ -13,7 +13,7 @@
 
 blockquote:not(sup) {
   padding: 16px 16px 16px 16px !important;
-  border-radius: 16px !important;
+  border-radius: 8px !important;
   border: 2px solid color-mix(in srgb, var(--color), transparent 75%) !important;
   background-color: color-mix(in srgb, var(--color), transparent 90%) !important;
 
@@ -40,14 +40,16 @@ blockquote:not(sup) {
   }
 
   h5 {
+    user-select: none;
     pointer-events: none;
     padding-bottom: 8px;
-    border-bottom: 2px solid color-mix(in srgb, var(--color), transparent 75%);
-    a {
-      opacity: 1.0
-    }
+    margin-left: -8px !important;
   }
-  
+
+  h5:selection {
+    text-decoration: none !important;
+  }
+
 }
 
 .separator {
@@ -61,15 +63,19 @@ blockquote:not(sup) {
 
 .separator:before, .separator:after {
   content: '';
-  display: inline-block;
   flex-grow: 1;
-  background: 1px var(--color-mono-2);
+  background: var(--color-mono-2);
   height: 1px;
-  margin: 0.5em 1em 0.5em 1em;
+  margin: 0.5em 1em;
 }
 
 </style>
 
+# Nowości
+Historia zmian wprowadzonych na serwer podczas trwania obecnego sezonu. Lista aktualizowana jest zwykle raz w miesiącu lub przed większą aktualizacją.  
+Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#changelog** na naszym serwerze Discord.
+
+<br>
 
 <div class="page">
 
@@ -79,7 +85,7 @@ blockquote:not(sup) {
 
   <div class="yellow">
 
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Usprawioniono wewnętrzny system monitorowania wydajności i statusu serwera.  
 
   </div>
@@ -97,7 +103,7 @@ blockquote:not(sup) {
   </div>
   <div class="green">
 
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Paczki zasobów są teraz ładowane, gdy gracz łączy się z serwerem, a nie dopiero po wejściu i załadowaniu świata.
   >   <sup>Wewnętrzny system został znacząco uproszczony i jest mniej podatny na błędy. Ryzyko śmierci podczas ładowania paczek zostało zmniejszone do minimum.</sup>
   > - Dodano głowę **Szczęśliwego Ghasta** - przedmiot kolekcjonerski.  
@@ -108,14 +114,14 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Tymczasowo wyłączono komendę **/border**, pozwalającą sprawdzenie granic terenu.
   >   <sup>Implementacja stwarzała problemy podczas aktualizacji do coraz to nowszych wersji, aż w końcu przestała działać całkowicie. Planujemy reimplementację tej funkcji w niedalekiej przyszłości.</sup>
   
   </div>
   <div class="red">
   
-  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > ##### <i class="si fixed"></i> POPRAWKI
   > - Naprawiono wyświetlanie się ikony **AFK** (away-from-keyboard) na liście graczy.
   > - Dodano brakujący przycisk wstecz na drugiej stronie sklepu **Gospodarstwo**.
 
@@ -132,7 +138,7 @@ blockquote:not(sup) {
   </div>
   <div class="green">
 
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Koszyki wyświetlają teraz dodatkowe informacje na temat przechowywanego stwora.
   > - Nowy, łatwiejszy system naprawiania wyposażenia w kowadle.
   >   - Jeden surowiec odnawia teraz **100%** punktów wytrzymałości narzędzia.
@@ -142,7 +148,7 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Usunięto integrację z modem **Simple Voice Chat**.  
   >   <sup>Integracja przestała działać z powodu zmiany w infrastrukturze serwera i na ten moment nie jest możliwe jej ponowne włączenie.</sup>
   > - Zaktualizowano wygląd strony internetowej serwera.  
@@ -152,7 +158,7 @@ blockquote:not(sup) {
   </div>
   <div class="red">
   
-  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > ##### <i class="si fixed"></i> POPRAWKI
   > - Znacząco poprawiono podgląd przedmiotów wystawionych w domu aukcyjnym.  
   >   <sup>Nazwy i opisy przedmiotów są teraz prawidłowo tłumaczone na wybrany język gry.</sup>
   > - Naprawiono rozmnażanie niestandardowych roślin mączką kostną.  
@@ -181,7 +187,7 @@ blockquote:not(sup) {
   </div>
   <div class="green">
    
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Dodano **Sklep Sezonowy**, w którym można zakupić dekoracje dodane w wersji **1.21.5**.
   >   - **Krzew** (Bush)
   >   - **Krzew Świetlików** (Firefly Bush)
@@ -213,7 +219,7 @@ blockquote:not(sup) {
   
   <div class="green">
   
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Dodano nowe przedmioty: **Tuńczyk** oraz **Pieczony Tuńczyk**.
   > - Dodano komendę **/collections**, która wyświetla postęp zdobytych przedmiotów kolekcjonerskich.  
   >   <sup>Aby dodać uprzednio zebrane przedmioty do kolekcji, wystarczy umieścić je na chwilę w ekwipunku.</sup> 
@@ -223,7 +229,7 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - **Skarbce** oraz **Złowieszcze Skarbce** w normalnym świecie resetują się teraz co 12 godzin.  
   >   <sup>W przeciwieństwie do skarbców w wymiarze kresu, skarbce w normalnym świecie nie wyświetlają licznika resetu. W przyszłości planujemy to zmienić.</sup>   
   > - Wprowadzono limity sprzedaży do pozostałych sklepów.  
@@ -264,7 +270,7 @@ blockquote:not(sup) {
   
   <div class="green">
   
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Włączono możliwość zgłaszania wiadomości na czacie i ignorowania graczy.  
   >   <sup>System jest częścią gry, a nie serwerowym dodatkiem. Zgłoszenia wysłane za pomocą tego systemu nie są weryfikowane przez administrację serwera.<br> Więcej informacji: **[Blog](https://www.minecraft.net/en-us/article/addressing-player-chat-reporting-tool)**, **[Player Reporting FAQ](https://help.minecraft.net/hc/en-us/articles/7317376541197)**, **[EULA](https://www.minecraft.net/en-us/eula)**, **[Commercial Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines#terms-commercial_guidelines)**, **[Community Standards](https://www.minecraft.net/en-us/community-standards)**</sup>
   > - Dodano zaklęcie **Ogrodnik** (Gardener), które można nałożyć na **Motykę**.  
@@ -289,7 +295,7 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Wyłączono podnoszenie i stawianie bloków przez endermany na terenie całego świata.  
   >   <sup>Jeżeli gracz życzy sobie włączyć tę funkcję na swoim terenie, może to zrobić za pomocą flagi **Enderman**.</sup>
   > - Dodano **1-minutowy** cooldown dla komendy **/defeat**.  
@@ -319,7 +325,7 @@ blockquote:not(sup) {
   </div>
   <div class="red">
   
-  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > ##### <i class="si fixed"></i> POPRAWKI
   > - Naprawiono błędnie ustawiony poziom trudności w wymiarze kresu: **~Łatwy~** ➜ **Trudny** 
   >   <sup>Naturalnym efektem tej zmiany jest ograniczenie dostępu do nowych przedmiotów dla słabo wyposażonych graczy.</sup>
   > - Naprawiono stackowanie się płyty muzycznej **Endgame**, którą można zdobyć w wymiarze kresu.  
@@ -345,7 +351,7 @@ blockquote:not(sup) {
  
   <div class="green">
   
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Dodano możliwość **Kolorowania** nazwanych **Znaczników**.  
   >   <sup>Wystarczy połączyć nazwany znacznik z wybranym barwnikiem w stole to wytwarzania.</sup>
   > - Dodano recepturę do wytworzenia **Koszyka**.  
@@ -377,7 +383,7 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Zaklęcie **Wędrowiec** (Stride) jest teraz dezaktywowane podczas kucania.
   > - Zaklęcie **Wędrowiec** (Stride) jest teraz trudniejsze do zdobycia przez stół do zaklinania.
   > - Zmieniono wygląd skinów graczy na kanale ⁠**💬｜chat** na naszym serwerze Discord.  
@@ -432,7 +438,7 @@ blockquote:not(sup) {
 
   <div class="green">
   
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Wydłużono długość dnia o **5** minut.  
   >   <sup>Długość nocy pozostaje bez zmian.</sup>
   > - Gdy gracz spojrzy na zegar w ramce, na górze ekranu pokaże się aktualna godzina na serwerze.
@@ -448,7 +454,7 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Osadnik sprzedający **Diamentową Motykę** uzupełnia teraz **1** przedmiot zamiast **3**.  
   >   <sup>W połączeniu z możliwością przepalenia narzędzi w piecu hutniczym, było to wykorzystywane do generowania dużej ilości diamentów bardzo niskim kosztem.</sup>
   > - Zmieniono tytuł ekranu sprzedawania i kupowania w sklepie. Ma to na celu zmniejszyć ryzyko pomyłki.
@@ -456,7 +462,7 @@ blockquote:not(sup) {
   </div>
   <div class="red">
   
-  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > ##### <i class="si fixed"></i> POPRAWKI
   > - Naprawiono błędy związane z przyznawaniem przedmiotów startowych.  
   >   <sup>Jeżeli ich nigdy nie dostałeś, skontaktuj się z administracją serwera.</sup>
   > - Naprawiono problemy związane z komendą **/money**.
@@ -481,7 +487,7 @@ blockquote:not(sup) {
 
   <div class="green">
   
-  > ##### <i class="bi bi-stars"></i> NOWOŚCI
+  > ##### <i class="si new"></i> NOWOŚCI
   > - Zaktualizowano wersję **Minecrafta**, na której działa serwer: **1.21.1** ➜ **1.21.4**
   >   - Dodano **Sakwy** (Bundles), biom **Blady Ogród** (Pale Garden), moba **Trzeszcz** (Creaking) i wiele innych nowości.
   >   - Pełna lista zmian w **1.21.2** dostępna w tym miejscu: **https://minecraft.wiki/w/Java_Edition_1.21.2**
@@ -547,7 +553,7 @@ blockquote:not(sup) {
   </div>
   <div class="yellow">
   
-  > ##### <i class="bi bi-gear-fill"></i> ZMIANY
+  > ##### <i class="si changed"></i> ZMIANY
   > - Zaktualizowano **Paczki Zasobów** dostarczane przez serwer.
   >   - Kilka nowych tekstur poprawiających doświadczenia wizualne podczas rozgrywki.
   >   - Odświeżony wygląd interfejsu gracza i niestandardowych ekranów.
@@ -593,7 +599,7 @@ blockquote:not(sup) {
   </div>
   <div class="red">
   
-  > ##### <i class="bi bi-bug-fill"></i> POPRAWKI
+  > ##### <i class="si fixed"></i> POPRAWKI
   > - Poprawiono problemy związane z flagą **Spawn Mobów**.
   >   - Spawnery stanowią wyjątek i nie są już blokowane przez tę flagę.
   >   - Problemy z nie pojawiającymi się mobami zostały rozwiązane.
