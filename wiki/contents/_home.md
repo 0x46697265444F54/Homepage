@@ -2,11 +2,11 @@
 
 table, tr, td {
     background-color: transparent !important;
-    padding-bottom: 10px !important;
     border-color: transparent !important;
+    padding: 0 10px 5px 0 !important;
 
     i {
-        font-size: 24px;
+        font-size: 16px;
         color: var(--color) !important;
     }
     a {
@@ -20,106 +20,65 @@ table, tr, td {
     }
 }
 
-.no-underline a {
-    text-decoration: none !important;
-}
-
-.feature.generator    { --color: rgb(111, 163, 106) }
-.feature.tereny       { --color: rgb(225, 88, 81)   }
-.feature.teleportacja { --color: rgb(25, 136, 253)  }
-.feature.zawartosc    { --color: rgb(193, 142, 88)  }
-.feature.zaklecia     { --color: rgb(176, 127, 209) }
-.feature.rolnictwo    { --color: rgb(212, 165, 22)  }
-.feature.receptury    { --color: rgb(126, 172, 190) }
-.feature.ekonomia     { --color: rgb(24, 179, 86)   }
-.feature.ekwipunek    { --color: rgb(121, 132, 136) }
-
-.colored-strong strong { color: var(--theme-color) !important }
-
 </style>
 
-# **FireDOT v2**
-Wyjątkowy serwer **survival** stworzony z myślą o **casualowych** i **prawdziwie wymagających** graczach. Stylizowany na **vanilla-friendly**, lecz wzbogacony o **pasujące do świata** i **intuicyjne** w obsłudze **dodatki**. Tworzymy **pomocną** społeczność nastawioną na rozgrywkę **PVE**.
-
-> [!WARNING]
-> Aby wejść na serwer, połącz się z adresem **FIREDOT.PL** dowolnym klientem na wersji **1.21.10**.<br><sub><strong>Uwaga:</strong> Grać na serwerze mogą tylko osoby posiadające oryginalną wersję gry.<sub>
+# FireDOT
+Serwer oferujący rozgrywkę w trybie przetrwania na zmienionych zasadach.  
 
 <br>
 
 ### Najważniejsze Funkcje
-Najważniejsze funkcje dostępne na serwerze. Bardziej szczegółowy opis znajdziesz na pozostałych stronach dokumentacji.
 
-<table>
-  <tr class="feature generator">
-    <td><i class="bi bi-globe-americas"></i></td>
-    <td><a href="./#/generator">Poprawiony Generator Świata</a><br>Generator świata skupiający się na upiększeniu istniejących biomów i urozmaicenia go o nowe, jednak pasujące do otoczenia struktury.</td>
-  </tr>
-  <tr class="feature tereny">
-    <td><i class="bi bi-flag-fill"></i></td>
-    <td><a href="./#/tereny">Chronione Tereny</a><br>Chronione tereny z unikalnym i intuicyjnym panelem zarządzania.</td>
-  </tr>
-  <tr class="feature teleportacja">
-    <td><i class="bi bi-rocket-takeoff-fill"></i></td>
-    <td><a href="./#/teleportacja">Teleportacja</a><br>Magnetyt na serwerze pełni funkcję prywatnego teleportu.</td>
-  </tr>
-  <tr class="feature zawartosc">
-    <td><i class="bi bi-box-fill"></i></td>
-    <td><a href="./#/przedmioty">Nowe Przedmioty</a><br>Kilka nowych i użytecznych przedmiotów.</td>
-  </tr>
-  <tr class="feature zaklecia">
-    <td><i class="bi bi-magic"></i></td>
-    <td><a href="./#/zaklecia">Nowe Zaklęcia</a><br>Wiele nowych zaklęć przenoszących rozgrywkę na wyższy poziom.</td>
-  </tr>
-  <tr class="feature rolnictwo">
-    <td><i class="bi bi-thermometer-sun"></i></td>
-    <td><a href="./#/rolnictwo">Realistyczne Rolnictwo</a><br>Rośliny rosną z różną prędkością w zależności od biomu, na którym się znajdują.</td>
-  </tr>
-  <tr class="feature receptury">
-    <td><i class="bi bi-gear-fill"></i></td>
-    <td><a href="./#/receptury">Zbalansowane Receptury</a><br>Nowe i zmodyfikowane receptury balansujące dynamikę rozgrywki.</td>
-  </tr>
-  <tr class="feature ekonomia">
-    <td><i class="bi bi-bank2"></i></td>
-    <td><a href="./#/ekonomia">Podstawowa Ekonomia</a><br>Podstawowa ekonomia i sklepy pozwalają na uzyskanie trudno dostępnych i limitowanych przedmiotów.</td>
-  </tr>
-  <tr class="feature ekwipunek">
-    <td><i class="bi bi-backpack-fill"></i></td>
-    <td><a>Zachowywanie Ekwipunku</a><br>W momencie śmierci, gracz zachowuje przedmioty z paska szybkiego dostępu oraz noszoną zbroję.</td>
-  </tr>
-</table>
+|                                           |                                                                                         |
+|-------------------------------------------|-----------------------------------------------------------------------------------------|
+| <i class="bi bi-globe-americas"></i>      | Świat urozmaicony o nowy wygląd biomów i kilka dodatkowych struktur.                    |
+| <i class="bi bi-flag-fill"></i>           | Chronione działki z rozwiniętym systemem zarządzania.                                   |
+| <i class="bi bi-rocket-takeoff-fill"></i> | Teleportacja tylko za pomocą fizycznych punktów i przedmiotów specjalnych.              |
+| <i class="bi bi-hourglass-split"></i>     | Zaawansowany poziom trudności i spowolniona początkowa progresja.                       |
+| <i class="bi bi-gear-fill"></i>           | Zdobywanie lepszego wyposażenia opiera się na ścieżce ulepszeń i szablonach kowalskich. |
+| <i class="bi bi-moon-fill"></i>           | Nowy poziom pancerza i narzędzi ‒ Enderyt.                                              |
+| <i class="bi bi-magic"></i>               | Ponad 16 nowych, starannie dobranych zaklęć.                                            |
+| <i class="bi bi-bank2"></i>               | Podstawowa ekonomia, sklepy oraz system ulepszeń.                                       |
+| <i class="bi bi-backpack-fill"></i>       | Pasek szybkiego dostępu i założona zbroja nie wypadają po śmierci.                      |
+| <i class="bi-thermometer-sun"></i>        | Prędkość wzrostu roślin zależna od biomu.                                               |
+| <i class="bi-map-fill"></i>               | Mapa serwera dostępna w przeglądarce.                                                   |
+| <i class="bi-puzzle-fill"></i>            | Kolekcja ponad 150 główek do zebrania.                                                  |
+| <i class="bi-calendar-day-fill"></i>      | Zawsze najnowsza wersja gry i możliwie szybkie aktualizacje.                            |
 
 <br>
 
 ### Paczka Zasobów
-Gra na naszym serwerze wymaga zaakceptowania paczki zasobów. Zawiera ona tekstury, których używamy do wyświetlania niestandardowych ekranów, przedmiotów, ikon i efektów. Ponadto, w celu poprawy wrażeń z rozgrywki i wprowadzeniu odrobiny świeżości, znajdują się w niej starannie wybrane tekstury poprawiające ogólny wygląd gry jednocześnie nie odbiegając w znaczący sposób od jej oryginalnego stylu.
+Gra na naszym serwerze wymaga zaakceptowania paczki zasobów. Proces jej pobierania i ładowania jest w pełni automatyczny i nie wymaga żadnej akcji ze strony gracza. Przed wejściem na serwer zalecamy wyłączyć inne zainstalowane resource-packi.
 
-Proces pobierania i ładowania paczki zasobów jest w pełni automatyczny i nie wymaga żadnej akcji ze strony gracza. Przed wejściem na serwer zalecamy wyłączyć wszystkie inne zainstalowane resource-packi.
+Wykorzystywane paczki zasobów zewnętrznych twórców:
 
-<div class="no-underline">
+<div class="symbolic no-underline">
 
-- **[<i class="si modrinth"></i> 3D Default](https://modrinth.com/resourcepack/3d-default)**
-- **[<i class="si modrinth"></i> Angel's Weather](https://modrinth.com/resourcepack/angels-weather)**
-- **[<i class="si modrinth"></i> Gurkis Texture Variations](https://modrinth.com/resourcepack/gurkis-texture-variations)**
-- **[<i class="si modrinth"></i> Farcr's Better Dirt](https://modrinth.com/resourcepack/farcrs-better-dirt)**
-- **[<i class="si modrinth"></i> Hidey Hidey Debris](https://modrinth.com/resourcepack/hidey-hidey-debris)**
-- **[<i class="si modrinth"></i> Mob Crates](https://modrinth.com/resourcepack/mob-crates)**
-- **[<i class="si modrinth"></i> More Fungi](https://modrinth.com/resourcepack/more-fungi)**
-- **[<i class="si modrinth"></i> Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x)**
-- **[<i class="si modrinth"></i> Round Up](https://modrinth.com/resourcepack/roundup)**
-- **[<i class="si modrinth"></i> Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)**
-- **[<i class="si modrinth"></i> Smoother Glowing](https://modrinth.com/shader/smoother-glowing)**
-- **[<i class="si modrinth"></i> Spring Flowers](https://modrinth.com/resourcepack/spring-flowers)**
-- **[<i class="si modrinth"></i> Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)**
-- **[<i class="bi bi-globe"></i> VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)**
+- **[<i class="si modrinth"></i> 3D Default](https://modrinth.com/resourcepack/3d-default)** by GeForceLegend
+- **[<i class="si modrinth"></i> Crop & Foliage Variations](https://modrinth.com/resourcepack/crop-foliage-variations)** by Gurkis
+- **[<i class="si modrinth"></i> Distinguishable Armor Trims](https://modrinth.com/resourcepack/distinguishable-armor-trims)** by DeV_DeVaughn
+- **[<i class="si modrinth"></i> Farcr's Better Dirt](https://modrinth.com/resourcepack/farcrs-better-dirt)** by Farcr
+- **[<i class="si modrinth"></i> Gentler Weather Sounds](https://modrinth.com/resourcepack/gentler-weather-sounds)** by VesMaybeVesper
+- **[<i class="si modrinth"></i> Goat's Tool Trims](https://modrinth.com/datapack/goats-tool-trims)** by FloatingGoat
+- **[<i class="si modrinth"></i> Hidey Hidey Debris](https://modrinth.com/resourcepack/hidey-hidey-debris)** by Sammy019
+- **[<i class="si modrinth"></i> Mob Crates](https://modrinth.com/resourcepack/mob-crates)** by NoCube, Futureazoo
+- **[<i class="si modrinth"></i> Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x)** by AmberWat
+- **[<i class="si modrinth"></i> Round Up](https://modrinth.com/resourcepack/roundup)** by Dremix
+- **[<i class="si modrinth"></i> Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)** by 2DWisp
+- **[<i class="si modrinth"></i> Smoother Glowing](https://modrinth.com/shader/smoother-glowing)** by MelonRind
+- **[<i class="si modrinth"></i> Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)** by N0mish
+- **[<i class="si modrinth"></i> Wisp's Colourful Wildflowers](https://modrinth.com/resourcepack/wisps-colourful-wildflowers)** by 2DWisp
+- **[<i class="bi bi-github"></i> Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont)** by AmberWat
+- **[<i class="bi bi-globe"></i> Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)** by VanillaTweaks
 
-Lista może być niekompletna. Wypisane są tylko zewnętrzne i publicznie dostępne paczki, które nie zostały stworzone wyłącznie na potrzeby serwera.  
+Oraz inne zasoby, których twórcy zostali wymienieni w pliku **LICENSE** poszczególnych paczek.  
 <sup>Question? See **[Regulamin](regulamin)** for up-to-date contact information.</sup>
 
 </div>
 
 <br>
 
-<div class="no-underline">
+<div class="symbolic no-underline">
 
 ### Open-Source
 Wspieramy, tworzymy i korzystamy głównie z rozwiązań open-source. Zdecydowana większość z napisanych przez nas wtyczek jest wolnym oprogramowaniem.
@@ -133,7 +92,7 @@ Wspieramy, tworzymy i korzystamy głównie z rozwiązań open-source. Zdecydowan
 - **[<i class="bi bi-github"></i> Grabsky/Azure](https://github.com/Grabsky/Azure)**
 
 Dodatkowo korzystamy i współtworzymy narzędzia dla deweloperów:
-- **[<i class="bi bi-github"></i> EchoNineLabs/Kite](https://github.com/EchoNineLabs/Kite)** (Kotlin Scripting)
-- **[<i class="bi bi-github"></i> LuaLink/LuaLink](https://github.com/LuaLink/LuaLink)** (Lua Scripting)
+- **[<i class="bi bi-github"></i> EchoNineLabs/Kite](https://github.com/EchoNineLabs/Kite)**
+- **[<i class="bi bi-github"></i> LuaLink/LuaLink](https://github.com/LuaLink/LuaLink)**
 
 </div>

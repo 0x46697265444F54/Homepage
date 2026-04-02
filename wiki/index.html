@@ -20,22 +20,12 @@
     <script>
         window.$docsify = {
             name: "FireDOT",
-            homepage: "contents/_home.md",
-            loadNavbar: "contents/_navbar.md",
-            loadSidebar: "contents/_sidebar.md",
+            homepage: "_home.md",
+            loadNavbar: "_navbar.md",
+            loadSidebar: "_sidebar.md",
             alias: {
-                "/regulamin"    : "contents/regulamin",
-                "/nawigacja"    : "contents/nawigacja",
-                "/generator"    : "contents/generator",
-                "/receptury"    : "contents/receptury",
-                "/rolnictwo"    : "contents/rolnictwo",
-                "/teleportacja" : "contents/teleportacja",
-                "/ekonomia"     : "contents/ekonomia",
-                "/tereny"       : "contents/tereny",
-                "/zaklecia"     : "contents/zaklecia",
-                "/przedmioty"   : "contents/przedmioty",
-                "/nowosci"      : "contents/nowosci",
-                "/inne"         : "contents/inne",
+                "/"           : "contents/_home.md",
+                "/(.*)"       : "contents/$1",
             },
             cornerExternalLinkTarget: "_self",
             auto2top: true,
@@ -49,8 +39,8 @@
                     hook.doneEach(function() {
                         // Adding [WIKI] styled text to the sidebar name.
                         document.querySelectorAll('.app-name-link').forEach(it => {
-                            if (it.children.length == 0) {
-                                it.insertAdjacentHTML('beforeend', '<span class="app-name-tag">WIKI</span>')
+                            if (it.children.length === 0) {
+                                it.insertAdjacentHTML('beforeend', '<span class="app-name-tag">26.1.X</span>')
                             }
                         });
                         // Updating website title.
@@ -59,7 +49,7 @@
                         else document.title = document.title.replace(" - " + window.$docsify.name, " | FireDOT");
                     });
                 },
-                function pageFooter(hook, vm) {
+                function pageFooter(hook) {
                     const footer = [
                         "<hr>",
                         "<footer>",

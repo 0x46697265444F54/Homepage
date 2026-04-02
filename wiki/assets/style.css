@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 /* Reverts Safari compatibility hack, as this introduces small offset issue for non-Safari browsers. Inline to take less space. */
 a[href] { &:hover { translate: none !important; } }
-
-/* Docsify Style */
 
 ::selection {
     background-color: color-mix(in srgb, var(--color-text), transparent 80%);
@@ -14,6 +14,10 @@ a {
     transition: color 0.3s;
 }
 
+h1 {
+    font-family: 'Asimovian', sans-serif;
+}
+
 h2 {
     border-style: none !important;
 }
@@ -21,10 +25,10 @@ h2 {
 :root {
     /* BASE PROPERTIES */
     --font-family: 'Ubuntu Sans';
-    --font-size: 15px;
+    --font-size: 16px;
     --font-weight: 400;
     --color-text: #BBBBBB;
-    --color-bg: #191919;
+    --color-bg: #1D1D1D;
     /* THEME COLORS */
     --theme-color: #FF7A59;
     /* HEADING */
@@ -33,7 +37,7 @@ h2 {
     --heading-h2-margin: 0;
     --heading-h2-padding: 0;
     /* CONTENT */
-    --content-max-width: 85em;
+    --content-max-width: 70em;
     /* DECORATIONS */
     --strong-color: #DDDDDD;
     --strong-font-weight: 1000;
@@ -44,34 +48,49 @@ h2 {
     --link-underline-thickness: 1px;
     --link-underline-thickness-hover: 1px;
     /* SIDEBAR */
-    --sidebar-name-font-family: 'Ubuntu Sans';
-    --sidebar-name-font-weight: 1000;
+    --sidebar-name-font-family: 'Asimovian';
+    --sidebar-name-font-weight: 600;
     --sidebar-name-font-size: 36px;
-    --sidebar-bg: color-mix(in srgb, var(--color-bg), black 10%);
-    --sidebar-border-color: none;
+    --sidebar-bg: color-mix(in srgb, transparent, white 1%);
+    --sidebar-border-color: var(--color-mono-1);
     --sidebar-font-size: 16px;
     /* SIDEBAR TOGGLE BUTTON */
     --sidebar-toggle-width: 18px;
     --sidebar-toggle-height: 36px;
-    --sidebar-toggle-bg: var(--color-mono-2);
+    --sidebar-toggle-bg: color-mix(in srgb, var(--color-bg), white 2%);
     --sidebar-toggle-bg-hover: var(--color-mono-2);
-    --sidebar-toggle-color: var(--color-bg);
+    --sidebar-toggle-color: var(--color-mono-3);
     --sidebar-toggle-color-hover: var(--color-mono-4);
+
     /* CALLOUT */
     --callout-padding: 0.5em;
     --callout-charm-size: 0px;
     --callout-border-radius: 8px;
     /* CUSTOM */
     --fd-success-color: #259646;
-    --fd-warning-color: #CF940A;
+    --fd-warning-color: #F2911E;
     --fd-caution-color: #E04F44;
 }
 
+.sidebar-toggle-button {
+    border-right: 1px solid var(--color-mono-1);
+    border-bottom: 1px solid var(--color-mono-1);
+    border-top: 1px solid var(--color-mono-1);
+}
+
+.symbolic li:has(.bi), .symbolic li:has(.si) {
+    list-style: none;
+    margin-left: -1.25em;
+}
+
+.symbolic li:has(.bi) .bi::before,  .symbolic li:has(.si) .si {
+    margin-right: .5em;
+}
 
 /* CALLOUT */
 .callout {
     background-color: color-mix(in srgb, var(--callout-border-color), transparent 90%) !important;
-    border-color: color-mix(in srgb, var(--callout-border-color), transparent 60%) !important;
+    border-color: color-mix(in srgb, var(--callout-border-color), transparent 90%) !important;
     color: color-mix(in srgb, var(--callout-border-color), var(--color-text) 25%) !important;
 
     b, strong {
@@ -102,7 +121,6 @@ h2 {
     --callout-border-color: var(--color-mono-5) !important;
 }
 
-
 /* NAVBAR */
 
 .app-nav li:has(a):hover {
@@ -128,6 +146,7 @@ h2 {
 .sidebar-nav {
     user-select: none;
     margin-left: 0.5em;
+    z-index: 10;
 
     i {
         margin-right: 0.75em;
@@ -141,7 +160,6 @@ h2 {
             font-size: 80%;
             opacity: 0.75;
             font-weight: bold;
-            
         }
     }
 
@@ -163,7 +181,7 @@ h2 {
     li.active:has(a) {
         background-color: color-mix(in srgb, var(--theme-color-1), transparent 50%);
     }
-    
+
 }
 
 .app-name {
@@ -185,12 +203,11 @@ h2 {
         background-color: var(--theme-color-1);
         color: var(--theme-color);
         border: 2px solid var(--theme-color-2);
-        padding: 3px;
         border-radius: 6px;
         padding: 4px;
         line-height: 0;
         bottom: 60px;
-        vertical-align: 9px;
+        vertical-align: 8px;
         
     }
 }
@@ -224,7 +241,6 @@ h2 {
     font-size: 0.85em;
     color: white;
     border-radius: 5px;
-    text-align: middle;
     text-shadow: 0 0 2px #454545;
     padding: 5px;
     background-color: #2C9635;

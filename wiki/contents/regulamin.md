@@ -87,6 +87,7 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 > - **[<i class="si modrinth"></i> Inventive Inventory](https://modrinth.com/mod/inventive-inventory)** (Sortowanie)
 > - **[<i class="si modrinth"></i> Scribble](https://modrinth.com/mod/inventive-inventory)** (Edytor Książek)
 > - **[<i class="si modrinth"></i> Zoomify](https://modrinth.com/mod/zoomify)** (Zoom)
+> - **[<i class="si modrinth"></i> Click Through Plus](https://modrinth.com/mod/clickthrough+)**
 
 > [!CAUTION]
 > #### <i class="si disallow"></i>WSPOMAGANIE WIDOCZNOŚCI :id=wspomaganie-widocznosci

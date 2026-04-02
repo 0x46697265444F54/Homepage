@@ -13,4 +13,7 @@
 - [<i class="bi bi-currency-dollar"></i>Ekonomia](/ekonomia.md)
 - [<i class="bi bi-gear-fill"></i>Receptury](/receptury.md)
 - [<i class="bi bi-wrench-adjustable"></i>Inne](/inne.md)
-
+- **ODNOŚNIKI ZEWNĘTRZNE**
+- [<i class="bi bi-cup-hot-fill"></i>Wsparcie](https://buycoffee.to/grabsky)
+- [<i class="bi bi-geo-alt-fill"></i>Mapa Serwera](https://firedot.pl/mapa)
+- [<i class="bi bi-discord"></i>Społeczność Discord](https://firedot.pl/discord)
