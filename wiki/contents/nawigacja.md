@@ -26,17 +26,14 @@ Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy 
 
 ### Kompas
 Kompas, gdy trzymany w ręce, na **górze ekranu** wyświetla Twoje **aktualne koordynaty**. Jest to jeden z kilku przedmiotów startowych i **nie powinieneś się z nim rozstawać**, bowiem gdy nie masz w pobliżu magnetytu lub innego środka teleportacji, ułatwi Ci on na pewno dotarcie w miejsce docelowe.  
-![Kompas](assets/img/compass.jpeg)  
-<sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>  
+![Kompas](assets/img/compass.jpeg)
 
 ### Mapa
 Gdy w swojej ręce trzymasz mapę, na **górze ekranu** wyświetla się **biom**, na którym obecnie się znajdujesz.  
-![Mapa](assets/img/map.jpeg)  
-<sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>  
+![Mapa](assets/img/map.jpeg)
 
 ### Zegar
 Gdy w swojej ręce trzymasz zegar, na **górze ekranu** wyświetla się **aktualna godzina** w świecie, w którym obecnie się znajdujesz.  
-![Zegar](assets/img/clock.jpeg)  
-<sup>**Tip:** Przedmiot trzymany w drugiej ręce staje się niewidoczny i nie zasłania ekranu.</sup>  
+![Zegar](assets/img/clock.jpeg)
 
 </div>

@@ -1,186 +1,338 @@
 <style>
-.contents {
-    a {
-        font-weight: bold;
-        letter-spacing: 0.5px;
-    }
-    ol {
-        font-family: 'Ubuntu Mono';
-        margin: 0.25em 0 0 1em;
-    }
-}
-.page {
-    p, ul, ol {
-        margin: 0.25em 0 0.25em 0;
-    }
-}
 .translation {
     margin-left: 0.25em;
     font-weight: normal;
 }
+.enchant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.75em;
+    margin-top: 1em;
+}
+.enchant-card {
+    border-radius: 8px;
+    border: 1px solid var(--color-mono-3);
+    background-color: var(--color-mono-1);
+    box-shadow: 0 0 8px 4px rgba(0,0,0,0.15);
+    padding: 0.75em 0.85em 0.75em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+.enchant-card .ec-title {
+    font-weight: bold;
+    color: var(--heading-color);
+    font-size: 1.05em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+.enchant-card .ec-title .translation {
+    font-size: 0.9em;
+    color: var(--color-mono-5);
+    font-weight: normal;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ec-level-badge {
+    margin-left: auto;
+    flex-shrink: 0;
+    align-self: center;
+    font-weight: normal;
+    font-size: 0.78em;
+    color: var(--color-mono-5);
+    background-color: var(--color-mono-2);
+    border: 1px solid var(--color-mono-3);
+    border-radius: 4px;
+    padding: 0.1em 0.45em;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+.enchant-card .ec-desc {
+    font-size: 0.9em;
+    margin: 0;
+    color: var(--color-text);
+    padding-bottom: 0.25em;
+}
+.ec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85em;
+    margin: 0 !important;
+    border: none !important;
+}
+.ec-table tr + tr > td {
+    border-top: 1px solid var(--color-mono-2);
+}
+.ec-table td, .ec-table th {
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    padding: 0.28em 0;
+    vertical-align: middle;
+    color: var(--color-text);
+}
+.ec-table td.ec-label {
+    color: var(--color-mono-5);
+    white-space: nowrap;
+    padding-right: 0.6em;
+    width: 1%;
+}
+.ec-table td.ec-label::after {
+    content: ":";
+}
+.ec-table td strong {
+    color: var(--heading-color);
+    font-family: 'Ubuntu Mono', monospace;
+}
+.ec-icons-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    align-items: center;
+}
+.item-icon {
+    image-rendering: auto;
+    height: 20px;
+    width: auto;
+    vertical-align: -4px;
+}
+.source-tag {
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.05em 0.4em;
+    border-radius: 4px;
+    background-color: var(--color-mono-2);
+    margin-right: 0.2em;
+}
+.source-tag.st-zaklinanie  { color: #c9a227; background-color: rgba(201, 162,  39, 0.15); }
+.source-tag.st-lowienie    { color: #4a9edd; background-color: rgba( 74, 158, 221, 0.15); }
+.source-tag.st-eksploracja { color: #4caf6e; background-color: rgba( 76, 175, 110, 0.15); }
+.source-tag.st-skarbiec    { color: #b06adb; background-color: rgba(176, 106, 219, 0.15); }
 </style>
-
-<!-- PAGE BEGINS HERE -->
 
 # Zaklęcia
 Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadaniem jest ułatwienie rozgrywki na wielu płaszczyznach. Większość enchantów można uzyskać za pomocą stołu do zaklęć, ale zdobycie niektórych z nich wymaga trochę więcej wysiłku.
 
-### Szybki Wybór
+<div class="callout note">
 
-<div class="contents">
-
-1.  [Magnes](#magnes) (Magnet)
-2.  [Grawitacja](#grawitacja) (Gravity)
-3.  [Tarcza Soniczna](#tarcza-soniczna) (Sonic Shield)
-4.  [Żywotność](#zywotnosc) (Rejuvenation)
-5.  [Znawca Bloków](#znawca-blokow) (Scholar of Blocks)
-6.  [Znawca Stworów](#znawca-stworow) (Scholar of Mobs)
-7.  [Zatrucie](#zatrucie) (Poison Aspect)
-8.  [Spowolnienie](#spowolnienie) (Slowness Aspect)
-9.  [Osłabienie](#oslabienie) (Weakness Aspect)
-10. [Obumieranie](#obumieranie) (Wither Aspect)
-11. [Oszczędność](#oszczednosc) (Replenish)
-12. [Zasięg](#zasieg) (Reach)
-13. [Poręczność](#porecznosc) (Swift Strike)
-14. [Ognisty Piechur](#ognisty-piechur) (Scorch Walker)
-15. [Wędrowiec](#wedrowiec) (Stride)
-16. [Wabik](#wabik) (Bait)
-17. [Ogrodnik](#ogrodnik) (Gardener)
+Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** na naszym serwerze.
 
 </div>
 
-<br/>
-<br/>
 
-<div class="page">
+### Broń
 
-### Magnes <span class="translation">(Magnet)</span> :id=magnes
-Wykopane minerały i złoża trafiają bezpośrednio do ekwipunku.
-- Przeznaczenie: **Kilof**, **Motyka**, **Miecz**, **Buzdygan**, **Łuk**, **Kusza**
-- Maks. Poziom: **I**
-- Wyklucza: **Jedwabny Dotyk** (Silk Touch)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-grid">
 
-### Grawitacja <span class="translation">(Gravity)</span> :id=grawitacja
-Dodaje efekt pomniejszonej grawitacji, pozwalając tym samym na wyższy, ale wolniejszy skok.
-- Przeznaczenie: **Buty**
-- Maks. Poziom: **I**
-- Wyklucza: **Powolne Opadanie** (Feather Falling)
-- Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie**, **<i class="bi bi-box-fill"></i> Eksploracja** oraz **<i class="bi bi-safe-fill"></i> Skarbce** (w wymiarze kresu)
+<div class="enchant-card">
+<p class="ec-title">Znawca Stworów <span class="translation">(Scholar of Mobs)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zabite moby dają więcej punktów doświadczenia.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Grabież, Szczęście, Jedwabny Dotyk</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Tarcza Soniczna <span class="translation">(Sonic Shield)</span> :id=tarcza-soniczna
-Pozwala ochronić się przed falą dźwiękową wardena.
-- Przeznaczenie: **Tarcza**
-- Maks. Poziom: **I**
-- Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Zasięg <span class="translation">(Reach)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zwiększa zasięg o <strong>0.25</strong> bloku za każdy poziom.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Poręczność</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Żywotność <span class="translation">(Rejuvenation)</span>  :id=zywotnosc
-Zwiększa maksymalną ilość punktów życia. Dodaje **1x** <i style="font-size: .8em;" class="bi bi-heart-fill"></i> za każdy poziom zaklęcia.
-- Przeznaczenie: **Tarcza**
-- Maks. Poziom: **III**
-- Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Poręczność <span class="translation">(Swift Strike)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zwiększa szybkość ataku o <strong>12.5%</strong> za każdy poziom.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Zasięg</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Znawca Bloków <span class="translation">(Scholar of Blocks)</span>  :id=znawca-blokow
-Wykopane bloki dają więcej punktów doświadczenia.
-- Przeznaczenie: **Narzędzia**
-- Maks. Poziom: **III**
-- Wyklucza: **Szczęście** (Fortune), **Jedwabny Dotyk** (Silk Touch)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Zatrucie <span class="translation">(Poison Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+<p class="ec-desc">Uderzona ofiara otrzymuje efekt trucizny.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Spowolnienie, Osłabienie, Obumieranie</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Znawca Stworów <span class="translation">(Scholar of Mobs)</span> :id=znawca-stworow
-Zabite moby dają więcej punktów doświadczenia.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **III**
-- Wyklucza: **Grabież** (Looting), **Szczęście** (Fortune), **Jedwabny Dotyk** (Silk Touch)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Spowolnienie <span class="translation">(Slowness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+<p class="ec-desc">Uderzona ofiara otrzymuje efekt spowolnienia.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Zatrucie, Osłabienie, Obumieranie</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Zatrucie <span class="translation">(Poison Aspect)</span> :id=zatrucie
-Uderzona ofiara otrzymuje efekt trucizny.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **II**
-- Wyklucza:
-  - **Zaklęty Ogień** (Fire Aspect)
-  - **Spowolnienie** (Slowness Aspect)
-  - **Osłabienie** (Weakness Aspect)
-  - **Obumieranie** (Wither Aspect)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Osłabienie <span class="translation">(Weakness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+<p class="ec-desc">Uderzona ofiara otrzymuje efekt osłabienia.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Zatrucie, Spowolnienie, Obumieranie</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Spowolnienie <span class="translation">(Slowness Aspect)</span> :id=spowolnienie
-Uderzona ofiara otrzymuje efekt spowolnienia.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **II**
-- Wyklucza:
-  - **Zaklęty Ogień** (Fire Aspect)
-  - **Zatrucie** (Poison Aspect)
-  - **Osłabienie** (Weakness Aspect)
-  - **Obumieranie** (Wither Aspect)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Obumieranie <span class="translation">(Wither Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+<p class="ec-desc">Uderzona ofiara otrzymuje efekt obumierania.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Zatrucie, Spowolnienie, Osłabienie</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Osłabienie <span class="translation">(Weakness Aspect)</span> :id=oslabienie
-Uderzona ofiara otrzymuje efekt osłabienia.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **II**
-- Wyklucza:
-  - **Zaklęty Ogień** (Fire Aspect)
-  - **Zatrucie** (Poison Aspect)
-  - **Spowolnienie** (Slowness Aspect)
-  - **Obumieranie** (Wither Aspect)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Oszczędność <span class="translation">(Replenish)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Co druga wystrzelona strzała nie zostaje utracona.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Bow_JE2_BE1.png" alt="Łuk"><img class="item-icon" src="https://minecraft.wiki/images/Crossbow.png" alt="Kusza"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Nieskończoność</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Obumieranie <span class="translation">(Wither Aspect)</span> :id=obumieranie
-Uderzona ofiara otrzymuje efekt obumierania.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **II**
-  - **Zaklęty Ogień** (Fire Aspect)
-  - **Zatrucie** (Poison Aspect)
-  - **Spowolnienie** (Slowness Aspect)
-  - **Osłabienie** (Weakness Aspect)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+</div>
 
-### Oszczędność <span class="translation">(Replenish)</span> :id=oszczednosc
-Szansa (50%), że wystrzelona strzała nie zostanie utracona.
-- Przeznaczenie: **Łuk**, **Kusza**
-- Maks. Poziom: **I**
-- Wyklucza: **Nieskończoność** (Infinity)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+### Zbroja
 
-### Zasięg <span class="translation">(Reach)</span> :id=zasieg
-Zwiększa zasięg o **0.25** bloku za każdy poziom.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **III**
-- Wyklucza: **Szerokie Ostrze** (Sweeping Edge), **Poręczność** (Swift Strike)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-grid">
 
-### Poręczność <span class="translation">(Swift Strike)</span> :id=porecznosc
-Zwiększa szybkość ataku o **12.5%** za każdy poziom.
-- Przeznaczenie: **Broń**
-- Maks. Poziom: **III**
-- Wyklucza: **Szerokie Ostrze** (Sweeping Edge), **Zasięg** (Reach)
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Żywotność <span class="translation">(Rejuvenation)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zwiększa maks. ilość punktów życia.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Shield_JE2_BE1.png" alt="Tarcza"></span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Ognisty Piechur <span class="translation">(Scorch Walker)</span> :id=ognisty-piechur
-Zamienia powierzchnię lawy w magmę.
-- Przeznaczenie: **Buty**
-- Maks. Poziom: **II**
-- Wyklucza: **Mroźny Piechur** (Frost Walker), **Głębinowy Wędrowiec** (Depth Strider)
-- Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Tarcza Soniczna <span class="translation">(Sonic Shield)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Blokowanie chroni przed falą dźwiękową Wardena.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Shield_JE2_BE1.png" alt="Tarcza"></span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Wędrowiec <span class="translation">(Stride)</span> :id=wedrowiec
-Pozwala wchodzić po pełnych blokach jak po schodach.
-- Przeznaczenie: **Nogawice**
-- Maks. Poziom: **I**
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Grawitacja <span class="translation">(Gravity)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Pozwala na wyższy, ale wolniejszy i lżejszy skok.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png" alt="Buty"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Powolne Opadanie</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span><span class="source-tag st-skarbiec">Skarbiec</span></td></tr>
+</table>
+</div>
 
-### Wabik <span class="translation">(Bait)</span> :id=wabik
-Szansa na złowienie kilku przedmiotów za jednym razem.
-- Przeznaczenie: **Wędka**
-- Maks. Poziom: **I**
-- Sposób Zdobycia: **<i class="bi bi-droplet-fill"></i> Łowienie**
+<div class="enchant-card">
+<p class="ec-title">Ognisty Piechur <span class="translation">(Scorch Walker)</span><span class="ec-level-badge">Maks. II</span></p>
+<p class="ec-desc">Zamienia powierzchnię lawy w magmę.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png" alt="Buty"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Mroźny Piechur, Głębinowy Wędrowiec</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
-### Ogrodnik <span class="translation">(Gardener)</span> :id=ogrodnik
-Zebrane plony zostają ponownie zasadzone.
-- Przeznaczenie: **Motyka**
-- Maks. Poziom: **I**
-- Sposób Zdobycia: **<i class="bi bi-book-fill"></i> Zaklinanie**, **<i class="bi bi-droplet-fill"></i> Łowienie** oraz **<i class="bi bi-box-fill"></i> Eksploracja**
+<div class="enchant-card">
+<p class="ec-title">Sonic<span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zwiększa prędkość poruszania się o <strong>7.5%</strong> za każdy poziom.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png" alt="Buty"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Prędkość Dusz, Głębinowy Wędrowiec, Grawitacja</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Wędrowiec <span class="translation">(Stride)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Pozwala wchodzić po pełnych blokach jak po schodach.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Leggings_%28item%29_JE2_BE2.png" alt="Nogawice"></span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Krytyczne Uderzenie <span class="translation">(Critical Strike)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zwiększa obrażenia od krytycznych ataków o X% za każdy poziom.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png" alt="Buty"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Zasięg, Poręczność</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+</div>
+
+### Narzędzia
+
+<div class="enchant-grid">
+
+<div class="enchant-card">
+<p class="ec-title">Magnes <span class="translation">(Magnet)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Zdobyte surowce wpadają bezpośrednio do ekwipunku.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Mace_JE1_BE1.png" alt="Buzdygan"><img class="item-icon" src="https://minecraft.wiki/images/Bow_JE2_BE1.png" alt="Łuk"><img class="item-icon" src="https://minecraft.wiki/images/Crossbow.png" alt="Kusza"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Jedwabny Dotyk</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Znawca Bloków <span class="translation">(Scholar of Blocks)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Wykopane bloki dają więcej punktów doświadczenia.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Shovel_JE3_BE2.png" alt="Łopata"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szczęście, Jedwabny Dotyk</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Ogrodnik <span class="translation">(Gardener)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Zebrane plony zostają ponownie zasadzone.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"></span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Wabik <span class="translation">(Bait)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Szansa na złowienie kilku przedmiotów za jednym razem.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Fishing_Rod_JE2_BE2.png" alt="Wędka"></span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Kołowrotek <span class="translation">(Reel)</span><span class="ec-level-badge">Maks. I</span></p>
+<p class="ec-desc">Automatycznie wyciąga przedmiot z wody po jego złowieniu.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Fishing_Rod_JE2_BE2.png" alt="Wędka"></span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
 
 </div>

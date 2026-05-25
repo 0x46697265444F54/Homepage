@@ -23,27 +23,33 @@ Mapa online serwera jest dostępna pod adresem **[https://firedot.pl/mapa](https
 
 <div class="page">
 
-> [!TIP]
-> 
-> **<i class="bi bi-globe-americas"></i> &nbsp; <span class="dimension">Overworld</span>**  
-> Główny świat służy do eksploracji, wydobywania surowców, budowania i zakładania chronionych działek.  
-> - Rozmiar: **20,000 x 20,000**
+<div class="callout tip">
 
-> [!CAUTION]
-> 
-> **<i class="bi bi-fire"></i> &nbsp; <span class="dimension">Nether</span>**  
-> Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**.
-> - Rozmiar: **16,000 x 16,000**
+**<i class="bi bi-globe-americas"></i> &nbsp; <span class="dimension">Overworld</span>**  
+Główny świat służy do eksploracji, wydobywania surowców, budowania i zakładania chronionych działek.
+- Rozmiar: **24,000 x 24,000**
 
-> [!WARNING]
-> 
-> **<i class="bi bi-moon-fill"></i> &nbsp; <span class="dimension">The End</span>**  
-> Wymiar kresu został całkowicie zredefiniowany i służy jako miejsce do zaliczania wyzwań i zdobywania nowych przedmiotów.
-> - Na każdej wieży znajduje się **Skrzynia**, **Skarbiec**, **Złowieszczy Skarbiec** oraz **Spawner Próby**.
->   - Łup w **Skrzyni** jest unikalny dla każdego gracza.
->   - Pokonanie mobów ze **Spawnera Próby** gwarantuje **Enderytowy Klucz** lub **Złowieszczy Enderytowy Klucz**, zależnie od statusu efektu.
->   - Zdobyte klucze służą do otwierania **Skarbców** oraz **Złowieszczych Skarbców**.
->     - Skarbce można otwierać co 12 godzin.
+</div>
+
+<div class="callout caution">
+
+**<i class="bi bi-fire"></i> &nbsp; <span class="dimension">Nether</span>**  
+Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**.
+- Rozmiar: **16,000 x 16,000**
+
+</div>
+
+<div class="callout warning">
+
+**<i class="bi bi-moon-fill"></i> &nbsp; <span class="dimension">The End</span>**  
+Wymiar kresu został całkowicie zredefiniowany i służy jako miejsce do zaliczania wyzwań i zdobywania nowych przedmiotów.
+- Na każdej wieży znajduje się **Skrzynia**, **Skarbiec**, **Złowieszczy Skarbiec** oraz **Spawner Próby**.
+    - Łup w **Skrzyni** jest unikalny dla każdego gracza.
+    - Pokonanie mobów ze **Spawnera Próby** gwarantuje **Enderytowy Klucz** lub **Złowieszczy Enderytowy Klucz**, zależnie od statusu efektu.
+    - Zdobyte klucze służą do otwierania **Skarbców** oraz **Złowieszczych Skarbców**.
+        - Skarbce można otwierać co 12 godzin.
+
+</div>
 
 <br>
 
@@ -114,7 +120,7 @@ Dodanych zostało również kilka nowych, pasujących do świata struktur. Niekt
     <p><strong>Kemping</strong> (Campsite)</p>
   </div>
 
-  
+
   <div class="card">
     <img src="assets/img/structures/ruins.webp"></img>
     <p><strong>Dżunglowe Ruiny</strong> (Ruins)</p>
