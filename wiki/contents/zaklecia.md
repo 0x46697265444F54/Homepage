@@ -133,8 +133,8 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Znawca Stworów <span class="translation">(Scholar of Mobs)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zabite moby dają więcej punktów doświadczenia.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"></span></td></tr>
-<tr><td class="ec-label">Wyklucza</td><td>Grabież, Szczęście, Jedwabny Dotyk</td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"><img class="item-icon" src="https://minecraft.wiki/images/Trident_%28item%29_JE2_BE1.png" alt="Trójząb"><img class="item-icon" src="https://minecraft.wiki/images/Mace_JE1_BE1.png" alt="Buzdygan"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Grabież, Szczęście, Jedwabny Dotyk, Znawca Bloków</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
 </div>
@@ -143,8 +143,8 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Zasięg <span class="translation">(Reach)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa zasięg o <strong>0.25</strong> bloku za każdy poziom.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"></span></td></tr>
-<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Poręczność</td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Poręczność, Krytyczne Uderzenie</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
 </div>
@@ -153,8 +153,18 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Poręczność <span class="translation">(Swift Strike)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa szybkość ataku o <strong>12.5%</strong> za każdy poziom.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"></span></td></tr>
-<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Zasięg</td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Zasięg, Krytyczne Uderzenie</td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+</table>
+</div>
+
+<div class="enchant-card">
+<p class="ec-title">Krytyczne Uderzenie <span class="translation">(Critical Strike)</span><span class="ec-level-badge">Maks. III</span></p>
+<p class="ec-desc">Zwiększa obrażenia krytyczne o <strong>7.5%</strong> za każdy poziom.</p>
+<table class="ec-table">
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Zasięg, Poręczność</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
 </div>
@@ -163,7 +173,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Zatrucie <span class="translation">(Poison Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt trucizny.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Spowolnienie, Osłabienie, Obumieranie</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
@@ -173,7 +183,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Spowolnienie <span class="translation">(Slowness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt spowolnienia.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Zatrucie, Osłabienie, Obumieranie</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
@@ -183,7 +193,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Osłabienie <span class="translation">(Weakness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt osłabienia.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Zatrucie, Spowolnienie, Obumieranie</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
@@ -193,7 +203,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Obumieranie <span class="translation">(Wither Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt obumierania.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Zaklęty Ogień, Zatrucie, Spowolnienie, Osłabienie</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
@@ -259,7 +269,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <table class="ec-table">
 <tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png" alt="Buty"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Prędkość Dusz, Głębinowy Wędrowiec, Grawitacja</td></tr>
-<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
+<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
 </div>
 
@@ -268,16 +278,6 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-desc">Pozwala wchodzić po pełnych blokach jak po schodach.</p>
 <table class="ec-table">
 <tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Leggings_%28item%29_JE2_BE2.png" alt="Nogawice"></span></td></tr>
-<tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
-</table>
-</div>
-
-<div class="enchant-card">
-<p class="ec-title">Krytyczne Uderzenie <span class="translation">(Critical Strike)</span><span class="ec-level-badge">Maks. III</span></p>
-<p class="ec-desc">Zwiększa obrażenia od krytycznych ataków o X% za każdy poziom.</p>
-<table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png" alt="Buty"></span></td></tr>
-<tr><td class="ec-label">Wyklucza</td><td>Szerokie Ostrze, Zasięg, Poręczność</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
 </div>
@@ -292,7 +292,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Magnes <span class="translation">(Magnet)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Zdobyte surowce wpadają bezpośrednio do ekwipunku.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Mace_JE1_BE1.png" alt="Buzdygan"><img class="item-icon" src="https://minecraft.wiki/images/Bow_JE2_BE1.png" alt="Łuk"><img class="item-icon" src="https://minecraft.wiki/images/Crossbow.png" alt="Kusza"></span></td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Mace_JE1_BE1.png" alt="Buzdygan"><img class="item-icon" src="https://minecraft.wiki/images/Trident_%28item%29_JE2_BE1.png" alt="Trójząb"><img class="item-icon" src="https://minecraft.wiki/images/Bow_JE2_BE1.png" alt="Łuk"><img class="item-icon" src="https://minecraft.wiki/images/Crossbow.png" alt="Kusza"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Jedwabny Dotyk</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
@@ -302,8 +302,8 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 <p class="ec-title">Znawca Bloków <span class="translation">(Scholar of Blocks)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Wykopane bloki dają więcej punktów doświadczenia.</p>
 <table class="ec-table">
-<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Shovel_JE3_BE2.png" alt="Łopata"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"></span></td></tr>
-<tr><td class="ec-label">Wyklucza</td><td>Szczęście, Jedwabny Dotyk</td></tr>
+<tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Shovel_JE3_BE2.png" alt="Łopata"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"></span></td></tr>
+<tr><td class="ec-label">Wyklucza</td><td>Grabież, Szczęście, Jedwabny Dotyk, Znawca Stworów</td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
 </table>
 </div>
