@@ -1,19 +1,10 @@
 <style>
-.feature-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin: 0.5em 0;
-}
 .feature-row {
     display: flex;
     gap: 0;
-    border-radius: 8px;
     overflow: hidden;
-    border: 1px solid var(--color-mono-3);
-    background-color: var(--color-mono-1);
-    box-shadow: 0 0 8px 4px rgba(0,0,0,0.15);
     min-height: 110px;
+    margin-bottom: 8px;
 }
 .feature-row img {
     width: 220px !important;
@@ -71,9 +62,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
 ### Ogólne
 
-<div class="feature-list">
-
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/keep_inventory.webp">
   <div class="feature-row-body">
     <h5>Zachowywanie Ekwipunku</h5>
@@ -81,7 +70,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/campfire.webp">
   <div class="feature-row-body">
     <h5>Ognisko</h5>
@@ -89,7 +78,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/floaters.webp">
   <div class="feature-row-body">
     <h5>Obrażenia</h5>
@@ -97,7 +86,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/chairs.webp">
   <div class="feature-row-body">
     <h5>Siedzenie</h5>
@@ -105,7 +94,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/sleep.webp">
   <div class="feature-row-body">
     <h5>Przesypianie Nocy</h5>
@@ -113,7 +102,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/item.webp">
   <div class="feature-row-body">
     <h5>Linkowanie Przedmiotów</h5>
@@ -121,7 +110,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/nametag.webp">
   <div class="feature-row-body">
     <h5>Kolorowanie Znaczników</h5>
@@ -129,7 +118,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/armor_stand.webp">
   <div class="feature-row-body">
     <h5>Stojaki</h5>
@@ -137,7 +126,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/villager_trade_rebalance.webp">
   <div class="feature-row-body">
     <h5>Zbalansowany Handel</h5>
@@ -145,7 +134,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/day_night_cycle.webp">
   <div class="feature-row-body">
     <h5>Dłuższy Dzień</h5>
@@ -153,13 +142,10 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-</div>
 
 ### Moby
 
-<div class="feature-list">
-
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/mob_heads.webp">
   <div class="feature-row-body">
     <h5>Kolekcjonowanie Główek</h5>
@@ -167,7 +153,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/wither.webp">
   <div class="feature-row-body">
     <h5>Wither</h5>
@@ -175,7 +161,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
-<div class="feature-row">
+<div class="feature-row panel">
   <img src="assets/img/inne/phantomy.webp">
   <div class="feature-row-body">
     <h5>Phantomy</h5>

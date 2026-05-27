@@ -1,8 +1,4 @@
 <style>
-.translation {
-    margin-left: 0.25em;
-    font-weight: normal;
-}
 .enchant-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -10,10 +6,6 @@
     margin-top: 1em;
 }
 .enchant-card {
-    border-radius: 8px;
-    border: 1px solid var(--color-mono-3);
-    background-color: var(--color-mono-1);
-    box-shadow: 0 0 8px 4px rgba(0,0,0,0.15);
     padding: 0.75em 0.85em 0.75em;
     display: flex;
     flex-direction: column;
@@ -129,7 +121,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-grid">
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Znawca Stworów <span class="translation">(Scholar of Mobs)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zabite moby dają więcej punktów doświadczenia.</p>
 <table class="ec-table">
@@ -139,7 +131,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Zasięg <span class="translation">(Reach)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa zasięg o <strong>0.25</strong> bloku za każdy poziom.</p>
 <table class="ec-table">
@@ -149,7 +141,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Poręczność <span class="translation">(Swift Strike)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa szybkość ataku o <strong>12.5%</strong> za każdy poziom.</p>
 <table class="ec-table">
@@ -159,7 +151,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Krytyczne Uderzenie <span class="translation">(Critical Strike)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa obrażenia krytyczne o <strong>7.5%</strong> za każdy poziom.</p>
 <table class="ec-table">
@@ -169,7 +161,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Zatrucie <span class="translation">(Poison Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt trucizny.</p>
 <table class="ec-table">
@@ -179,7 +171,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Spowolnienie <span class="translation">(Slowness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt spowolnienia.</p>
 <table class="ec-table">
@@ -189,7 +181,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Osłabienie <span class="translation">(Weakness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt osłabienia.</p>
 <table class="ec-table">
@@ -199,7 +191,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Obumieranie <span class="translation">(Wither Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Uderzona ofiara otrzymuje efekt obumierania.</p>
 <table class="ec-table">
@@ -209,7 +201,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Oszczędność <span class="translation">(Replenish)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Co druga wystrzelona strzała nie zostaje utracona.</p>
 <table class="ec-table">
@@ -225,7 +217,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-grid">
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Żywotność <span class="translation">(Rejuvenation)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa maks. ilość punktów życia.</p>
 <table class="ec-table">
@@ -234,7 +226,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Tarcza Soniczna <span class="translation">(Sonic Shield)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Blokowanie chroni przed falą dźwiękową Wardena.</p>
 <table class="ec-table">
@@ -243,7 +235,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Grawitacja <span class="translation">(Gravity)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Pozwala na wyższy, ale wolniejszy i lżejszy skok.</p>
 <table class="ec-table">
@@ -253,7 +245,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Ognisty Piechur <span class="translation">(Scorch Walker)</span><span class="ec-level-badge">Maks. II</span></p>
 <p class="ec-desc">Zamienia powierzchnię lawy w magmę.</p>
 <table class="ec-table">
@@ -263,7 +255,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Sonic<span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Zwiększa prędkość poruszania się o <strong>7.5%</strong> za każdy poziom.</p>
 <table class="ec-table">
@@ -273,7 +265,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Wędrowiec <span class="translation">(Stride)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Pozwala wchodzić po pełnych blokach jak po schodach.</p>
 <table class="ec-table">
@@ -288,7 +280,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-grid">
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Magnes <span class="translation">(Magnet)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Zdobyte surowce wpadają bezpośrednio do ekwipunku.</p>
 <table class="ec-table">
@@ -298,7 +290,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Znawca Bloków <span class="translation">(Scholar of Blocks)</span><span class="ec-level-badge">Maks. III</span></p>
 <p class="ec-desc">Wykopane bloki dają więcej punktów doświadczenia.</p>
 <table class="ec-table">
@@ -308,7 +300,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Ogrodnik <span class="translation">(Gardener)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Zebrane plony zostają ponownie zasadzone.</p>
 <table class="ec-table">
@@ -317,7 +309,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Wabik <span class="translation">(Bait)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Szansa na złowienie kilku przedmiotów za jednym razem.</p>
 <table class="ec-table">
@@ -326,7 +318,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 </table>
 </div>
 
-<div class="enchant-card">
+<div class="enchant-card panel">
 <p class="ec-title">Kołowrotek <span class="translation">(Reel)</span><span class="ec-level-badge">Maks. I</span></p>
 <p class="ec-desc">Automatycznie wyciąga przedmiot z wody po jego złowieniu.</p>
 <table class="ec-table">

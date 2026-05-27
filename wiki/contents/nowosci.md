@@ -1,18 +1,11 @@
 <style>
-.page {
-  p, ul, ol {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
-  }
-}
-
 .gray   { --color: gray; }
 .green  { --color: rgb(35, 135, 55) }
 .yellow { --color: rgb(195, 135, 0) }
 .red    { --color: rgb(226, 64, 64) }
 
 blockquote:not(sup) {
-  padding: 16px 16px 16px 16px !important;
+  padding: 16px !important;
   border-radius: 8px !important;
   border: 1px solid color-mix(in srgb, var(--color), transparent 90%) !important;
   background-color: color-mix(in srgb, var(--color), transparent 90%) !important;

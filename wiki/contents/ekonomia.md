@@ -1,15 +1,3 @@
-<style>
-img:not(.medium-zoom-image--opened):not(.navbar-link-icon)  {
-    max-height: 280px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-shadow: 0 0 8px 4px rgba(0, 0, 0, .1);
-    border-radius: 10px;
-}
-</style>
-
-<!-- PAGE BEGINS HERE -->
-
 # Ekonomia
 Ekonomia na serwerze opiera się na wirtualnej walucie, którą można zdobyć we wszelaki sposób. Służy ona do nabywania przedmiotów w sklepie, zakupu ulepszeń oraz handlu z innymi graczami. Waluta nie ma ściśle określonej nazwy i jest oznaczona symbolem **$**.
 

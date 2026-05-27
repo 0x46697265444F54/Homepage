@@ -1,16 +1,4 @@
 <style>
-.page {
-    p, ul, ol {
-        margin-top: 0.25em;
-        margin-bottom: 0.25em;
-    }
-}
-.translation {
-    margin-left: 0.25em;
-    font-weight: normal;
-    color: var(--base-color);
-}
-
 .showcase {
     display: flex;
     flex-direction: column;
@@ -19,10 +7,7 @@
 }
 .showcase-item {
     display: flex;
-    border-radius: 10px;
     overflow: hidden;
-    border: 1px solid var(--color-mono-3);
-    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
     min-height: 160px;
 }
 .showcase-thumb {
@@ -82,6 +67,15 @@
 .showcase-body sup {
     margin-top: 2px;
 }
+.basket-recipe {
+    width: 100% !important;
+    height: auto !important;
+    image-rendering: crisp-edges;
+    margin: 8px 0 0 !important;
+    border-radius: 6px;
+    display: block;
+}
+
 .showcase-item .showcase-body .recipe-img {
     height: auto !important;
     max-height: 110px !important;
@@ -118,7 +112,7 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
 <div class="page">
 <div class="showcase">
 
-<div class="showcase-item accent-fish">
+<div class="showcase-item panel accent-fish">
   <div class="showcase-thumb">
     <img src="assets/img/fish.png">
   </div>
@@ -129,10 +123,10 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   </div>
 </div>
 
-<div class="showcase-item accent-basket">
+<div class="showcase-item panel accent-basket">
   <div class="showcase-thumb" style="flex-direction:column;gap:12px">
     <img src="assets/img/basket.png">
-    <div style="margin-top:8px;overflow:hidden;border-radius:6px;max-width:100%"><img src="assets/img/crafting_recipes/basket.png" style="width:100%!important;height:auto!important;image-rendering:crisp-edges;margin:0!important;display:block"></div>
+    <img class="basket-recipe" src="assets/img/crafting_recipes/basket.png">
   </div>
   <div class="showcase-body">
     <h4>Koszyk</h4>
@@ -141,7 +135,7 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   </div>
 </div>
 
-<div class="showcase-item accent-hammer">
+<div class="showcase-item panel accent-hammer">
   <div class="showcase-thumb">
     <img src="assets/img/hammer.png">
   </div>
@@ -151,7 +145,7 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   </div>
 </div>
 
-<div class="showcase-item accent-enderite">
+<div class="showcase-item panel accent-enderite">
   <div class="showcase-thumb">
     <img src="assets/img/enderite.png">
   </div>

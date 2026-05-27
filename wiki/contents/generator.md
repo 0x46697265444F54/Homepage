@@ -1,23 +1,5 @@
-<style>
-
-.page {
-    p, ul, ol {
-        margin-top: 0.25em;
-        margin-bottom: 0.25em;
-    }
-    h4:hover {
-        text-decoration: none;
-    }
-    .dimension {
-        font-size: 1.20em;
-    }
-}
-</style>
-
-<!-- PAGE BEGINS HERE -->
-
 # Generator Świata
-Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś zupełnie nowego. Piękne krajobrazy, bujna i zróżnicowana roślinność oraz nowe struktury... a wszystko to idealnie współgra z oryginalnym stylem gry.
+Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś zupełnie nowego. Piękne krajobrazy, bujna i zróżnicowana roślinność oraz nowe struktury... a wszystko to idealnie współgra z oryginalnym stylem gry.
 
 Mapa online serwera jest dostępna pod adresem **[https://firedot.pl/mapa](https://firedot.pl/mapa)**.
 
@@ -61,33 +43,33 @@ Każdy biom został całkowicie przekształcony, aby stworzyć bardziej imersyjn
 <div class="container-row">
 
   <div class="card">
-    <img src="assets/img/generator/taiga.webp"></img>
-    <p><strong>Tajga</strong> (Taiga)</p>
+    <img src="assets/img/generator/taiga.webp">
+    <p><strong>Tajga</strong> <span class="translation">(Taiga)</span></p>
   </div>
 
   <div class="card">
-    <img src="assets/img/generator/snowy_peaks.webp"></img>
-    <p><strong>Ośnieżone Szczyty</strong> (Snowy Peaks)</p>
+    <img src="assets/img/generator/snowy_peaks.webp">
+    <p><strong>Ośnieżone Szczyty</strong> <span class="translation">(Snowy Peaks)</span></p>
   </div>
 
   <div class="card">
-    <img src="assets/img/generator/snowy_taiga.webp"></img>
-    <p><strong>Ośnieżona Tajga</strong> (Snowy Taiga)</p>
+    <img src="assets/img/generator/snowy_taiga.webp">
+    <p><strong>Ośnieżona Tajga</strong> <span class="translation">(Snowy Taiga)</span></p>
   </div>
 
   <div class="card">
-    <img src="assets/img/generator/oasis.webp"></img>
-    <p><strong>Oaza</strong> (Oasis)</p>
+    <img src="assets/img/generator/oasis.webp">
+    <p><strong>Oaza</strong> <span class="translation">(Oasis)</span></p>
   </div>
 
   <div class="card">
-    <img src="assets/img/generator/river.webp"></img>
-    <p><strong>Rzeka</strong> (River)</p>
+    <img src="assets/img/generator/river.webp">
+    <p><strong>Rzeka</strong> <span class="translation">(River)</span></p>
   </div>
 
   <div class="card">
-    <img src="assets/img/generator/sparse_jungle.webp"></img>
-    <p><strong>Przerzedzona Dżungla</strong> (Sparse Jungle)</p>
+    <img src="assets/img/generator/sparse_jungle.webp">
+    <p><strong>Przerzedzona Dżungla</strong> <span class="translation">(Sparse Jungle)</span></p>
   </div>
 
 </div>
@@ -116,36 +98,30 @@ Dodanych zostało również kilka nowych, pasujących do świata struktur. Niekt
 <div class="container-row">
 
   <div class="card">
-    <img src="assets/img/structures/campsite.webp"></img>
-    <p><strong>Kemping</strong> (Campsite)</p>
+    <img src="assets/img/structures/campsite.webp">
+    <p><strong>Kemping</strong> <span class="translation">(Campsite)</span></p>
   </div>
-
-
   <div class="card">
-    <img src="assets/img/structures/ruins.webp"></img>
-    <p><strong>Dżunglowe Ruiny</strong> (Ruins)</p>
+    <img src="assets/img/structures/ruins.webp">
+    <p><strong>Dżunglowe Ruiny</strong> <span class="translation">(Ruins)</span></p>
   </div>
-
-
   <div class="card">
-    <img src="assets/img/structures/savanna_watchtower.webp"></img>
-    <p><strong>Strażnica</strong> (Watchtower)</p>
+    <img src="assets/img/structures/savanna_watchtower.webp">
+    <p><strong>Strażnica</strong> <span class="translation">(Watchtower)</span></p>
   </div>
-
-
   <div class="card">
-    <img src="assets/img/structures/guide_post.webp"></img>
-    <p><strong>Wieża Sygnalizacyjna</strong> (Guide Post)</p>
+    <img src="assets/img/structures/guide_post.webp">
+    <p><strong>Wieża Sygnalizacyjna</strong> <span class="translation">(Guide Post)</span></p>
   </div>
 
   <div class="card">
-    <img src="assets/img/structures/tavern.webp"></img>
-    <p><strong>Tawerna</strong> (Tavern)</p>
+    <img src="assets/img/structures/tavern.webp">
+    <p><strong>Tawerna</strong> <span class="translation">(Tavern)</span></p>
   </div>
 
   <div class="card">
-    <img src="https://cdn.modrinth.com/data/HSfsxuTo/images/4bdde9d88700b9fe35c30403580ad63fde3c4f43.jpeg"></img>
-    <p><strong>Bastionowa Spirala</strong> (Black Spiral)</p>
+    <img src="https://cdn.modrinth.com/data/HSfsxuTo/images/4bdde9d88700b9fe35c30403580ad63fde3c4f43.jpeg">
+    <p><strong>Bastionowa Spirala</strong> <span class="translation">(Black Spiral)</span></p>
   </div>
 
 </div>

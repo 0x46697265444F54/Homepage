@@ -1,62 +1,3 @@
-<style>
-.page p, .page li {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
-}
-
-.recipe-img {
-    height: 220px !important;
-    width: auto !important;
-    max-width: 100% !important;
-    image-rendering: crisp-edges;
-    margin: 0 4px 4px 0 !important;
-}
-
-/* Upgrade table — consistent with rolnictwo */
-.upgrade-table-wrap {
-    overflow-x: auto;
-    border-radius: 8px;
-    border: 1px solid var(--color-mono-3);
-    background-color: var(--color-mono-1);
-    box-shadow: 0 0 8px 4px rgba(0,0,0,0.15);
-    margin: 0.5em 0;
-    display: inline-block;
-}
-.upgrade-table {
-    width: auto;
-    border-collapse: collapse;
-    font-size: 0.88em;
-    margin: 0 !important;
-}
-.upgrade-table th {
-    text-align: left;
-    padding: 0.4em 0.75em;
-    border-bottom: 1px solid var(--color-mono-3);
-    background-color: var(--color-mono-2);
-    color: var(--color-mono-5);
-    font-weight: normal;
-    white-space: nowrap;
-}
-.upgrade-table th:not(:last-child) {
-    border-right: 1px solid var(--color-mono-3);
-}
-.upgrade-table td {
-    padding: 0.4em 0.75em;
-    vertical-align: middle;
-    white-space: nowrap;
-}
-.upgrade-table td:not(:last-child) {
-    border-right: 1px solid var(--color-mono-3);
-}
-.upgrade-table tbody tr:nth-child(even) td {
-    background-color: color-mix(in srgb, var(--color-mono-3), transparent 65%);
-}
-.upgrade-table td.mat {
-    font-weight: bold;
-    color: var(--heading-color);
-}
-</style>
-
 <span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
 
 # Chronione Tereny
@@ -88,8 +29,8 @@ Panel zarządzania można otworzyć poprzez interakcję z blokiem terenu lub za 
 ### Ulepszanie
 Każdy teren może zostać ulepszony pięć razy. Wykopanie bloku zwraca jego odpowiednik zachowując obecny poziom ulepszenia.
 
-<div class="upgrade-table-wrap">
-    <table class="upgrade-table">
+<div class="data-table-wrap panel">
+    <table class="data-table">
         <thead>
             <tr><th>Poziom</th><th>Koszt</th><th>Rozmiar</th></tr>
         </thead>

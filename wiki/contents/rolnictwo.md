@@ -1,22 +1,8 @@
 <style>
-.page {
-    p, ul, ol {
-        margin: 0.25em 0 0.25em 0;
-    }
-}
-.translation {
-    margin-left: 0.25em;
-    font-weight: normal;
-    color: var(--base-color)
-}
 .farm-table-wrap {
     overflow-x: auto;
     overflow-y: visible;
     margin-bottom: 1.75em;
-    border-radius: 8px;
-    border: 1px solid var(--color-mono-3);
-    background-color: var(--color-mono-1);
-    box-shadow: 0 0 8px 4px rgba(0,0,0,0.15);
 }
 .farm-table {
     width: 100%;
@@ -115,7 +101,7 @@ Informacje na temat upraw są też dostępne pod komendą **/farm** na naszym se
 
 <br>
 
-<div class="farm-table-wrap">
+<div class="farm-table-wrap panel">
 <table class="farm-table">
 <thead><tr><th>Uprawa</th><th>Prędkość</th><th>Biomy</th></tr></thead>
 <tbody>

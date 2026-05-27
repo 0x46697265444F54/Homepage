@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Asimovian&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
 
 /* Reverts Safari compatibility hack, as this introduces small offset issue for non-Safari browsers. Inline to take less space. */
 a[href] {
@@ -247,10 +246,49 @@ h2 {
     }
 }
 
-/* IMG STYLING */
+/* GLOBAL PAGE STYLES */
 
-.img-width-479 {
-    width: 479px;
+.page p, .page li, .page ul, .page ol {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+/* GLOBAL IMAGE STYLES */
+
+.page-img {
+    max-height: 280px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 8px;
+}
+
+.recipe-img {
+    height: 220px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    image-rendering: crisp-edges;
+    margin: 0 4px 4px 0 !important;
+}
+
+.content-img {
+    max-width: 49% !important;
+    padding: 1em 0.5em 0 0.5em;
+}
+
+/* SHARED PANEL STYLE */
+
+.panel {
+    border-radius: 8px;
+    border: 1px solid var(--color-mono-3);
+    background-color: var(--color-mono-1);
+}
+
+/* TRANSLATION */
+
+.translation {
+    margin-left: 0.25em;
+    font-weight: normal;
+    color: var(--color-mono-5);
 }
 
 /* TEXT DECORATIONS */
@@ -282,10 +320,10 @@ h2 {
 }
 
 sup {
-    display: inline-block;
-    margin-top: 0.25em;
+    display: inline;
     line-height: 1.25;
     opacity: 0.75;
+    font-size: 0.8em;
 }
 
 footer {
@@ -322,26 +360,29 @@ footer {
 
 .card {
     flex: 1 1 100%;
+    min-width: 200px;
+    user-select: none;
+    padding-bottom: 10px;
     border-radius: 8px;
     border: 1px solid var(--color-mono-3);
-    min-width: 200px;
     background-color: var(--color-mono-1);
-    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.15);
-    user-select: none;
-    padding-bottom: 8px;
 
     img {
         transition: 0.5s ease !important;
         filter: grayscale(50%);
         opacity: 0.75;
         border-radius: 8px 8px 0 0 !important;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
+        box-shadow: none !important;
     }
 
     h5, p {
         margin: 0;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 0 10px;
+        font-size: 0.9em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
@@ -354,4 +395,45 @@ footer {
 
 .no-underline a {
     text-decoration: none !important;
+}
+
+/* DATA TABLE */
+
+.data-table-wrap {
+    overflow-x: auto;
+    margin: 0.5em 0;
+    display: inline-block;
+}
+.data-table {
+    width: auto;
+    border-collapse: collapse;
+    font-size: 0.88em;
+    margin: 0 !important;
+}
+.data-table th {
+    text-align: left;
+    padding: 0.4em 0.75em;
+    border-bottom: 1px solid var(--color-mono-3);
+    background-color: var(--color-mono-2);
+    color: var(--color-mono-5);
+    font-weight: normal;
+    white-space: nowrap;
+}
+.data-table th:not(:last-child) {
+    border-right: 1px solid var(--color-mono-3);
+}
+.data-table td {
+    padding: 0.4em 0.75em;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.data-table td:not(:last-child) {
+    border-right: 1px solid var(--color-mono-3);
+}
+.data-table tbody tr:nth-child(even) td {
+    background-color: color-mix(in srgb, var(--color-mono-3), transparent 65%);
+}
+.data-table td.mat {
+    font-weight: bold;
+    color: var(--heading-color);
 }

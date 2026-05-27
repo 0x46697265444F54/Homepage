@@ -1,9 +1,5 @@
 <style>
 .modifications {
-  p, ul {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
-  }
   h4 {
     a {
       text-decoration: none !important;
