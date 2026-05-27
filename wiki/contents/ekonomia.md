@@ -22,11 +22,13 @@ Kilka podstawowych sposobów zarabiania pieniędzy na serwerze:
 ### Sklep
 Sklepy znajdujące się na terenie spawnu oferują szeroki wybór przedmiotów z wszelakich kategorii.
 
-- **Bloki** - Różne rodzaje bloków, które można wykorzystać do budowy.
+- **Gospodarstwo** - Nasiona i rośliny, które można uprawiać na swoich farmach.
 - **Surowce** - Surowce i minerały potrzebne do wytwarzania przedmiotów.
-- **Rolnictwo** - Nasiona i rośliny, które można uprawiać na swoich farmach.
-- **Wędkarstwo** - Ryby i inne przedmioty związane z wędkarstwem.
+- **Drewno** - Wszystkie rodzaje drewna gotowe do obróbki.
+- **Bloki Budowlane** - Różne rodzaje bloków, które można wykorzystać do budowy.
 - **Nether** - Przedmioty i bloki, które można zdobyć w wymiarze piekła.
+- **Wędkarstwo** - Ryby i inne przedmioty związane z wędkarstwem.
+- **Akcesoria** - Narzędzia, akcesoria i inne funkcjonalne przedmioty.
 - **Pozostałe** - Inne przedmioty, głównie te pozyskiwane z mobów.
 
 W obrębie spawnu oraz na dowolnym autoryzowanym terenie można użyć komendy **/shops**, aby otworzyć interfejs sklepu.
