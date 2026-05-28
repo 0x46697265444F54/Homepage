@@ -1,60 +1,3 @@
-<style>
-.feature-row {
-    display: flex;
-    gap: 0;
-    overflow: hidden;
-    min-height: 110px;
-    margin-bottom: 8px;
-}
-.feature-row img {
-    width: 220px !important;
-    min-width: 220px !important;
-    min-height: 110px !important;
-    align-self: stretch;
-    object-fit: cover;
-    filter: grayscale(40%);
-    opacity: 0.85;
-    transition: 0.4s ease !important;
-    border-radius: 0 !important;
-    margin: 0 !important;
-    display: block;
-}
-.feature-row:hover img {
-    filter: grayscale(0%);
-    opacity: 1;
-}
-.feature-row-body {
-    padding: 12px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3px;
-}
-.feature-row-body h5 {
-    margin: 0;
-    font-size: 1em;
-    color: var(--heading-color);
-}
-.feature-row-body p {
-    margin: 0;
-    font-size: 0.9em;
-    opacity: 0.8;
-    line-height: 1.45;
-}
-
-@media (max-width: 540px) {
-    .feature-row {
-        flex-direction: column;
-    }
-    .feature-row img {
-        width: 100% !important;
-        min-width: unset !important;
-        min-height: unset !important;
-        height: 140px !important;
-    }
-}
-</style>
-
 # Inne
 Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 
@@ -67,6 +10,14 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   <div class="feature-row-body">
     <h5>Zachowywanie Ekwipunku</h5>
     <p>Po śmierci zachowane zostają przedmioty z paska szybkiego dostępu i założona zbroja. Cała reszta ekwipunku wypada na ziemię.</p>
+  </div>
+</div>
+
+<div class="feature-row panel">
+  <img src="assets/img/inne/drops.webp">
+  <div class="feature-row-body">
+    <h5>Utracone Przedmioty</h5>
+    <p>Przedmioty utracone w wyniku śmierci leżą na ziemi znacznie dłużej.</p>
   </div>
 </div>
 
@@ -130,7 +81,8 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   <img src="assets/img/inne/villager_trade_rebalance.webp">
   <div class="feature-row-body">
     <h5>Zbalansowany Handel</h5>
-    <p>Włączono <strong><a href="https://minecraft.wiki/w/Villager_Trade_Rebalance">Villager Trade Rebalance</a></strong> i zablokowano możliwość zmiany ofert handlowych poprzez przestawianie stacji roboczych.</p>
+    <p>Zbalansowano handel z osadnikami i zablokowano możliwość zmiany ofert poprzez przestawianie stacji roboczych.</p>
+    <sup>Szczegóły: <strong><a href="https://minecraft.wiki/w/Villager_Trade_Rebalance">Villager Trade Rebalance</a></strong></sup>
   </div>
 </div>
 

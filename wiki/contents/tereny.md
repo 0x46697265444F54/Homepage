@@ -12,7 +12,7 @@ Podstawowy teren chroni obszar o wielkości **31 × 31** bloków, a każde uleps
 <img class="recipe-img" src="assets/img/crafting_recipes/claim_block.png" alt="Blok Terenu: 8x Węgiel, 1x Czerwony Proszek" data-no-zoom>
 
 ### Limity
-Domyślnie każdy z graczy może utworzyć jeden chroniony obszar, lecz limit ten można zwiększyć poprzez system ulepszeń.  
+Domyślnie każdy z graczy może utworzyć jeden chroniony obszar, lecz limit ten można zwiększyć poprzez system ulepszeń.
 - Za pomocą komendy **/upgrades** można otworzyć menu ulepszeń.
 - Zwiększenie limitu o jeden dodatkowy teren kosztuje **$75,000**.
 - Maksymalny limit nie może przekraczać **25**.
@@ -29,7 +29,7 @@ Panel zarządzania można otworzyć poprzez interakcję z blokiem terenu lub za 
 ### Ulepszanie
 Każdy teren może zostać ulepszony pięć razy. Wykopanie bloku zwraca jego odpowiednik zachowując obecny poziom ulepszenia.
 
-<div class="data-table-wrap panel">
+<div class="data-table-scroll"><div class="data-table-wrap panel">
     <table class="data-table">
         <thead>
             <tr><th>Poziom</th><th>Koszt</th><th>Rozmiar</th></tr>
@@ -43,6 +43,6 @@ Każdy teren może zostać ulepszony pięć razy. Wykopanie bloku zwraca jego od
             <tr><td class="mat">Netheryt</td> <td><strong>2x Sztabka Netherytu</strong> (Netherite Ingot)</td> <td>81 × 81</td></tr>
         </tbody>
     </table>
-</div>
+</div></div>
 
 </div>
