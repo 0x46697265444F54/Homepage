@@ -22,6 +22,14 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 </div>
 
 <div class="feature-row panel">
+  <img src="assets/img/inne/ender_chest.webp">
+  <div class="feature-row-body">
+    <h5>Ulepszana Skrzynia Endu</h5>
+    <p>Pojemność skrzyni endu może zostać zwiększona aż do 54 slotów.</p>
+  </div>
+</div>
+
+<div class="feature-row panel">
   <img src="assets/img/inne/campfire.webp">
   <div class="feature-row-body">
     <h5>Ognisko</h5>
