@@ -102,6 +102,19 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
+<div class="feature-row panel">
+  <img src="assets/img/inne/stacks.webp">
+  <div class="feature-row-body">
+    <h5>Zmieniona Wielkość Stacku</h5>
+    <p>Wielkość stacku niektórych przedmiotów konsumpcyjnych została zmieniona.</p>
+    <ul class="item-list">
+        <li><strong>Mikstury</strong>: 4</li>
+        <li><strong>Zaklęte Złote Jabłko</strong>: 4</li>
+        <li><strong>Złote Jabłko</strong>: 16</li>
+        <li><strong>Zupy, Potrawki</strong>: 16</li>
+    </ul>
+  </div>
+</div>
 
 ### Moby
 

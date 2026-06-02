@@ -26,20 +26,8 @@
 .showcase-item.accent-enderite     > .showcase-thumb { background-color: #150d2e !important; }
 .showcase-item.accent-elytra       > .showcase-thumb { background-color: #091222 !important; }
 
-.elytra-stats {
-    list-style: disc;
-    margin: 4px 0 0;
-    padding-left: 1em;
-    font-size: 0.85em;
-}
-.elytra-stats li {
-    margin: 4px 0 0;
-    line-height: 1.35;
-    padding-left: 0;
-}
 .elytra-stats strong {
     display: block;
-    color: var(--heading-color);
 }
 .elytra-stats span {
     opacity: 0.75;
@@ -116,7 +104,7 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   <div class="showcase-body">
     <h4>Elytra</h4>
     <p>Cztery nowe rodzaje Elytry z unikalnymi właściwościami. Zdobycie przez zaliczanie wyzwań w <strong>Wymiarze Endu</strong>.</p>
-    <ul class="elytra-stats">
+    <ul class="item-list elytra-stats">
       <li><strong>Skrzydła Otuszka</strong><span>Efekt regeneracji dla noszącego i wszystkich graczy wokoło.</span></li>
       <li><strong>Skrzydła Smoka</strong><span>Dodatkowe 20% obrażeń i 4 punkty zbroi.</span></li>
       <li><strong>Skrzydła Fantoma</strong><span>Efekt widzenia w ciemności i odporność na insomnię.</span></li>

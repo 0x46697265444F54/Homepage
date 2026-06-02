@@ -130,7 +130,10 @@ Ulepszone przedmioty nie tracą zaklęć ani innych parametrów.
     <div class="tab-panels">
         <div class="tab-panel"><img src="assets/img/equipment_upgrades/stone.png" class="upgrade-img" data-no-zoom></div>
         <div class="tab-panel"><img src="assets/img/equipment_upgrades/copper.png" class="upgrade-img" data-no-zoom></div>
-        <div class="tab-panel"><img src="assets/img/equipment_upgrades/iron.png" class="upgrade-img" data-no-zoom></div>
+        <div class="tab-panel">
+            <img src="assets/img/equipment_upgrades/iron.png" class="upgrade-img" data-no-zoom>
+            <img src="assets/img/equipment_upgrades/gold.png" class="upgrade-img" data-no-zoom>
+        </div>
         <div class="tab-panel"><img src="assets/img/equipment_upgrades/diamond.png" class="upgrade-img" data-no-zoom></div>
         <div class="tab-panel"><img src="assets/img/equipment_upgrades/netherite.png" class="upgrade-img" data-no-zoom></div>
     </div>

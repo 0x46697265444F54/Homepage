@@ -506,6 +506,23 @@ footer {
     }
 }
 
+/* ITEM LIST */
+
+.item-list {
+    list-style: disc;
+    margin: 4px 0 0;
+    padding-left: 1em;
+    font-size: 0.85em;
+}
+.item-list li {
+    margin: 4px 0 0;
+    line-height: 1.35;
+    padding-left: 0;
+}
+.item-list strong {
+    color: var(--heading-color);
+}
+
 /* SHOWCASE */
 
 .showcase {
