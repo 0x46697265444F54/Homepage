@@ -122,24 +122,33 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 <div class="yellow">
   <blockquote>
     <h5 id="paczki-zasobow"><i class="si warning"></i> Paczki Zasobów</h5>
-        <div>Paczki zasobów są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.<br></div>
-    <sup>Serwerowa paczka zasobów modyfikuje już i poprawia wiele domyślnych tekstur, przez co inne paczki mogą wyświetlać się w nieprawidłowy sposób. Zalecamy wyłączenie innych resource-packów przed dołączeniem na nasz serwer.</sup>
+      <div>
+        Paczki zasobów są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.
+        <br>
+        <sup>Serwerowa paczka zasobów modyfikuje już i poprawia wiele domyślnych tekstur, przez co inne paczki mogą wyświetlać się w nieprawidłowy sposób. Zalecamy wyłączenie innych resource-packów przed dołączeniem na nasz serwer.</sup>
+      </div>
   </blockquote>
 </div>
 
 <div class="yellow">
   <blockquote>
     <h5 id="klienty-3rd-party"><i class="si warning"></i> Klienty 3rd Party</h5>
-        <div>Klienty z pre-instalowanymi modyfikacjami są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.<br></div>
-    <sup>Niektóre klienty są znane z łamania licencji i kradzieży istniejących modyfikacji. Używaj na własną odpowiedzianość.</sup>
+      <div>
+        Klienty z pre-instalowanymi modyfikacjami są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.
+        <br>
+        <sup>Niektóre klienty są znane z łamania licencji i kradzieży istniejących modyfikacji. Używaj na własną odpowiedzialność.</sup>
+      </div>
   </blockquote>
 </div>
 
 <div class="yellow">
   <blockquote>
     <h5 id="launchery-3rd-party"><i class="si warning"></i> Launchery 3rd Party</h5>
-      <div>Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem konta Mojang lub Microsoft.<br></div>
-    <sup>Używanie nieoficjalnego launchera może wiązać się z ryzykiem dla bezpieczeństwa konta. Używaj na własną odpowiedzialność.</sup>
+      <div>
+        Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem konta Mojang lub Microsoft.
+        <br>
+        <sup>Używanie nieoficjalnego launchera może wiązać się z ryzykiem dla bezpieczeństwa konta. Używaj na własną odpowiedzialność.</sup>
+      </div>
   </blockquote>
 </div>
 

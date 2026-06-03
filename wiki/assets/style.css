@@ -266,7 +266,8 @@ blockquote:not(sup) {
     }
 }
 
-blockquote:not(sup) li sup {
+blockquote:not(sup) li sup,
+blockquote:not(sup) div sup {
     display: block;
     line-height: 1.25 !important;
     margin-top: 0.3em;
