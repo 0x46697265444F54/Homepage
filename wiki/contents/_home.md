@@ -23,7 +23,7 @@ table, tr, td {
 </style>
 
 # FireDOT
-Serwer oferujący rozgrywkę w trybie przetrwania na zmienionych zasadach.  
+Serwer oferujący rozgrywkę w trybie przetrwania na zmienionych zasadach.
 
 <br>
 

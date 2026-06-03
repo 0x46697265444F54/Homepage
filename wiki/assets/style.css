@@ -158,7 +158,122 @@ h2 {
     }
 }
 
-/* NAVBAR */
+/* CALLOUT CARD COLORS */
+
+.gray   { --color: gray; }
+.blue   { --color: rgb(59, 130, 215); }
+.orange { --color: rgb(210, 100, 35); }
+.teal   { --color: rgb(20, 160, 140); }
+.copper { --color: rgb(199, 129, 82); }
+.purple { --color: rgb(150, 80, 225); }
+.pink   { --color: rgb(200, 70, 145); }
+.steel  { --color: rgb(85, 108, 145); }
+.amber  { --color: rgb(170, 100, 35); }
+
+/* CALLOUT CARDS */
+
+blockquote:not(sup) {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    border-radius: 8px !important;
+    border: 1px solid color-mix(in srgb, var(--color), transparent 55%) !important;
+    background-color: color-mix(in srgb, var(--color), transparent 90%) !important;
+    line-height: 1.6;
+    color: var(--heading-color) !important;
+    overflow: hidden;
+
+    h5:has(i) {
+        user-select: none;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 0.9em !important;
+        font-weight: bold;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 10px 16px !important;
+        margin: 0 0 .85em 0 !important;
+        background-color: color-mix(in srgb, var(--color), transparent 70%) !important;
+        border-bottom: 1px solid color-mix(in srgb, var(--color), transparent 55%) !important;
+        color: color-mix(in srgb, var(--color), white 60%) !important;
+
+        i { font-size: 1.25em; flex-shrink: 0; }
+    }
+
+    h5 {
+        font-weight: bold;
+        color: color-mix(in srgb, var(--color), white 45%) !important;
+        margin: 1em 16px 0px 16px !important;
+        border: none !important;
+    }
+
+    div, p {
+        padding: 0 16px !important;
+        margin-top: 0.5em !important;
+        margin-bottom: 0.5em !important;
+        border: none !important;
+        color: var(--heading-color) !important;
+        line-height: 1.6;
+    }
+
+    ul, ol {
+        font-size: 1em !important;
+        margin: 0.5em 16px !important;
+    }
+
+    li {
+        font-size: 1em !important;
+        color: var(--heading-color) !important;
+        line-height: 1.6;
+        margin-top: 0.25em !important;
+        margin-bottom: 0.25em !important;
+    }
+
+    li li {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    li ul, li ol {
+        margin: 3px 0 0 !important;
+    }
+
+    > sup {
+        display: block;
+        padding: 0 16px !important;
+        margin-top: 0.8em !important;
+    }
+
+    > :last-child {
+        margin-bottom: 14px !important;
+    }
+
+    .translation {
+        color: rgba(255, 255, 255, 0.6) !important;
+    }
+
+    strong {
+        color: color-mix(in srgb, var(--color), white 55%) !important;
+    }
+
+    a {
+        color: color-mix(in srgb, var(--color), white 55%) !important;
+        transition: opacity 0.3s;
+        &:hover { opacity: 0.75 !important; }
+    }
+}
+
+blockquote:not(sup) li sup {
+    display: block;
+    line-height: 1.25 !important;
+    margin-top: 0.3em;
+    margin-bottom: 0.6em;
+}
+
+
 
 .app-nav li:has(a):hover {
     transition: background, border 0.3s;
@@ -299,14 +414,17 @@ h2 {
 
 .green {
     color: #259646;
+    --color: rgb(35, 135, 55);
 }
 
 .yellow {
     color: #cf940a;
+    --color: rgb(249, 197, 61);
 }
 
 .red {
     color: #e04f44;
+    --color: rgb(226, 64, 64);
 }
 
 .badge {
@@ -324,6 +442,8 @@ sup {
     line-height: 1.25;
     opacity: 0.75;
     font-size: 0.8em;
+    margin-bottom: 0;
+    vertical-align: baseline;
 }
 
 footer {
