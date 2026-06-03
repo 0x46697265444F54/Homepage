@@ -87,7 +87,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <blockquote>
     <h5><i class="bi bi-fire"></i> Nether, End</h5>
     <div>
-      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to celu spowolnić początkową progresję i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.  
+      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnić początkową progresję i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.  
       <br><br>
       Bez obaw - nie zamierzamy przez długi czas blokować dostępu do tych wymiarów, a po ich otwarciu będzie można z nich korzystać bez ograniczeń.
     </div>
@@ -169,7 +169,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <div class="yellow">
   <blockquote>
     <h5><i class="bi bi-coin"></i> Ekonomia, Ulepszenia</h5>
-    <div>Ekonomia przeszła denominację lecz współczynnik ceny kupna do ceny sprzedaży pozostaje na bardzo podobnym poziomie.</div>
+    <div>Ekonomia przeszła denominację, lecz współczynnik ceny kupna do ceny sprzedaży pozostaje na bardzo podobnym poziomie.</div>
     <h5>Limity Sprzedaży</h5>
     <ul>
       <li>Czas odnowienia został zmniejszony do 2 godzin.</li>
@@ -230,7 +230,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <blockquote>
     <h5><i class="bi bi-heart-fill"></i> Osoby Wspierające, Dodatki Kosmetyczne oraz Tokeny</h5>
     <div>Ranga <strong>Donator</strong> oraz <strong>Booster</strong> została zastąpiona rangą <strong>Wspierający</strong> i mogą ją uzyskać również osoby, które w inny niż finansowy sposób przyczyniają się do rozwoju serwera, jego społeczności, lub/i powiązanego oprogramowania open-source.<br><br>
-    Dodatkowo, niektóre benefity kosmetyczne dotychczas unikalne dla wyżej wymienionych rang są teraz możliwe do odblokowania przez wszystkich graczy za pomocą <strong>Tokenów</strong>, czyli wirtualnej waluty, którą zdobyć można m.in., jako nagrodę za wykonywanie zadań dziennych, uczestnictwo w eventach, głosowanie.</div>
+    Dodatkowo, niektóre benefity kosmetyczne dotychczas unikalne dla wyżej wymienionych rang są teraz możliwe do odblokowania przez wszystkich graczy za pomocą <strong>Tokenów</strong>, czyli wirtualnej waluty, którą zdobyć można m.in. jako nagrodę za wykonywanie zadań dziennych, uczestnictwo w eventach, głosowanie.</div>
     <ul>
       <li>
           Na ten moment założenie jest takie, aby <strong>Tokeny</strong> oraz odblokowane za ich pomocą korzyści były resetowane wraz z każdą edycją.
@@ -245,7 +245,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
           <li>Każdorazowa zmiana koloru kosztuje <strong>Tokeny</strong>, lecz osoby <strong>Wspierające</strong> płacą ułamek ceny.</li>
         </ul>
       </li>
-      <li>Komenda <strong>/glow</strong>, służąca do włączania / wyłączenia poświaty, jest teraz dostępna dla wszystkich graczy na poniższych warunkach:
+      <li>Komenda <strong>/glow</strong>, służąca do włączenia / wyłączenia poświaty, jest teraz dostępna dla wszystkich graczy na poniższych warunkach:
         <ul>
           <li>Dostępne do odblokowania są teraz wszystkie wspierane przez grę kolory poświaty.</li>
           <li>Każdy kolor poświaty należy odblokować osobno za pomocą <strong>Tokenów</strong>, lecz osoby <strong>Wspierające</strong> płacą ułamek ceny.</li>
