@@ -14,7 +14,7 @@ Podstawowy teren chroni obszar o wielkości **31 × 31** bloków, a każde uleps
 ### Limity
 Domyślnie każdy z graczy może utworzyć jeden chroniony obszar, lecz limit ten można zwiększyć poprzez system ulepszeń.
 - Za pomocą komendy **/upgrades** można otworzyć menu ulepszeń.
-- Zwiększenie limitu o jeden dodatkowy teren kosztuje **$75,000**.
+- Zwiększenie limitu o jeden dodatkowy teren kosztuje **$50,000**.
 - Maksymalny limit nie może przekraczać **25**.
 
 
