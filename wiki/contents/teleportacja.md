@@ -54,23 +54,19 @@ Magnetyt to blok, który po postawieniu tworzy prywatny punkt teleportacyjny. Za
 </div>
 </div>
 
-Domyślnie każdy z graczy może mieć aktywny jeden blok magnetytu. Zwiększyć ten limit można poprzez zakup ulepszeń u handlarza na spawnie.
-
+Domyślnie każdy z graczy może utworzyć jeden blok magnetytu obszar, lecz limit ten można zwiększyć poprzez system ulepszeń.
+- Za pomocą komendy **/upgrades** można otworzyć menu ulepszeń.
+- Zwiększenie limitu o jeden dodatkowy magnetyt kosztuje **$25,000**.
+- Maksymalny limit nie może przekraczać **25**.
 <br>
 
 ### Panel Zarządzania
-Panel zarządzania można otworzyć poprzez **interakcję** z blokiem magnetytu. Obecnie udostępnia on poniższe funkcje:
+Panel zarządzania można otworzyć poprzez interakcję z blokiem magnetytu. Obecnie udostępnia on poniższe funkcje:
 
 - Teleportacja na obszar spawnu, posiadany lub współdzielony teren, lub inny magnetyt.  
   <sup>Dodatkowo, magnetyt znajdujący się na spawnie umożliwia teleportację w losowe miejsce na mapie.</sup>
 - Zmiana nazwy wybranego magnetytu lub terenu.
 - Przekazanie wybranego magnetytu dowolnego graczowi.
 - Usunięcie wybranego magnetytu.
-
-<br/>
-
-<img class="page-img" src="assets/img/lodestone_ui.png" style="max-width:479px;width:auto">
-
-<sup>Zrzut ekranu przedstawiający panel teleportacji.</sup>
 
 </div>
