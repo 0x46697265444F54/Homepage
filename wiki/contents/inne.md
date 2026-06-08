@@ -41,7 +41,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   <img src="assets/img/inne/floaters.webp">
   <div class="feature-row-body">
     <h5>Obrażenia</h5>
-    <p>Po uderzeniu stwora lub gracza, wyświetla się ilość zadanych obrażeń.</p>
+    <p>Po uderzeniu stwora lub gracza wyświetla się ilość zadanych obrażeń.</p>
   </div>
 </div>
 
@@ -49,7 +49,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   <img src="assets/img/inne/chairs.webp">
   <div class="feature-row-body">
     <h5>Siedzenie</h5>
-    <p>Schody mogą być używane jako krzesła. Aby usiąść, należy kliknąć na blok prawym przyciskiem myszy.</p>
+    <p>Schody mogą być używane jako krzesła. Aby usiąść, należy kliknąć blok prawym przyciskiem myszy.</p>
   </div>
 </div>
 
@@ -138,8 +138,6 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   <img src="assets/img/inne/phantomy.webp">
   <div class="feature-row-body">
     <h5>Phantomy</h5>
-    <p>Phantomy mają mniej punktów życia przez co łatwiej się ich pozbyć.</p>
+    <p>Phantomy mają mniej punktów życia, przez co łatwiej się ich pozbyć.</p>
   </div>
-</div>
-
 </div>

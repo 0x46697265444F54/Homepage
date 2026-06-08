@@ -27,7 +27,7 @@ Panel zarządzania można otworzyć poprzez interakcję z blokiem terenu lub za 
 - Zwiększenie poziomu terenu, co wpływa na jego rozmiar.
 
 ### Ulepszanie
-Każdy teren może zostać ulepszony pięć razy. Wykopanie bloku zwraca jego odpowiednik zachowując obecny poziom ulepszenia.
+Każdy teren może zostać ulepszony pięć razy. Wykopanie bloku zwraca jego odpowiednik, zachowując obecny poziom ulepszenia.
 
 <div class="data-table-scroll"><div class="data-table-wrap panel">
     <table class="data-table">
