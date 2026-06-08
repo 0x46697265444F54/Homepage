@@ -43,7 +43,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <div class="gray">
   <blockquote>
     <h5><i class="bi bi-star-fill"></i> Trzecia Edycja</h5>
-    <div>Nowy sezon to nie tylko aktualizacja serwera do najnowszej wersji gry, ale również porcja świeżych zmian i dodatków. Zgodnie z pierwotnym założeniem, serwer w dalszym ciągu oferuje względnie zbalansowaną, i w wielu aspektach utrudnioną rozgrywkę. Wprowadzonych zostało kilka istotnych zmian w początkowej progresji oraz systemie ulepszeń. Dodatkowo, na graczy czeka ulepszona wersja świata wraz z odświeżonymi strukturami, nowe zaklęcia, przedmioty, poprawki… i wiele więcej.<br><br>
+    <div>Nowy sezon to nie tylko aktualizacja serwera do najnowszej wersji gry, ale również porcja świeżych zmian i dodatków. Zgodnie z pierwotnym założeniem, serwer w dalszym ciągu oferuje zbalansowaną i w wielu aspektach utrudnioną rozgrywkę. Wprowadzonych zostało kilka istotnych zmian w początkowej progresji oraz systemie ulepszeń. Co więcej, na graczy czeka ulepszona wersja świata wraz z odświeżonymi strukturami, nowe zaklęcia, przedmioty, poprawki… i wiele więcej.<br><br>
     Od strony technicznej, była to na ten moment największa i najbardziej złożona aktualizacja. Błędy i niedociągnięcia można zgłaszać dowolną drogą komunikacji, ale zachęcam do skorzystania z komendy <strong>/helpop</strong>, która została do tego stworzona.<br><br>
     Tak jak w przypadku poprzednich edycji, planujemy rozwijać i aktualizować serwer wraz z biegiem czasu.</div>
   </blockquote>
@@ -64,9 +64,9 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
       <li><strong>Podwodna Świątynia</strong><span class="translation">(Ocean Monument)</span></li>
       <li><strong>Pustynna Świątynia</strong> / <strong>Piramida</strong><span class="translation">(Desert Temple)</span></li>
       <li><strong>Netherowa Forteca</strong><span class="translation">(Nether Fortress)</span></li>
-      <li><strong>Komnaty Próby</strong><span class="translation">(Trial Chambers)</span> wyglądają bardziej naturalnie i generują się z mniejszą ilością bloków miedzi.</li>
+      <li><strong>Komnaty Próby</strong><span class="translation">(Trial Chambers)</span> wyglądają bardziej naturalnie i generują się z mniejszą liczbą bloków miedzi.</li>
       <li>Na biomie <strong>Bladego Ogrodu</strong><span class="translation">(Pale Garden)</span> generują się tajemnicze struktury.</li>
-      <li>Na biomach oceanicznych można znaleźć dużą ilość zatopionych ruin i budowli.</li>
+      <li>Na biomach oceanicznych można znaleźć dużą liczbę zatopionych ruin i budowli.</li>
     </ul>
     <h5>Minerały</h5>
     <div>Minerałów jest podobnie dużo jak kiedyś, ale są rozmieszczone w trochę inny sposób.</div>
@@ -87,7 +87,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <blockquote>
     <h5><i class="bi bi-fire"></i> Nether, End</h5>
     <div>
-      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnić początkową progresję i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.  
+      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnienie początkowej progresji i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.  
       <br><br>
       Bez obaw - nie zamierzamy przez długi czas blokować dostępu do tych wymiarów, a po ich otwarciu będzie można z nich korzystać bez ograniczeń.
     </div>
@@ -98,7 +98,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <blockquote>
     <h5><i class="bi bi-check2-square"></i> Zadania, Questy</h5>
     <ul>
-      <li>Reset odbywa się każdego dnia o północy, oraz dodatkowo po ukończeniu wszystkich aktywnych zadań.</li>
+      <li>Reset odbywa się każdego dnia o północy oraz dodatkowo po ukończeniu wszystkich aktywnych zadań.</li>
       <li>Nagrody za wykonanie zadań zostały zmienione, aby dopasować je do zmian w ekonomii.</li>
       <li>Dodano pasek postępu zadań wyświetlany w górnej części ekranu.</li>
       <li>Dodano ponad 30 nowych zadań.</li>
@@ -211,13 +211,13 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
           <li>Cena: <strong>$75,000</strong></li>
         </ul>
       </li>
-      <li>Dodano ulepszenie <strong>Pojemność Skrzyni Endu</strong> pozwalające na zwiększenie pojemności skrzyni endu.
+      <li>Dodano ulepszenie <strong>Pojemność Skrzyni Endu</strong>, pozwalające na zwiększenie pojemności skrzyni endu.
         <ul>
           <li>Zakres od <strong>9</strong> (Domyślnie) do <strong>54</strong> (Maksymalnie), pojemność zwiększa się o <strong>9</strong> za każde ulepszenie.</li>
           <li>Cena: <strong>$25,000</strong> / ulepszenie</li>
         </ul>
       </li>
-      <li>Dodano ulepszenie <strong>Czapka</strong> odblokowujące komendę kosmetyczną <strong>/hat</strong>.
+      <li>Dodano ulepszenie <strong>Czapka</strong>, odblokowujące komendę kosmetyczną <strong>/hat</strong>.
         <ul>
           <li>Cena: <strong>200</strong> Tokenów</li>
         </ul>
@@ -229,7 +229,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <div class="pink">
   <blockquote>
     <h5><i class="bi bi-heart-fill"></i> Osoby Wspierające, Dodatki Kosmetyczne oraz Tokeny</h5>
-    <div>Ranga <strong>Donator</strong> oraz <strong>Booster</strong> została zastąpiona rangą <strong>Wspierający</strong> i mogą ją uzyskać również osoby, które w inny niż finansowy sposób przyczyniają się do rozwoju serwera, jego społeczności, lub/i powiązanego oprogramowania open-source.<br><br>
+    <div>Rangi <strong>Donator</strong> oraz <strong>Booster</strong> zostały zastąpione rangą <strong>Wspierający</strong> i mogą ją uzyskać również osoby, które w inny niż finansowy sposób przyczyniają się do rozwoju serwera, jego społeczności lub powiązanego oprogramowania open-source.<br><br>
     Dodatkowo, niektóre benefity kosmetyczne dotychczas unikalne dla wyżej wymienionych rang są teraz możliwe do odblokowania przez wszystkich graczy za pomocą <strong>Tokenów</strong>, czyli wirtualnej waluty, którą zdobyć można m.in. jako nagrodę za wykonywanie zadań dziennych, uczestnictwo w eventach, głosowanie.</div>
     <ul>
       <li>
@@ -278,7 +278,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
     <h5><i class="bi bi-three-dots"></i> Pozostałe</h5>
     <ul>
       <li>Dodano kolekcjonerskie główki nowych mobów.</li>
-      <li>Dodano komendę <strong>/report</strong> (lub <strong>/helpop</strong>), za której pomocą można skontaktować się z administracją serwera nawet, gdy nie znajduje się ona w danym momencie na serwerze.</li>
+      <li>Dodano komendę <strong>/report</strong> (lub <strong>/helpop</strong>), za której pomocą można skontaktować się z administracją serwera, nawet gdy nie znajduje się ona w danym momencie na serwerze.</li>
       <li>Dodano komendę <strong>/rolnictwo</strong>, która wyświetla informacje na temat uprawy roślin na poszczególnych biomach.</li>
       <li>Dodano komendę <strong>/przewodnik</strong>, która wyświetla podstawowe informacje na temat serwera.</li>
       <li>Dodano niewielką nagrodę za zdobywanie osiągnięć w grze.</li>
@@ -309,8 +309,8 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <blockquote>
     <h5><i class="bi bi-trophy-fill"></i> Eventy</h5>
     <div>
-      Już niebawem na serwerze pojawią się mini eventy typu <strong>Block Party</strong>, <strong>TNT Run</strong>, <strong>Spleef</strong>, <strong>Snowball Fight</strong>, i tym podobne.<br>
-      Wraz z biegiem czasu będziemy dodawać nowe mini-gierki, które postaramy się regularnie hostować.<br><br>
+      Już niebawem na serwerze pojawią się mini eventy typu <strong>Block Party</strong>, <strong>TNT Run</strong>, <strong>Spleef</strong>, <strong>Snowball Fight</strong> i tym podobne.<br>
+      Wraz z biegiem czasu będziemy dodawać nowe minigierki, które postaramy się regularnie hostować.<br><br>
       Za udział w eventach przyznawane będą nagrody, w tym klucze do <strong>Eventowej Skrzyni</strong> oraz <strong>Tokeny</strong>.
     </div>
   </blockquote>
