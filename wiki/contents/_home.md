@@ -37,7 +37,7 @@ Serwer oferujący rozgrywkę w trybie przetrwania na zmienionych zasadach.
 | <i class="bi bi-hourglass-split"></i>     | Zaawansowany poziom trudności i spowolniona początkowa progresja.                       |
 | <i class="bi bi-gear-fill"></i>           | Zdobywanie lepszego wyposażenia opiera się na ścieżce ulepszeń i szablonach kowalskich. |
 | <i class="bi bi-moon-fill"></i>           | Nowy poziom pancerza i narzędzi ‒ Enderyt.                                              |
-| <i class="bi bi-magic"></i>               | Ponad 16 nowych, starannie dobranych zaklęć.                                            |
+| <i class="bi bi-magic"></i>               | Dwadzieścia nowych, starannie dobranych zaklęć.                                         |
 | <i class="bi bi-bank2"></i>               | Podstawowa ekonomia, sklepy oraz system ulepszeń.                                       |
 | <i class="bi bi-backpack-fill"></i>       | Pasek szybkiego dostępu i założona zbroja nie wypadają po śmierci.                      |
 | <i class="bi-thermometer-sun"></i>        | Prędkość wzrostu roślin zależna od biomu.                                               |
