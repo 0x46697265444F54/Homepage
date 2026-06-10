@@ -295,6 +295,15 @@ blockquote:not(sup) div sup {
     }
 }
 
+.sidebar.show {
+
+    @media (max-width: 640px) {
+        backdrop-filter: blur(16px);
+        background-color: color-mix(in srgb, #101010, transparent 20%) !important;
+    }
+
+}
+
 .sidebar-nav {
     user-select: none;
     margin-left: 0.5em;
