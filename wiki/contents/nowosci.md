@@ -37,7 +37,52 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 <div class="page">
 
   <!-------------------------------------------------------->
-<h4 class="separator" id="04-06-2026">4 Czerwca, 2026</h4>
+  <h4 class="separator" id="10-06-2026">10 Czerwca, 2026</h4>
+  <!-------------------------------------------------------->
+
+  <div class="gray">
+  <blockquote>
+    <h5><i class="bi bi-star-fill"></i> Poprawki</h5>
+    <div>Drobne zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku dni.</div>
+    <ul>
+      <li>Zmniejszono ceny ulepszeń:
+        <ul>
+          <li>Limit Terenów: <s>$50,000</s> ➜ <strong>$25,000</strong></li>
+          <li>Limit Magnetytów: <s>$25,000</s> ➜ <strong>$10,000</strong></li>
+          <li>Zasięg Rysowania: <s>$75,000</s> ➜ <strong>$50,000</strong></li>
+          <li>Pojemność Skrzyni Endu: <s>$25,000</s> ➜ <strong>$10,000</strong></li>
+        </ul>
+      </li>
+      <li>Naprawiono odbieranie nagród za głosowanie na serwer.</li>
+      <li>Naprawiono zepsute tekstury wilków.</li>
+      <li>Naprawiono osadników, którzy nie zasiewali plonów po ich zebraniu.</li>
+      <li>Naprawiono nazywanie mobów znacznikami / plakietkami.</li>
+      <li>Naprawiono kupowanie / sprzedawanie kilku produktów w sklepie.</li>
+      <li>Naprawiono wielkość stacku (niektórych) generowanych przedmiotów.</li>
+      <li>Naprawiono okazjonalne znikanie przedmiotów podczas sprzedaży.</li>
+      <li>Naprawiono odejmowanie tokenów podczas zakupu blasku.</li>
+      <li>Poprawiono stabilność serwera i opóźnienie dla graczy z Polski.</li>
+      <li>Poprawiono kompatybilność z <strong>Xaero's World Map</strong> oraz <strong>Voxy</strong>.</li>
+      <li>Zablokowano dostęp do komendy <strong>/handlarz</strong> poza obszarem chronionym.</li>
+    </ul>
+  </blockquote>
+  </div>
+
+  <div class="red">
+  <blockquote>
+    <h5><i class="bi bi-bug-fill"></i>Znane Problemy</h5>
+    <ul>
+      <li>Mączka kostna, po kliknięciu na blok trawy - nie generuje żadnych kwiatów.</li>
+      <li>
+        Głosowanie #3 nie działa ze względu na niedziałającą stronę.
+        <sup>W najbliższym czasie będziemy wymieniać trzeci link głosowania na inny.</sup>
+      </li>
+    </ul>
+  </blockquote>
+  </div>
+
+  <!-------------------------------------------------------->
+  <h4 class="separator" id="04-06-2026">4 Czerwca, 2026</h4>
   <!-------------------------------------------------------->
 
   <div class="gray">
