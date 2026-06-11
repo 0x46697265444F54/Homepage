@@ -123,7 +123,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-card panel">
 <p class="ec-title">Znawca Stworów <span class="translation">(Scholar of Mobs)</span><span class="ec-level-badge">Maks. III</span></p>
-<p class="ec-desc">Zabite moby dają więcej punktów doświadczenia.</p>
+<p class="ec-desc">Zabite moby dają <strong>25%</strong> więcej punktów doświadczenia za każdy poziom.</p>
 <table class="ec-table">
 <tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Sword_JE2_BE2.png" alt="Miecz"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png" alt="Włócznia"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Axe_JE5_BE2.png" alt="Siekiera"><img class="item-icon" src="https://minecraft.wiki/images/Trident_%28item%29_JE2_BE1.png" alt="Trójząb"><img class="item-icon" src="https://minecraft.wiki/images/Mace_JE1_BE1.png" alt="Buzdygan"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Grabież, Szczęście, Jedwabny Dotyk, Znawca Bloków</td></tr>
@@ -219,7 +219,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-card panel">
 <p class="ec-title">Żywotność <span class="translation">(Rejuvenation)</span><span class="ec-level-badge">Maks. III</span></p>
-<p class="ec-desc">Zwiększa maks. ilość punktów życia.</p>
+<p class="ec-desc">Zwiększa maks. liczbę punktów życia o <strong>1</strong> za każdy poziom.</p>
 <table class="ec-table">
 <tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Shield_JE2_BE1.png" alt="Tarcza"></span></td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
@@ -292,7 +292,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-card panel">
 <p class="ec-title">Znawca Bloków <span class="translation">(Scholar of Blocks)</span><span class="ec-level-badge">Maks. III</span></p>
-<p class="ec-desc">Wykopane bloki dają więcej punktów doświadczenia.</p>
+<p class="ec-desc">Wykopane bloki dają <strong>25%</strong> więcej punktów doświadczenia za każdy poziom.</p>
 <table class="ec-table">
 <tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Pickaxe_JE3_BE2.png" alt="Kilof"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Shovel_JE3_BE2.png" alt="Łopata"><img class="item-icon" src="https://minecraft.wiki/images/Iron_Hoe_JE2_BE2.png" alt="Motyka"></span></td></tr>
 <tr><td class="ec-label">Wyklucza</td><td>Grabież, Szczęście, Jedwabny Dotyk, Znawca Stworów</td></tr>
@@ -311,7 +311,7 @@ Informacje na temat zaklęć są też dostępne pod komendą **/enchantments** n
 
 <div class="enchant-card panel">
 <p class="ec-title">Wabik <span class="translation">(Bait)</span><span class="ec-level-badge">Maks. I</span></p>
-<p class="ec-desc">Szansa na złowienie kilku przedmiotów za jednym razem.</p>
+<p class="ec-desc">Szansa <strong>15%</strong> na złowienie kilku przedmiotów za jednym razem.</p>
 <table class="ec-table">
 <tr><td class="ec-label">Przeznaczenie</td><td><span class="ec-icons-inline"><img class="item-icon" src="https://minecraft.wiki/images/Fishing_Rod_JE2_BE2.png" alt="Wędka"></span></td></tr>
 <tr><td class="ec-label">Zdobycie</td><td><span class="source-tag st-zaklinanie">Zaklinanie</span><span class="source-tag st-lowienie">Łowienie</span><span class="source-tag st-eksploracja">Eksploracja</span></td></tr>
