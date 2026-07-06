@@ -29,7 +29,7 @@ blockquote:not(sup) h6 {
 </style>
 
 # Nowości
-Historia zmian wprowadzonych na serwer podczas trwania obecnego sezonu. Lista aktualizowana jest zwykle raz w miesiącu lub przed większą aktualizacją.  
+Historia zmian wprowadzonych na serwer podczas trwania obecnego sezonu. Lista aktualizowana jest zwykle raz w miesiącu lub przed większą aktualizacją.
 Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#changelog** na naszym serwerze Discord.
 
 <br>
@@ -37,12 +37,105 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 <div class="page">
 
   <!-------------------------------------------------------->
+  <h4 class="separator" id="07-07-2026">7 Lipca, 2026</h4>
+  <!-------------------------------------------------------->
+
+  <div class="green">
+  <blockquote>
+    <h5><i class="bi bi-star-fill"></i> Nowości i Zmiany</h5>
+    <div>Nowości, zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku tygodni.</div>
+    <ul>
+      <li>Odblokowano wymiar Netheru na serwerze.
+        <ul>
+          <li>Dodano <strong>Bastionowe Wieże</strong>, nową strukturę generującą dużą ilość lootu.</li>
+          <li>Odświeżono wygląd <strong>Netherowej Fortecy</strong>.</li>
+          <li>Odblokowano Netherowe przedmioty w sklepie.</li>
+          <li>Odblokowano nowe zadania związane z Netherem.</li>
+          <li>Odblokowano możliwość ulepszenia działki do najwyższego poziomu.</li>
+          <li>Odblokowano możliwość ulepszenia wyposażenia do poziomu: <strong>Netheryt</strong></li>
+        </ul>
+      </li>
+      <li>
+        Dodano możliwość przełączania wskazówki na kompasie.
+        <ul>
+          <li>Domyślnie wskazuje punkt spawnu w obecnym świecie.</li>
+          <li>Klikając prawym przyciskiem myszy, można przełączać między poszczególnymi magnetytami i terenami.</li>
+        </ul>
+      </li>
+      <li>Dodano możliwość przepalenia włóczni na sztabki.</li>
+      <li>Dodano możliwość ulepszenia końskiej zbroi.</li>
+      <li>Dodano magnetyt na środku mapy, który umożliwia powrót na spawn.</li>
+      <li>Dodano powiadomienia o zresetowaniu limitu sprzedaży.</li>
+      <li>Dodano recepturę niezapisanej książki do <strong>/receptury</strong>.</li>
+      <li>Dodano dźwięk potwierdzający zakup ulepszenia.</li>
+      <li>Dodano wsparcie dla klientów na wersji <strong>26.2</strong>.</li>
+      <li>Dodano dwa nowe zadania do puli.</li>
+      <li>Zwiększono prędkość wzrostu kaktusów na sawannie i powiązanych biomach.</li>
+      <li>Zwiększono limit ryb spawnujących się w rzekach i oceanach.</li>
+      <li>Zwiększono długość dnia o 10 minut.</li>
+      <li>Przestawienie terenu nie resetuje już jego nazwy.</li>      
+      <li>
+        Dodano komendę <strong>/podpisz</strong>, za której pomocą można ustawić kolorową nazwę przedmiotu.
+        <sup>Na ten moment koszt ustawienia nazwy wynosi <strong>5</strong> tokenów dla osób wspierających lub <strong>10</strong> tokenów dla pozostałych graczy.</sup>
+      </li>
+      <li>
+        Dodano możliwość przełączenia widzialności ramek na przedmioty za pomocą <strong>Młotka</strong>.
+        <sup>Młotek to przedmiot specjalny, który można zakupić w sklepie w kategorii <strong>Akcesoria</strong>.</sup>
+      </li>
+      <li>
+        Rozszerzono zaklęcie <strong>Magnet</strong> dla motyki o dodatkowe bloki i przedmioty.
+        <sup><strong>Wodorosty</strong> (Kelp), <strong>Blok suszonych wodorostów</strong> (Dried Kelp Block), <strong>Snop siana</strong> (Hay Block), <strong>Trujący ziemniak</strong> (Poisonous Potato)
+      </li>
+      <li>
+        Zwiększono prędkość niszczenia niektórych bloków za pomocą motyki.
+        <sup><strong>Arbuz</strong> (Melon), <strong>Dynia</strong> (Pumpkin), <strong>Bambus</strong> (Bamboo), <strong>Kaktus</strong> (Cactus), <strong>Kakao</strong> (Cocoa)</sup>
+      </li>
+      <li>
+        Dodano więcej mobów możliwych do złapania za pomocą koszyka.
+        <sup><strong>Delfin</strong> (Dolphin), <strong>Łodzik</strong> (Nautilus), <strong>Wesoły Ghast</strong> (Happy Ghast)</sup>
+      </li>
+      <li>
+        Włączono eksperyment <strong>Minecart Improvements</strong> zmieniający sposób działania wagonów.
+        <sup>Szczegóły: <a href="https://minecraft.wiki/w/Minecart_Improvements">https://minecraft.wiki/w/Minecart_Improvements</a></sup>
+      </li>
+    </ul>
+  </blockquote>
+  </div>
+
+  <div class="red">
+  <blockquote>
+    <h5><i class="bi bi-bug-fill"></i>Poprawki</h5>
+    <ul>
+      <li>Naprawiono drop kamiennych przycisków.</li>
+      <li>Naprawiono drop płyt muzycznych ze skrzyni za głosowanie.</li>
+      <li>Naprawiono kilka niedziałających zadań.</li>
+      <li>Naprawiono kilka błędów w systemie koszyków.</li>
+      <li>Naprawiono kilka błędnie wyświetlających się wiadomości na czacie.</li>
+      <li>Naprawiono kilka błędnie wyświetlających się opisów i nazw przedmiotów.</li>
+      <li>Naprawiono błędy związane z odbieraniem nagród za głosowanie.</li>
+      <li>Naprawiono szybką sprzedaż niedziałającą dla niektórych przedmiotów.</li>
+      <li>Naprawiono wagony z lejami nieprzyjmujące przedmiotów z kontenerów.</li>
+      <li>Naprawiono konie szkielety pojawiające się z nieaktywną pułapką.</li>
+      <li>Przywrócono właściwe zasady spawnowania wariantów żab.</li>
+      <li>Przywrócono możliwość przepalenia kolczej zbroi na bryłki żelaza.</li>
+      <li>Przenoszenie zaklęć z narzędzia na książkę poprawnie resetuje teraz <strong>repair_cost</strong> bazowego przedmiotu.</li>
+      <li>Naprawiono zaklęcie <strong>Kołowrotek</strong> niezużywające wędki.</li>
+      <li>Naprawiono problemy z zaklęciem <strong>Grawitacja</strong> podczas jazdy konno i prawdopodobnie kilka podobnych błędów.</li>
+      <li>
+          Naprawiono niedziałające rozsiewanie kwiatów przy użyciu mączki kostnej.
+          <sup>Rodzaj kwiatów jest zależny od biomu, więc na biomach na których naturalnie się one nie generują (np. Grzybowa wyspa) nie wyrosną żadne kwiaty.</sup>
+      </li>
+    </ul>
+  </blockquote>
+  </div>
+
+  <!-------------------------------------------------------->
   <h4 class="separator" id="10-06-2026">10 Czerwca, 2026</h4>
   <!-------------------------------------------------------->
 
-  <div class="gray">
+  <div class="green">
   <blockquote>
-    <h5><i class="bi bi-star-fill"></i> Poprawki</h5>
+    <h5><i class="bi bi-star-fill"></i> Zmiany</h5>
     <div>Drobne zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku dni.</div>
     <ul>
       <li>Zmniejszono ceny ulepszeń:
@@ -53,6 +146,14 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
           <li>Pojemność Skrzyni Endu: <s>$25,000</s> ➜ <strong>$10,000</strong></li>
         </ul>
       </li>
+    </ul>
+  </blockquote>
+  </div>
+
+  <div class="red">
+  <blockquote>
+    <h5><i class="bi bi-bug-fill"></i>Poprawki</h5>
+    <ul>
       <li>Naprawiono odbieranie nagród za głosowanie na serwer.</li>
       <li>Naprawiono zepsute tekstury wilków.</li>
       <li>Naprawiono osadników, którzy nie zasiewali plonów po ich zebraniu.</li>
@@ -132,7 +233,7 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
   <blockquote>
     <h5><i class="bi bi-fire"></i> Nether, End</h5>
     <div>
-      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnienie początkowej progresji i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.  
+      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnienie początkowej progresji i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.
       <br><br>
       Bez obaw - nie zamierzamy przez długi czas blokować dostępu do tych wymiarów, a po ich otwarciu będzie można z nich korzystać bez ograniczeń.
     </div>
