@@ -42,6 +42,8 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
 <div class="page">
 <div class="showcase">
 
+<!-- Fish -->
+
 <div class="showcase-item panel accent-fish">
   <div class="showcase-thumb">
     <img src="assets/img/fish.png">
@@ -51,6 +53,8 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
     <p>Kilka nowych gatunków ryb możliwych do złowienia za pomocą wędki.</p>
   </div>
 </div>
+
+<!-- Basket -->
 
 <div class="showcase-item panel accent-basket">
   <div class="showcase-thumb" style="flex-direction:column;gap:12px">
@@ -63,6 +67,8 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   </div>
 </div>
 
+<!-- Blank Book -->
+
 <div class="showcase-item panel accent-blank-book">
   <div class="showcase-thumb">
     <img src="assets/img/blank_book.png">
@@ -74,6 +80,8 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   </div>
 </div>
 
+<!-- Hammer -->
+
 <div class="showcase-item panel accent-hammer">
   <div class="showcase-thumb">
     <img src="assets/img/hammer.png">
@@ -81,11 +89,12 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   <div class="showcase-body">
     <h4>Młotek</h4>
     <p>Trzymany w ręce zwiększa zasięg stawiania i niszczenia bloków. Szczególnie przydatny podczas budowania na wysokości i w trudno dostępnych miejscach.</p>
-    <p>Można go zakupić u <strong>Handlarza</strong> na terenie spawnu.</p>
+    <p>Umożliwia też przełączenie widzialności ramki na przedmiot.</p>
+    <p>Dostępny do kupienia w sklepie <strong>Akcesoria</strong> za <strong>$25,000</strong>.</p>
   </div>
 </div>
 
-
+<!-- Enderite -->
 
 <div class="showcase-item panel accent-enderite">
   <div class="showcase-thumb">
@@ -93,9 +102,12 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   </div>
   <div class="showcase-body">
     <h4>Enderyt</h4>
-    <p>Nowy surowiec pozyskiwany poprzez zaliczanie wyzwań w <strong>Wymiarze Endu</strong>. Stanowi jeden ze składników szablonu pozwalającego na ulepszenie netherytowych narzędzi i zbroi do kolejnego poziomu.</p>
+    <p>Nowy surowiec pozyskiwany w <strong>Wymiarze Endu</strong> przez zaliczanie wyzwań na głównej wyspie. Stanowi jeden ze składników szablonu pozwalającego na ulepszenie netherytowych narzędzi i zbroi do kolejnego poziomu.</p>
+    <p>Enderytowe wyposażenie jest niezniszczalne.</p>
   </div>
 </div>
+
+<!-- Elytra -->
 
 <div class="showcase-item panel accent-elytra">
   <div class="showcase-thumb">
