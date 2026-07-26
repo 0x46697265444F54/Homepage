@@ -111,7 +111,8 @@ Jeżeli trzymasz w ręce kompas, Twoja lokalizacja jest widoczna na mapie.
 <script>
 function initMapCard(card) {
     card.addEventListener('click', () => {
-        if (card.classList.contains('loaded')) return;
+        if (card.classList.contains('loaded') == true)
+            return;
         card.classList.add('loaded');
         const iframe = document.createElement('iframe');
         iframe.src = 'https://map.firedot.pl';

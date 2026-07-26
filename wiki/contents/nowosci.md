@@ -36,445 +36,324 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 
 <div class="page">
 
-  <!-------------------------------------------------------->
-  <h4 class="separator" id="07-07-2026">7 Lipca, 2026</h4>
-  <!-------------------------------------------------------->
+<h4 class="separator" id="07-07-2026">7 Lipca, 2026</h4>
 
-  <div class="green">
-  <blockquote>
-    <h5><i class="bi bi-star-fill"></i> Nowości i Zmiany</h5>
-    <div>Nowości, zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku tygodni.</div>
-    <ul>
-      <li>Odblokowano wymiar Netheru na serwerze.
-        <ul>
-          <li>Dodano <strong>Bastionowe Wieże</strong>, nową strukturę generującą dużą ilość lootu.</li>
-          <li>Odświeżono wygląd <strong>Netherowej Fortecy</strong>.</li>
-          <li>Odblokowano Netherowe przedmioty w sklepie.</li>
-          <li>Odblokowano nowe zadania związane z Netherem.</li>
-          <li>Odblokowano możliwość ulepszenia działki do najwyższego poziomu.</li>
-          <li>Odblokowano możliwość ulepszenia wyposażenia do poziomu: <strong>Netheryt</strong></li>
-        </ul>
-      </li>
-      <li>
-        Dodano możliwość przełączania wskazówki na kompasie.
-        <ul>
-          <li>Domyślnie wskazuje punkt spawnu w obecnym świecie.</li>
-          <li>Klikając prawym przyciskiem myszy, można przełączać między poszczególnymi magnetytami i terenami.</li>
-        </ul>
-      </li>
-      <li>Dodano możliwość przepalenia włóczni na sztabki.</li>
-      <li>Dodano możliwość ulepszenia końskiej zbroi.</li>
-      <li>Dodano magnetyt na środku mapy, który umożliwia powrót na spawn.</li>
-      <li>Dodano powiadomienia o zresetowaniu limitu sprzedaży.</li>
-      <li>Dodano recepturę niezapisanej książki do <strong>/receptury</strong>.</li>
-      <li>Dodano dźwięk potwierdzający zakup ulepszenia.</li>
-      <li>Dodano wsparcie dla klientów na wersji <strong>26.2</strong>.</li>
-      <li>Dodano dwa nowe zadania do puli.</li>
-      <li>Zwiększono prędkość wzrostu kaktusów na sawannie i powiązanych biomach.</li>
-      <li>Zwiększono limit ryb spawnujących się w rzekach i oceanach.</li>
-      <li>Zwiększono długość dnia o 10 minut.</li>
-      <li>Przestawienie terenu nie resetuje już jego nazwy.</li>      
-      <li>
-        Dodano komendę <strong>/podpisz</strong>, za której pomocą można ustawić kolorową nazwę przedmiotu.
-        <sup>Na ten moment koszt ustawienia nazwy wynosi <strong>5</strong> tokenów dla osób wspierających lub <strong>10</strong> tokenów dla pozostałych graczy.</sup>
-      </li>
-      <li>
-        Dodano możliwość przełączenia widzialności ramek na przedmioty za pomocą <strong>Młotka</strong>.
-        <sup>Młotek to przedmiot specjalny, który można zakupić w sklepie w kategorii <strong>Akcesoria</strong>.</sup>
-      </li>
-      <li>
-        Rozszerzono zaklęcie <strong>Magnet</strong> dla motyki o dodatkowe bloki i przedmioty.
-        <sup><strong>Wodorosty</strong> (Kelp), <strong>Blok suszonych wodorostów</strong> (Dried Kelp Block), <strong>Snop siana</strong> (Hay Block), <strong>Trujący ziemniak</strong> (Poisonous Potato)
-      </li>
-      <li>
-        Zwiększono prędkość niszczenia niektórych bloków za pomocą motyki.
-        <sup><strong>Arbuz</strong> (Melon), <strong>Dynia</strong> (Pumpkin), <strong>Bambus</strong> (Bamboo), <strong>Kaktus</strong> (Cactus), <strong>Kakao</strong> (Cocoa)</sup>
-      </li>
-      <li>
-        Dodano więcej mobów możliwych do złapania za pomocą koszyka.
-        <sup><strong>Delfin</strong> (Dolphin), <strong>Łodzik</strong> (Nautilus), <strong>Wesoły Ghast</strong> (Happy Ghast)</sup>
-      </li>
-      <li>
-        Włączono eksperyment <strong>Minecart Improvements</strong> zmieniający sposób działania wagonów.
-        <sup>Szczegóły: <a href="https://minecraft.wiki/w/Minecart_Improvements">https://minecraft.wiki/w/Minecart_Improvements</a></sup>
-      </li>
-    </ul>
-  </blockquote>
-  </div>
+<div class="green">
 
-  <div class="red">
-  <blockquote>
-    <h5><i class="bi bi-bug-fill"></i>Poprawki</h5>
-    <ul>
-      <li>Naprawiono drop kamiennych przycisków.</li>
-      <li>Naprawiono drop płyt muzycznych ze skrzyni za głosowanie.</li>
-      <li>Naprawiono kilka niedziałających zadań.</li>
-      <li>Naprawiono kilka błędów w systemie koszyków.</li>
-      <li>Naprawiono kilka błędnie wyświetlających się wiadomości na czacie.</li>
-      <li>Naprawiono kilka błędnie wyświetlających się opisów i nazw przedmiotów.</li>
-      <li>Naprawiono błędy związane z odbieraniem nagród za głosowanie.</li>
-      <li>Naprawiono szybką sprzedaż niedziałającą dla niektórych przedmiotów.</li>
-      <li>Naprawiono wagony z lejami nieprzyjmujące przedmiotów z kontenerów.</li>
-      <li>Naprawiono konie szkielety pojawiające się z nieaktywną pułapką.</li>
-      <li>Przywrócono właściwe zasady spawnowania wariantów żab.</li>
-      <li>Przywrócono możliwość przepalenia kolczej zbroi na bryłki żelaza.</li>
-      <li>Przenoszenie zaklęć z narzędzia na książkę poprawnie resetuje teraz <strong>repair_cost</strong> bazowego przedmiotu.</li>
-      <li>Naprawiono zaklęcie <strong>Kołowrotek</strong> niezużywające wędki.</li>
-      <li>Naprawiono problemy z zaklęciem <strong>Grawitacja</strong> podczas jazdy konno i prawdopodobnie kilka podobnych błędów.</li>
-      <li>
-          Naprawiono niedziałające rozsiewanie kwiatów przy użyciu mączki kostnej.
-          <sup>Rodzaj kwiatów jest zależny od biomu, więc na biomach na których naturalnie się one nie generują (np. Grzybowa wyspa) nie wyrosną żadne kwiaty.</sup>
-      </li>
-    </ul>
-  </blockquote>
-  </div>
+> ##### @icon[bi-star-fill] Nowości i Zmiany
+> Nowości, zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku tygodni.
+> - Odblokowano wymiar Netheru na serwerze.
+>   - Dodano **Bastionowe Wieże**, nową strukturę generującą dużą ilość lootu.
+>   - Odświeżono wygląd **Netherowej Fortecy**.
+>   - Odblokowano Netherowe przedmioty w sklepie.
+>   - Odblokowano nowe zadania związane z Netherem.
+>   - Odblokowano możliwość ulepszenia działki do najwyższego poziomu.
+>   - Odblokowano możliwość ulepszenia wyposażenia do poziomu: **Netheryt**
+> - Dodano możliwość przełączania wskazówki na kompasie.
+>   - Domyślnie wskazuje punkt spawnu w obecnym świecie.
+>   - Klikając prawym przyciskiem myszy, można przełączać między poszczególnymi magnetytami i terenami.
+> - Dodano możliwość przepalenia włóczni na sztabki.
+> - Dodano możliwość ulepszenia końskiej zbroi.
+> - Dodano magnetyt na środku mapy, który umożliwia powrót na spawn.
+> - Dodano powiadomienia o zresetowaniu limitu sprzedaży.
+> - Dodano recepturę niezapisanej książki do **/receptury**.
+> - Dodano dźwięk potwierdzający zakup ulepszenia.
+> - Dodano wsparcie dla klientów na wersji **26.2**.
+> - Dodano dwa nowe zadania do puli.
+> - Zwiększono prędkość wzrostu kaktusów na sawannie i powiązanych biomach.
+> - Zwiększono limit ryb spawnujących się w rzekach i oceanach.
+> - Zwiększono długość dnia o 10 minut.
+> - Przestawienie terenu nie resetuje już jego nazwy.
+> - Dodano komendę **/podpisz**, za której pomocą można ustawić kolorową nazwę przedmiotu.
+>   <sup>Na ten moment koszt ustawienia nazwy wynosi **5** tokenów dla osób wspierających lub **10** tokenów dla pozostałych graczy.</sup>
+> - Dodano możliwość przełączenia widzialności ramek na przedmioty za pomocą **Młotka**.
+>   <sup>Młotek to przedmiot specjalny, który można zakupić w sklepie w kategorii **Akcesoria**.</sup>
+> - Rozszerzono zaklęcie **Magnet** dla motyki o dodatkowe bloki i przedmioty.
+>   <sup>**Wodorosty** (Kelp), **Blok suszonych wodorostów** (Dried Kelp Block), **Snop siana** (Hay Block), **Trujący ziemniak** (Poisonous Potato)</sup>
+> - Zwiększono prędkość niszczenia niektórych bloków za pomocą motyki.
+>   <sup>**Arbuz** (Melon), **Dynia** (Pumpkin), **Bambus** (Bamboo), **Kaktus** (Cactus), **Kakao** (Cocoa)</sup>
+> - Dodano więcej mobów możliwych do złapania za pomocą koszyka.
+>   <sup>**Delfin** (Dolphin), **Łodzik** (Nautilus), **Wesoły Ghast** (Happy Ghast)</sup>
+> - Włączono eksperyment **Minecart Improvements** zmieniający sposób działania wagonów.
+>   <sup>Szczegóły: <a href="https://minecraft.wiki/w/Minecart_Improvements">https://minecraft.wiki/w/Minecart_Improvements</a></sup>
 
-  <!-------------------------------------------------------->
-  <h4 class="separator" id="10-06-2026">10 Czerwca, 2026</h4>
-  <!-------------------------------------------------------->
+</div>
 
-  <div class="green">
-  <blockquote>
-    <h5><i class="bi bi-star-fill"></i> Zmiany</h5>
-    <div>Drobne zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku dni.</div>
-    <ul>
-      <li>Zmniejszono ceny ulepszeń:
-        <ul>
-          <li>Limit Terenów: <s>$50,000</s> ➜ <strong>$25,000</strong></li>
-          <li>Limit Magnetytów: <s>$25,000</s> ➜ <strong>$10,000</strong></li>
-          <li>Zasięg Rysowania: <s>$75,000</s> ➜ <strong>$50,000</strong></li>
-          <li>Pojemność Skrzyni Endu: <s>$25,000</s> ➜ <strong>$10,000</strong></li>
-        </ul>
-      </li>
-    </ul>
-  </blockquote>
-  </div>
+<div class="red">
 
-  <div class="red">
-  <blockquote>
-    <h5><i class="bi bi-bug-fill"></i>Poprawki</h5>
-    <ul>
-      <li>Naprawiono odbieranie nagród za głosowanie na serwer.</li>
-      <li>Naprawiono zepsute tekstury wilków.</li>
-      <li>Naprawiono osadników, którzy nie zasiewali plonów po ich zebraniu.</li>
-      <li>Naprawiono nazywanie mobów znacznikami / plakietkami.</li>
-      <li>Naprawiono kupowanie / sprzedawanie kilku produktów w sklepie.</li>
-      <li>Naprawiono wielkość stacku (niektórych) generowanych przedmiotów.</li>
-      <li>Naprawiono okazjonalne znikanie przedmiotów podczas sprzedaży.</li>
-      <li>Naprawiono odejmowanie tokenów podczas zakupu blasku.</li>
-      <li>Poprawiono stabilność serwera i opóźnienie dla graczy z Polski.</li>
-      <li>Poprawiono kompatybilność z <strong>Xaero's World Map</strong> oraz <strong>Voxy</strong>.</li>
-      <li>Zablokowano dostęp do komendy <strong>/handlarz</strong> poza obszarem chronionym.</li>
-    </ul>
-  </blockquote>
-  </div>
+> ##### @icon[bi-bug-fill] Poprawki
+> - Naprawiono drop kamiennych przycisków.
+> - Naprawiono drop płyt muzycznych ze skrzyni za głosowanie.
+> - Naprawiono kilka niedziałających zadań.
+> - Naprawiono kilka błędów w systemie koszyków.
+> - Naprawiono kilka błędnie wyświetlających się wiadomości na czacie.
+> - Naprawiono kilka błędnie wyświetlających się opisów i nazw przedmiotów.
+> - Naprawiono błędy związane z odbieraniem nagród za głosowanie.
+> - Naprawiono szybką sprzedaż niedziałającą dla niektórych przedmiotów.
+> - Naprawiono wagony z lejami nieprzyjmujące przedmiotów z kontenerów.
+> - Naprawiono konie szkielety pojawiające się z nieaktywną pułapką.
+> - Przywrócono właściwe zasady spawnowania wariantów żab.
+> - Przywrócono możliwość przepalenia kolczej zbroi na bryłki żelaza.
+> - Przenoszenie zaklęć z narzędzia na książkę poprawnie resetuje teraz **repair_cost** bazowego przedmiotu.
+> - Naprawiono zaklęcie **Kołowrotek** niezużywające wędki.
+> - Naprawiono problemy z zaklęciem **Grawitacja** podczas jazdy konno i prawdopodobnie kilka podobnych błędów.
+> - Naprawiono niedziałające rozsiewanie kwiatów przy użyciu mączki kostnej.
+>   <sup>Rodzaj kwiatów jest zależny od biomu, więc na biomach na których naturalnie się one nie generują (np. Grzybowa wyspa) nie wyrosną żadne kwiaty.</sup>
 
-  <div class="red">
-  <blockquote>
-    <h5><i class="bi bi-bug-fill"></i>Znane Problemy</h5>
-    <ul>
-      <li>Mączka kostna, po kliknięciu na blok trawy - nie generuje żadnych kwiatów.</li>
-      <li>
-        Głosowanie #3 nie działa ze względu na niedziałającą stronę.
-        <sup>W najbliższym czasie będziemy wymieniać trzeci link głosowania na inny.</sup>
-      </li>
-    </ul>
-  </blockquote>
-  </div>
+</div>
 
-  <!-------------------------------------------------------->
-  <h4 class="separator" id="04-06-2026">4 Czerwca, 2026</h4>
-  <!-------------------------------------------------------->
+<h4 class="separator" id="10-06-2026">10 Czerwca, 2026</h4>
+  
+<div class="green">
 
-  <div class="gray">
-  <blockquote>
-    <h5><i class="bi bi-star-fill"></i> Trzecia Edycja</h5>
-    <div>Nowy sezon to nie tylko aktualizacja serwera do najnowszej wersji gry, ale również porcja świeżych zmian i dodatków. Zgodnie z pierwotnym założeniem, serwer w dalszym ciągu oferuje zbalansowaną i w wielu aspektach utrudnioną rozgrywkę. Wprowadzonych zostało kilka istotnych zmian w początkowej progresji oraz systemie ulepszeń. Co więcej, na graczy czeka ulepszona wersja świata wraz z odświeżonymi strukturami, nowe zaklęcia, przedmioty, poprawki… i wiele więcej.<br><br>
-    Od strony technicznej, była to na ten moment największa i najbardziej złożona aktualizacja. Błędy i niedociągnięcia można zgłaszać dowolną drogą komunikacji, ale zachęcam do skorzystania z komendy <strong>/helpop</strong>, która została do tego stworzona.<br><br>
-    Tak jak w przypadku poprzednich edycji, planujemy rozwijać i aktualizować serwer wraz z biegiem czasu.</div>
-  </blockquote>
-  </div>
+> ##### @icon[bi-star-fill] Zmiany
+> Drobne zmiany i poprawki wprowadzone na przestrzeni ostatnich kilku dni.
+> - Zmniejszono ceny ulepszeń:
+>   - Limit Terenów: ~~$50,000~~ ➜ **$25,000**
+>   - Limit Magnetytów: ~~$25,000~~ ➜ **$10,000**
+>   - Zasięg Rysowania: ~~$75,000~~ ➜ **$50,000**
+>   - Pojemność Skrzyni Endu: ~~$25,000~~ ➜ **$10,000**
 
-  <div class="blue">
-  <blockquote>
-    <h5><i class="bi bi-globe2"></i> Świat</h5>
-    <div>Świat został zaktualizowany do najnowszej wersji gry i tym samym dostarcza jeszcze więcej unikalnych krajobrazów.<br><br>
-    Większość struktur została przebudowana, oferując ciekawszy, mniej powtarzalny układ oraz więcej wartościowych przedmiotów.</div>
-    <ul>
-      <li><strong>Twierdza</strong><span class="translation">(Stronghold)</span></li>
-      <li><strong>Leśna Posiadłość</strong><span class="translation">(Mansion)</span></li>
-      <li><strong>Posterunek</strong><span class="translation">(Pillager Outpost)</span></li>
-      <li><strong>Chatka Wiedźmy</strong><span class="translation">(Swamp Hut)</span></li>
-      <li><strong>Pradawne Miasto</strong><span class="translation">(Ancient City)</span></li>
-      <li><strong>Dżunglowa Świątynia</strong><span class="translation">(Jungle Temple)</span></li>
-      <li><strong>Podwodna Świątynia</strong><span class="translation">(Ocean Monument)</span></li>
-      <li><strong>Pustynna Świątynia</strong> / <strong>Piramida</strong><span class="translation">(Desert Temple)</span></li>
-      <li><strong>Netherowa Forteca</strong><span class="translation">(Nether Fortress)</span></li>
-      <li><strong>Komnaty Próby</strong><span class="translation">(Trial Chambers)</span> wyglądają bardziej naturalnie i generują się z mniejszą liczbą bloków miedzi.</li>
-      <li>Na biomie <strong>Bladego Ogrodu</strong><span class="translation">(Pale Garden)</span> generują się tajemnicze struktury.</li>
-      <li>Na biomach oceanicznych można znaleźć dużą liczbę zatopionych ruin i budowli.</li>
-    </ul>
-    <h5>Minerały</h5>
-    <div>Minerałów jest podobnie dużo jak kiedyś, ale są rozmieszczone w trochę inny sposób.</div>
-    <ul>
-      <li><strong>Węgiel</strong> występuje wszędzie, ale w większych ilościach można go znaleźć na biomach <strong>Bagnistych</strong>.</li>
-      <li><strong>Miedź</strong> występuje wszędzie, ale największe złoża znajdują się na <strong>Sawannie</strong>, w <strong>Jaskiniach Naciekowych</strong> i na pokrewnych biomach.</li>
-      <li><strong>Żelazo</strong> znajduje się zwykle w okolicach warstwy łupkowej. Więcej złóż można znaleźć na <strong>Tajdze</strong> i pokrewnych biomach.</li>
-      <li><strong>Złoto</strong> znajduje się zwykle w głębszej warstwie łupkowej. Więcej złóż można znaleźć na <strong>Badlands</strong> i pokrewnych biomach.</li>
-      <li><strong>Redstone</strong> znajduje się zwykle w najgłębszej warstwie łupkowej. Więcej złóż można znaleźć na biomach <strong>Dżunglowych</strong>.</li>
-      <li><strong>Lazuryt</strong> znajduje się zwykle w najgłębszej warstwie łupkowej. Więcej złóż można znaleźć bliżej powierzchni, na biomach <strong>Pustynnych</strong>.</li>
-      <li><strong>Diamenty</strong> znajdują się zwykle w najgłębszej warstwie łupkowej. Niewielką ilość można również znaleźć powyżej poziomu morza na biomie <strong>Lodowych Kolców</strong>.</li>
-      <li><strong>Szmaragdy</strong> znajdują się wysoko na biomach <strong>Górskich</strong>. Niewielką ilość można również znaleźć głęboko pod <strong>Lasami</strong>, w <strong>Bujnych Jaskiniach</strong> i <strong>Mrocznych Jaskiniach</strong>.</li>
-    </ul>
-  </blockquote>
-  </div>
+</div>
 
-  <div class="red">
-  <blockquote>
-    <h5><i class="bi bi-fire"></i> Nether, End</h5>
-    <div>
-      Na samym początku edycji dostępny jest tylko główny wymiar, a <strong>Nether</strong> oraz <strong>End</strong> zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnienie początkowej progresji i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.
-      <br><br>
-      Bez obaw - nie zamierzamy przez długi czas blokować dostępu do tych wymiarów, a po ich otwarciu będzie można z nich korzystać bez ograniczeń.
-    </div>
-  </blockquote>
-  </div>
+<div class="red">
 
-  <div class="green">
-  <blockquote>
-    <h5><i class="bi bi-check2-square"></i> Zadania, Questy</h5>
-    <ul>
-      <li>Reset odbywa się każdego dnia o północy oraz dodatkowo po ukończeniu wszystkich aktywnych zadań.</li>
-      <li>Nagrody za wykonanie zadań zostały zmienione, aby dopasować je do zmian w ekonomii.</li>
-      <li>Dodano pasek postępu zadań wyświetlany w górnej części ekranu.</li>
-      <li>Dodano ponad 30 nowych zadań.</li>
-    </ul>
-  </blockquote>
-  </div>
+> ##### @icon[bi-bug-fill] Poprawki
+> - Naprawiono odbieranie nagród za głosowanie na serwer.
+> - Naprawiono zepsute tekstury wilków.
+> - Naprawiono osadników, którzy nie zasiewali plonów po ich zebraniu.
+> - Naprawiono nazywanie mobów znacznikami / plakietkami.
+> - Naprawiono kupowanie / sprzedawanie kilku produktów w sklepie.
+> - Naprawiono wielkość stacku (niektórych) generowanych przedmiotów.
+> - Naprawiono okazjonalne znikanie przedmiotów podczas sprzedaży.
+> - Naprawiono odejmowanie tokenów podczas zakupu blasku.
+> - Poprawiono stabilność serwera i opóźnienie dla graczy z Polski.
+> - Poprawiono kompatybilność z **Xaero's World Map** oraz **Voxy**.
+> - Zablokowano dostęp do komendy **/handlarz** poza obszarem chronionym.
 
-  <div class="pink">
-  <blockquote>
-    <h5><i class="bi bi-stars"></i> Zaklęcia</h5>
-    <ul>
-      <li>Za pomocą <strong>Kamienia Szlifierskiego</strong> można teraz przenieść zaklęcia z dowolnego przedmiotu na książkę.</li>
-      <li>Za pomocą <strong>Kamienia Szlifierskiego</strong> można teraz usunąć wybrane zaklęcie z książki.</li>
-      <li>Dodano kilka nowych zaklęć. Jest ich teraz łącznie 20.
-        <ul>
-          <li><strong>Sonic</strong> – Zwiększa prędkość poruszania się o <strong>7.5%</strong> za każdy poziom.
-            <ul>
-              <li>Przeznaczenie: <strong>Buty</strong></li>
-              <li>Maks. Poziom: <strong>III</strong></li>
-              <li>Wyklucza: <strong>Grawitacja</strong><span class="translation">(Gravity)</span>, <strong>Prędkość Dusz</strong><span class="translation">(Soul Speed)</span>, <strong>Głębinowy Wędrowiec</strong><span class="translation">(Depth Strider)</span></li>
-              <li>Sposób Zdobycia: <strong>Zaklinanie</strong>, <strong>Łowienie</strong> oraz <strong>Eksploracja</strong></li>
-            </ul>
-          </li>
-          <li><strong>Krytyczne Uderzenie</strong><span class="translation">(Critical Strike)</span> – Zwiększa obrażenia od krytycznych ataków o <strong>7.5%</strong> za każdy poziom.
-            <ul>
-              <li>Przeznaczenie: <strong>Broń</strong></li>
-              <li>Maks. Poziom: <strong>III</strong></li>
-              <li>Wyklucza: <strong>Szerokie Ostrze</strong><span class="translation">(Sweeping Edge)</span>, <strong>Zasięg</strong><span class="translation">(Reach)</span>, <strong>Poręczność</strong><span class="translation">(Swift Strike)</span></li>
-              <li>Sposób Zdobycia: <strong>Zaklinanie</strong>, <strong>Łowienie</strong> oraz <strong>Eksploracja</strong></li>
-            </ul>
-          </li>
-          <li><strong>Kołowrotek</strong><span class="translation">(Reel)</span> – Automatycznie wyciąga przedmiot z wody po jego złowieniu.
-            <ul>
-              <li>Przeznaczenie: <strong>Wędka</strong></li>
-              <li>Maks. Poziom: <strong>I</strong></li>
-              <li>Wyklucza: <strong>Brak</strong></li>
-              <li>Sposób Zdobycia: <strong>Zaklinanie</strong>, <strong>Łowienie</strong> oraz <strong>Eksploracja</strong></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </blockquote>
-  </div>
+</div>
 
-  <div class="copper">
-  <blockquote>
-    <h5><i class="bi bi-hammer"></i> Ulepszanie Wyposażenia, Progresja oraz Zdobienia</h5>
-    <div>Zmodyfikowano ścieżkę ulepszeń tak, aby wziąć pod uwagę niedawno dodane miedziane wyposażenie.</div>
-    <ul>
-      <li>Dodano <strong>Miedziane Ulepszenie</strong>, przy użyciu którego można ulepszyć kamienne narzędzia lub skórzaną zbroję.
-        <ul>
-          <li>Receptura: <strong>6x Łupek</strong><span class="translation">(Deepslate)</span> lub <strong>6x Łupkowy Bruk</strong><span class="translation">(Cobbled Deepslate)</span>, <strong>3x Sztabka Miedzi</strong></li>
-        </ul>
-      </li>
-      <li>Ścieżka ulepszeń w <strong>Stole Kowalskim</strong> została zmodyfikowana w następujący sposób:
-        <ul>
-          <li>Skórzana Zbroja → <strong>Miedziana Zbroja</strong> → Żelazna Zbroja → …</li>
-          <li>Kamienne Narzędzie → <strong>Miedziane Narzędzie</strong> → Żelazne Narzędzie → …</li>
-        </ul>
-      </li>
-      <li>Każde narzędzie można spersonalizować na 198 różnych sposobów za pomocą zdobień.</li>
-      <li>Zdobiona zbroja (i narzędzia) ma teraz unikalną teksturę w ekwipunku.</li>
-    </ul>
-  </blockquote>
-  </div>
+<div class="red">
 
-  <div class="yellow">
-  <blockquote>
-    <h5><i class="bi bi-coin"></i> Ekonomia, Ulepszenia</h5>
-    <div>Ekonomia przeszła denominację, lecz współczynnik ceny kupna do ceny sprzedaży pozostaje na bardzo podobnym poziomie.</div>
-    <h5>Limity Sprzedaży</h5>
-    <ul>
-      <li>Czas odnowienia został zmniejszony do 2 godzin.</li>
-      <li>Maks. sprzedaż została zmodyfikowana dla niektórych produktów.</li>
-    </ul>
-    <h5>Kategorie</h5>
-    <ul>
-      <li>Usunięto kategorię <strong>Jeździectwo</strong> i w jej miejsce dodano <strong>Akcesoria</strong>.</li>
-      <li>
-        Tymczasowo zablokowano kategorię <strong>Nether</strong> oraz przedmioty z tego wymiaru znajdujące się w innych kategoriach.
-        <br>
-        <sup>Gdy wymiar będzie otwarty, przedmioty te będą dostępne do kupienia w sklepie.</sup>
-      </li>
-    </ul>
-    <h5>Ulepszenia</h5>
-    <div>Ceny ulepszeń zostały zmienione na statyczne, zwiększono maksymalny poziom niektórych ulepszeń.</div>
-    <ul>
-      <li><strong>Limit Terenów</strong>
-        <ul>
-          <li>Zakres od <strong>1</strong> (Domyślnie) do <strong>25</strong> (Maksymalnie), limit zwiększa się o <strong>1</strong> za każde ulepszenie.</li>
-          <li>Cena: <strong>$50,000</strong></li>
-        </ul>
-      </li>
-      <li><strong>Limit Magnetytów</strong>
-        <ul>
-          <li>Zakres od <strong>1</strong> (Domyślnie) do <strong>25</strong> (Maksymalnie), limit zwiększa się o <strong>1</strong> za każde ulepszenie.</li>
-          <li>Cena: <strong>$25,000</strong></li>
-        </ul>
-      </li>
-      <li><strong>Limit Ofert</strong>
-        <ul>
-          <li>Zakres od <strong>6</strong> (Domyślnie) do <strong>24</strong> (Maksymalnie), limit zwiększa się o <strong>2</strong> za każde ulepszenie.</li>
-          <li>Cena: <strong>$10,000</strong></li>
-        </ul>
-      </li>
-      <li><strong>Zasięg Rysowania</strong>
-        <ul>
-          <li>Zakres od <strong>12</strong> (Domyślnie) do <strong>16</strong> (Maksymalnie), limit zwiększa się o <strong>1</strong> za każde ulepszenie.</li>
-          <li>Cena: <strong>$75,000</strong></li>
-        </ul>
-      </li>
-      <li>Dodano ulepszenie <strong>Pojemność Skrzyni Endu</strong>, pozwalające na zwiększenie pojemności skrzyni endu.
-        <ul>
-          <li>Zakres od <strong>9</strong> (Domyślnie) do <strong>54</strong> (Maksymalnie), pojemność zwiększa się o <strong>9</strong> za każde ulepszenie.</li>
-          <li>Cena: <strong>$25,000</strong> / ulepszenie</li>
-        </ul>
-      </li>
-      <li>Dodano ulepszenie <strong>Czapka</strong>, odblokowujące komendę kosmetyczną <strong>/hat</strong>.
-        <ul>
-          <li>Cena: <strong>200</strong> Tokenów</li>
-        </ul>
-      </li>
-    </ul>
-  </blockquote>
-  </div>
+> ##### @icon[bi-bug-fill] Znane Problemy
+> - Mączka kostna, po kliknięciu na blok trawy - nie generuje żadnych kwiatów.
+> - Głosowanie #3 nie działa ze względu na niedziałającą stronę.
+>   <sup>W najbliższym czasie będziemy wymieniać trzeci link głosowania na inny.</sup>
 
-  <div class="pink">
-  <blockquote>
-    <h5><i class="bi bi-heart-fill"></i> Osoby Wspierające, Dodatki Kosmetyczne oraz Tokeny</h5>
-    <div>Rangi <strong>Donator</strong> oraz <strong>Booster</strong> zostały zastąpione rangą <strong>Wspierający</strong> i mogą ją uzyskać również osoby, które w inny niż finansowy sposób przyczyniają się do rozwoju serwera, jego społeczności lub powiązanego oprogramowania open-source.<br><br>
-    Dodatkowo, niektóre benefity kosmetyczne dotychczas unikalne dla wyżej wymienionych rang są teraz możliwe do odblokowania przez wszystkich graczy za pomocą <strong>Tokenów</strong>, czyli wirtualnej waluty, którą zdobyć można m.in. jako nagrodę za wykonywanie zadań dziennych, uczestnictwo w eventach, głosowanie.</div>
-    <ul>
-      <li>
-          Na ten moment założenie jest takie, aby <strong>Tokeny</strong> oraz odblokowane za ich pomocą korzyści były resetowane wraz z każdą edycją.
-          <br>
-          <sup>Będziemy jednak monitorować cały ten system i dostosowywać ceny / korzyści tak, aby było uczciwie dla wszystkich.</sup>
-        <ul>
-          <li>Ranga <strong>Wspierający</strong> nie jest resetowana wraz z nową edycją. Jest ona w dalszym ciągu przyznawana na czas nieokreślony i nie planujemy tego zmieniać.</li>
-        </ul>
-      </li>
-      <li>Komenda <strong>/name</strong>, służąca do ustawienia koloru nicku na czacie, jest teraz dostępna dla wszystkich graczy na poniższych warunkach:
-        <ul>
-          <li>Każdorazowa zmiana koloru kosztuje <strong>Tokeny</strong>, lecz osoby <strong>Wspierające</strong> płacą ułamek ceny.</li>
-        </ul>
-      </li>
-      <li>Komenda <strong>/glow</strong>, służąca do włączenia / wyłączenia poświaty, jest teraz dostępna dla wszystkich graczy na poniższych warunkach:
-        <ul>
-          <li>Dostępne do odblokowania są teraz wszystkie wspierane przez grę kolory poświaty.</li>
-          <li>Każdy kolor poświaty należy odblokować osobno za pomocą <strong>Tokenów</strong>, lecz osoby <strong>Wspierające</strong> płacą ułamek ceny.</li>
-        </ul>
-      </li>
-      <li>Komenda <strong>/hat</strong>, służąca do nałożenia niestandardowych bloków na głowę, jest teraz możliwa do odblokowania przez wszystkich graczy.
-        <ul>
-          <li>Wspierający mają do niej darmowy i nieograniczony dostęp.</li>
-        </ul>
-      </li>
-      <li>Komenda <strong>/particles</strong> została tymczasowo usunięta ze względów technicznych.</li>
-    </ul>
-    <div>Z powyższych względów, tagi <strong>Donator</strong> oraz <strong>Booster</strong> na serwerze Minecraft zostały zastąpione ikoną, która wyświetla się przed tagiem <strong>Gracz</strong> na czacie i liście graczy.<br>
-    Spersonalizowany kolor tagu jest w dalszym ciągu dostępny do wyboru przez osoby wspierające i można też wielokrotnie poprosić o jego zmianę.</div>
-  </blockquote>
-  </div>
+</div>
 
-  <div class="green">
-  <blockquote>
-    <h5><i class="bi bi-shield-fill"></i> Chronione Tereny</h5>
-    <ul>
-      <li>Przestawienie bloku terenu przenosi również dodanych do niego graczy.</li>
-      <li>Utworzenie nowego terenu nie wymaga już ulepszenia wszystkich poprzednich do maksymalnego poziomu.</li>
-    </ul>
-  </blockquote>
-  </div>
+<h4 class="separator" id="04-06-2026">4 Czerwca, 2026</h4>
 
-  <div class="steel">
-  <blockquote>
-    <h5><i class="bi bi-three-dots"></i> Pozostałe</h5>
-    <ul>
-      <li>Dodano kolekcjonerskie główki nowych mobów.</li>
-      <li>Dodano komendę <strong>/report</strong> (lub <strong>/helpop</strong>), za której pomocą można skontaktować się z administracją serwera, nawet gdy nie znajduje się ona w danym momencie na serwerze.</li>
-      <li>Dodano komendę <strong>/rolnictwo</strong>, która wyświetla informacje na temat uprawy roślin na poszczególnych biomach.</li>
-      <li>Dodano komendę <strong>/przewodnik</strong>, która wyświetla podstawowe informacje na temat serwera.</li>
-      <li>Dodano niewielką nagrodę za zdobywanie osiągnięć w grze.</li>
-      <li>Dodano główkę gracza wyświetlaną na czacie obok wiadomości.</li>
-      <li><strong>Pasek nawigacji</strong><span class="translation">(Locator Bar)</span> jest teraz widoczny tylko dla graczy trzymających w ręce <strong>Kompas</strong>.
-        <ul>
-          <li>Na pasku znajdują się wszyscy inni gracze trzymający w danym momencie kompas.</li>
-        </ul>
-      </li>
-      <li>
-      Usunięto wprowadzone na poprzedniej edycji zmiany w systemie naprawiania przedmiotów.
-      <br>
-      <sup>Ze względu na ograniczenia gry implementacja była podatna na błędy, których naprawienie na ten moment jest praktycznie niemożliwe.</sup>
-      </li>
-      <li>
-        Usunięto system <strong>Postępów</strong>, ponieważ nie cieszył się on zbyt dużym zainteresowaniem wśród graczy.
-        <br>
-        <sup>W przyszłości jednak planujemy ponownie odwiedzić ten obszar i wprowadzić w to miejsce coś bardziej sensownego.</sup>
-      </li>
-      <li>Usunięto niestandardowe płyty muzyczne. Nie spełniały one oczekiwań co do jakości i znacząco obciążały paczkę zasobów.</li>
-      <li>Usunięto <strong>Skrzynię Skarbów I</strong> oraz <strong>Skrzynię Skarbów II</strong>.</li>
-      <li>...cała masa innych, mniejszych zmian i poprawek.</li>
-    </ul>
-  </blockquote>
-  </div>
+<div class="gray">
 
-  <div class="yellow">
-  <blockquote>
-    <h5><i class="bi bi-trophy-fill"></i> Eventy</h5>
-    <div>
-      Już niebawem na serwerze pojawią się mini eventy typu <strong>Block Party</strong>, <strong>TNT Run</strong>, <strong>Spleef</strong>, <strong>Snowball Fight</strong> i tym podobne.<br>
-      Wraz z biegiem czasu będziemy dodawać nowe minigierki, które postaramy się regularnie hostować.<br><br>
-      Za udział w eventach przyznawane będą nagrody, w tym klucze do <strong>Eventowej Skrzyni</strong> oraz <strong>Tokeny</strong>.
-    </div>
-  </blockquote>
-  </div>
+> ##### @icon[bi-star-fill] Trzecia Edycja
+> Nowy sezon to nie tylko aktualizacja serwera do najnowszej wersji gry, ale również porcja świeżych zmian i dodatków. Zgodnie z pierwotnym założeniem, serwer w dalszym ciągu oferuje zbalansowaną i w wielu aspektach utrudnioną rozgrywkę. Wprowadzonych zostało kilka istotnych zmian w początkowej progresji oraz systemie ulepszeń. Co więcej, na graczy czeka ulepszona wersja świata wraz z odświeżonymi strukturami, nowe zaklęcia, przedmioty, poprawki… i wiele więcej.
+>
+> Od strony technicznej, była to na ten moment największa i najbardziej złożona aktualizacja. Błędy i niedociągnięcia można zgłaszać dowolną drogą komunikacji, ale zachęcam do skorzystania z komendy **/helpop**, która została do tego stworzona.
+>
+> Tak jak w przypadku poprzednich edycji, planujemy rozwijać i aktualizować serwer wraz z biegiem czasu.
 
-  <div class="steel">
-  <blockquote>
-    <h5><i class="bi bi-box-fill"></i> Paczka Zasobów</h5>
-    <div>Serwerowa paczka została skompletowana na nowo. Część zasobów została zmieniona, ale zdecydowana większość pozostaje bez zmian.</div>
-    <ul>
-      <li>Wewnętrzny system odpowiadający za kompletowanie i serwowanie paczek został zmodernizowany od strony technicznej.</li>
-      <li>Dźwięki deszczu oraz uderzeń piorunów zostały po raz kolejny zmienione i są teraz lepiej skompresowane.</li>
-      <li>Odświeżono wygląd tagów dla każdej rangi oraz wygląd / układ niektórych interfejsów.</li>
-      <li>Zaktualizowano pozostałe paczki i poprawiono napotkane błędy.</li>
-      <li>Dodano kilka nowych paczek.</li>
-    </ul>
-  </blockquote>
-  </div>
+</div>
 
+<div class="blue">
+
+> ##### @icon[bi-globe2] Świat
+> Świat został zaktualizowany do najnowszej wersji gry i tym samym dostarcza jeszcze więcej unikalnych krajobrazów.
+>
+> Większość struktur została przebudowana, oferując ciekawszy, mniej powtarzalny układ oraz więcej wartościowych przedmiotów.
+> - **Twierdza**<span class="translation">(Stronghold)</span>
+> - **Leśna Posiadłość**<span class="translation">(Mansion)</span>
+> - **Posterunek**<span class="translation">(Pillager Outpost)</span>
+> - **Chatka Wiedźmy**<span class="translation">(Swamp Hut)</span>
+> - **Pradawne Miasto**<span class="translation">(Ancient City)</span>
+> - **Dżunglowa Świątynia**<span class="translation">(Jungle Temple)</span>
+> - **Podwodna Świątynia**<span class="translation">(Ocean Monument)</span>
+> - **Pustynna Świątynia** / **Piramida**<span class="translation">(Desert Temple)</span>
+> - **Netherowa Forteca**<span class="translation">(Nether Fortress)</span>
+> - **Komnaty Próby**<span class="translation">(Trial Chambers)</span> wyglądają bardziej naturalnie i generują się z mniejszą liczbą bloków miedzi.
+> - Na biomie **Bladego Ogrodu**<span class="translation">(Pale Garden)</span> generują się tajemnicze struktury.
+> - Na biomach oceanicznych można znaleźć dużą liczbę zatopionych ruin i budowli.
+>
+> ##### Minerały
+> Minerałów jest podobnie dużo jak kiedyś, ale są rozmieszczone w trochę inny sposób.
+> - **Węgiel** występuje wszędzie, ale w większych ilościach można go znaleźć na biomach **Bagnistych**.
+> - **Miedź** występuje wszędzie, ale największe złoża znajdują się na **Sawannie**, w **Jaskiniach Naciekowych** i na pokrewnych biomach.
+> - **Żelazo** znajduje się zwykle w okolicach warstwy łupkowej. Więcej złóż można znaleźć na **Tajdze** i pokrewnych biomach.
+> - **Złoto** znajduje się zwykle w głębszej warstwie łupkowej. Więcej złóż można znaleźć na **Badlands** i pokrewnych biomach.
+> - **Redstone** znajduje się zwykle w najgłębszej warstwie łupkowej. Więcej złóż można znaleźć na biomach **Dżunglowych**.
+> - **Lazuryt** znajduje się zwykle w najgłębszej warstwie łupkowej. Więcej złóż można znaleźć bliżej powierzchni, na biomach **Pustynnych**.
+> - **Diamenty** znajdują się zwykle w najgłębszej warstwie łupkowej. Niewielką ilość można również znaleźć powyżej poziomu morza na biomie **Lodowych Kolców**.
+> - **Szmaragdy** znajdują się wysoko na biomach **Górskich**. Niewielką ilość można również znaleźć głęboko pod **Lasami**, w **Bujnych Jaskiniach** i **Mrocznych Jaskiniach**.
+
+</div>
+
+<div class="red">
+
+> ##### @icon[bi-fire] Nether, End
+> Na samym początku edycji dostępny jest tylko główny wymiar, a **Nether** oraz **End** zostaną odblokowane stopniowo w późniejszym czasie. Ma to na celu spowolnienie początkowej progresji i pozwolić graczom na osiąganie kamieni milowych w zbliżonym tempie i bez pośpiechu.
+>
+> Bez obaw - nie zamierzamy przez długi czas blokować dostępu do tych wymiarów, a po ich otwarciu będzie można z nich korzystać bez ograniczeń.
+
+</div>
+
+<div class="green">
+
+> ##### @icon[bi-check2-square] Zadania, Questy
+> - Reset odbywa się każdego dnia o północy oraz dodatkowo po ukończeniu wszystkich aktywnych zadań.
+> - Nagrody za wykonanie zadań zostały zmienione, aby dopasować je do zmian w ekonomii.
+> - Dodano pasek postępu zadań wyświetlany w górnej części ekranu.
+> - Dodano ponad 30 nowych zadań.
+
+</div>
+
+<div class="pink">
+
+> ##### @icon[bi-stars] Zaklęcia
+> - Za pomocą **Kamienia Szlifierskiego** można teraz przenieść zaklęcia z dowolnego przedmiotu na książkę.
+> - Za pomocą **Kamienia Szlifierskiego** można teraz usunąć wybrane zaklęcie z książki.
+> - Dodano kilka nowych zaklęć. Jest ich teraz łącznie 20.
+>   - **Sonic** – Zwiększa prędkość poruszania się o **7.5%** za każdy poziom.
+>     - Przeznaczenie: **Buty**
+>     - Maks. Poziom: **III**
+>     - Wyklucza: **Grawitacja**<span class="translation">(Gravity)</span>, **Prędkość Dusz**<span class="translation">(Soul Speed)</span>, **Głębinowy Wędrowiec**<span class="translation">(Depth Strider)</span>
+>     - Sposób Zdobycia: **Zaklinanie**, **Łowienie** oraz **Eksploracja**
+>   - **Krytyczne Uderzenie**<span class="translation">(Critical Strike)</span> – Zwiększa obrażenia od krytycznych ataków o **7.5%** za każdy poziom.
+>     - Przeznaczenie: **Broń**
+>     - Maks. Poziom: **III**
+>     - Wyklucza: **Szerokie Ostrze**<span class="translation">(Sweeping Edge)</span>, **Zasięg**<span class="translation">(Reach)</span>, **Poręczność**<span class="translation">(Swift Strike)</span>
+>     - Sposób Zdobycia: **Zaklinanie**, **Łowienie** oraz **Eksploracja**
+>   - **Kołowrotek**<span class="translation">(Reel)</span> – Automatycznie wyciąga przedmiot z wody po jego złowieniu.
+>     - Przeznaczenie: **Wędka**
+>     - Maks. Poziom: **I**
+>     - Wyklucza: **Brak**
+>     - Sposób Zdobycia: **Zaklinanie**, **Łowienie** oraz **Eksploracja**
+
+</div>
+
+<div class="copper">
+
+> ##### @icon[bi-hammer] Ulepszanie Wyposażenia, Progresja oraz Zdobienia
+> Zmodyfikowano ścieżkę ulepszeń tak, aby wziąć pod uwagę niedawno dodane miedziane wyposażenie.
+> - Dodano **Miedziane Ulepszenie**, przy użyciu którego można ulepszyć kamienne narzędzia lub skórzaną zbroję.
+>   - Receptura: **6x Łupek**<span class="translation">(Deepslate)</span> lub **6x Łupkowy Bruk**<span class="translation">(Cobbled Deepslate)</span>, **3x Sztabka Miedzi**
+> - Ścieżka ulepszeń w **Stole Kowalskim** została zmodyfikowana w następujący sposób:
+>   - Skórzana Zbroja → **Miedziana Zbroja** → Żelazna Zbroja → …
+>   - Kamienne Narzędzie → **Miedziane Narzędzie** → Żelazne Narzędzie → …
+> - Każde narzędzie można spersonalizować na 198 różnych sposobów za pomocą zdobień.
+> - Zdobiona zbroja (i narzędzia) ma teraz unikalną teksturę w ekwipunku.
+
+</div>
+
+<div class="yellow">
+
+> ##### @icon[bi-coin] Ekonomia, Ulepszenia
+> Ekonomia przeszła denominację, lecz współczynnik ceny kupna do ceny sprzedaży pozostaje na bardzo podobnym poziomie.
+>
+> ##### Limity Sprzedaży
+> - Czas odnowienia został zmniejszony do 2 godzin.
+> - Maks. sprzedaż została zmodyfikowana dla niektórych produktów.
+>
+> ##### Kategorie
+> - Usunięto kategorię **Jeździectwo** i w jej miejsce dodano **Akcesoria**.
+> - Tymczasowo zablokowano kategorię **Nether** oraz przedmioty z tego wymiaru znajdujące się w innych kategoriach.
+>   <sup>Gdy wymiar będzie otwarty, przedmioty te będą dostępne do kupienia w sklepie.</sup>
+>
+> ##### Ulepszenia
+> Ceny ulepszeń zostały zmienione na statyczne, zwiększono maksymalny poziom niektórych ulepszeń.
+> - **Limit Terenów**
+>   - Zakres od **1** (Domyślnie) do **25** (Maksymalnie), limit zwiększa się o **1** za każde ulepszenie.
+>   - Cena: **$50,000**
+> - **Limit Magnetytów**
+>   - Zakres od **1** (Domyślnie) do **25** (Maksymalnie), limit zwiększa się o **1** za każde ulepszenie.
+>   - Cena: **$25,000**
+> - **Limit Ofert**
+>   - Zakres od **6** (Domyślnie) do **24** (Maksymalnie), limit zwiększa się o **2** za każde ulepszenie.
+>   - Cena: **$10,000**
+> - **Zasięg Rysowania**
+>   - Zakres od **12** (Domyślnie) do **16** (Maksymalnie), limit zwiększa się o **1** za każde ulepszenie.
+>   - Cena: **$75,000**
+> - Dodano ulepszenie **Pojemność Skrzyni Endu**, pozwalające na zwiększenie pojemności skrzyni endu.
+>   - Zakres od **9** (Domyślnie) do **54** (Maksymalnie), pojemność zwiększa się o **9** za każde ulepszenie.
+>   - Cena: **$25,000** / ulepszenie
+> - Dodano ulepszenie **Czapka**, odblokowujące komendę kosmetyczną **/hat**.
+>   - Cena: **200** Tokenów
+
+</div>
+
+<div class="pink">
+
+> ##### @icon[bi-heart-fill] Osoby Wspierające, Dodatki Kosmetyczne oraz Tokeny
+> Rangi **Donator** oraz **Booster** zostały zastąpione rangą **Wspierający** i mogą ją uzyskać również osoby, które w inny niż finansowy sposób przyczyniają się do rozwoju serwera, jego społeczności lub powiązanego oprogramowania open-source.
+>
+> Dodatkowo, niektóre benefity kosmetyczne dotychczas unikalne dla wyżej wymienionych rang są teraz możliwe do odblokowania przez wszystkich graczy za pomocą **Tokenów**, czyli wirtualnej waluty, którą zdobyć można m.in. jako nagrodę za wykonywanie zadań dziennych, uczestnictwo w eventach, głosowanie.
+> - Na ten moment założenie jest takie, aby **Tokeny** oraz odblokowane za ich pomocą korzyści były resetowane wraz z każdą edycją.
+>   <sup>Będziemy jednak monitorować cały ten system i dostosowywać ceny / korzyści tak, aby było uczciwie dla wszystkich.</sup>
+>   - Ranga **Wspierający** nie jest resetowana wraz z nową edycją. Jest ona w dalszym ciągu przyznawana na czas nieokreślony i nie planujemy tego zmieniać.
+> - Komenda **/name**, służąca do ustawienia koloru nicku na czacie, jest teraz dostępna dla wszystkich graczy na poniższych warunkach:
+>   - Każdorazowa zmiana koloru kosztuje **Tokeny**, lecz osoby **Wspierające** płacą ułamek ceny.
+> - Komenda **/glow**, służąca do włączenia / wyłączenia poświaty, jest teraz dostępna dla wszystkich graczy na poniższych warunkach:
+>   - Dostępne do odblokowania są teraz wszystkie wspierane przez grę kolory poświaty.
+>   - Każdy kolor poświaty należy odblokować osobno za pomocą **Tokenów**, lecz osoby **Wspierające** płacą ułamek ceny.
+> - Komenda **/hat**, służąca do nałożenia niestandardowych bloków na głowę, jest teraz możliwa do odblokowania przez wszystkich graczy.
+>   - Wspierający mają do niej darmowy i nieograniczony dostęp.
+> - Komenda **/particles** została tymczasowo usunięta ze względów technicznych.
+>
+> Z powyższych względów, tagi **Donator** oraz **Booster** na serwerze Minecraft zostały zastąpione ikoną, która wyświetla się przed tagiem **Gracz** na czacie i liście graczy.
+>
+> Spersonalizowany kolor tagu jest w dalszym ciągu dostępny do wyboru przez osoby wspierające i można też wielokrotnie poprosić o jego zmianę.
+
+</div>
+
+<div class="green">
+
+> ##### @icon[bi-shield-fill] Chronione Tereny
+> - Przestawienie bloku terenu przenosi również dodanych do niego graczy.
+> - Utworzenie nowego terenu nie wymaga już ulepszenia wszystkich poprzednich do maksymalnego poziomu.
+
+</div>
+
+<div class="steel">
+
+> ##### @icon[bi-three-dots] Pozostałe
+> - Dodano kolekcjonerskie główki nowych mobów.
+> - Dodano komendę **/report** (lub **/helpop**), za której pomocą można skontaktować się z administracją serwera, nawet gdy nie znajduje się ona w danym momencie na serwerze.
+> - Dodano komendę **/rolnictwo**, która wyświetla informacje na temat uprawy roślin na poszczególnych biomach.
+> - Dodano komendę **/przewodnik**, która wyświetla podstawowe informacje na temat serwera.
+> - Dodano niewielką nagrodę za zdobywanie osiągnięć w grze.
+> - Dodano główkę gracza wyświetlaną na czacie obok wiadomości.
+> - **Pasek nawigacji**<span class="translation">(Locator Bar)</span> jest teraz widoczny tylko dla graczy trzymających w ręce **Kompas**.
+>   - Na pasku znajdują się wszyscy inni gracze trzymający w danym momencie kompas.
+> - Usunięto wprowadzone na poprzedniej edycji zmiany w systemie naprawiania przedmiotów.
+>   <sup>Ze względu na ograniczenia gry implementacja była podatna na błędy, których naprawienie na ten moment jest praktycznie niemożliwe.</sup>
+> - Usunięto system **Postępów**, ponieważ nie cieszył się on zbyt dużym zainteresowaniem wśród graczy.
+>   <sup>W przyszłości jednak planujemy ponownie odwiedzić ten obszar i wprowadzić w to miejsce coś bardziej sensownego.</sup>
+> - Usunięto niestandardowe płyty muzyczne. Nie spełniały one oczekiwań co do jakości i znacząco obciążały paczkę zasobów.
+> - Usunięto **Skrzynię Skarbów I** oraz **Skrzynię Skarbów II**.
+> - …cała masa innych, mniejszych zmian i poprawek.
+
+</div>
+
+<div class="yellow">
+
+> ##### @icon[bi-trophy-fill] Eventy
+> Już niebawem na serwerze pojawią się mini eventy typu **Block Party**, **TNT Run**, **Spleef**, **Snowball Fight** i tym podobne.
+>
+> Wraz z biegiem czasu będziemy dodawać nowe minigierki, które postaramy się regularnie hostować.
+>
+> Za udział w eventach przyznawane będą nagrody, w tym klucze do **Eventowej Skrzyni** oraz **Tokeny**.
+
+</div>
+
+<div class="steel">
+
+> ##### @icon[bi-box-fill] Paczka Zasobów
+> Serwerowa paczka została skompletowana na nowo. Część zasobów została zmieniona, ale zdecydowana większość pozostaje bez zmian.
+> - Wewnętrzny system odpowiadający za kompletowanie i serwowanie paczek został zmodernizowany od strony technicznej.
+> - Dźwięki deszczu oraz uderzeń piorunów zostały po raz kolejny zmienione i są teraz lepiej skompresowane.
+> - Odświeżono wygląd tagów dla każdej rangi oraz wygląd / układ niektórych interfejsów.
+> - Zaktualizowano pozostałe paczki i poprawiono napotkane błędy.
+> - Dodano kilka nowych paczek.
+
+</div>
 
 </div>
