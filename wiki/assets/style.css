@@ -75,6 +75,12 @@ h2 {
     --fd-important-color: #E04F44;
 }
 
+/* docsify pagination plugin */
+
+.docsify-pagination-container {
+    border-top-color: transparent !important;
+}
+
 .sidebar-toggle-button {
     border-right: 1px solid var(--color-mono-1);
     border-bottom: 1px solid var(--color-mono-1);
@@ -88,6 +94,23 @@ h2 {
 
 .symbolic li:has(.bi) .bi::before, .symbolic li:has(.si) .si {
     margin-right: 0.5em;
+}
+
+.symbolic li:has(> .bi) .bi::before {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+}
+
+.symbolic li:has(> .bi), .symbolic li:has(> .si) {
+    margin-left: 0;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+.symbolic li:has(> .bi) sup, .symbolic li:has(> .si) sup {
+    display: block;
+    text-indent: 0;
 }
 
 /* CALLOUT */
@@ -267,14 +290,13 @@ blockquote:not(sup) {
 }
 
 blockquote:not(sup) li sup,
-blockquote:not(sup) div sup {
+blockquote:not(sup) div sup,
+blockquote:not(sup) p sup {
     display: block;
     line-height: 1.25 !important;
     margin-top: 0.3em;
     margin-bottom: 0.6em;
 }
-
-
 
 .app-nav li:has(a):hover {
     transition: background, border 0.3s;
