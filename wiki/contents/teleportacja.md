@@ -56,7 +56,7 @@ Magnetyt to blok, który po postawieniu tworzy prywatny punkt teleportacyjny. Za
 
 Domyślnie każdy z graczy może utworzyć jeden blok magnetytu obszar, lecz limit ten można zwiększyć poprzez system ulepszeń.
 - Za pomocą komendy **/upgrades** można otworzyć menu ulepszeń.
-- Zwiększenie limitu o jeden dodatkowy magnetyt kosztuje **$25,000**.
+- Zwiększenie limitu o jeden dodatkowy magnetyt kosztuje **$10,000**.
 - Maksymalny limit nie może przekraczać **25**.
 <br>
 
