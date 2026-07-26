@@ -4,6 +4,7 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 <br>
 
 ### Ogólne
+Niekompletna lista ogólnych zmian i dodatków na serwerze.
 
 <div class="feature-row panel">
   <img src="assets/img/inne/keep_inventory.webp">
@@ -86,19 +87,10 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
 </div>
 
 <div class="feature-row panel">
-  <img src="assets/img/inne/villager_trade_rebalance.webp">
-  <div class="feature-row-body">
-    <h5>Zbalansowany Handel</h5>
-    <p>Zbalansowano handel z osadnikami i zablokowano możliwość zmiany ofert poprzez przestawianie stacji roboczych.</p>
-    <sup>Szczegóły: <strong><a href="https://minecraft.wiki/w/Villager_Trade_Rebalance">Villager Trade Rebalance</a></strong></sup>
-  </div>
-</div>
-
-<div class="feature-row panel">
   <img src="assets/img/inne/day_night_cycle.webp">
   <div class="feature-row-body">
     <h5>Dłuższy Dzień</h5>
-    <p>Długość dnia została zwiększona o dodatkowe 5 minut.</p>
+    <p>Długość dnia została zwiększona o dodatkowe 10 minut.</p>
   </div>
 </div>
 
@@ -116,13 +108,17 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
   </div>
 </div>
 
+<br>
+
 ### Moby
+Zmiany i dodatki związane z mobami.
 
 <div class="feature-row panel">
   <img src="assets/img/inne/mob_heads.webp">
   <div class="feature-row-body">
-    <h5>Kolekcjonowanie Główek</h5>
+    <h5>Kolekcjonerskie Główki</h5>
     <p>Zabijając moba, istnieje niewielka szansa na zdobycie jego głowy. Każde stworzenie i jego warianty mają unikalną głowę.</p>
+    <p>Komendą <strong>/kolekcja</strong> można sprawdzić postęp kolekcji.</p>
   </div>
 </div>
 
@@ -141,3 +137,112 @@ Mniejsze zmiany i usprawnienia, które nie potrzebują osobnej strony.
     <p>Phantomy mają mniej punktów życia, przez co łatwiej się ich pozbyć.</p>
   </div>
 </div>
+
+<br>
+
+### Eksperymenty
+Lista oficjalnych eksperymentów jakie zostały włączone na serwerze.
+
+<div class="feature-row panel">
+  <img src="assets/img/inne/villager_trade_rebalance.webp">
+  <div class="feature-row-body">
+    <h5>Zbalansowany Handel</h5>
+    <p>Zbalansowano handel z osadnikami i zablokowano możliwość zmiany ofert poprzez przestawianie stacji roboczych.</p>
+    <sup>Szczegóły: <strong><a href="https://minecraft.wiki/w/Villager_Trade_Rebalance">Villager Trade Rebalance</a></strong></sup>
+  </div>
+</div>
+
+<div class="feature-row panel">
+  <img src="assets/img/inne/minecart_improvements.webp">
+  <div class="feature-row-body">
+    <h5>Transport Kolejowy</h5>
+    <p>Wprowadzono szereg zmian w transporcie wagonami.</p>
+    <sup>Szczegóły: <strong><a href="https://minecraft.wiki/w/Minecart_Improvements">Minecart Improvements</a></strong></sup>
+  </div>
+</div>
+
+<br>
+
+### Dane Techniczne
+Informacje o konfiguracji serwera pomocne dla technicznych graczy.
+
+<div class="data-table-scroll">
+  <div class="data-table-wrap panel">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Klucz</th>
+          <th>Wartość</th>
+          <th>Opis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>view-distance</td>
+          <td>12 – 16</td>
+          <td>
+            Zasięg chunków rysowanych wokół gracza.
+            <br>
+            <sup>Może być zwiększony przez system ulepszeń.</sup>
+          </td>
+        </tr>
+        <tr>
+          <td>simulation-distance</td>
+          <td>6</td>
+          <td>Zasięg aktywnych / włączonych chunków wokół gracza.</td>
+        </tr>
+        <tr>
+          <td>spawn-limits<td>
+            <ul class="item-list">
+              <li>monster: 30</li>
+              <li>creature: 10</li>
+              <li>axolotls: 3</li>
+              <li>ambient: 3</li>
+              <li>water_ambient: 12</li>
+              <li>water_creature: 3</li>
+              <li>underground_water_creature: 3</li>
+            </ul>
+          </td>
+          <td>
+            Maksymalna liczba mobów jakie mogą się naturalnie pojawić w pobliżu gracza.
+            <br>
+            <sup>Limit jest indywidualny dla każdego gracza.</sup>
+          </td>
+        </tr>
+        <tr>
+          <td>ticks-per-spawn<td>
+            <ul class="item-list">
+              <li>monster: 3</li>
+              <li>creature: 200</li>
+              <li>axolotls: 50</li>
+              <li>ambient: 200</li>
+              <li>water_ambient: 200</li>
+              <li>water_creature: 200</li>
+              <li>underground_water_creature: 200</li>
+            </ul>
+          </td>
+          <td>
+            Odstęp czasu z jakim serwer próbuje naturalnie przywołać moba.
+            <br>
+            <sup>1 SEKUNDA = 20 TICKÓW</sup>
+          </td>
+        </tr>
+        <tr>
+          <td>despawn-ranges<td>
+            <ul class="item-list">
+              <li>soft: 30</li>
+              <li>hard: 80</li>
+            </ul>
+          </td>
+          <td>
+            Minimalna odległość od gracza po której tymczasowy mob może zostać usunięty.
+            <br>
+            <sup>Wartości w poziomie i pionie są identyczne.</sup>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+Konfiguracja jest modyfikowana częściej niż powyższa tabela przez co dane mogą być nieaktuane.
