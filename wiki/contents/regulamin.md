@@ -57,99 +57,67 @@
 Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpliwości zapytaj administrację serwera.
 
 <div class="green">
-  <blockquote>
-    <h5 id="integracje"><i class="si allow"></i> Integracje</h5>
-    <div>Opcjonalne modyfikacje, z którymi zintegrowany jest nasz serwer:</div>
-    <ul>
-      <li><strong><a href="https://modrinth.com/plugin/simple-voice-chat"><i class="si modrinth"></i> Simple Voice Chat</a></strong> <span class="translation">(Czat Głosowy)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/ping-wheel"><i class="si modrinth"></i> Ping Wheel</a></strong> <span class="translation">(Znaczniki)</span></li>
-    </ul>
-  </blockquote>
+
+> ##### @icon[si-allow] Mapa Świata / Mini-Mapa
+> Modyfikacje dodające mapę świata, mini-mapę oraz waypointy są dozwolone. Rekomendacje:
+> - **[@icon[si-modrinth] Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)** <span class="translation">(Mapa Świata)</span>
+> - **[@icon[si-modrinth] Xaero's Mini Map](https://modrinth.com/mod/xaeros-minimap-fair)** <span class="translation">(Mini Mapa)</span>
+
 </div>
 
 <div class="green">
-  <blockquote>
-    <h5 id="mapa-swiata-i-mini-mapa"><i class="si allow"></i> Mapa Świata / Mini-Mapa</h5>
-    <div>Modyfikacje dodające mapę świata, mini-mapę oraz waypointy są dozwolone. Cenimy podejście fair-play. Rekomendacje:</div>
-    <ul>
-      <li><strong><a href="https://modrinth.com/mod/xaeros-world-map"><i class="si modrinth"></i> Xaero's World Map</a></strong> <span class="translation">(Mapa Świata)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/xaeros-minimap"><i class="si modrinth"></i> Xaero's Mini Map</a></strong> <span class="translation">(Mini Mapa)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/xaeros-minimap-fair"><i class="si modrinth"></i> Xaero's Mini Map (Fair-Play)</a></strong> <span class="translation">(Mini Mapa)</span></li>
-    </ul>
-  </blockquote>
+
+> ##### @icon[si-allow] Optymalizacja / Poprawki Wizualne / Audio
+> Modyfikacje optymalizujące grę i skupiające się na poprawkach wizualnych są dozwolone. Rekomendacje:
+> - **[@icon[si-modrinth] Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)**<span class="translation">– Poprawia pozycjonowanie dźwięku i akustykę w przestrzeni 3D.</span>
+> - **[@icon[si-modrinth] ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)**<span class="translation">– Optymalizuje renderowanie m.in. bytów i cząsteczek.</span>
+> - **[@icon[si-modrinth] Sodium](https://modrinth.com/mod/sodium)**<span class="translation">– Znacznie poprawia ogólną jakość i wydajność gry.</span>
+> - **[@icon[si-modrinth] Voxy](https://modrinth.com/mod/voxy)**<span class="translation">– Zwiększa dystans rysowania świata minimalnie wpływając na wydajność.</span>
+> - **[@icon[si-modrinth] Iris](https://modrinth.com/mod/iris)**<span class="translation">– Pozwala uruchamiać paczki shaderów poprawiające oprawę wizualną gry.</span>
+
 </div>
 
 <div class="green">
-<blockquote>
-    <h5 id="poprawki-wizualne-i-optymalizacja"><i class="si allow"></i> Poprawki Wizualne / Optymalizacja</h5>
-    <div>Modyfikacje optymalizujące grę i skupiające się na poprawkach wizualnych są dozwolone. Rekomendacje:</div>
-    <ul>
-      <li><strong><a href="https://modrinth.com/mod/iris"><i class="si modrinth"></i> Iris</a></strong> <span class="translation">(Shadery)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/sodium"><i class="si modrinth"></i> Sodium</a></strong> <span class="translation">(Optymalizacja)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/cameraoverhaul"><i class="si modrinth"></i> Camera Overhaul</a></strong> <span class="translation">(Animacje Kamery)</span></li>
-    </ul>
-  </blockquote>
-</div>
 
-<div class="green">
-  <blockquote>
-    <h5 id="male-qol"><i class="si allow"></i> Małe QOL <span class="translation">(Quality of Life)</span></h5>
-    <div>Modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem że ich funkcjonalność nie wpływa na innych graczy. Rekomendacje:</div>
-    <ul>
-      <li><strong><a href="https://modrinth.com/mod/inventive-inventory"><i class="si modrinth"></i> Inventive Inventory</a></strong> <span class="translation">(Sortowanie)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/inventive-inventory"><i class="si modrinth"></i> Scribble</a></strong> <span class="translation">(Edytor Książek)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/litematica"><i class="si modrinth"></i> Litematica</a></strong> <span class="translation">(Budowanie)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/zoomify"><i class="si modrinth"></i> Zoomify</a></strong> <span class="translation">(Zoom)</span></li>
-      <li><strong><a href="https://modrinth.com/mod/clickthrough+"><i class="si modrinth"></i> Click Through Plus</a></strong></li>
-    </ul>
-  </blockquote>
+> ##### @icon[si-allow] Małe Usprawnienia
+> Modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem że ich funkcjonalność nie wpływa na innych graczy. Rekomendacje:
+> - **[@icon[si-modrinth] Inventive Inventory](https://modrinth.com/mod/inventive-inventory)**<span class="translation">– Szybkie przenoszenie przedmiotów i sortowanie.</span>
+> - **[@icon[si-modrinth] Scribble](https://modrinth.com/mod/scribble)**<span class="translation">– Formatowanie tekstu i kopiowanie zawartości książek.</span>
+> - **[@icon[si-modrinth] Litematica](https://modrinth.com/mod/litematica)**<span class="translation">– Ułatwia wznoszenie budowli przez renderowanie ich schematu.</span>
+> - **[@icon[si-modrinth] Click Through Plus](https://modrinth.com/mod/clickthrough+)**<span class="translation">– Umożliwia otwieranie skrzyń przez ramki z przedmiotami.</span>
+> - **[@icon[si-modrinth] Zoomify](https://modrinth.com/mod/zoomify)**<span class="translation">– Płynny zoom z wieloma funkcjami.</span>
+
 </div>
 
 <div class="red">
-  <blockquote>
-    <h5 id="wspomaganie-widocznosci"><i class="si disallow"></i> Wspomaganie Widoczności</h5>
-    <div>Wszystkie modyfikacje i paczki pomagające w namierzaniu bloków, wychodzące kamerą z perspektywy gracza, oraz mające na celu rozjaśnienie niewidocznych dla gracza obszarów są zabronione.</div>
-  </blockquote>
+
+> ##### @icon[si-disallow] Wspomaganie Widoczności
+> Wszystkie modyfikacje i paczki pomagające w namierzaniu bloków, wychodzące kamerą z perspektywy gracza, oraz mające na celu rozjaśnienie niewidocznych dla gracza obszarów i bloków są zabronione.
+
 </div>
 
 <div class="red">
-  <blockquote>
-    <h5 id="cheaty-i-wspomagacze"><i class="si disallow"></i> Cheaty i Wspomagacze</h5>
-    <div>Zabronione są wszystkie modyfikacje należące do grupy cheatów i wspomagaczy, oraz inne mody o podobnym przeznaczeniu, czyli ułatwiające rozgrywkę w znaczący i niesprawiedliwy sposób.</div>
-  </blockquote>
+
+> ##### @icon[si-disallow] Cheaty i Wspomagacze
+> Zabronione są wszystkie modyfikacje należące do grupy cheatów i wspomagaczy, oraz inne mody o podobnym przeznaczeniu, czyli ułatwiające rozgrywkę w znaczący i niesprawiedliwy sposób.
+
 </div>
 
 <div class="yellow">
-  <blockquote>
-    <h5 id="paczki-zasobow"><i class="si warning"></i> Paczki Zasobów</h5>
-      <div>
-        Paczki zasobów są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.
-        <br>
-        <sup>Serwerowa paczka zasobów modyfikuje już i poprawia wiele domyślnych tekstur, przez co inne paczki mogą wyświetlać się w nieprawidłowy sposób. Zalecamy wyłączenie innych resource-packów przed dołączeniem na nasz serwer.</sup>
-      </div>
-  </blockquote>
+
+> ##### @icon[si-warning] Paczki Zasobów
+> Paczki zasobów są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.  
+> <sup>Serwerowa paczka zasobów modyfikuje już i poprawia wiele domyślnych tekstur, przez co inne paczki mogą wyświetlać się w nieprawidłowy sposób. Zalecamy wyłączenie innych resource-packów przed dołączeniem na nasz serwer.</sup>
+
 </div>
 
 <div class="yellow">
-  <blockquote>
-    <h5 id="klienty-3rd-party"><i class="si warning"></i> Klienty 3rd Party</h5>
-      <div>
-        Klienty z pre-instalowanymi modyfikacjami są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.
-        <br>
-        <sup>Niektóre klienty są znane z łamania licencji i kradzieży istniejących modyfikacji. Używaj na własną odpowiedzialność.</sup>
-      </div>
-  </blockquote>
+
+> ##### @icon[si-warning] Launchery 3rd Party
+> Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem konta Mojang / Microsoft.  
+> <sup>Zachowaj bezpieczeństwo i używaj tylko oprogramowania, któremu możesz zaufać.</sup>
+
 </div>
 
-<div class="yellow">
-  <blockquote>
-    <h5 id="launchery-3rd-party"><i class="si warning"></i> Launchery 3rd Party</h5>
-      <div>
-        Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem konta Mojang lub Microsoft.
-        <br>
-        <sup>Używanie nieoficjalnego launchera może wiązać się z ryzykiem dla bezpieczeństwa konta. Używaj na własną odpowiedzialność.</sup>
-      </div>
-  </blockquote>
-</div>
 
 </div>
