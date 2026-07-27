@@ -210,9 +210,6 @@ blockquote:not(sup) {
     h5:has(i) {
         user-select: none;
         pointer-events: none;
-        display: flex;
-        align-items: center;
-        gap: 10px;
         font-size: 0.9em !important;
         font-weight: bold;
         letter-spacing: 0.06em;
@@ -222,6 +219,12 @@ blockquote:not(sup) {
         background-color: color-mix(in srgb, var(--color), transparent 70%) !important;
         border-bottom: 1px solid color-mix(in srgb, var(--color), transparent 55%) !important;
         color: color-mix(in srgb, var(--color), white 60%) !important;
+
+        a.anchor > span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
         i { font-size: 1.25em; flex-shrink: 0; }
     }

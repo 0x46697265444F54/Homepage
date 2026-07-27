@@ -1,20 +1,3 @@
-<style>
-.modifications {
-  h4 {
-    a {
-      text-decoration: none !important;
-    }
-    .si {
-      margin-bottom: 1px;
-      margin-right: 0.5em;
-    }
-  }
-  sup {
-    top: 0.25em !important;
-  }
-}
-</style>
-
 # Regulamin
 <sup>Ostatnia Modyfikacja: **07/09/2025**</sup>
 <br>
@@ -58,7 +41,7 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 <div class="green">
 
-> ##### @icon[si-allow] Mapa Świata / Mini-Mapa
+> ##### @icon[bi-check-circle] Mapa Świata / Mini-Mapa
 > Modyfikacje dodające mapę świata, mini-mapę oraz waypointy są dozwolone. Rekomendacje:
 > - **[@icon[si-modrinth] Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)** <span class="translation">(Mapa Świata)</span>
 > - **[@icon[si-modrinth] Xaero's Mini Map](https://modrinth.com/mod/xaeros-minimap-fair)** <span class="translation">(Mini Mapa)</span>
@@ -67,7 +50,7 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 <div class="green">
 
-> ##### @icon[si-allow] Optymalizacja / Poprawki Wizualne / Audio
+> ##### @icon[bi-check-circle] Optymalizacja / Poprawki Wizualne / Audio
 > Modyfikacje optymalizujące grę i skupiające się na poprawkach wizualnych są dozwolone. Rekomendacje:
 > - **[@icon[si-modrinth] Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)**<span class="translation">– Poprawia pozycjonowanie dźwięku i akustykę w przestrzeni 3D.</span>
 > - **[@icon[si-modrinth] ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)**<span class="translation">– Optymalizuje renderowanie m.in. bytów i cząsteczek.</span>
@@ -79,7 +62,7 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 <div class="green">
 
-> ##### @icon[si-allow] Małe Usprawnienia
+> ##### @icon[bi-check-circle] Małe Usprawnienia
 > Modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem że ich funkcjonalność nie wpływa na innych graczy. Rekomendacje:
 > - **[@icon[si-modrinth] Inventive Inventory](https://modrinth.com/mod/inventive-inventory)**<span class="translation">– Szybkie przenoszenie przedmiotów i sortowanie.</span>
 > - **[@icon[si-modrinth] Scribble](https://modrinth.com/mod/scribble)**<span class="translation">– Formatowanie tekstu i kopiowanie zawartości książek.</span>
@@ -91,21 +74,21 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 <div class="red">
 
-> ##### @icon[si-disallow] Wspomaganie Widoczności
+> ##### @icon[bi-x-circle] Wspomaganie Widoczności
 > Wszystkie modyfikacje i paczki pomagające w namierzaniu bloków, wychodzące kamerą z perspektywy gracza, oraz mające na celu rozjaśnienie niewidocznych dla gracza obszarów i bloków są zabronione.
 
 </div>
 
 <div class="red">
 
-> ##### @icon[si-disallow] Cheaty i Wspomagacze
+> ##### @icon[bi-x-circle] Cheaty i Wspomagacze
 > Zabronione są wszystkie modyfikacje należące do grupy cheatów i wspomagaczy, oraz inne mody o podobnym przeznaczeniu, czyli ułatwiające rozgrywkę w znaczący i niesprawiedliwy sposób.
 
 </div>
 
 <div class="yellow">
 
-> ##### @icon[si-warning] Paczki Zasobów
+> ##### @icon[bi-exclamation-triangle] Paczki Zasobów
 > Paczki zasobów są dozwolone pod warunkiem, że są zgodne z założeniami powyższej listy.  
 > <sup>Serwerowa paczka zasobów modyfikuje już i poprawia wiele domyślnych tekstur, przez co inne paczki mogą wyświetlać się w nieprawidłowy sposób. Zalecamy wyłączenie innych resource-packów przed dołączeniem na nasz serwer.</sup>
 
@@ -113,7 +96,7 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 <div class="yellow">
 
-> ##### @icon[si-warning] Launchery 3rd Party
+> ##### @icon[bi-exclamation-triangle] Launchery 3rd Party
 > Dozwolone są tylko launchery umożliwiające logowanie i grę za pośrednictwem konta Mojang / Microsoft.  
 > <sup>Zachowaj bezpieczeństwo i używaj tylko oprogramowania, któremu możesz zaufać.</sup>
 
