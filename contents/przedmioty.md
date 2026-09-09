@@ -63,7 +63,7 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   <div class="showcase-body">
     <h4>Koszyk</h4>
     <p>Jednorazowy przedmiot specjalny służący do podnoszenia stworzeń i przechowywania ich w formie przedmiotu. Szczególnie przydatny do transportowania większej ilości mobów.</p>
-    <sup>Więcej informacji znajdziesz w tym miejscu: <strong><a href="/wiki/#/receptury?id=koszyk">Receptury</a></strong></sup>
+    <sup>Więcej informacji znajdziesz w tym miejscu: <strong><a href="/#/receptury?id=koszyk">Receptury</a></strong></sup>
   </div>
 </div>
 
@@ -76,7 +76,7 @@ Na serwerze dostępnych do zdobycia jest kilka nowych przedmiotów. Część z n
   <div class="showcase-body">
     <h4>Niezapisana Książka</h4>
     <p>Można na nią przenieść zaklęcia z przedmiotu za pomocą <strong>Stołu Szlifierskiego</strong>.</p>
-    <sup>Więcej informacji znajdziesz w tym miejscu: <strong><a href="/wiki/#/receptury?id=kamien-szlifierski">Receptury</a></strong></sup>
+    <sup>Więcej informacji znajdziesz w tym miejscu: <strong><a href="/#/receptury?id=kamien-szlifierski">Receptury</a></strong></sup>
   </div>
 </div>
 

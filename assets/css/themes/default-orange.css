@@ -1,5 +1,0 @@
-:root {
-  --background-color: #ff714e;
-  --primary-color: #EDEDED;
-  --footer-color: color-mix(in srgb, var(--primary-color), transparent 75%);
-}
