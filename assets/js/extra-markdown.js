@@ -4,6 +4,10 @@ function extraMarkdownPlugin(hook, vm) {
     let parsed = markdown.replace(/@icon\[([\w-]+)\]/g, function(match, iconName) {
       return `%%ICON_${iconName}%%`;
     });
+    parsed = parsed.replace(/^@entry\[([^\]]*)\]\s*$/gm, function(match, date) {
+      return `<div class="entry"><div class="entry-date">${date}</div><div class="entry-content">\n`;
+    });
+    parsed = parsed.replace(/^@end\s*$/gm, '\n</div></div>');
     return parsed;
   });
 
