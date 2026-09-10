@@ -3,33 +3,37 @@ Generator świata został przygotowany w taki sposób, aby gracze mogli doświad
 
 Mapa online serwera jest dostępna pod adresem **[https://firedot.pl/mapa](https://firedot.pl/mapa)**.
 
+<br>
+
 <div class="page">
 
-<div class="green">
+<div class="worlds">
 
-> ##### @icon[bi-globe-americas] Overworld
-> Główny świat służy do eksploracji, wydobywania surowców, budowania i zakładania chronionych działek.
-> - Rozmiar: **24,000 x 24,000**
+<div class="world green">
+<div class="world-name">@icon[bi-globe-americas] Overworld</div>
 
+Świat został przekształcony, aby stworzyć głębsze i bardziej realistyczne doświadczenie.
+
+<div class="world-size">Rozmiar: 24,000 x 24,000</div>
 </div>
 
-<div class="red">
+<div class="world red">
+<div class="world-name">@icon[bi-fire] Nether</div>
 
-> ##### @icon[bi-fire] Nether
-> Wymiar piekła służy głównie do **eksploracji** i **wydobywania surowców**.
-> - Rozmiar: **16,000 x 16,000**
+Odświeżono istniejące i dodano kilka nowych struktur.
 
+<div class="world-size">Rozmiar: 24,000 x 24,000 (1:1)</div>
+<!-- <div class="world-unlock">@icon[bi-lock-fill] OTWARCIE JUŻ NIEBAWEM</div> -->
 </div>
 
-<div class="purple">
+<div class="world pink">
+<div class="world-name">@icon[bi-moon-fill] The End</div>
 
-> ##### @icon[bi-moon-fill] The End
-> Wymiar kresu został całkowicie zredefiniowany i służy jako miejsce do zaliczania wyzwań i zdobywania nowych przedmiotów.
-> - Na każdej wieży znajduje się **Skrzynia**, **Skarbiec**, **Złowieszczy Skarbiec** oraz **Spawner Próby**.
->   - Łup w **Skrzyni** jest unikalny dla każdego gracza.
->   - Pokonanie mobów ze **Spawnera Próby** gwarantuje **Enderytowy Klucz** lub **Złowieszczy Enderytowy Klucz**, zależnie od statusu efektu.
->   - Zdobyte klucze służą do otwierania **Skarbców** oraz **Złowieszczych Skarbców**.
->     - Skarbce można otwierać co 12 godzin.
+Nowe doświadczenie, nowe przedmioty – jeszcze większe wyzwanie.
+
+<div class="world-size">Rozmiar: 24,000 x 24,000</div>
+<!-- <div class="world-unlock">@icon[bi-lock-fill] OTWARCIE JUŻ NIEBAWEM</div> -->
+</div>
 
 </div>
 

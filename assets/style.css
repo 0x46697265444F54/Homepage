@@ -756,6 +756,81 @@ footer {
     }
 }
 
+/* WORLDS */
+
+.worlds {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+}
+
+.world {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 16px;
+    border-radius: 8px;
+    color: var(--color-text);
+    border: 1px solid color-mix(in srgb, var(--color), transparent 70%);
+    background-color: color-mix(in srgb, var(--color), transparent 93%);
+}
+
+.world-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--color), white 50%);
+}
+
+.world-name i {
+    font-size: 1.2em;
+}
+
+.world p {
+    margin: 0 !important;
+    font-size: 0.95em;
+}
+
+.world-size {
+    margin-top: auto;
+    padding-top: 12px;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 0.85em;
+    color: color-mix(in srgb, var(--color), white 50%);
+}
+
+/* A locked dimension keeps its name readable and blurs the rest behind a centered notice. */
+.world.locked {
+    position: relative;
+    overflow: hidden;
+}
+
+.world.locked > *:not(.world-unlock) {
+    filter: blur(12px);
+    opacity: 0.5;
+    user-select: none;
+}
+
+.world.locked .world-unlock {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: "Ubuntu Mono", monospace;
+    color: color-mix(in srgb, var(--color), var(--color-text) 50%);
+}
+
+.world.locked .world-unlock i {
+    font-size: 1.8em;
+}
+
 /* CHANGELOG */
 
 .changelog {

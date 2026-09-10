@@ -217,16 +217,16 @@ Dodano magnetyt na koordynatach około (X = 0, Z = 0) umożliwiający powrót na
 
 @entry[14 czerwca 2026]
 - Odblokowano wymiar Netheru na serwerze.
-  - Dodano Bastionowe Wieże, nową strukturę generującą dużą ilość lootu.
-  - Odświeżono wygląd Netherowej Fortecy.
+  - Dodano **Bastionowe Wieże**, nową strukturę generującą dużą ilość lootu.
+  - Odświeżono wygląd **Netherowej Fortecy**.
   - Odblokowano Netherowe przedmioty w sklepie.
   - Odblokowano nowe zadania związane z Netherem.
   - Odblokowano możliwość ulepszenia działki do najwyższego poziomu.
-  - Odblokowano możliwość ulepszenia wyposażenia do poziomu: Netheryt
+  - Odblokowano możliwość ulepszenia wyposażenia do poziomu: **Netheryt**
 - Naprawiono zepsutą wiadomość śmierci, która czasami wyświetlała się po użyciu `/defeat`.
 - Wprowadzono kilka zabezpieczeń do systemu koszyków.  
   <sup>Jeżeli zauważysz, że coś działa nie tak jak powinno – zgłoś to.</sup>
-- Osoby bez roli Zweryfikowany nie mogą już wysyłać obrazów i GIF-ów.  
+- Osoby bez roli **Zweryfikowany** nie mogą już wysyłać obrazów i GIF-ów.  
   <sup>Aby odblokować tę możliwość, postępuj zgodnie z instrukcją na kanale weryfikacja.</sup>
 @end
 
