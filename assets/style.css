@@ -54,7 +54,7 @@ h2 {
     --sidebar-name-font-family: "Asimovian";
     --sidebar-name-font-weight: 600;
     --sidebar-name-font-size: 36px;
-    --sidebar-bg: color-mix(in srgb, transparent, white 1%);
+    --sidebar-bg: color-mix(in srgb, transparent, black 10%);
     --sidebar-border-color: var(--color-mono-1);
     --sidebar-font-size: 16px;
     /* SIDEBAR TOGGLE BUTTON */
