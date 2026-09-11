@@ -1,0 +1,400 @@
+BAMBOO:
+  BiomeGroup:
+    Groups:
+    - Tropical
+    Tropical:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    Biome:
+    - ALL
+    GrowthRate: 5
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+
+CACTUS:
+  BiomeGroup:
+    Groups:
+    - Arid
+    - Savanna
+    Arid:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Savanna:
+      GrowthRate: 75
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    Biome:
+    - ALL
+    GrowthRate: 5
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+
+COCOA:
+  BiomeGroup:
+    Groups:
+    - Jungle
+    Jungle:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    Biome:
+    - ALL
+    GrowthRate: 5
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+
+NETHER_WART:
+  BiomeGroup:
+    Groups:
+    - Nether
+    Nether:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    Biome:
+    - ALL
+    GrowthRate: 10
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+
+SUGAR_CANE:
+  BiomeGroup:
+    Groups:
+    - Tropical
+    - RiverAndCoasts
+    - Temperate
+    Tropical:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    RiverAndCoasts:
+      GrowthRate: 65
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Temperate:
+      GrowthRate: 35
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    Biome:
+    - ALL
+    GrowthRate: 5
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+
+SWEET_BERRY_BUSH:
+  BiomeGroup:
+    Groups:
+    - Chilly
+    - Temperate
+    Chilly:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Temperate:
+      GrowthRate: 60
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 25
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+BEETROOTS:
+  BiomeGroup:
+    Groups:
+    - Temperate
+    - Savanna
+    - Chilly
+    Temperate:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Savanna:
+      GrowthRate: 75
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Chilly:
+      GrowthRate: 60
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 50
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+CARROTS:
+  BiomeGroup:
+    Groups:
+    - Temperate
+    - Savanna
+    - Chilly
+    Temperate:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Savanna:
+      GrowthRate: 75
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Chilly:
+      GrowthRate: 60
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 50
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+MELON:
+  BiomeGroup:
+    Groups:
+    - Tropical
+    - Temperate
+    Tropical:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Temperate:
+      GrowthRate: 25
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    Biome:
+    - ALL
+    GrowthRate: 5
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+
+POTATO:
+  BiomeGroup:
+    Groups:
+    - Temperate
+    - Savanna
+    - Chilly
+    Temperate:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Savanna:
+      GrowthRate: 75
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Chilly:
+      GrowthRate: 60
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 50
+    UVLightGrowthRate: 25
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+PUMPKIN:
+  BiomeGroup:
+    Groups:
+    - Chilly
+    - Temperate
+    Chilly:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Temperate:
+      GrowthRate: 85
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 50
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+WHEAT:
+  BiomeGroup:
+    Groups:
+    - Temperate
+    - Savanna
+    - Chilly
+    Temperate:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Savanna:
+      GrowthRate: 75
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    Chilly:
+      GrowthRate: 60
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 50
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+CRIMSON_FUNGUS:
+  BiomeGroup:
+    Groups:
+    - Nether
+    Nether:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 10
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+WARPED_FUNGUS:
+  BiomeGroup:
+    Groups:
+    - Nether
+    Nether:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 10
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+TWISTING_VINES:
+  BiomeGroup:
+    Groups:
+    - Nether
+    Nether:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 10
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+WEEPING_VINES:
+  BiomeGroup:
+    Groups:
+    - Nether
+    Nether:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 10
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+VINE:
+  BiomeGroup:
+    Groups: []
+  Default:
+    GrowthRate: 20
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+CAVE_VINES:
+  BiomeGroup:
+    Groups: []
+  Default:
+    GrowthRate: 20
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL
+
+KELP:
+  BiomeGroup:
+    Groups:
+    - Oceans
+    - RiverAndCoasts
+    Oceans:
+      GrowthRate: 100
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+    RiverAndCoasts:
+      GrowthRate: 80
+      UVLightGrowthRate: 0
+      NaturalDeathChance: 0
+      UVLightDeathChance: 0
+  Default:
+    GrowthRate: 10
+    UVLightGrowthRate: 0
+    NaturalDeathChance: 0
+    UVLightDeathChance: 0
+    Biome:
+    - ALL

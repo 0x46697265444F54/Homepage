@@ -163,6 +163,12 @@ Lista oficjalnych eksperymentów jakie zostały włączone na serwerze.
 
 <br>
 
+### Pozostałe
+Pozostałe zmiany, o których warto wspomnieć.
+- Przemieszczanie się i budowanie powyżej górnej granicy Netheru jest zablokowane.
+
+<br>
+
 ### Dane Techniczne
 Informacje o konfiguracji serwera pomocne dla technicznych graczy.
 
