@@ -78,6 +78,30 @@
                         });
                     });
                 },
+                function imageLoaders(hook) {
+                    hook.afterEach(function(html) {
+                        return html.replace(
+                            /(<div class="(?=(?:[^"]*\s)?(?:card|feature-row)(?:\s[^"]*)?")[^"]*">\s*)<img([^>]*)>/g,
+                            '$1<div class="img-loader-wrap"><img$2><div class="spinner"></div></div>'
+                        );
+                    });
+                    hook.doneEach(function() {
+                        document.querySelectorAll('.img-loader-wrap').forEach(wrap => {
+                            const img = wrap.querySelector('img');
+                            const markLoaded = () => wrap.classList.add('loaded');
+                            if (img.complete) markLoaded();
+                            else {
+                                img.addEventListener('load', markLoaded, { once: true });
+                                img.addEventListener('error', markLoaded, { once: true });
+                            }
+                        });
+                    });
+                },
+                function farmTable(hook) {
+                    hook.doneEach(function() {
+                        if (document.querySelector('.farm-table')) renderFarmTable();
+                    });
+                },
                 function pageFooter(hook) {
                     const footer = [
                         "<hr>",
@@ -94,6 +118,8 @@
         }
     </script>
     <script src="./assets/js/extra-markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="./assets/js/farming.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/docsify.min.js"></script>
