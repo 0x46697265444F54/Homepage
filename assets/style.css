@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
+@font-face {
+  font-family: 'Galactic';
+  src: url('./fonts/Minecraft-Galactic.otf') format('opentype');
+}
+
 /* Reverts Safari compatibility hack, as this introduces small offset issue for non-Safari browsers. Inline to take less space. */
 a[href] {
     &:hover {

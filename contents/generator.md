@@ -1,3 +1,9 @@
+<style>
+.obf {
+  font-family: 'Galactic'
+}
+</style>
+
 # Generator Świata
 Generator świata został przygotowany w taki sposób, aby gracze mogli doświadczyć czegoś zupełnie nowego. Piękne krajobrazy, bujna i zróżnicowana roślinność oraz nowe struktury... a wszystko to idealnie współgra z oryginalnym stylem gry.
 
@@ -116,6 +122,77 @@ Dodanych zostało również kilka nowych, pasujących do świata struktur. Niekt
   <div class="card">
     <img src="https://cdn.modrinth.com/data/HSfsxuTo/images/4bdde9d88700b9fe35c30403580ad63fde3c4f43.jpeg">
     <p><strong>Bastionowa Spirala</strong> <span class="translation">(Black Spiral)</span></p>
+  </div>
+</div>
+
+<br>
+
+### Surowce
+Minerałów jest podobnie dużo jak kiedyś, ale są rozmieszczone w trochę inny sposób.  
+Dodatkowa dystrybucja dotyczy określonych biomów i obejmuje inny, niezależny zakres wysokości.
+
+<div class="data-table-scroll">
+  <div class="data-table-wrap panel">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Surowiec</th>
+          <th>Min Y</th>
+          <th>Max Y</th>
+          <th>Dodatkowa Dystrybucja</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mat">Węgiel</td>
+          <td>0</td>
+          <td>96</td>
+          <td class="obf">Bagna</td>
+        </tr>
+        <tr>
+          <td class="mat">Miedź</td>
+          <td>-16</td>
+          <td>48</td>
+          <td class="obf">Sawanna, Jaskinie Naciekowe</td>
+        </tr>
+        <tr>
+          <td class="mat">Żelazo</td>
+          <td>-40</td>
+          <td>8</td>
+          <td class="obf">Tajga oraz pokrewne...</td>
+        </tr>
+        <tr>
+          <td class="mat">Złoto</td>
+          <td>-48</td>
+          <td>-16</td>
+          <td class="obf">Badlands oraz pokrewne...</td>
+        </tr>
+        <tr>
+          <td class="mat">Redstone</td>
+          <td>-64</td>
+          <td>-32</td>
+          <td class="obf">Dzunglowe</td>
+        </tr>
+        <tr>
+          <td class="mat">Lazuryt</td>
+          <td>-64</td>
+          <td>-32</td>
+          <td class="obf">Pustynne</td>
+        </tr>
+        <tr>
+          <td class="mat">Diamenty</td>
+          <td>-64</td>
+          <td>-32</td>
+          <td class="obf">Lodowe Kolce</td>
+        </tr>
+        <tr>
+          <td class="mat">Szmaragdy</td>
+          <td>130</td>
+          <td>220</td>
+          <td class="obf">Lasy, Bujne Jaskinie, Mroczne Jaskinie, Blady Ogrod</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
