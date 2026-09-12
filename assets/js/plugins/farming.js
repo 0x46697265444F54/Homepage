@@ -115,3 +115,12 @@ function renderFarmTable() {
     tippy(el, { placement: "top", theme: "firedot", trigger: "mouseenter focus click" });
   });
 }
+
+function farmTablePlugin(hook) {
+  hook.doneEach(function() {
+    if (document.querySelector(".farm-table")) renderFarmTable();
+  });
+}
+
+window.$docsify = window.$docsify || {};
+window.$docsify.plugins = (window.$docsify.plugins || []).concat(farmTablePlugin);

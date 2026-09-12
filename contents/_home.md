@@ -25,6 +25,10 @@ table, tr, td {
 # FireDOT
 Serwer oferujący rozgrywkę w trybie przetrwania na zmienionych zasadach.
 
+<div class="page-server">
+<div class="server-card"></div>
+</div>
+
 <br>
 
 ### Najważniejsze Funkcje

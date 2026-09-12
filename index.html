@@ -33,97 +33,24 @@
             pagination: {
                 previousText: "POPRZEDNIE",
                 nextText: "NASTĘPNE"
-            },
-            plugins: [
-                function(hook, vm) {
-                    hook.doneEach(function() {
-                        // Adding [WIKI] styled text to the sidebar name.
-                        document.querySelectorAll('.app-name-link').forEach(it => {
-                            if (it.children.length === 0) {
-                                it.insertAdjacentHTML('beforeend', '<span class="app-name-tag">26.2</span>')
-                            }
-                        });
-                        // Updating website title.
-                        if (document.title === window.$docsify.name)
-                            document.title = "Strona Główna | FireDOT"
-                        else document.title = document.title.replace(" - " + window.$docsify.name, " | FireDOT");
-                    });
-                },
-                function tooltips(hook) {
-                    hook.doneEach(function() {
-                        document.querySelectorAll('.sidebar-footer [data-tippy-content]').forEach(it => {
-                            if (!it._tippy)
-                                tippy(it, { placement: "top", theme: "firedot" });
-                        });
-                    });
-                },
-                function modals(hook) {
-                    hook.doneEach(function() {
-                        // Handlers are assigned rather than added, since the sidebar is rebuilt on every render.
-                        document.querySelectorAll('[data-modal]').forEach(it => {
-                            it.onclick = () => document.getElementById(it.dataset.modal).showModal();
-                        });
-                        document.querySelectorAll('dialog.modal').forEach(it => {
-                            // Docsify titles every link it renders, which duplicates the visible text as a native tooltip.
-                            it.querySelectorAll('a[title]').forEach(link => link.removeAttribute('title'));
-                            it.querySelector('.modal-close').onclick = () => it.close();
-                            // A click landing on the dialog itself rather than its content is a backdrop click.
-                            it.onclick = event => {
-                                if (event.target === it) it.close();
-                            };
-                            // Closing hands focus back to the trigger, which would re-show its tooltip.
-                            it.onclose = () => {
-                                document.querySelector('[data-modal="' + it.id + '"]')._tippy?.hide();
-                            };
-                        });
-                    });
-                },
-                function imageLoaders(hook) {
-                    hook.afterEach(function(html) {
-                        return html.replace(
-                            /(<div class="(?=(?:[^"]*\s)?(?:card|feature-row)(?:\s[^"]*)?")[^"]*">\s*)<img([^>]*)>/g,
-                            '$1<div class="img-loader-wrap"><img$2><div class="spinner"></div></div>'
-                        );
-                    });
-                    hook.doneEach(function() {
-                        document.querySelectorAll('.img-loader-wrap').forEach(wrap => {
-                            const img = wrap.querySelector('img');
-                            const markLoaded = () => wrap.classList.add('loaded');
-                            if (img.complete) markLoaded();
-                            else {
-                                img.addEventListener('load', markLoaded, { once: true });
-                                img.addEventListener('error', markLoaded, { once: true });
-                            }
-                        });
-                    });
-                },
-                function farmTable(hook) {
-                    hook.doneEach(function() {
-                        if (document.querySelector('.farm-table')) renderFarmTable();
-                    });
-                },
-                function pageFooter(hook) {
-                    const footer = [
-                        "<hr>",
-                        "<footer>",
-                            "<span>FireDOT &copy; 2026</span>",
-                            "<span>Not affiliated with, or approved by 'Mojang Studios', 'Microsoft', or any other mentioned entities. All trademarks and copyrights are the property of their respective owners.</span>",
-                        "</footer>"
-                    ]
-                    hook.afterEach(html => {
-                        return html + footer.join("");
-                    });
-                }
-            ]
+            }
         }
     </script>
-    <script src="./assets/js/extra-markdown.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-    <script src="./assets/js/farming.js"></script>
+    <!-- Plugins -->
+    <script src="./assets/js/plugins/extra-markdown.js"></script>
+    <script src="./assets/js/plugins/farming.js"></script>
+    <script src="./assets/js/plugins/images.js"></script>
+    <script src="./assets/js/plugins/modals.js"></script>
+    <script src="./assets/js/plugins/notice.js"></script>
+    <script src="./assets/js/plugins/page.js"></script>
+    <script src="./assets/js/plugins/search.js"></script>
+    <script src="./assets/js/plugins/server.js"></script>
+    <script src="./assets/js/plugins/tooltips.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/docsify.min.js"></script>
-    <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/plugins/zoom-image.min.js"></script>
+    <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   </body>
 </html>

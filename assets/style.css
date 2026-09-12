@@ -119,70 +119,40 @@ h2 {
 }
 
 /* CALLOUT */
+
 .callout {
-    b, strong {
-        filter: brightness(1.1)
+    --tint-color: var(--color-mono-5);
+    --callout-border-color: var(--tint-color);
+    background-color: var(--tint-bg) !important;
+    border-color: var(--tint-bg) !important;
+    color: var(--tint-text) !important;
+
+    h1, h2, h3, h4, h5, a:not(a:hover) {
+        color: var(--tint-text) !important;
     }
     h1, h2, h3, h4, h5 {
         filter: brightness(1.1)
     }
+}
+
+.callout.tip       { --tint-color: var(--fd-success-color); }
+.callout.warning   { --tint-color: var(--fd-warning-color); }
+.callout.caution   { --tint-color: var(--fd-caution-color); }
+.callout.important { --tint-color: var(--fd-important-color); }
+.callout.note      { --tint-color: var(--color-mono-5); }
+
+/* TINTED SURFACES */
+
+.callout, .notice {
+    --tint-bg: color-mix(in srgb, var(--tint-color), transparent 90%);
+    --tint-text: color-mix(in srgb, var(--tint-color), var(--color-text) 25%);
+
+    b, strong {
+        color: inherit;
+        filter: brightness(1.1)
+    }
     a:hover {
         color: color-mix(in srgb, currentColor, black 20%) !important;
-    }
-}
-
-.callout.tip {
-    --callout-border-color: var(--fd-success-color);
-    background-color: color-mix(in srgb, var(--fd-success-color), transparent 90%) !important;
-    border-color: color-mix(in srgb, var(--fd-success-color), transparent 90%) !important;
-    color: color-mix(in srgb, var(--fd-success-color), var(--color-text) 25%) !important;
-
-    h1, h2, h3, h4, h5, a:not(a:hover) {
-        color: color-mix(in srgb, var(--fd-success-color), var(--color-text) 25%) !important;
-    }
-}
-
-.callout.warning {
-    --callout-border-color: var(--fd-warning-color);
-    background-color: color-mix(in srgb, var(--fd-warning-color), transparent 90%) !important;
-    border-color: color-mix(in srgb, var(--fd-warning-color), transparent 90%) !important;
-    color: color-mix(in srgb, var(--fd-warning-color), var(--color-text) 25%) !important;
-
-    h1, h2, h3, h4, h5, a:not(a:hover) {
-        color: color-mix(in srgb, var(--fd-warning-color), var(--color-text) 25%) !important;
-    }
-}
-
-.callout.caution {
-    --callout-border-color: var(--fd-caution-color);
-    background-color: color-mix(in srgb, var(--fd-caution-color), transparent 90%) !important;
-    border-color: color-mix(in srgb, var(--fd-caution-color), transparent 90%) !important;
-    color: color-mix(in srgb, var(--fd-caution-color), var(--color-text) 25%) !important;
-
-    h1, h2, h3, h4, h5, a:not(a:hover) {
-        color: color-mix(in srgb, var(--fd-caution-color), var(--color-text) 25%) !important;
-    }
-}
-
-.callout.important {
-    --callout-border-color: var(--fd-important-color);
-    background-color: color-mix(in srgb, var(--fd-important-color), transparent 90%) !important;
-    border-color: color-mix(in srgb, var(--fd-important-color), transparent 90%) !important;
-    color: color-mix(in srgb, var(--fd-important-color), var(--color-text) 25%) !important;
-
-    h1, h2, h3, h4, h5, a:not(a:hover) {
-        color: color-mix(in srgb, var(--fd-important-color), var(--color-text) 25%) !important;
-    }
-}
-
-.callout.note {
-    --callout-border-color: var(--color-mono-5);
-    background-color: color-mix(in srgb, var(--color-mono-5), transparent 90%) !important;
-    border-color: color-mix(in srgb, var(--color-mono-5), transparent 90%) !important;
-    color: color-mix(in srgb, var(--color-mono-5), var(--color-text) 25%) !important;
-
-    h1, h2, h3, h4, h5, a:not(a:hover) {
-        color: color-mix(in srgb, var(--color-mono-5), var(--color-text) 25%) !important;
     }
 }
 
@@ -555,19 +525,6 @@ body.sticky .sidebar {
     > a {
         text-decoration: none;
         color: var(--theme-color) !important;
-    }
-
-    .app-name-tag {
-        margin-left: 1em;
-        font-size: 14px;
-        background-color: var(--theme-color-1);
-        color: var(--theme-color);
-        border: 2px solid var(--theme-color-2);
-        border-radius: 6px;
-        padding: 4px;
-        line-height: 0;
-        bottom: 60px;
-        vertical-align: 8px;
     }
 }
 
@@ -1135,4 +1092,321 @@ footer {
 
 .entry-content ul ul {
     margin-top: 0.2em !important;
+}
+/* SERVER CARD */
+
+.server-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-family);
+    letter-spacing: normal;
+    text-shadow: none;
+    color: var(--color-text);
+}
+
+.server-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 5px 8px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--color-mono-3);
+    background-color: var(--color-mono-1);
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--heading-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.server-chip:hover {
+    border-color: var(--color-mono-5);
+    background-color: var(--color-mono-2);
+}
+
+.server-chip i {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+    padding: 0 10px;
+    font-size: 0.75em;
+    line-height: 1;
+    color: var(--color-mono-5);
+    border-left: 1px solid var(--color-mono-3);
+}
+
+.server-chip i::before {
+    display: block;
+    line-height: 1;
+}
+
+.server-chip:hover i {
+    color: var(--heading-color);
+}
+
+.server-chip .bi-check-lg, .server-chip.copied .bi-copy {
+    display: none;
+}
+
+.server-chip.copied .bi-check-lg {
+    display: flex;
+}
+
+.server-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: left;
+}
+
+.server-meta-key {
+    font-size: 0.66rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--color-mono-4);
+}
+
+.server-meta-value {
+    font-size: 1.05rem;
+    font-weight: bold;
+    line-height: 1;
+    color: var(--color-text);
+}
+
+.page-server {
+    margin: 1.25em 0;
+}
+
+.page-server .server-chip {
+    font-size: 1.4rem;
+}
+
+.page-server .server-meta-value {
+    font-size: 1.15rem;
+}
+
+/* NOTICE BAR */
+
+.notice {
+    --tint-color: var(--color, var(--color-mono-5));
+    position: relative;
+    z-index: 70;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 42px;
+    padding: 9px calc(46px + var(--scrollbar-width, 0px)) 9px 46px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--tint-text);
+    background-color: var(--tint-bg);
+}
+
+.notice.update {
+    --tint-color: var(--theme-color);
+}
+
+.notice.warning {
+    --tint-color: var(--fd-warning-color);
+}
+
+.notice.danger {
+    --tint-color: var(--fd-caution-color);
+}
+
+.notice i {
+    margin: 0;
+    font-size: 1em;
+}
+
+.notice-link {
+    color: inherit;
+    font-weight: bold;
+    white-space: nowrap;
+    text-underline-offset: 3px;
+}
+
+.notice-close {
+    position: absolute;
+    right: calc(10px + var(--scrollbar-width, 0px));
+    display: flex;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    color: inherit;
+    background: none;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.notice-close:hover {
+    opacity: 1;
+}
+
+body.has-notice main {
+    min-height: calc(100vh - var(--notice-height));
+}
+
+body.has-notice .sidebar,
+body.has-notice .sidebar-toggle {
+    top: var(--notice-offset);
+}
+
+@media (max-width: 640px) {
+
+    .notice {
+        gap: 8px;
+        padding: 8px calc(40px + var(--scrollbar-width, 0px)) 8px 14px;
+        font-size: 0.82rem;
+    }
+
+}
+
+
+/* SEARCH */
+
+.sidebar .search-trigger {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--color-mono-2);
+    background-color: var(--color-mono-1);
+    font-family: var(--font-family);
+    font-size: 0.9rem;
+    color: var(--color-mono-5);
+    text-align: left;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sidebar .search-trigger:hover {
+    border-color: var(--color-mono-3);
+    background-color: var(--color-mono-2);
+    color: var(--color-text);
+}
+
+.search-trigger span {
+    flex: 1 1 auto;
+}
+
+.search-trigger kbd {
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--color-mono-3);
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 0.8em;
+    color: var(--color-mono-5);
+}
+
+.search-modal {
+    width: min(560px, calc(100vw - 32px));
+    margin-top: 12vh;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--color-mono-2);
+    color: var(--color-mono-5);
+}
+
+.search-field input {
+    flex: 1 1 auto;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+.search-field input::placeholder {
+    color: var(--color-mono-4);
+}
+
+.search-field input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search-results:not(:empty) {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: min(60vh, 460px);
+    overflow-y: auto;
+    padding: 6px;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: var(--color-text);
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.search-result.active, .search-result:hover {
+    background-color: var(--color-mono-2);
+}
+
+.search-page {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+.search-heading {
+    font-weight: normal;
+    color: color-mix(in srgb, currentColor, black 15%);
+}
+
+.search-arrow {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1;
+    color: color-mix(in srgb, currentColor, black 35%);
+}
+
+.search-snippet {
+    font-size: 0.85em;
+    line-height: 1.45;
+    color: var(--color-mono-5);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.search-results mark {
+    padding: 0 1px;
+    border-radius: 2px;
+    color: var(--theme-color);
+    background-color: var(--theme-color-1);
+}
+
+.search-empty {
+    padding: 16px;
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--color-mono-5);
 }
