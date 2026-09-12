@@ -47,7 +47,7 @@ Serwer oferujący rozgrywkę w trybie przetrwania na zmienionych zasadach.
 | @icon[bi-thermometer-sun]     | Prędkość wzrostu roślin zależna od biomu.                                               |
 | @icon[bi-map-fill]            | Mapa serwera dostępna w przeglądarce.                                                   |
 | @icon[bi-puzzle-fill]         | Kolekcja ponad 150 główek do zebrania.                                                  |
-| @icon[bi-calendar-day-fill]   | Zawsze najnowsza wersja gry i możliwie szybkie aktualizacje.                            |
+| @icon[bi-calendar-day-fill]   | Szybkie aktualizacje do najnowszej wersji gry.                                          |
 
 <br>
 

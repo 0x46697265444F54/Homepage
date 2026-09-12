@@ -6,8 +6,15 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 
 <div class="changelog">
 
-@entry[10 września 2026]
-Zmieniono wygląd i format treści na https://firedot.pl/nowosci.
+@entry[12 września 2026]
+- Dodano pasek wyszukiwania na stronie internetowej serwera.
+- Dodano adres serwera i wersję na stronę główną.
+@end
+
+@entry[11 września 2026]
+- Zmieniono wygląd i format treści na https://firedot.pl/nowosci.
+- Zmieniono wygląd i format treści na https://firedot.pl/rolnictwo.
+- Dodano na https://firedot.pl/generator tablkę z dystrybucją surowców obowiązującą na serwerze.  
 @end
 
 @entry[9 września 2026]
@@ -45,7 +52,7 @@ Dodano komendę `/stuck` za pomocą której można opuścić nieautoryzowany ter
 
 @entry[28 lipca 2026]
 - Naprawiono zaklęcie **Kołowrotek** niedziałające w drugiej ręce.
-- Dodano nową kategorię do rankingu na spawnie:** Zdobyte Osiągnięcia**
+- Dodano nową kategorię do rankingu na spawnie: **Zdobyte Osiągnięcia**
 @end
 
 @entry[25 lipca 2026]
