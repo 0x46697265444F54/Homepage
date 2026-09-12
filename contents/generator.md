@@ -128,7 +128,7 @@ Dodanych zostało również kilka nowych, pasujących do świata struktur. Niekt
 <br>
 
 ### Surowce
-Minerałów jest podobnie dużo jak kiedyś, ale są rozmieszczone w trochę inny sposób.  
+Rozmieszczenie surowców zostało zmodyfikowane, aby zbalansować początkową progresję oraz odświeżyć znany od lat schemat.  
 Dodatkowa dystrybucja dotyczy określonych biomów i obejmuje inny, niezależny zakres wysokości.
 
 <div class="data-table-scroll">
