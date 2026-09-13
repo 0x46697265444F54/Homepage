@@ -29,6 +29,22 @@ function extraMarkdownPlugin(hook, vm) {
     let parsed = markdown.replace(/@icon\[([\w-]+)\]/g, function(match, iconName) {
       return `%%ICON_${iconName}%%`;
     });
+    parsed = parsed.replace(/@link\[([^\]]+)\]\(([^)\s]+)\)(?:\{([^}]*)\})?/g, function(match, label, href, attributes) {
+      const args = {};
+      for (const [, key, quoted, bare] of (attributes ?? '').matchAll(/([\w-]+)=(?:"([^"]*)"|(\S+))/g)) {
+        args[key] = quoted ?? bare;
+      }
+      const external = /^(https?:)?\/\//.test(href);
+      const target = external ? ' target="_blank" rel="noopener"' : '';
+      const arrow = external ? 'bi-box-arrow-up-right' : 'bi-arrow-right';
+      const url = external ? href : '#/' + href.replace(/^#?\//, '');
+      const desc = args.desc ? `<span class="link-chip-desc">${args.desc}</span>` : '';
+      return `<a class="link-chip${args.size === 'large' ? ' large' : ''}" href="${url}"${target}>` +
+               (args.icon ? `%%ICON_${args.icon}%%` : '') +
+               `<span class="link-chip-text"><span class="link-chip-label">${label}</span>${desc}</span>` +
+               `%%ICON_${arrow}%%` +
+             `</a>`;
+    });
     parsed = parsed.replace(/^@entry\[([^\]]*)\]\s*$/gm, function(match, date) {
       return `<div class="entry"><div class="entry-date" data-date="${date}">${date}</div><div class="entry-content">\n`;
     });

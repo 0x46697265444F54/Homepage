@@ -17,6 +17,7 @@ function searchPlainText(markdown) {
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<[^>]+>/g, " ")
     .replace(/@icon\[[^\]]*\]/g, " ")
+    .replace(/@link\[([^\]]*)\]\([^)]*\)(?:\{[^}]*\})?/g, "$1")
     .replace(/@entry\[[^\]]*\]/g, " ")
     .replace(/^@end\s*$/gm, " ")
     .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")

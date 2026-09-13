@@ -1189,6 +1189,102 @@ footer {
     font-size: 1.15rem;
 }
 
+/* LINK CHIP */
+
+.markdown-section a.link-chip {
+    display: inline-flex;
+    align-items: stretch;
+    padding: 7px 4px 7px 13px;
+    border-radius: 6px;
+    border: 1px solid var(--color-mono-3);
+    background-color: var(--color-mono-1);
+    color: var(--heading-color);
+    line-height: 1.2;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.markdown-section a.link-chip:hover {
+    border-color: var(--color-mono-5);
+    background-color: var(--color-mono-2);
+}
+
+.link-chip-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.link-chip-label {
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.link-chip-desc {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 0.85rem;
+    font-weight: normal;
+    line-height: 1;
+    color: var(--color-mono-5);
+}
+
+.markdown-section a.link-chip:hover .link-chip-desc {
+    color: var(--color-mono-6);
+}
+
+.markdown-section a.link-chip i {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    color: var(--color-mono-5);
+}
+
+.markdown-section a.link-chip > i:first-child {
+    margin-right: 12px;
+    font-size: 1.05rem;
+}
+
+.markdown-section a.link-chip > i:last-child {
+    margin-left: 11px;
+    padding: 0 10px;
+    font-size: 0.75rem;
+    border-left: 1px solid var(--color-mono-3);
+}
+
+.markdown-section a.link-chip i::before {
+    display: block;
+    line-height: 1;
+}
+
+.markdown-section a.link-chip:hover i {
+    color: var(--heading-color);
+}
+
+.markdown-section a.link-chip.large {
+    padding: 11px 6px 11px 17px;
+    border-radius: 8px;
+}
+
+.markdown-section a.link-chip.large .link-chip-label {
+    font-size: 1.2rem;
+}
+
+.markdown-section a.link-chip.large .link-chip-desc {
+    font-size: 0.95rem;
+}
+
+.markdown-section a.link-chip.large > i:first-child {
+    margin-right: 16px;
+    font-size: 1.5rem;
+}
+
+.markdown-section a.link-chip.large > i:last-child {
+    margin-left: 15px;
+    padding: 0 12px 0 16px;
+    font-size: 1rem;
+}
+
 /* NOTICE BAR */
 
 .notice {
