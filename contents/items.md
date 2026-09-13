@@ -2,7 +2,7 @@
 .showcase-thumb .basket-recipe {
     width: 100% !important;
     height: auto !important;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
     margin: 8px 0 0 !important;
     border-radius: 6px;
     display: block;
@@ -13,18 +13,17 @@
     max-height: 110px !important;
     width: auto !important;
     max-width: 100% !important;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
     margin: 6px 0 0 !important;
     border-radius: 6px;
 }
 
-/* Accent colors on the thumb panel */
-.showcase-item.accent-fish         > .showcase-thumb { background-color: #0d2233 !important; }
-.showcase-item.accent-basket       > .showcase-thumb { background-color: #261a0a !important; }
-.showcase-item.accent-blank-book   > .showcase-thumb { background-color: #2D070F !important; }
-.showcase-item.accent-hammer       > .showcase-thumb { background-color: #1a1a1a !important; }
-.showcase-item.accent-enderite     > .showcase-thumb { background-color: #150d2e !important; }
-.showcase-item.accent-elytra       > .showcase-thumb { background-color: #091222 !important; }
+.showcase-item.accent-fish         > .showcase-thumb { --accent: #3488CC; }
+.showcase-item.accent-basket       > .showcase-thumb { --accent: #986828; }
+.showcase-item.accent-blank-book   > .showcase-thumb { --accent: #B41C3C; }
+.showcase-item.accent-hammer       > .showcase-thumb { --accent: #686868; }
+.showcase-item.accent-enderite     > .showcase-thumb { --accent: #5434B8; }
+.showcase-item.accent-elytra       > .showcase-thumb { --accent: #244888; }
 
 .elytra-stats strong {
     display: block;

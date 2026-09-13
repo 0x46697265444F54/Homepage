@@ -10,8 +10,8 @@ Zwoje teleportacji to przedmioty jednorazowe, których celem jest ułatwienie te
 
 <div class="showcase">
 
-<div class="showcase-item panel" style="--accent:#1a1f2e">
-  <div class="showcase-thumb" style="background-color:#322152">
+<div class="showcase-item panel">
+  <div class="showcase-thumb" style="--accent:#C884FF">
     <img src="assets/img/crafting_recipes/scroll_of_return.png">
   </div>
   <div class="showcase-body">
@@ -21,8 +21,8 @@ Zwoje teleportacji to przedmioty jednorazowe, których celem jest ułatwienie te
   </div>
 </div>
 
-<div class="showcase-item panel" style="--accent:#1f1a2e">
-  <div class="showcase-thumb" style="background-color:#053031">
+<div class="showcase-item panel">
+  <div class="showcase-thumb" style="--accent:#14C0C4">
     <img src="assets/img/crafting_recipes/scroll_of_recovery.png">
   </div>
   <div class="showcase-body">
@@ -42,7 +42,7 @@ Aby zbalansować dostępność tych przedmiotów na serwerze, zmniejszona zosta�
 Magnetyt to blok, który po postawieniu tworzy prywatny punkt teleportacyjny. Za jego pomocą można przenieść się na obszar spawnu, inny posiadany magnetyt lub autoryzowany teren.
 <div class="showcase">
 <div class="showcase-item panel" style="background-color:var(--color-mono-1)">
-  <div class="showcase-thumb" style="background-color:#2E2E35">
+  <div class="showcase-thumb" style="--accent:#B8B8D4">
     <img src="assets/img/crafting_recipes/lodestone.png">
   </div>
   <div class="showcase-body">

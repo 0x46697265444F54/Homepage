@@ -284,7 +284,7 @@ function searchPlugin(hook) {
       }
     });
 
-    document.querySelector(".app-name")?.insertAdjacentElement("afterend", trigger);
+    document.querySelector(".sidebar-nav")?.insertAdjacentElement("beforebegin", trigger);
   });
 }
 

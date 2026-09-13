@@ -30,6 +30,10 @@
   <button data-modal="modal-vote" data-tippy-content="Głosowanie" aria-label="Głosowanie">
     <i class="bi bi-hand-thumbs-up-fill"></i>
   </button>
+  <button class="theme-toggle" data-tippy-content="Tryb Jasny" aria-label="Tryb Jasny">
+    <i class="bi bi-sun-fill"></i>
+    <i class="bi bi-moon-fill"></i>
+  </button>
 </div>
 
 <dialog class="modal" id="modal-vote">

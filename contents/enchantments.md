@@ -18,11 +18,11 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
-          <img data-icon="trident">
-          <img data-icon="mace">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
+          <img data-no-zoom data-icon="trident">
+          <img data-no-zoom data-icon="mace">
         </span>
       </td>
     </tr>
@@ -51,9 +51,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -82,9 +82,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -113,9 +113,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -144,9 +144,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -175,9 +175,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -206,9 +206,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -237,9 +237,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="axe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="axe">
         </span>
       </td>
     </tr>
@@ -268,8 +268,8 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="bow">
-          <img data-icon="crossbow">
+          <img data-no-zoom data-icon="bow">
+          <img data-no-zoom data-icon="crossbow">
         </span>
       </td>
     </tr>
@@ -304,7 +304,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="shield">
+          <img data-no-zoom data-icon="shield">
         </span>
       </td>
     </tr>
@@ -328,7 +328,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="shield">
+          <img data-no-zoom data-icon="shield">
         </span>
       </td>
     </tr>
@@ -352,7 +352,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="boots">
+          <img data-no-zoom data-icon="boots">
         </span>
       </td>
     </tr>
@@ -381,7 +381,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="boots">
+          <img data-no-zoom data-icon="boots">
         </span>
       </td>
     </tr>
@@ -409,7 +409,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="boots">
+          <img data-no-zoom data-icon="boots">
         </span>
       </td>
     </tr>
@@ -438,7 +438,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="leggings">
+          <img data-no-zoom data-icon="leggings">
         </span>
       </td>
     </tr>
@@ -469,14 +469,14 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="pickaxe">
-          <img data-icon="hoe">
-          <img data-icon="sword">
-          <img data-icon="spear">
-          <img data-icon="mace">
-          <img data-icon="trident">
-          <img data-icon="bow">
-          <img data-icon="crossbow">
+          <img data-no-zoom data-icon="pickaxe">
+          <img data-no-zoom data-icon="hoe">
+          <img data-no-zoom data-icon="sword">
+          <img data-no-zoom data-icon="spear">
+          <img data-no-zoom data-icon="mace">
+          <img data-no-zoom data-icon="trident">
+          <img data-no-zoom data-icon="bow">
+          <img data-no-zoom data-icon="crossbow">
         </span>
       </td>
     </tr>
@@ -505,9 +505,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="pickaxe">
-          <img data-icon="shovel">
-          <img data-icon="hoe">
+          <img data-no-zoom data-icon="pickaxe">
+          <img data-no-zoom data-icon="shovel">
+          <img data-no-zoom data-icon="hoe">
         </span>
       </td>
     </tr>
@@ -536,7 +536,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="hoe">
+          <img data-no-zoom data-icon="hoe">
         </span>
       </td>
     </tr>
@@ -561,7 +561,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="fishing_rod">
+          <img data-no-zoom data-icon="fishing_rod">
         </span>
       </td>
     </tr>
@@ -586,7 +586,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       <td class="ec-label">Przeznaczenie</td>
       <td>
         <span class="ec-icons-inline">
-          <img data-icon="fishing_rod">
+          <img data-no-zoom data-icon="fishing_rod">
         </span>
       </td>
     </tr>
@@ -695,7 +695,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 
 .ec-table td strong {
   color: var(--heading-color);
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: var(--font-family-mono);
 }
 
 .ec-icons-inline {
@@ -706,25 +706,31 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 }
 
 .ec-icons-inline img {
-  height: 20px;
-  width: auto;
-  vertical-align: -4px;
+  width: 16px;
+  height: 16px;
+  margin: 0 !important;
+  image-rendering: pixelated;
+}
+
+.ec-icons-inline img.smooth {
   image-rendering: auto;
 }
 
 .source-tag {
+  --tag-color: var(--color-mono-5);
   display: inline-block;
   margin-right: 0.2em;
   padding: 0.05em 0.4em;
   font-size: 0.9em;
   border-radius: 4px;
-  background-color: var(--color-mono-2);
+  color: color-mix(in srgb, var(--tag-color), var(--color-text) 25%);
+  background-color: color-mix(in srgb, var(--tag-color), transparent 85%);
 }
 
-.source-tag[data-source="enchanting"] { color: #c9a227; background-color: rgba(201, 162,  39, 0.15); }
-.source-tag[data-source="fishing"]    { color: #4a9edd; background-color: rgba( 74, 158, 221, 0.15); }
-.source-tag[data-source="loot"]       { color: #4caf6e; background-color: rgba( 76, 175, 110, 0.15); }
-.source-tag[data-source="vault"]      { color: #b06adb; background-color: rgba(176, 106, 219, 0.15); }
+.source-tag[data-source="enchanting"] { --tag-color: #C9A227; }
+.source-tag[data-source="fishing"]    { --tag-color: #4A9EDD; }
+.source-tag[data-source="loot"]       { --tag-color: #4CAF6E; }
+.source-tag[data-source="vault"]      { --tag-color: #B06ADB; }
 </style>
 
 <!-- INLINE JS -->
@@ -762,7 +768,8 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
     },
     shield: {
       name: "Tarcza",
-      url: "https://minecraft.wiki/images/Shield_JE2_BE1.png"
+      url: "https://minecraft.wiki/images/Invicon_Shield.png",
+      render: "smooth"
     },
     boots: {
       name: "Buty",
@@ -792,9 +799,10 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 
   document.querySelectorAll('img[data-icon]').forEach(img => {
     const entry = ICONS[img.dataset.icon];
-    if (entry != false) {
+    if (entry) {
       img.src = entry.url;
       img.alt = entry.name;
+      img.classList.toggle('smooth', entry.render === 'smooth');
     }
   });
 })();

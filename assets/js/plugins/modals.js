@@ -7,14 +7,15 @@ function modalsPlugin(hook) {
     document.querySelectorAll('dialog.modal').forEach(it => {
       // Docsify titles every link it renders, which duplicates the visible text as a native tooltip.
       it.querySelectorAll('a[title]').forEach(link => link.removeAttribute('title'));
-      it.querySelector('.modal-close').onclick = () => it.close();
+      const close = it.querySelector('.modal-close');
+      if (close) close.onclick = () => it.close();
       // A click landing on the dialog itself rather than its content is a backdrop click.
       it.onclick = event => {
         if (event.target === it) it.close();
       };
       // Closing hands focus back to the trigger, which would re-show its tooltip.
       it.onclose = () => {
-        document.querySelector('[data-modal="' + it.id + '"]')._tippy?.hide();
+        document.querySelector('[data-modal="' + it.id + '"]')?._tippy?.hide();
       };
     });
   });

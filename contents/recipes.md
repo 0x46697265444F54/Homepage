@@ -51,13 +51,12 @@
     align-items: flex-start;
 }
 .tab-panel.active { display: flex; }
-.tab-panel img,
-.recipe-img {
-    height: 220px !important;
+.tab-panel img {
+    height: auto !important;
     max-width: 100% !important;
     width: auto !important;
     margin: 0 4px 4px 0 !important;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 .tab-panel img.upgrade-img {
     width: 408px !important;

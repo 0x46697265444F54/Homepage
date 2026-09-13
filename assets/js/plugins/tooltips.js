@@ -1,5 +1,6 @@
 function tooltipsPlugin(hook) {
   hook.doneEach(function() {
+    syncThemeToggle();
     document.querySelectorAll('.sidebar-footer [data-tippy-content]').forEach(it => {
       if (!it._tippy)
         tippy(it, { placement: "top", theme: "firedot" });

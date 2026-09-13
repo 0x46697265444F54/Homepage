@@ -1,8 +1,7 @@
-function pageTitlePlugin(hook) {
+function pageTitlePlugin(hook, vm) {
   hook.doneEach(function() {
-    if (document.title === window.$docsify.name)
-      document.title = "Strona Główna | FireDOT"
-    else document.title = document.title.replace(" - " + window.$docsify.name, " | FireDOT");
+    const heading = vm.route.path === "/" ? "Strona Główna" : document.querySelector(".markdown-section h1")?.textContent.trim();
+    document.title = heading ? heading + " | FireDOT" : "FireDOT";
   });
 }
 
