@@ -193,6 +193,7 @@ Przetapianie narzędzi i zbroi przyznaje dodatkowe przedmioty.
         </thead>
         <tbody>
             <tr><td class="mat">1x Miedziane Narzędzie<br>1x Miedziana Zbroja</td>     <td><strong>1x Sztabka Miedzi</strong> (Copper Ingot)</td></tr>
+            <tr><td class="mat">1x Kolcza Zbroja</td>                                  <td><strong>4x Bryłka Żelaza</strong> (Iron Nugget)</td></tr>
             <tr><td class="mat">1x Żelazne Narzędzie<br>1x Żelazna Zbroja</td>         <td><strong>1x Sztabka Żelaza</strong> (Iron Ingot)</td></tr>
             <tr><td class="mat">1x Złote Narzędzie<br>1x Złota Zbroja</td>             <td><strong>1x Sztabka Złota</strong> (Gold Ingot)</td></tr>
             <tr><td class="mat">1x Diamentowa Narzędzie<br>1x Diamentowa Zbroja</td>   <td><strong>1x Diament</strong> (Diamond)</td></tr>

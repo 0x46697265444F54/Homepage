@@ -170,7 +170,7 @@ Pozostałe zmiany, o których warto wspomnieć.
 <br>
 
 ### Dane Techniczne
-Informacje o konfiguracji serwera pomocne dla technicznych graczy.
+Informacje o konfiguracji serwera przydatne dla technicznych graczy.
 
 <div class="data-table-scroll">
   <div class="data-table-wrap panel">
