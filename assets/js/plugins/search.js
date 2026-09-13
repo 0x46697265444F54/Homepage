@@ -27,8 +27,10 @@ function searchPlainText(markdown) {
 }
 
 function searchPath(href) {
-  const route = href.replace(/^#/, "").replace(/^\//, "").split("?")[0].replace(/\.md$/, "");
-  return "contents/" + (route === "" ? "_home" : route) + ".md";
+  const route = href.replace(/^#/, "").split("?")[0].replace(/\.md$/, "") || "/";
+  const alias = window.$docsify?.alias?.[route];
+  if (alias) return alias;
+  return "contents/" + (route === "/" ? "_home" : route.replace(/^\//, "")) + ".md";
 }
 
 function searchAnchor(heading) {
