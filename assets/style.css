@@ -327,6 +327,8 @@ blockquote:not(sup) p sup {
     li:has(a) {
         border-radius: 4px;
         margin: 0.25em 1.25em;
+        outline: 1px solid transparent;
+        transition: background-color 0.1s ease, outline-color 0.1s ease;
 
         > a {
             padding: 0.25em 0.5em;
@@ -336,7 +338,6 @@ blockquote:not(sup) p sup {
 
     li:hover:has(a) {
         background-color: var(--color-mono-1);
-        transition: 0.2s;
     }
 
     li.active:has(a) {
@@ -348,6 +349,10 @@ blockquote:not(sup) p sup {
 .sidebar {
     display: flex;
     flex-direction: column;
+}
+
+.sidebar-settling .sidebar-nav li {
+    transition: none !important;
 }
 
 body.sticky .sidebar {

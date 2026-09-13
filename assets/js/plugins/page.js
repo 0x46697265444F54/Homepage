@@ -20,17 +20,28 @@ function pageFooterPlugin(hook) {
   });
 }
 
-function pageTransitionPlugin(hook) {
+function pageTransitionPlugin(hook, vm) {
   const section = () => document.querySelector(".markdown-section");
 
   hook.beforeEach((markdown, next) => {
     const current = section();
     if (!current?.childElementCount) return next(markdown);
+    const target = document.querySelector(`.sidebar-nav a[href="#${vm.route.path}"]`)?.closest("li");
+    if (target) {
+      document.querySelectorAll(".sidebar-nav li.active").forEach(li => li.classList.remove("active"));
+      target.classList.add("active");
+    }
     current.classList.add("page-leave");
-    setTimeout(() => next(markdown), 100);
+    setTimeout(() => {
+      document.querySelector(".sidebar")?.classList.add("sidebar-settling");
+      next(markdown);
+    }, 100);
   });
 
   hook.doneEach(() => {
+    const sidebar = document.querySelector(".sidebar");
+    requestAnimationFrame(() => requestAnimationFrame(() => sidebar?.classList.remove("sidebar-settling")));
+
     const current = section();
     current.classList.remove("page-leave", "page-enter");
     void current.offsetWidth;
