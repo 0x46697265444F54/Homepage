@@ -20,5 +20,23 @@ function pageFooterPlugin(hook) {
   });
 }
 
+function pageTransitionPlugin(hook) {
+  const section = () => document.querySelector(".markdown-section");
+
+  hook.beforeEach((markdown, next) => {
+    const current = section();
+    if (!current?.childElementCount) return next(markdown);
+    current.classList.add("page-leave");
+    setTimeout(() => next(markdown), 100);
+  });
+
+  hook.doneEach(() => {
+    const current = section();
+    current.classList.remove("page-leave", "page-enter");
+    void current.offsetWidth;
+    current.classList.add("page-enter");
+  });
+}
+
 window.$docsify = window.$docsify || {};
-window.$docsify.plugins = (window.$docsify.plugins || []).concat(pageTitlePlugin, pageFooterPlugin);
+window.$docsify.plugins = (window.$docsify.plugins || []).concat(pageTitlePlugin, pageFooterPlugin, pageTransitionPlugin);

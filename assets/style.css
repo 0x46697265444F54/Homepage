@@ -1189,6 +1189,22 @@ footer {
     font-size: 1.15rem;
 }
 
+/* PAGE TRANSITION */
+
+.markdown-section.page-leave {
+    opacity: 0;
+    transition: opacity 0.1s ease;
+}
+
+.markdown-section.page-enter {
+    animation: page-enter 0.2s ease backwards;
+}
+
+@keyframes page-enter {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 /* LINK CHIP */
 
 .markdown-section a.link-chip {
