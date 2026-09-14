@@ -11,281 +11,227 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Scholar of Mobs -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Znawca Stworów <span class="translation">(Scholar of Mobs)</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Znawca Stworów <span class="translation">Scholar of Mobs</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Zabite moby dają <strong>25%</strong> więcej punktów doświadczenia za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-          <img data-no-zoom data-icon="trident">
-          <img data-no-zoom data-icon="mace">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Grabież, Szczęście, Jedwabny Dotyk, Znawca Bloków</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+        <img data-no-zoom data-icon="trident">
+        <img data-no-zoom data-icon="mace">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Grabież, Szczęście, Jedwabny Dotyk, Znawca Bloków</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Reach -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Zasięg <span class="translation">(Reach)</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Zasięg <span class="translation">Reach</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Zwiększa zasięg o <strong>0.25</strong> bloku za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Szerokie Ostrze, Poręczność, Krytyczne Uderzenie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Szerokie Ostrze, Poręczność, Krytyczne Uderzenie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Swift Strike -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Poręczność <span class="translation">(Swift Strike)</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Poręczność <span class="translation">Swift Strike</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Zwiększa szybkość ataku o <strong>12.5%</strong> za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Szerokie Ostrze, Zasięg, Krytyczne Uderzenie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Szerokie Ostrze, Zasięg, Krytyczne Uderzenie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Critical Strike -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Krytyczne Uderzenie <span class="translation">(Critical Strike)</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Krytyczne Uderzenie <span class="translation">Critical Strike</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Zwiększa obrażenia krytyczne o <strong>7.5%</strong> za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Szerokie Ostrze, Zasięg, Poręczność</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Szerokie Ostrze, Zasięg, Poręczność</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Poison Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Zatrucie <span class="translation">(Poison Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Zatrucie <span class="translation">Poison Aspect</span><span class="ec-level-badge">Maks. II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt trucizny.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Zaklęty Ogień, Spowolnienie, Osłabienie, Obumieranie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Zaklęty Ogień, Spowolnienie, Osłabienie, Obumieranie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Slowness Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Spowolnienie <span class="translation">(Slowness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Spowolnienie <span class="translation">Slowness Aspect</span><span class="ec-level-badge">Maks. II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt spowolnienia.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Zaklęty Ogień, Zatrucie, Osłabienie, Obumieranie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Zaklęty Ogień, Zatrucie, Osłabienie, Obumieranie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Weakness Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Osłabienie <span class="translation">(Weakness Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Osłabienie <span class="translation">Weakness Aspect</span><span class="ec-level-badge">Maks. II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt osłabienia.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Zaklęty Ogień, Zatrucie, Spowolnienie, Obumieranie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Zaklęty Ogień, Zatrucie, Spowolnienie, Obumieranie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Wither Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Obumieranie <span class="translation">(Wither Aspect)</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Obumieranie <span class="translation">Wither Aspect</span><span class="ec-level-badge">Maks. II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt obumierania.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="axe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Zaklęty Ogień, Zatrucie, Spowolnienie, Osłabienie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="axe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Zaklęty Ogień, Zatrucie, Spowolnienie, Osłabienie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Replenish -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Oszczędność <span class="translation">(Replenish)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Oszczędność <span class="translation">Replenish</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Co druga wystrzelona strzała nie zostaje utracona.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="bow">
-          <img data-no-zoom data-icon="crossbow">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Nieskończoność</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="bow">
+        <img data-no-zoom data-icon="crossbow">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Nieskończoność</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 </div>
@@ -297,160 +243,136 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Rejuvenation -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Żywotność <span class="translation">(Rejuvenation)</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Żywotność <span class="translation">Rejuvenation</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Zwiększa maks. liczbę punktów życia o <strong>1</strong> za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="shield">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="shield">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>—</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Sonic Shield -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Tarcza Soniczna <span class="translation">(Sonic Shield)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Tarcza Soniczna <span class="translation">Sonic Shield</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Blokowanie chroni przed falą dźwiękową Wardena.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="shield">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="shield">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>—</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Gravity -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Grawitacja <span class="translation">(Gravity)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Grawitacja <span class="translation">Gravity</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Pozwala na wyższy, ale wolniejszy i lżejszy skok.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="boots">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Powolne Opadanie</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-        <span class="source-tag" data-source="vault">Skarbiec</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="boots">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Powolne Opadanie</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+      <span class="source-tag" data-source="vault">Skarbiec</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Scorched Walker -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Ognisty Piechur <span class="translation">(Scorch Walker)</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Ognisty Piechur <span class="translation">Scorch Walker</span><span class="ec-level-badge">Maks. II</span></p>
   <p class="ec-desc">Zamienia powierzchnię lawy w magmę.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="boots">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Mroźny Piechur, Głębinowy Wędrowiec</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="boots">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Mroźny Piechur, Głębinowy Wędrowiec</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Sonic -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Sonic<span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Sonic <span class="translation">Sonic</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Zwiększa prędkość poruszania się o <strong>7.5%</strong> za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="boots">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Prędkość Dusz, Głębinowy Wędrowiec, Grawitacja</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="boots">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Prędkość Dusz, Głębinowy Wędrowiec, Grawitacja</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Stride -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Wędrowiec <span class="translation">(Stride)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Wędrowiec <span class="translation">Stride</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Pozwala wchodzić po pełnych blokach jak po schodach.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="leggings">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="leggings">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>—</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 </div>
@@ -462,143 +384,125 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Magnet -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Magnes <span class="translation">(Magnet)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Magnes <span class="translation">Magnet</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Zdobyte surowce wpadają bezpośrednio do ekwipunku.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="pickaxe">
-          <img data-no-zoom data-icon="hoe">
-          <img data-no-zoom data-icon="sword">
-          <img data-no-zoom data-icon="spear">
-          <img data-no-zoom data-icon="mace">
-          <img data-no-zoom data-icon="trident">
-          <img data-no-zoom data-icon="bow">
-          <img data-no-zoom data-icon="crossbow">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Jedwabny Dotyk</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="pickaxe">
+        <img data-no-zoom data-icon="hoe">
+        <img data-no-zoom data-icon="sword">
+        <img data-no-zoom data-icon="spear">
+        <img data-no-zoom data-icon="mace">
+        <img data-no-zoom data-icon="trident">
+        <img data-no-zoom data-icon="bow">
+        <img data-no-zoom data-icon="crossbow">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Jedwabny Dotyk</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Scholar of Blocks -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Znawca Bloków <span class="translation">(Scholar of Blocks)</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Znawca Bloków <span class="translation">Scholar of Blocks</span><span class="ec-level-badge">Maks. III</span></p>
   <p class="ec-desc">Wykopane bloki dają <strong>25%</strong> więcej punktów doświadczenia za każdy poziom.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="pickaxe">
-          <img data-no-zoom data-icon="shovel">
-          <img data-no-zoom data-icon="hoe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Wyklucza</td>
-      <td>Grabież, Szczęście, Jedwabny Dotyk, Znawca Stworów</td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="pickaxe">
+        <img data-no-zoom data-icon="shovel">
+        <img data-no-zoom data-icon="hoe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>Grabież, Szczęście, Jedwabny Dotyk, Znawca Stworów</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Gardener -->
 
 <div class="enchant-card panel">
-  <p class="ec-title" data-name="Ogrodnik" data-name-alt="Gardener" data-max-level="1">Ogrodnik <span class="translation">(Gardener)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Ogrodnik <span class="translation">Gardener</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Zebrane plony zostają ponownie zasadzone.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="hoe">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="hoe">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>—</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Bait -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Wabik <span class="translation">(Bait)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Wabik <span class="translation">Bait</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Szansa <strong>15%</strong> na złowienie kilku przedmiotów za jednym razem.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="fishing_rod">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="fishing_rod">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>—</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 <!-- Reel -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Kołowrotek <span class="translation">(Reel)</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Kołowrotek <span class="translation">Reel</span><span class="ec-level-badge">Maks. I</span></p>
   <p class="ec-desc">Automatycznie wyciąga przedmiot z wody po jego złowieniu.</p>
-  <table class="ec-table">
-    <tr>
-      <td class="ec-label">Przeznaczenie</td>
-      <td>
-        <span class="ec-icons-inline">
-          <img data-no-zoom data-icon="fishing_rod">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td class="ec-label">Zdobycie</td>
-      <td>
-        <span class="source-tag" data-source="enchanting">Zaklinanie</span>
-        <span class="source-tag" data-source="fishing">Łowienie</span>
-        <span class="source-tag" data-source="loot">Eksploracja</span>
-      </td>
-    </tr>
-  </table>
+  <dl class="ec-meta">
+    <dt>Przeznaczenie</dt>
+    <dd>
+      <span class="ec-icons-inline">
+        <img data-no-zoom data-icon="fishing_rod">
+      </span>
+    </dd>
+    <dt>Wyklucza</dt>
+    <dd>—</dd>
+    <dt>Zdobycie</dt>
+    <dd>
+      <span class="source-tag" data-source="enchanting">Zaklinanie</span>
+      <span class="source-tag" data-source="fishing">Łowienie</span>
+      <span class="source-tag" data-source="loot">Eksploracja</span>
+    </dd>
+  </dl>
 </div>
 
 </div>
@@ -608,107 +512,115 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <style>
 .enchant-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.75em;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 12px;
   margin-top: 1em;
 }
 
+/* Title, description and meta rows are shared across a row of cards, so dividers line up. */
 .enchant-card {
-  padding: 0.75em 0.85em 0.75em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4em;
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+  gap: 0;
+  overflow: hidden;
+  transition: border-color 0.2s;
 }
 
+.enchant-card:hover {
+  border-color: var(--color-mono-4);
+}
+
+/* Name and level badge share the first row; the English name wraps below them. */
 .enchant-card .ec-title {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.3em;
+  column-gap: 8px;
   margin: 0;
-  font-weight: bold;
+  padding: 14px 16px 0;
   font-size: 1.05em;
+  font-weight: bold;
+  line-height: 1.3;
   color: var(--heading-color);
 }
 
 .ec-title .translation {
-  flex-shrink: 1;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: normal;
-  font-size: 0.9em;
-  color: var(--color-mono-5);
+  order: 2;
+  flex-basis: 100%;
+  margin: 2px 0 0;
+  font-family: var(--font-family-mono);
+  font-size: 0.8em;
 }
 
 .ec-level-badge {
-  align-self: center;
-  flex-shrink: 0;
+  order: 1;
   margin-left: auto;
-  padding: 0.1em 0.45em;
-  line-height: 1.4;
+  padding: 1px 8px;
   white-space: nowrap;
-  font-weight: normal;
-  font-size: 0.78em;
-  color: var(--color-mono-5);
-  background-color: var(--color-mono-2);
-  border: 1px solid var(--color-mono-3);
+  font-family: var(--font-family-mono);
+  font-size: 0.75em;
   border-radius: 4px;
+  color: var(--color-mono-6);
+  border: 1px solid var(--color-mono-3);
+  background-color: var(--color-mono-2);
 }
 
 .enchant-card .ec-desc {
-  margin: 0;
-  padding-bottom: 0.25em;
+  margin: 10px 0 0;
+  padding: 0 16px 14px;
   font-size: 0.9em;
-  color: var(--color-text);
+  line-height: 1.5;
 }
 
-.ec-table {
-  width: 100%;
-  margin: 0 !important;
-  border: none !important;
-  border-collapse: collapse;
+.enchant-card .ec-desc strong {
+  font-family: var(--font-family-mono);
+  color: var(--heading-color);
+}
+
+.ec-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 12px 16px 14px;
   font-size: 0.85em;
+  border-top: 1px solid var(--color-mono-3);
+  background-color: color-mix(in srgb, var(--color-mono-2), transparent 50%);
 }
 
-.ec-table tr + tr > td {
-  border-top: 1px solid var(--color-mono-2);
-}
-
-.ec-table td {
-  border: none !important;
-  padding: 0.28em 0;
-  vertical-align: middle;
-  color: var(--color-text);
-}
-
-.ec-table td.ec-label {
-  width: 1%;
-  padding-right: 0.6em;
-  white-space: nowrap;
+.ec-meta dt {
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--color-mono-5);
 }
 
-.ec-table td.ec-label::after {
-  content: ":";
+.ec-meta dd + dt {
+  margin-top: 8px;
 }
 
-.ec-table td strong {
-  color: var(--heading-color);
-  font-family: var(--font-family-mono);
+.ec-meta dd {
+  margin: 0;
+  color: var(--color-text);
 }
 
 .ec-icons-inline {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 0.3em;
+  gap: 4px;
 }
 
 .ec-icons-inline img {
+  box-sizing: content-box;
   width: 16px;
   height: 16px;
   margin: 0 !important;
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid var(--color-mono-3);
+  background-color: var(--color-bg);
   image-rendering: pixelated;
 }
 
@@ -719,12 +631,12 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 .source-tag {
   --tag-color: var(--color-mono-5);
   display: inline-block;
-  margin-right: 0.2em;
-  padding: 0.05em 0.4em;
-  font-size: 0.9em;
+  margin: 2px 0;
+  padding: 0 8px;
+  line-height: 1.6;
   border-radius: 4px;
-  color: color-mix(in srgb, var(--tag-color), var(--color-text) 25%);
-  background-color: color-mix(in srgb, var(--tag-color), transparent 85%);
+  color: color-mix(in srgb, var(--tag-color), var(--color-text) 35%);
+  background-color: color-mix(in srgb, var(--tag-color), transparent 88%);
 }
 
 .source-tag[data-source="enchanting"] { --tag-color: #C9A227; }
@@ -803,6 +715,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
       img.src = entry.url;
       img.alt = entry.name;
       img.classList.toggle('smooth', entry.render === 'smooth');
+      if (window.tippy) tippy(img, { content: entry.name, placement: "top", theme: "firedot" });
     }
   });
 })();
