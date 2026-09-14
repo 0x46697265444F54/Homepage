@@ -201,7 +201,6 @@ function searchPlugin(hook) {
       '</div>',
       '<div class="search-results"></div>'
     ].join("");
-    document.body.appendChild(modal);
 
     const input = modal.querySelector("input");
     const results = modal.querySelector(".search-results");
@@ -272,9 +271,8 @@ function searchPlugin(hook) {
       }
     };
 
-    modal.onclick = event => {
-      if (event.target === modal) modal.close();
-      else if (event.target.closest(".search-result")) modal.close();
+    results.onclick = event => {
+      if (event.target.closest(".search-result")) modal.close();
     };
 
     document.addEventListener("keydown", event => {
@@ -285,6 +283,7 @@ function searchPlugin(hook) {
     });
 
     document.querySelector(".sidebar-nav")?.insertAdjacentElement("beforebegin", trigger);
+    trigger.after(modal);
   });
 }
 

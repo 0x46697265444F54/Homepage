@@ -1431,6 +1431,7 @@ body.has-notice .sidebar-toggle {
 .search-modal {
     width: min(560px, calc(100vw - 32px));
     margin-top: 12vh;
+    visibility: visible;
 }
 
 .search-field {
@@ -1469,7 +1470,7 @@ body.has-notice .sidebar-toggle {
     padding: 6px;
 }
 
-.search-result {
+.search-modal a.search-result {
     display: flex;
     flex-direction: column;
     gap: 3px;
