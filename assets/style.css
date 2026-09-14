@@ -1335,7 +1335,7 @@ footer {
 
 .markdown-section a.link-chip > i:last-child {
     margin-left: 11px;
-    padding: 0 6px 0 10px;
+    padding: 0 8px 0 12px;
     font-size: 0.75rem;
     border-left: 1px solid var(--link-chip-border);
 }

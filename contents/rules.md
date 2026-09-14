@@ -54,11 +54,11 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 > ##### @icon[bi-check-circle] Optymalizacja / Poprawki Wizualne / Audio
 > Modyfikacje optymalizujące grę i skupiające się na poprawkach wizualnych są dozwolone. Rekomendacje:
 > 
-> @link[Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered){icon="si-modrinth" color="#1bd96a" desc="by henkelmax" size=compact}  
-> @link[ImmediatelyFast](https://modrinth.com/mod/immediatelyfast){icon="si-modrinth" color="#1bd96a" desc="by RaphiMC" size=compact}  
-> @link[Sodium](https://modrinth.com/mod/sodium){icon="si-modrinth" color="#1bd96a" desc="by CaffeineMC" size=compact}  
-> @link[Voxy](https://modrinth.com/mod/voxy){icon="si-modrinth" color="#1bd96a" desc="by cortex" size=compact}  
-> @link[Iris](https://modrinth.com/mod/iris){icon="si-modrinth" color="#1bd96a" desc="by coderbot, IMS" size=compact}
+> @link[Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered){icon="si-modrinth" color="#1bd96a" desc="Poprawia pozycjonowanie dźwięku i akustykę w przestrzeni 3D."}  
+> @link[ImmediatelyFast](https://modrinth.com/mod/immediatelyfast){icon="si-modrinth" color="#1bd96a" desc="Optymalizuje renderowanie m.in. bytów i cząsteczek."}  
+> @link[Sodium](https://modrinth.com/mod/sodium){icon="si-modrinth" color="#1bd96a" desc="Znacznie poprawia ogólną jakość i wydajność gry."}  
+> @link[Voxy](https://modrinth.com/mod/voxy){icon="si-modrinth" color="#1bd96a" desc="Zwiększa dystans rysowania świata minimalnie wpływając na wydajność."}  
+> @link[Iris](https://modrinth.com/mod/iris){icon="si-modrinth" color="#1bd96a" desc="Pozwala uruchamiać paczki shaderów poprawiające oprawę wizualną gry."}
 
 </div>
 
@@ -67,11 +67,11 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 > ##### @icon[bi-check-circle] Małe Usprawnienia
 > Modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem że ich funkcjonalność nie wpływa na innych graczy. Rekomendacje:
 > 
-> @link[Inventive Inventory](https://modrinth.com/mod/inventive-inventory){icon="si-modrinth" color="#1bd96a" desc="by isxander" size=compact}  
-> @link[Scribble](https://modrinth.com/mod/scribble){icon="si-modrinth" color="#1bd96a" desc="by Cassian" size=compact}  
-> @link[Litematica](https://modrinth.com/mod/litematica){icon="si-modrinth" color="#1bd96a" desc="by masa, sakura-ryoko" size=compact}  
-> @link[Click Through Plus](https://modrinth.com/mod/clickthrough+){icon="si-modrinth" color="#1bd96a" desc="by chrss" size=compact}  
-> @link[Zoomify](https://modrinth.com/mod/zoomify){icon="si-modrinth" color="#1bd96a" desc="by Strobel273" size=compact}
+> @link[Inventive Inventory](https://modrinth.com/mod/inventive-inventory){icon="si-modrinth" color="#1bd96a" desc="Szybkie przenoszenie przedmiotów i sortowanie."}  
+> @link[Scribble](https://modrinth.com/mod/scribble){icon="si-modrinth" color="#1bd96a" desc="Formatowanie tekstu i kopiowanie zawartości książek."}  
+> @link[Litematica](https://modrinth.com/mod/litematica){icon="si-modrinth" color="#1bd96a" desc="Ułatwia wznoszenie budowli przez renderowanie ich schematu."}  
+> @link[Click Through Plus](https://modrinth.com/mod/clickthrough+){icon="si-modrinth" color="#1bd96a" desc="Umożliwia otwieranie skrzyń przez ramki z przedmiotami."}  
+> @link[Zoomify](https://modrinth.com/mod/zoomify){icon="si-modrinth" color="#1bd96a" desc="Płynny zoom z wieloma funkcjami."}
 
 </div>
 
