@@ -13,6 +13,8 @@ function searchFold(text) {
 function searchPlainText(markdown) {
   return markdown
     .replace(/```[\s\S]*?```/g, " ")
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/^[\s|:*_-]*[-*_]{3,}[\s|:*_-]*$/gm, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<[^>]+>/g, " ")
