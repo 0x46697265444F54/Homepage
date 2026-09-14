@@ -39,7 +39,10 @@ function extraMarkdownPlugin(hook, vm) {
       const arrow = external ? 'bi-box-arrow-up-right' : 'bi-arrow-right';
       const url = external ? href : '#/' + href.replace(/^#?\//, '');
       const desc = args.desc ? `<span class="link-chip-desc">${args.desc}</span>` : '';
-      return `<a class="link-chip${args.size === 'large' ? ' large' : ''}" href="${url}"${target}>` +
+      const size = ['large', 'compact'].includes(args.size) ? ` ${args.size}` : '';
+      const accent = /^#[0-9a-f]{3,8}$/i.test(args.color ?? '');
+      const style = accent ? ` style="--accent: ${args.color}"` : '';
+      return `<a class="link-chip${size}${accent ? ' accent' : ''}" href="${url}"${target}${style}>` +
                (args.icon ? `%%ICON_${args.icon}%%` : '') +
                `<span class="link-chip-text"><span class="link-chip-label">${label}</span>${desc}</span>` +
                `%%ICON_${arrow}%%` +

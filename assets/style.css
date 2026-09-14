@@ -102,6 +102,14 @@ h2 {
     --sidebar-bg: color-mix(in srgb, var(--color-bg), black 16%);
     --sidebar-border-color: var(--color-mono-2);
     --sidebar-font-size: 16px;
+    --sidebar-item-bg-hover: var(--color-mono-1);
+    --sidebar-item-bg-active: color-mix(in srgb, var(--theme-color-1), transparent 50%);
+    --sidebar-item-outline-active: color-mix(in srgb, var(--theme-color-2), transparent 50%);
+    /* LINK CHIP */
+    --link-chip-border: var(--color-mono-3);
+    --link-chip-border-hover: var(--color-mono-5);
+    --link-chip-muted: var(--color-mono-5);
+    --link-chip-muted-hover: var(--color-mono-7);
     /* SIDEBAR TOGGLE BUTTON */
     --sidebar-toggle-width: 18px;
     --sidebar-toggle-height: 36px;
@@ -123,6 +131,13 @@ h2 {
     --color-depth: #FFFFFF;
     --shadow-color: rgba(0, 0, 0, 0.15);
     --sidebar-bg: color-mix(in srgb, var(--color-bg), black 3%);
+    --sidebar-item-bg-hover: var(--color-mono-2);
+    --sidebar-item-bg-active: var(--theme-color-2);
+    --sidebar-item-outline-active: var(--theme-color-3);
+    --link-chip-border: var(--color-mono-4);
+    --link-chip-border-hover: var(--color-mono-6);
+    --link-chip-muted: var(--color-mono-6);
+    --link-chip-muted-hover: var(--color-mono-8);
     --theme-color: #D9532F;
     --strong-color: #1F1D1B;
     --mark-bg: #FEF08A;
@@ -311,7 +326,7 @@ blockquote:not(sup) {
         color: color-mix(in srgb, var(--color), var(--color-contrast) 55%) !important;
     }
 
-    a {
+    a:not(.link-chip) {
         color: color-mix(in srgb, var(--color), var(--color-contrast) 55%) !important;
         transition: opacity 0.3s;
         &:hover { opacity: 0.75 !important; }
@@ -392,12 +407,12 @@ blockquote:not(sup) p sup {
     }
 
     li:hover:has(a) {
-        background-color: var(--color-mono-1);
+        background-color: var(--sidebar-item-bg-hover);
     }
 
     li.active:has(a) {
-        background-color: color-mix(in srgb, var(--theme-color-1), transparent 50% );
-        outline: 1px solid color-mix(in srgb, var(--theme-color-2), transparent 50%);
+        background-color: var(--sidebar-item-bg-active);
+        outline: 1px solid var(--sidebar-item-outline-active);
     }
 }
 
@@ -1265,7 +1280,7 @@ footer {
     align-items: stretch;
     padding: 7px 4px 7px 13px;
     border-radius: 6px;
-    border: 1px solid var(--color-mono-3);
+    border: 1px solid var(--link-chip-border);
     background-color: var(--color-mono-1);
     color: var(--heading-color);
     line-height: 1.2;
@@ -1273,8 +1288,12 @@ footer {
     transition: 0.2s;
 }
 
+.markdown-section a.link-chip + br + a.link-chip {
+    margin-top: 0.4em;
+}
+
 .markdown-section a.link-chip:hover {
-    border-color: var(--color-mono-5);
+    border-color: var(--link-chip-border-hover);
     background-color: var(--color-mono-2);
 }
 
@@ -1295,30 +1314,30 @@ footer {
     font-size: 0.85rem;
     font-weight: normal;
     line-height: 1;
-    color: var(--color-mono-5);
+    color: var(--link-chip-muted);
+    transition: color 0.2s;
 }
 
-.markdown-section a.link-chip:hover .link-chip-desc {
-    color: var(--color-mono-6);
-}
 
 .markdown-section a.link-chip i {
     display: flex;
     align-items: center;
     line-height: 1;
-    color: var(--color-mono-5);
+    color: var(--link-chip-muted);
+    transition: color 0.2s, border-color 0.2s;
 }
 
 .markdown-section a.link-chip > i:first-child {
+    align-self: center;
     margin-right: 12px;
     font-size: 1.05rem;
 }
 
 .markdown-section a.link-chip > i:last-child {
     margin-left: 11px;
-    padding: 0 10px;
+    padding: 0 6px 0 10px;
     font-size: 0.75rem;
-    border-left: 1px solid var(--color-mono-3);
+    border-left: 1px solid var(--link-chip-border);
 }
 
 .markdown-section a.link-chip i::before {
@@ -1326,8 +1345,16 @@ footer {
     line-height: 1;
 }
 
-.markdown-section a.link-chip:hover i {
-    color: var(--heading-color);
+.markdown-section a.link-chip:hover :is(i, .link-chip-desc) {
+    color: var(--link-chip-muted-hover);
+}
+
+.markdown-section a.link-chip:hover > i:last-child {
+    border-color: var(--link-chip-border-hover);
+}
+
+.markdown-section a.link-chip.accent > i:first-child {
+    color: var(--accent);
 }
 
 .markdown-section a.link-chip.large {
@@ -1352,6 +1379,36 @@ footer {
     margin-left: 15px;
     padding: 0 12px 0 16px;
     font-size: 1rem;
+}
+
+.markdown-section a.link-chip.compact {
+    padding: 5px 3px 5px 11px;
+    border-radius: 6px;
+}
+
+.markdown-section a.link-chip.compact .link-chip-text {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.markdown-section a.link-chip.compact .link-chip-label {
+    font-size: 0.9rem;
+}
+
+.markdown-section a.link-chip.compact .link-chip-desc {
+    font-size: 0.8rem;
+}
+
+.markdown-section a.link-chip.compact > i:first-child {
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.markdown-section a.link-chip.compact > i:last-child {
+    margin-left: 10px;
+    padding: 0 5px 0 9px;
+    font-size: 0.7rem;
 }
 
 /* NOTICE BAR */
