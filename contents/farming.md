@@ -182,9 +182,8 @@ Rolnictwo na serwerze zostało zmodyfikowane na potrzeby balansu i dynamiki rozg
 - Niektóre rodzaje upraw są unikalne dla poszczególnych biomów (np. **Bambus**) i na innych biomach rosną z bardzo niską prędkością.
 - Pełny kompostownik w pobliżu upraw zwiększa prędkość ich wzrostu o 20%. Efekt się nie stackuje, a łączna prędkość wzrostu nie może przekroczyć 100%.
 
-<div class="callout note">
-
-Informacje na temat upraw są też dostępne pod komendą **/farm** na naszym serwerze.
+> [!NOTE]
+> Informacje na temat upraw są też dostępne pod komendą **/farm** na naszym serwerze.
 
 </div>
 
