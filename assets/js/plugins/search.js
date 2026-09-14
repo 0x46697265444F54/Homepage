@@ -34,13 +34,6 @@ function searchPath(href) {
   return "contents/" + (route === "/" ? "_home" : route.replace(/^\//, "")) + ".md";
 }
 
-function searchAnchor(heading) {
-  const slugify = window.Docsify?.slugify;
-  if (!slugify) return null;
-  slugify.clear?.();
-  return slugify(heading);
-}
-
 const SEARCH_CARD_TITLES = [
   /<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/i,
   /<p class="ec-title">([\s\S]*?)<\/p>/i,
@@ -62,35 +55,42 @@ function searchCardTitle(line) {
 
 function searchSections(markdown, page) {
   const sections = [];
-  let current = { page, heading: null, anchorHeading: null, anchorId: null, lines: [] };
+  let current = { page, heading: null, anchorId: null, lines: [] };
   let sectionHeading = null;
   let sectionId = null;
+  let fenced = false;
+  const slugify = window.Docsify?.slugify;
+  slugify?.clear?.();
 
   for (const line of markdown.split("\n")) {
-    const heading = /^(#{1,6})\s+(.*)$/.exec(line);
+    if (/^\s*```/.test(line)) fenced = !fenced;
+    const heading = !fenced && /^((?:>\s*)*)#{1,6}\s+(.*?)(?:\s+#+)?\s*$/.exec(line);
     if (heading) {
-      sections.push(current);
-      const explicit = /\s*:id=([\w-]+)\s*$/.exec(heading[2]);
-      sectionHeading = searchPlainText(explicit ? heading[2].replace(explicit[0], "") : heading[2]);
-      sectionId = explicit ? explicit[1] : null;
-      current = { page, heading: sectionHeading, anchorHeading: sectionHeading, anchorId: sectionId, lines: [] };
-      continue;
+      const explicit = /(?:^|\s):id=([\w-%]+)/.exec(heading[2]);
+      const id = slugify?.(explicit ? explicit[1] : heading[2].replace(/@icon\[([\w-]+)\]/g, "%%ICON_$1%%")) ?? null;
+      if (!heading[1]) {
+        sections.push(current);
+        sectionHeading = searchPlainText(explicit ? heading[2].replace(explicit[0], "") : heading[2]);
+        sectionId = id;
+        current = { page, heading: sectionHeading, anchorId: sectionId, lines: [] };
+        continue;
+      }
     }
     const card = searchCardTitle(line);
     if (card) {
       sections.push(current);
-      current = { page, heading: card, anchorHeading: sectionHeading, anchorId: sectionId, lines: [] };
+      current = { page, heading: card, anchorId: sectionId, lines: [] };
       continue;
     }
     current.lines.push(line);
   }
   sections.push(current);
+  slugify?.clear?.();
 
   return sections
     .map(section => ({
       page: section.page,
       heading: section.heading,
-      anchorHeading: section.anchorHeading,
       anchorId: section.anchorId,
       text: searchPlainText(section.lines.join("\n"))
     }))
@@ -224,7 +224,7 @@ function searchPlugin(hook) {
         return;
       }
       results.innerHTML = matches.map((match, position) => {
-        const anchor = match.section.anchorId ?? (match.section.anchorHeading ? searchAnchor(match.section.anchorHeading) : null);
+        const anchor = match.section.anchorId;
         const href = match.section.page.href + (anchor ? "?id=" + anchor : "");
         const duplicate = match.section.heading && match.section.foldedHeading === match.section.foldedTitle;
         const heading = match.section.heading && !duplicate

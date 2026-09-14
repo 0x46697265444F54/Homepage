@@ -490,12 +490,28 @@ body.sticky .sidebar {
     backdrop-filter: blur(3px);
 }
 
+.modal, .modal::backdrop {
+    opacity: 0;
+    transition: opacity 0.2s ease, display 0.2s allow-discrete, overlay 0.2s allow-discrete;
+}
+
+.modal[open], .modal[open]::backdrop {
+    opacity: 1;
+}
+
+@starting-style {
+    .modal[open], .modal[open]::backdrop {
+        opacity: 0;
+    }
+}
+
 .modal-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px 16px;
     border-bottom: 1px solid var(--color-mono-2);
+    user-select: none;
 
     h5 {
         display: flex;
@@ -542,6 +558,7 @@ body.sticky .sidebar {
     flex-direction: column;
     gap: 6px;
     margin-top: 16px;
+    user-select: none;
 
     a {
         display: flex;
@@ -1435,6 +1452,7 @@ body.has-notice .sidebar-toggle {
     color: var(--color-mono-5);
     text-align: left;
     cursor: pointer;
+    user-select: none;
     transition: 0.2s;
 }
 
