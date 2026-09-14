@@ -56,29 +56,29 @@ Gra na naszym serwerze wymaga zaakceptowania paczki zasobów. Proces jej pobiera
 
 Wykorzystywane paczki zasobów zewnętrznych twórców:
 
-<div class="symbolic no-underline">
+<div class="tight">
 
-- **[@icon[si-modrinth] 3D Default](https://modrinth.com/resourcepack/3d-default)** by GeForceLegend
-- **[@icon[si-modrinth] Crop & Foliage Variations](https://modrinth.com/resourcepack/crop-foliage-variations)** by Gurkis
-- **[@icon[si-modrinth] Distinguishable Armor Trims](https://modrinth.com/resourcepack/distinguishable-armor-trims)** by DeV_DeVaughn
-- **[@icon[si-modrinth] Farcr's Better Dirt](https://modrinth.com/resourcepack/farcrs-better-dirt)** by Farcr
-- **[@icon[si-modrinth] Gentler Weather Sounds](https://modrinth.com/resourcepack/gentler-weather-sounds)** by VesMaybeVesper
-- **[@icon[si-modrinth] Goat's Tool Trims](https://modrinth.com/datapack/goats-tool-trims)** by FloatingGoat
-- **[@icon[si-modrinth] Hidey Hidey Debris](https://modrinth.com/resourcepack/hidey-hidey-debris)** by Sammy019
-- **[@icon[si-modrinth] Mob Crates](https://modrinth.com/resourcepack/mob-crates)** by NoCube, Futureazoo
-- **[@icon[si-modrinth] Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x)** by AmberWat
-- **[@icon[si-modrinth] Round Up](https://modrinth.com/resourcepack/roundup)** by Dremix
-- **[@icon[si-modrinth] Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)** by 2DWisp
-- **[@icon[si-modrinth] Smoother Glowing](https://modrinth.com/shader/smoother-glowing)** by MelonRind
-- **[@icon[si-modrinth] Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims)** by N0mish
-- **[@icon[si-modrinth] Wisp's Colourful Wildflowers](https://modrinth.com/resourcepack/wisps-colourful-wildflowers)** by 2DWisp
-- **[@icon[bi-github] Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont)** by AmberWat
-- **[@icon[bi-globe] Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)** by VanillaTweaks
+@link[3D Default](https://modrinth.com/resourcepack/3d-default){icon="si-modrinth" color="#00AE5C" desc="by GeForceLegend" size=compact}  
+@link[Crop & Foliage Variations](https://modrinth.com/resourcepack/crop-foliage-variations){icon="si-modrinth" color="#00AE5C" desc="by Gurkis" size=compact}  
+@link[ Distinguishable Armor Trims](https://modrinth.com/resourcepack/distinguishable-armor-trims){icon="si-modrinth" color="#00AE5C" desc="by DeV_DeVaughn" size=compact}  
+@link[Farcr's Better Dirt](https://modrinth.com/resourcepack/farcrs-better-dirt){icon="si-modrinth" color="#00AE5C" desc="by Farcr" size=compact}  
+@link[Gentler Weather Sounds](https://modrinth.com/resourcepack/gentler-weather-sounds){icon="si-modrinth" color="#00AE5C" desc="by VesMaybeVesper" size=compact}  
+@link[Goat's Tool Trims](https://modrinth.com/datapack/goats-tool-trims){icon="si-modrinth" color="#00AE5C" desc="by FloatingGoat" size=compact}  
+@link[Hidey Hidey Debris](https://modrinth.com/resourcepack/hidey-hidey-debris){icon="si-modrinth" color="#00AE5C" desc="by Sammy019" size=compact}  
+@link[Mob Crates](https://modrinth.com/resourcepack/mob-crates){icon="si-modrinth" color="#00AE5C" desc="by NoCube, Futureazoo" size=compact}  
+@link[Pixel Twemoji 9x9](https://modrinth.com/resourcepack/pixel-twemoji-9x){icon="si-modrinth" color="#00AE5C" desc="by AmberWat" size=compact}  
+@link[Round Up](https://modrinth.com/resourcepack/roundup){icon="si-modrinth" color="#00AE5C" desc="by Dremix" size=compact}  
+@link[Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers){icon="si-modrinth" color="#00AE5C" desc="by 2DWisp" size=compact}  
+@link[Smoother Glowing](https://modrinth.com/shader/smoother-glowing){icon="si-modrinth" color="#00AE5C" desc="by MelonRind" size=compact}  
+@link[Upgrade-like Trims](https://modrinth.com/resourcepack/upgrade-like-trims){icon="si-modrinth" color="#00AE5C" desc="by N0mish" size=compact}  
+@link[Wisp's Colourful Wildflowers](https://modrinth.com/resourcepack/wisps-colourful-wildflowers){icon="si-modrinth" color="#00AE5C" desc="by 2DWisp" size=compact}  
+@link[Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont){icon="bi-github" color="#7F8893" desc="by AmberWat" size=compact}  
+@link[Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/){icon="bi-globe" desc="by VanillaTweaks" size=compact}  
+
+</div>
 
 Oraz inne zasoby, których twórcy zostali wymienieni w pliku **LICENSE** poszczególnych paczek.  
 <sup>Question? See **[Regulamin](regulamin)** for up-to-date contact information.</sup>
-
-</div>
 
 <br>
 
@@ -86,17 +86,17 @@ Oraz inne zasoby, których twórcy zostali wymienieni w pliku **LICENSE** poszcz
 
 ### Open Source
 Wspieramy, tworzymy i korzystamy głównie z rozwiązań open-source. Zdecydowana większość z napisanych przez nas wtyczek jest wolnym oprogramowaniem.
-- **[@icon[bi-github] 0x46697265444F54/Homepage](https://github.com/0x46697265444F54/Homepage)**
-- **[@icon[bi-github] Grabsky/DisplayEntities](https://github.com/Grabsky/DisplayEntities)**
-- **[@icon[bi-github] Grabsky/Recipes](https://github.com/Grabsky/Recipes)**
-- **[@icon[bi-github] Grabsky/Tweaks](https://github.com/Grabsky/Tweaks)**
-- **[@icon[bi-github] Grabsky/Claims](https://github.com/Grabsky/Claims)**
-- **[@icon[bi-github] Grabsky/Crates](https://github.com/Grabsky/Crates)**
-- **[@icon[bi-github] Grabsky/Heads](https://github.com/Grabsky/Heads)**
-- **[@icon[bi-github] Grabsky/Azure](https://github.com/Grabsky/Azure)**
+
+@link[Homepage](https://github.com/0x46697265444F54/Homepage){icon="bi-github" desc="by Grabsky" color="#7F8893" size=compact}  
+@link[DisplayEntities](https://github.com/Grabsky/DisplayEntities){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
+@link[Recipes](https://github.com/Grabsky/Recipes){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
+@link[Tweaks](https://github.com/Grabsky/Tweaks){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
+@link[Claims](https://github.com/Grabsky/Claims){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
+@link[Crates](https://github.com/Grabsky/Crates){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
+@link[Heads](https://github.com/Grabsky/Heads){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
+@link[Azure](https://github.com/Grabsky/Azure){icon="bi-github" color="#7F8893" desc="by Grabsky" size=compact}  
 
 Dodatkowo korzystamy i współtworzymy narzędzia dla deweloperów:
-- **[@icon[bi-github] EchoNineLabs/Kite](https://github.com/EchoNineLabs/Kite)**
-- **[@icon[bi-github] LuaLink/LuaLink](https://github.com/LuaLink/LuaLink)**
 
-</div>
+@link[Kite](https://github.com/EchoNineLabs/Kite){icon="bi-github" color="#7F8893" desc="by EchoNineLabs" size=compact}  
+@link[LuaLink](https://github.com/LuaLink/LuaLink){icon="bi-github" color="#7F8893" desc="by EchoNineLabs" size=compact}  

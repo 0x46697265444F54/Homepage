@@ -42,9 +42,10 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 <div class="green">
 
 > ##### @icon[bi-check-circle] Mapa Świata / Mini-Mapa
-> Modyfikacje dodające mapę świata, mini-mapę oraz waypointy są dozwolone. Rekomendacje:
-> - **[@icon[si-modrinth] Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)** <span class="translation">(Mapa Świata)</span>
-> - **[@icon[si-modrinth] Xaero's Mini Map](https://modrinth.com/mod/xaeros-minimap-fair)** <span class="translation">(Mini Mapa)</span>
+> Modyfikacje dodające mapę świata, mini-mapę oraz waypointy są dozwolone. Rekomendacje:  
+> 
+> @link[Xaero's World Map](https://modrinth.com/mod/xaeros-world-map){icon="si-modrinth" color="#1bd96a" desc="by thexaero" size=compact}  
+> @link[Xaero's Mini Map](https://modrinth.com/mod/xaeros-minimap-fair){icon="si-modrinth" color="#1bd96a" desc="by thexaero" size=compact}
 
 </div>
 
@@ -52,11 +53,12 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 > ##### @icon[bi-check-circle] Optymalizacja / Poprawki Wizualne / Audio
 > Modyfikacje optymalizujące grę i skupiające się na poprawkach wizualnych są dozwolone. Rekomendacje:
-> - **[@icon[si-modrinth] Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)**<span class="translation">– Poprawia pozycjonowanie dźwięku i akustykę w przestrzeni 3D.</span>
-> - **[@icon[si-modrinth] ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)**<span class="translation">– Optymalizuje renderowanie m.in. bytów i cząsteczek.</span>
-> - **[@icon[si-modrinth] Sodium](https://modrinth.com/mod/sodium)**<span class="translation">– Znacznie poprawia ogólną jakość i wydajność gry.</span>
-> - **[@icon[si-modrinth] Voxy](https://modrinth.com/mod/voxy)**<span class="translation">– Zwiększa dystans rysowania świata minimalnie wpływając na wydajność.</span>
-> - **[@icon[si-modrinth] Iris](https://modrinth.com/mod/iris)**<span class="translation">– Pozwala uruchamiać paczki shaderów poprawiające oprawę wizualną gry.</span>
+> 
+> @link[Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered){icon="si-modrinth" color="#1bd96a" desc="by henkelmax" size=compact}  
+> @link[ImmediatelyFast](https://modrinth.com/mod/immediatelyfast){icon="si-modrinth" color="#1bd96a" desc="by RaphiMC" size=compact}  
+> @link[Sodium](https://modrinth.com/mod/sodium){icon="si-modrinth" color="#1bd96a" desc="by CaffeineMC" size=compact}  
+> @link[Voxy](https://modrinth.com/mod/voxy){icon="si-modrinth" color="#1bd96a" desc="by cortex" size=compact}  
+> @link[Iris](https://modrinth.com/mod/iris){icon="si-modrinth" color="#1bd96a" desc="by coderbot, IMS" size=compact}
 
 </div>
 
@@ -64,11 +66,12 @@ Niekompletna lista dozwolonych i niedozwolonych modyfikacji. Jeżeli masz wątpl
 
 > ##### @icon[bi-check-circle] Małe Usprawnienia
 > Modyfikacje usprawniające rozgrywkę są dozwolone, pod warunkiem że ich funkcjonalność nie wpływa na innych graczy. Rekomendacje:
-> - **[@icon[si-modrinth] Inventive Inventory](https://modrinth.com/mod/inventive-inventory)**<span class="translation">– Szybkie przenoszenie przedmiotów i sortowanie.</span>
-> - **[@icon[si-modrinth] Scribble](https://modrinth.com/mod/scribble)**<span class="translation">– Formatowanie tekstu i kopiowanie zawartości książek.</span>
-> - **[@icon[si-modrinth] Litematica](https://modrinth.com/mod/litematica)**<span class="translation">– Ułatwia wznoszenie budowli przez renderowanie ich schematu.</span>
-> - **[@icon[si-modrinth] Click Through Plus](https://modrinth.com/mod/clickthrough+)**<span class="translation">– Umożliwia otwieranie skrzyń przez ramki z przedmiotami.</span>
-> - **[@icon[si-modrinth] Zoomify](https://modrinth.com/mod/zoomify)**<span class="translation">– Płynny zoom z wieloma funkcjami.</span>
+> 
+> @link[Inventive Inventory](https://modrinth.com/mod/inventive-inventory){icon="si-modrinth" color="#1bd96a" desc="by isxander" size=compact}  
+> @link[Scribble](https://modrinth.com/mod/scribble){icon="si-modrinth" color="#1bd96a" desc="by Cassian" size=compact}  
+> @link[Litematica](https://modrinth.com/mod/litematica){icon="si-modrinth" color="#1bd96a" desc="by masa, sakura-ryoko" size=compact}  
+> @link[Click Through Plus](https://modrinth.com/mod/clickthrough+){icon="si-modrinth" color="#1bd96a" desc="by chrss" size=compact}  
+> @link[Zoomify](https://modrinth.com/mod/zoomify){icon="si-modrinth" color="#1bd96a" desc="by Strobel273" size=compact}
 
 </div>
 
