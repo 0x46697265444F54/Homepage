@@ -63,6 +63,7 @@ h2 {
     --mark-bg: #FDE047;
     --mark-color: var(--color-bg);
     --table-stripe-bg: color-mix(in srgb, var(--color-mono-3), transparent 65%);
+    --code-bg: var(--color-mono-2);
     /* LINKS */
     --link-color: var(--theme-color);
     --link-color-hover: color-mix(in srgb, var(--link-color), black 20%);
@@ -154,6 +155,9 @@ h2 {
     }
     h1, h2, h3, h4, h5 {
         filter: brightness(1.1)
+    }
+    .markdown-section & code {
+        background-color: color-mix(in srgb, var(--tint-color), transparent 90%);
     }
 }
 
