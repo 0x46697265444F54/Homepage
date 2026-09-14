@@ -1,8 +1,8 @@
-- **WSTĘP**
-- [<i class="bi bi-house-door-fill"></i>Strona Główna](/)
+- **FIREDOT**
+- [<i class="bi bi-house-door-fill"></i>Informacje](/)
 - [<i class="bi bi-file-text-fill"></i>Regulamin](/regulamin.md)
-- [<i class="bi bi-megaphone-fill"></i>Nowości](/nowosci.md)
-- **O SERWERZE**
+- [<i class="bi bi-bell-fill"></i>Zmiany](/zmiany.md)
+- **BAZA WIEDZY**
 - [<i class="bi bi-compass-fill"></i>Nawigacja](/nawigacja.md)
 - [<i class="bi bi-globe-americas"></i>Generator Świata](/generator.md)
 - [<i class="bi bi-flag-fill"></i>Chronione Tereny](/tereny.md)

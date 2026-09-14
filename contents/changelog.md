@@ -1,4 +1,4 @@
-# Nowości
+# Zmiany
 Historia zmian wprowadzonych na serwer podczas trwania obecnego sezonu. Lista jest aktualizowana raz na kilka tygodni.
 Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#changelog** na naszym serwerze Discord.
 

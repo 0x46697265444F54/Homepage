@@ -4,7 +4,7 @@ const NOTICE = {
   type: "green",
   icon: "bi-stars",
   text: "Zobacz co się zmieniło w ostatnich aktualizacjach!",
-  link: { text: "Szczegóły", href: "/nowosci.md" }
+  link: { text: "Szczegóły", href: "/zmiany" }
 };
 
 function readDismissedNotice() {
