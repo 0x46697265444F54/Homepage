@@ -2,7 +2,10 @@ function modalsPlugin(hook) {
   hook.doneEach(function() {
     // Handlers are assigned rather than added, since the sidebar is rebuilt on every render.
     document.querySelectorAll('[data-modal]').forEach(it => {
-      it.onclick = () => document.getElementById(it.dataset.modal).showModal();
+      it.onclick = () => {
+        document.getElementById(it.dataset.modal).showModal();
+        it._tippy?.hide();
+      };
     });
     document.querySelectorAll('dialog.modal').forEach(it => {
       // Docsify titles every link it renders, which duplicates the visible text as a native tooltip.
