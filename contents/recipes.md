@@ -13,13 +13,15 @@
     display: flex;
     align-items: center;
     gap: 4px;
+    width: fit-content;
+    padding: 4px;
     margin-bottom: 10px;
 }
 .tier-picker button {
     display: flex;
     padding: 5px;
     border: 1px solid transparent;
-    border-radius: 6px;
+    border-radius: 5px;
     background: none;
     font-family: inherit;
     font-size: 0.8em;
@@ -239,6 +241,7 @@ Szansa na powodzenie wynosi **50%**.
         const panels = [...container.querySelectorAll('.tab-panel')];
         const names = buttons.map(button => button.textContent.trim());
 
+        picker.classList.add('panel');
         picker.setAttribute('role', 'tablist');
         panels.forEach(panel => panel.setAttribute('role', 'tabpanel'));
         buttons.forEach((button, i) => {
