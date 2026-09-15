@@ -1353,15 +1353,10 @@ footer {
     color: var(--color-mono-5);
 }
 
-html.scroll-locked {
+html:has(.map-modal[open]) {
     scrollbar-gutter: stable;
     overflow: hidden;
     overscroll-behavior: none;
-
-    body {
-        position: fixed;
-        inset-inline: 0;
-    }
 }
 
 .map-modal {
@@ -1369,6 +1364,12 @@ html.scroll-locked {
     height: calc(100svh - 128px);
     overflow: hidden;
     overscroll-behavior: none;
+    /* Applies to the embedded map as well, keeping its gestures from reaching the browser toolbar. */
+    touch-action: none;
+
+    &::backdrop {
+        touch-action: none;
+    }
     background-color: var(--color-mono-1);
 
     iframe {
