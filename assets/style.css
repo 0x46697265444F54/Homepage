@@ -120,7 +120,7 @@ h2 {
     /* CALLOUT */
     --callout-gap: 1em;
     --callout-padding: 0.75em var(--callout-gap) 0.75em calc(var(--callout-gap) * 2 + var(--callout-charm-size));
-    --callout-charm-size: 1.15em;
+    --callout-charm-size: 1.05em;
     --callout-charm-font-size: 1em;
     --callout-charm-inset: 50% auto auto var(--callout-gap);
     --callout-charm-translate: 0 -50%;
@@ -191,13 +191,10 @@ h2 {
     --tint-color: var(--color-mono-5);
     --callout-icon: var(--icon-info);
     --tint-border: color-mix(in srgb, var(--tint-color), transparent 75%);
-    --link-chip-border: color-mix(in srgb, var(--strong-color), transparent 85%);
-    --link-chip-border-hover: color-mix(in srgb, var(--strong-color), transparent 70%);
-    --link-chip-muted: var(--color-text);
-    --link-chip-muted-hover: var(--strong-color);
     background-color: var(--tint-bg) !important;
     border-color: var(--tint-border) !important;
     color: var(--strong-color) !important;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1.6;
 
@@ -214,25 +211,7 @@ h2 {
         opacity: 1;
     }
 
-    p:has(> .link-chip) {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.5em 1em;
-    }
-    .markdown-section & a.link-chip {
-        background-color: color-mix(in srgb, var(--strong-color), transparent 94%);
-        color: var(--strong-color);
-    }
-    .markdown-section & a.link-chip:hover {
-        background-color: color-mix(in srgb, var(--strong-color), transparent 88%);
-    }
-    .markdown-section & a.link-chip > i:last-child {
-        border-left: none;
-    }
-
-    h1, h2, h3, h4, h5, a:not(a:hover, .link-chip) {
+    h1, h2, h3, h4, h5, a:not(:hover) {
         color: var(--tint-text) !important;
     }
     h1, h2, h3, h4, h5 {
@@ -259,7 +238,7 @@ h2 {
         color: inherit;
         filter: brightness(1.1)
     }
-    a:not(.link-chip):hover {
+    a:hover {
         color: color-mix(in srgb, currentColor, black 20%) !important;
     }
 }

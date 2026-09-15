@@ -3,14 +3,11 @@
 
 </style>
 
-<span></span> <!-- EMPTY TAG TO INCREASE SPACE BETWEEN NAVBAR AND CONTENT -->
-
 # Nawigacja
 Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy na większości innych serwerów. Ukryliśmy część informacji na ekranie debugowania oraz dodaliśmy nowe funkcje dla przedmiotów, które istnieją w grze od samego początku, ale dotychczas oferowały zbyt mało możliwości.
 
 > [!WARNING]
-> Szybka teleportacja za pomocą komend została wyłączona.
-> @link[Teleportacja](teleportacja){size=compact}
+> Szybka teleportacja za pomocą komend jest niedostępna.</span>
 
 <div class="container-row no-underline">
 
