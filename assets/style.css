@@ -1353,10 +1353,15 @@ footer {
     color: var(--color-mono-5);
 }
 
-html:has(.map-modal[open]) {
+html.scroll-locked {
     scrollbar-gutter: stable;
     overflow: hidden;
     overscroll-behavior: none;
+
+    body {
+        position: fixed;
+        inset-inline: 0;
+    }
 }
 
 .map-modal {

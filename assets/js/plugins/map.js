@@ -12,17 +12,29 @@ function mapPlugin(hook, vm) {
   hook.doneEach(function() {
     const modal = document.getElementById('modal-map');
     const frame = modal.querySelector('iframe');
-    const load = () => {
-      if (frame.src) return;
-      frame.onload = () => frame.classList.add('loaded');
-      frame.src = MAP_URL;
+    const open = () => {
+      if (!frame.src) {
+        frame.onload = () => frame.classList.add('loaded');
+        frame.src = MAP_URL;
+      }
+      // Pinning the page stops touch gestures on the map from reaching it and toggling the mobile browser toolbar.
+      document.body.style.top = -window.scrollY + 'px';
+      document.documentElement.classList.add('scroll-locked');
     };
 
+    modal.addEventListener('close', () => {
+      if (!document.documentElement.classList.contains('scroll-locked')) return;
+      const scrollY = -parseInt(document.body.style.top || 0);
+      document.documentElement.classList.remove('scroll-locked');
+      document.body.style.top = '';
+      window.scrollTo({ top: scrollY, behavior: 'instant' });
+    });
+
     document.querySelectorAll('.map-embed').forEach(it => it.innerHTML = cover);
-    document.querySelectorAll('[data-modal="modal-map"]').forEach(it => it.addEventListener('click', load));
+    document.querySelectorAll('[data-modal="modal-map"]').forEach(it => it.addEventListener('click', open));
 
     if (vm.route.path === '/mapa') {
-      load();
+      open();
       modal.showModal();
       modal.addEventListener('close', () => history.replaceState(null, '', '#/nawigacja'), { once: true });
     }
