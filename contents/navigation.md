@@ -8,9 +8,9 @@
 # Nawigacja
 Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy na większości innych serwerów. Ukryliśmy część informacji na ekranie debugowania oraz dodaliśmy nowe funkcje dla przedmiotów, które istnieją w grze od samego początku, ale dotychczas oferowały zbyt mało możliwości.
 
-<sup>**WAŻNE:** Szybka teleportacja za pomocą popularnych komend jest **WYŁĄCZONA**. Więcej informacji znajdziesz tutaj: **[Teleportacja](teleportacja)**</sup>
-
-<br/>
+> [!WARNING]
+> Szybka teleportacja za pomocą komend została wyłączona.
+> @link[Teleportacja](teleportacja){size=compact}
 
 <div class="container-row no-underline">
 
@@ -40,4 +40,4 @@ Nawigacja po mapie może być nieco trudniejsza niż w trybie jednoosobowym czy 
 Interaktywna mapa pokazuje aktualny świat serwera wraz z podziałem na obszary zajęte przez graczy.  
 Jeżeli trzymasz w ręce kompas, Twoja lokalizacja jest widoczna na mapie.
 
-@link[Interaktywna Mapa](https://firedot.pl/mapa){icon="bi-globe-americas" desc="https://firedot.pl/mapa" size=large}
+<div class="map-embed"></div>

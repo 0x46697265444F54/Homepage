@@ -9,12 +9,21 @@ function modalsPlugin(hook) {
       it.querySelectorAll('a[title]').forEach(link => link.removeAttribute('title'));
       const close = it.querySelector('.modal-close');
       if (close) close.onclick = () => it.close();
-      // A click landing on the dialog itself rather than its content is a backdrop click.
-      it.onclick = event => {
-        if (event.target === it) it.close();
+      // A pointer landing on the dialog itself outside of its box is on the backdrop.
+      const onBackdrop = event => {
+        const rect = it.getBoundingClientRect();
+        return event.target === it && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom);
       };
+      it.onclick = event => {
+        if (onBackdrop(event)) it.close();
+      };
+      it.onpointermove = it.onpointerover = event => {
+        it.classList.toggle('backdrop-hover', event.pointerType === 'mouse' && onBackdrop(event));
+      };
+      it.onpointerleave = () => it.classList.remove('backdrop-hover');
       // Closing hands focus back to the trigger, which would re-show its tooltip.
       it.onclose = () => {
+        it.classList.remove('backdrop-hover');
         document.querySelector('[data-modal="' + it.id + '"]')?._tippy?.hide();
       };
     });

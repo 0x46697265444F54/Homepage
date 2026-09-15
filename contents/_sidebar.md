@@ -15,9 +15,9 @@
 - [<i class="bi bi-wrench-adjustable"></i>Inne](/inne.md)
 
 <div class="sidebar-footer">
-  <a href="https://firedot.pl/mapa" target="_blank" rel="noopener" data-tippy-content="Mapa" aria-label="Mapa">
+  <button data-modal="modal-map" data-tippy-content="Mapa" aria-label="Mapa">
     <i class="bi bi-compass-fill"></i>
-  </a>
+  </button>
   <a href="https://firedot.pl/discord" target="_blank" rel="noopener" data-tippy-content="Discord" aria-label="Discord">
     <i class="bi bi-discord"></i>
   </a>
@@ -35,6 +35,10 @@
     <i class="bi bi-moon-fill"></i>
   </button>
 </div>
+
+<dialog class="modal map-modal" id="modal-map">
+<iframe title="Interaktywna Mapa"></iframe>
+</dialog>
 
 <dialog class="modal" id="modal-vote">
 <div class="modal-header">

@@ -118,8 +118,12 @@ h2 {
     --sidebar-toggle-color: var(--color-mono-5);
     --sidebar-toggle-color-hover: var(--strong-color);
     /* CALLOUT */
-    --callout-padding: 0.5em;
-    --callout-charm-size: 0px;
+    --callout-gap: 1em;
+    --callout-padding: 0.75em var(--callout-gap) 0.75em calc(var(--callout-gap) * 2 + var(--callout-charm-size));
+    --callout-charm-size: 1.15em;
+    --callout-charm-font-size: 1em;
+    --callout-charm-inset: 50% auto auto var(--callout-gap);
+    --callout-charm-translate: 0 -50%;
     --callout-border-radius: 8px;
 }
 
@@ -185,12 +189,50 @@ h2 {
 
 .callout {
     --tint-color: var(--color-mono-5);
-    --callout-border-color: var(--tint-color);
+    --callout-icon: var(--icon-info);
+    --tint-border: color-mix(in srgb, var(--tint-color), transparent 75%);
+    --link-chip-border: color-mix(in srgb, var(--strong-color), transparent 85%);
+    --link-chip-border-hover: color-mix(in srgb, var(--strong-color), transparent 70%);
+    --link-chip-muted: var(--color-text);
+    --link-chip-muted-hover: var(--strong-color);
     background-color: var(--tint-bg) !important;
-    border-color: var(--tint-bg) !important;
-    color: var(--tint-text) !important;
+    border-color: var(--tint-border) !important;
+    color: var(--strong-color) !important;
+    font-weight: 500;
+    line-height: 1.6;
 
-    h1, h2, h3, h4, h5, a:not(a:hover) {
+    .markdown-section &::before {
+        background: var(--tint-color);
+        border-radius: 0;
+        -webkit-mask: var(--callout-icon) center / contain no-repeat;
+        mask: var(--callout-icon) center / contain no-repeat;
+    }
+    sup {
+        font-size: 0.875em;
+        font-weight: var(--font-weight);
+        color: var(--color-text);
+        opacity: 1;
+    }
+
+    p:has(> .link-chip) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5em 1em;
+    }
+    .markdown-section & a.link-chip {
+        background-color: color-mix(in srgb, var(--strong-color), transparent 94%);
+        color: var(--strong-color);
+    }
+    .markdown-section & a.link-chip:hover {
+        background-color: color-mix(in srgb, var(--strong-color), transparent 88%);
+    }
+    .markdown-section & a.link-chip > i:last-child {
+        border-left: none;
+    }
+
+    h1, h2, h3, h4, h5, a:not(a:hover, .link-chip) {
         color: var(--tint-text) !important;
     }
     h1, h2, h3, h4, h5 {
@@ -202,9 +244,9 @@ h2 {
 }
 
 .callout.tip       { --tint-color: var(--color-success); }
-.callout.warning   { --tint-color: var(--color-warning); }
-.callout.caution   { --tint-color: var(--color-danger); }
-.callout.important { --tint-color: var(--color-danger); }
+.callout.warning   { --tint-color: var(--color-warning); --callout-icon: var(--icon-warning); }
+.callout.caution   { --tint-color: var(--color-danger); --callout-icon: var(--icon-warning); }
+.callout.important { --tint-color: var(--color-danger); --callout-icon: var(--icon-warning); }
 .callout.note      { --tint-color: var(--color-mono-5); }
 
 /* TINTED SURFACES */
@@ -217,7 +259,7 @@ h2 {
         color: inherit;
         filter: brightness(1.1)
     }
-    a:hover {
+    a:not(.link-chip):hover {
         color: color-mix(in srgb, currentColor, black 20%) !important;
     }
 }
@@ -510,6 +552,10 @@ body.sticky .sidebar {
     transition: opacity 0.2s ease, display 0.2s allow-discrete, overlay 0.2s allow-discrete;
 }
 
+.modal.backdrop-hover, .modal.backdrop-hover::backdrop {
+    cursor: pointer;
+}
+
 .modal[open], .modal[open]::backdrop {
     opacity: 1;
 }
@@ -793,8 +839,8 @@ footer {
 
 @media (min-width: 1200px) {
     .card {
-        flex: 1 1 calc(33.333% - 1em);
-        max-width: calc(33.333% - 1em);
+        flex: 1 1 calc((100% - 2em) / 3);
+        max-width: calc((100% - 2em) / 3);
     }
 }
 
@@ -1244,6 +1290,108 @@ footer {
 
 .page-server .server-meta-value {
     font-size: 1.15rem;
+}
+
+/* MAP EMBED */
+
+.map-embed {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    max-height: 70vh;
+    margin: 1em 0;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid var(--color-mono-3);
+    background-color: var(--color-mono-1);
+    user-select: none;
+    transition: 0.2s;
+}
+
+.map-embed:hover {
+    border-color: var(--color-mono-5);
+    background-color: var(--color-mono-2);
+}
+
+.map-embed-cover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    border: none;
+    font-family: var(--font-family);
+    color: var(--color-mono-5);
+    background:
+        radial-gradient(ellipse at center, transparent 30%, var(--color-mono-1) 85%),
+        repeating-linear-gradient(0deg, color-mix(in srgb, var(--color-mono-max), transparent 94%) 0 1px, transparent 1px 32px),
+        repeating-linear-gradient(90deg, color-mix(in srgb, var(--color-mono-max), transparent 94%) 0 1px, transparent 1px 32px);
+    cursor: pointer;
+    transition: color 0.2s;
+
+    i {
+        margin: 0;
+        font-size: 30px;
+        line-height: 1;
+    }
+}
+
+.map-embed-cover:hover {
+    color: var(--heading-color);
+}
+
+.map-embed-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.map-embed-desc {
+    font-family: var(--font-family-mono);
+    font-size: 0.85rem;
+    color: var(--color-mono-5);
+}
+
+html:has(.map-modal[open]) {
+    scrollbar-gutter: stable;
+}
+
+body:has(.map-modal[open]) {
+    overflow: hidden;
+}
+
+.map-modal {
+    width: calc(100vw - 128px);
+    height: calc(100dvh - 128px);
+    overflow: hidden;
+    background-color: var(--color-mono-1);
+
+    iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 7px;
+        clip-path: inset(0 round 7px);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    iframe.loaded {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 640px) {
+    .map-modal {
+        width: calc(100vw - 16px);
+        height: calc(100dvh - 16px);
+    }
+
+    .map-embed {
+        aspect-ratio: 4 / 3;
+    }
 }
 
 /* PAGE TRANSITION */
