@@ -1,6 +1,6 @@
 const SERVER = {
   address: "firedot.pl",
-  version: "26.2"
+  version: "26.2+"
 };
 
 function copyText(text) {
