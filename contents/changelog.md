@@ -6,6 +6,14 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 
 <div class="changelog">
 
+@entry[19 września 2026]
+Dodano wsparcie dla klientów na wersji 26.3.
+@end
+
+@entry[14 września 2026]
+Wprowadzono kolejne wizualne poprawki na stronie serwera i dodano możliwość przełączenia kolorów na tryb jasny.
+@end
+
 @entry[12 września 2026]
 - Dodano pasek wyszukiwania na stronie internetowej serwera.
 - Dodano adres serwera i wersję na stronę główną.
