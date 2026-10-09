@@ -1260,7 +1260,7 @@ footer {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     line-height: 1;
-    color: var(--color-mono-4);
+    color: var(--color-mono-5);
 }
 
 .server-meta-value {
