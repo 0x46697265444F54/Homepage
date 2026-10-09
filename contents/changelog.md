@@ -6,6 +6,13 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 
 <div class="changelog">
 
+@entry[9 października 2026]
+- Zaktualizowano serwer do wersji 26.3.  
+  <sup>Lista zmian: https://minecraft.wiki/w/Java_Edition_26.3</sup>
+- Dodano przedmioty z najnowszej aktualizacji do sklepu **Nowości**.
+- Przywrócono oryginalny kształt i wielkość drzew wyrastających z sadzonek.
+@end
+
 @entry[19 września 2026]
 Dodano wsparcie dla klientów na wersji 26.3.
 @end

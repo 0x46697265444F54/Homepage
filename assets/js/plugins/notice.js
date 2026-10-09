@@ -1,9 +1,9 @@
 const NOTICE = {
   enabled: true,
-  id: "26.3-update",
-  type: "green",
+  id: "wilderness-bound-update",
+  type: "orange",
   icon: "bi-stars",
-  text: "Zobacz co się zmieniło w ostatnich aktualizacjach!",
+  text: "Aktualizacja <strong>Wilderness Bound (26.3)</strong> już dostępna na serwerze!",
   link: { text: "Szczegóły", href: "/zmiany" }
 };
 
