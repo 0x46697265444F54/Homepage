@@ -1,7 +1,7 @@
 function imageLoadersPlugin(hook) {
   hook.afterEach(function(html) {
     return html.replace(
-      /(<div class="(?=(?:[^"]*\s)?(?:card|feature-row)(?:\s[^"]*)?")[^"]*">\s*)<img([^>]*)>/g,
+      /(<div class="(?=(?:[^\"]*\s)?(?:card|feature-row)(?:\s[^\"]*)?\")[^>]*>\s*)<img([^>]*)>/g,
       '$1<div class="img-loader-wrap"><img$2><div class="spinner"></div></div>'
     );
   });

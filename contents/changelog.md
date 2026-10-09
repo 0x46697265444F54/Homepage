@@ -7,6 +7,11 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 <div class="changelog">
 
 @entry[9 października 2026]
+- Poprawiono wyszukiwanie na stronie internetowej serwera.
+- Poprawiono układ strony **Rolnictwo**.
+@end
+
+@entry[9 października 2026]
 - Zaktualizowano serwer do wersji 26.3.  
   <sup>Lista zmian: https://minecraft.wiki/w/Java_Edition_26.3</sup>
 - Dodano przedmioty z najnowszej aktualizacji do sklepu **Nowości**.

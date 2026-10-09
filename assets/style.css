@@ -791,6 +791,7 @@ footer {
 .card {
     flex: 1 1 100%;
     min-width: 200px;
+    overflow: hidden;
     -webkit-user-select: none;
     user-select: none;
     padding-bottom: 10px;
@@ -1782,4 +1783,21 @@ body.has-notice .sidebar-toggle {
     font-size: 0.9em;
     text-align: center;
     color: var(--color-mono-5);
+}
+
+/* Animate the existing border so the cue follows each card's exact corners. */
+.markdown-section .search-target {
+    scroll-margin-block: 24px;
+    animation: search-target-fade 1300ms ease-in-out;
+}
+
+@keyframes search-target-fade {
+    20%, 55% { border-color: color-mix(in srgb, var(--theme-color) 40%, var(--color-mono-3)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .markdown-section .search-target {
+        animation: none;
+        border-color: color-mix(in srgb, var(--theme-color) 40%, var(--color-mono-3));
+    }
 }

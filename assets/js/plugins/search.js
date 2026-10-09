@@ -7,7 +7,7 @@ function searchFold(text) {
     const stripped = text[i].normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     folded += (stripped.length === 1 ? stripped : text[i]).toLowerCase();
   }
-  return folded;
+  return folded.replace(/ł/g, "l");
 }
 
 function searchPlainText(markdown) {
@@ -55,22 +55,99 @@ function searchCardTitle(line) {
   return null;
 }
 
+const SEARCH_CARD_CLASSES = ["farm-card", "enchant-card", "card", "world", "feature-row", "showcase-item"];
+const SEARCH_CARD_SELECTOR = SEARCH_CARD_CLASSES.map(name => `.${name}`).join(", ");
+
+// Use the same card IDs in the Markdown index and the rendered page.
+function searchPrepareCards(markdown) {
+  let cardIndex = 0;
+  return markdown.replace(/<(?:div|article)\b[^>]*class="[^"]*"[^>]*>/g, tag => {
+    const classes = /class="([^"]*)"/.exec(tag)[1].split(/\s+/);
+    if (!classes.some(name => SEARCH_CARD_CLASSES.includes(name))) return tag;
+    const id = `search-card-${++cardIndex}`;
+    return /\bid="/.test(tag) ? tag : tag.replace(/>$/, ` id="${id}">`);
+  });
+}
+
+let searchTargetTimer;
+let searchRevealTimer;
+let searchRevealVersion = 0;
+let searchScrollCleanup;
+function searchRevealTarget() {
+  // Coalesce click, route and render hooks, then resolve the current DOM.
+  const version = ++searchRevealVersion;
+  searchScrollCleanup?.();
+  clearTimeout(searchRevealTimer);
+  searchRevealTimer = setTimeout(() => requestAnimationFrame(() => {
+    if (version !== searchRevealVersion) return;
+    const anchor = new URLSearchParams(window.location.hash.split("?")[1] || "").get("id");
+    document.querySelectorAll(".search-target").forEach(card => card.classList.remove("search-target"));
+    clearTimeout(searchTargetTimer);
+    if (!anchor) return;
+    const target = document.getElementById(anchor);
+    if (!target || !target.closest(".markdown-section")) return;
+    const card = target.closest(SEARCH_CARD_SELECTOR);
+    const destination = card || target;
+    if (!destination.isConnected) return;
+    destination.scrollIntoView({
+      block: card ? "center" : "start",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"
+    });
+    if (!card) return;
+    // Show the cue after scrolling, so it is visible when the card arrives.
+    let arrivalTimer;
+    let started = false;
+    const cleanup = () => {
+      clearTimeout(arrivalTimer);
+      document.removeEventListener("scrollend", highlight);
+    };
+    const highlight = () => {
+      if (started) return;
+      started = true;
+      cleanup();
+      if (version !== searchRevealVersion || !card.isConnected) return;
+      void card.offsetWidth;
+      card.classList.add("search-target");
+      searchTargetTimer = setTimeout(() => card.classList.remove("search-target"), 1300);
+    };
+    searchScrollCleanup = cleanup;
+    document.addEventListener("scrollend", highlight, { once: true });
+    arrivalTimer = setTimeout(highlight, 500);
+  }), 160);
+}
+
+function searchNavigateResult(event, result) {
+  if (event.button > 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return false;
+  const href = result.getAttribute("href");
+  const currentPage = window.location.hash.split("?")[0];
+  if (href.split("?")[0] !== currentPage) return false;
+  // Avoid Docsify's anchor navigation competing with our scroll and replacing cards.
+  event.preventDefault();
+  if (window.location.hash !== href) window.history.pushState(null, "", href);
+  searchRevealTarget();
+  return true;
+}
+
 function searchSections(markdown, page) {
   const sections = [];
   let current = { page, heading: null, anchorId: null, lines: [] };
   let sectionHeading = null;
   let sectionId = null;
   let fenced = false;
+  let cardId = null;
   const slugify = window.Docsify?.slugify;
   slugify?.clear?.();
 
-  for (const line of markdown.split("\n")) {
+  for (const line of searchPrepareCards(markdown).split("\n")) {
+    const cardStart = /<(?:div|article)\b[^>]*\bid="([^"]+)"/.exec(line);
+    if (cardStart) cardId = cardStart[1];
     if (/^\s*```/.test(line)) fenced = !fenced;
     const heading = !fenced && /^((?:>\s*)*)#{1,6}\s+(.*?)(?:\s+#+)?\s*$/.exec(line);
     if (heading) {
       const explicit = /(?:^|\s):id=([\w-%]+)/.exec(heading[2]);
       const id = slugify?.(explicit ? explicit[1] : heading[2].replace(/@icon\[([\w-]+)\]/g, "%%ICON_$1%%")) ?? null;
       if (!heading[1]) {
+        cardId = null;
         sections.push(current);
         sectionHeading = searchPlainText(explicit ? heading[2].replace(explicit[0], "") : heading[2]);
         sectionId = id;
@@ -81,7 +158,8 @@ function searchSections(markdown, page) {
     const card = searchCardTitle(line);
     if (card) {
       sections.push(current);
-      current = { page, heading: card, anchorId: sectionId, lines: [] };
+      current = { page, heading: card, anchorId: cardId || sectionId, lines: [] };
+      cardId = null;
       continue;
     }
     current.lines.push(line);
@@ -108,7 +186,18 @@ async function searchBuildIndex() {
     try {
       const response = await fetch(searchPath(page.href));
       if (!response.ok) return [];
-      return searchSections(await response.text(), page);
+      const markdown = await response.text();
+      const sections = searchSections(markdown, page);
+      if (markdown.includes('class="farm-cards"')) {
+        await farmCropsReady;
+        sections.push(...(window.farmCrops || []).map(crop => ({
+          page,
+          heading: crop.items.map(item => `${item.name} ${item.english}`).join(", "),
+          anchorId: crop.id,
+          text: crop.tiers.map(tier => `${tier.label}: ${tier.speed}%`).join(" · ")
+        })));
+      }
+      return sections;
     } catch {
       return [];
     }
@@ -186,6 +275,9 @@ function searchMatch(index, query) {
 }
 
 function searchPlugin(hook) {
+  hook.beforeEach(searchPrepareCards);
+  hook.doneEach(searchRevealTarget);
+  window.addEventListener("hashchange", searchRevealTarget);
   hook.mounted(function() {
     if (document.querySelector(".search-trigger")) return;
 
@@ -274,7 +366,12 @@ function searchPlugin(hook) {
     };
 
     results.onclick = event => {
-      if (event.target.closest(".search-result")) modal.close();
+      const result = event.target.closest(".search-result");
+      if (!result) return;
+      if (event.button > 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.stopPropagation();
+      modal.close();
+      searchNavigateResult(event, result);
     };
 
     document.addEventListener("keydown", event => {
