@@ -6,6 +6,10 @@ Jeżeli interesują Cię najświeższe zmiany, znajdują się one na kanale **#c
 
 <div class="changelog">
 
+@entry[15 października 2026]
+Odświeżono teksturę tuńczyka i poprawiono błędy w kilku innych teskturach.
+@end
+
 @entry[9 października 2026]
 - Poprawiono wyszukiwanie na stronie internetowej serwera.
 - Poprawiono układ strony **Rolnictwo**.
