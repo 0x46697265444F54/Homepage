@@ -11,7 +11,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Scholar of Mobs -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Znawca Stworów <span class="translation">Scholar of Mobs</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Znawca Stworów <span class="translation">Scholar of Mobs</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Zabite moby dają <strong>25%</strong> więcej punktów doświadczenia za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -38,7 +38,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Reach -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Zasięg <span class="translation">Reach</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Zasięg <span class="translation">Reach</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Zwiększa zasięg o <strong>0.25</strong> bloku za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -63,7 +63,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Swift Strike -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Poręczność <span class="translation">Swift Strike</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Poręczność <span class="translation">Swift Strike</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Zwiększa szybkość ataku o <strong>12.5%</strong> za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -88,7 +88,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Critical Strike -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Krytyczne Uderzenie <span class="translation">Critical Strike</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Krytyczne Uderzenie <span class="translation">Critical Strike</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Zwiększa obrażenia krytyczne o <strong>7.5%</strong> za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -113,7 +113,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Poison Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Zatrucie <span class="translation">Poison Aspect</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Zatrucie <span class="translation">Poison Aspect</span><span class="ec-level-badge">II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt trucizny.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -138,7 +138,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Slowness Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Spowolnienie <span class="translation">Slowness Aspect</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Spowolnienie <span class="translation">Slowness Aspect</span><span class="ec-level-badge">II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt spowolnienia.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -163,7 +163,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Weakness Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Osłabienie <span class="translation">Weakness Aspect</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Osłabienie <span class="translation">Weakness Aspect</span><span class="ec-level-badge">II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt osłabienia.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -188,7 +188,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Wither Aspect -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Obumieranie <span class="translation">Wither Aspect</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Obumieranie <span class="translation">Wither Aspect</span><span class="ec-level-badge">II</span></p>
   <p class="ec-desc">Uderzona ofiara otrzymuje efekt obumierania.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -213,7 +213,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Replenish -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Oszczędność <span class="translation">Replenish</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Oszczędność <span class="translation">Replenish</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Co druga wystrzelona strzała nie zostaje utracona.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -243,7 +243,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Rejuvenation -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Żywotność <span class="translation">Rejuvenation</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Żywotność <span class="translation">Rejuvenation</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Zwiększa maks. liczbę punktów życia o <strong>1</strong> za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -265,7 +265,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Sonic Shield -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Tarcza Soniczna <span class="translation">Sonic Shield</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Tarcza Soniczna <span class="translation">Sonic Shield</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Blokowanie chroni przed falą dźwiękową Wardena.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -287,7 +287,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Gravity -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Grawitacja <span class="translation">Gravity</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Grawitacja <span class="translation">Gravity</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Pozwala na wyższy, ale wolniejszy i lżejszy skok.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -310,7 +310,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Scorched Walker -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Ognisty Piechur <span class="translation">Scorch Walker</span><span class="ec-level-badge">Maks. II</span></p>
+  <p class="ec-title">Ognisty Piechur <span class="translation">Scorch Walker</span><span class="ec-level-badge">II</span></p>
   <p class="ec-desc">Zamienia powierzchnię lawy w magmę.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -332,7 +332,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Sonic -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Sonic <span class="translation">Sonic</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Sonic <span class="translation">Sonic</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Zwiększa prędkość poruszania się o <strong>7.5%</strong> za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -355,7 +355,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Stride -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Wędrowiec <span class="translation">Stride</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Wędrowiec <span class="translation">Stride</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Pozwala wchodzić po pełnych blokach jak po schodach.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -384,7 +384,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Magnet -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Magnes <span class="translation">Magnet</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Magnes <span class="translation">Magnet</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Zdobyte surowce wpadają bezpośrednio do ekwipunku.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -414,7 +414,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Scholar of Blocks -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Znawca Bloków <span class="translation">Scholar of Blocks</span><span class="ec-level-badge">Maks. III</span></p>
+  <p class="ec-title">Znawca Bloków <span class="translation">Scholar of Blocks</span><span class="ec-level-badge">III</span></p>
   <p class="ec-desc">Wykopane bloki dają <strong>25%</strong> więcej punktów doświadczenia za każdy poziom.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -439,7 +439,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Gardener -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Ogrodnik <span class="translation">Gardener</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Ogrodnik <span class="translation">Gardener</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Zebrane plony zostają ponownie zasadzone.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -462,7 +462,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Bait -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Wabik <span class="translation">Bait</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Wabik <span class="translation">Bait</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Szansa <strong>15%</strong> na złowienie kilku przedmiotów za jednym razem.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -485,7 +485,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 <!-- Reel -->
 
 <div class="enchant-card panel">
-  <p class="ec-title">Kołowrotek <span class="translation">Reel</span><span class="ec-level-badge">Maks. I</span></p>
+  <p class="ec-title">Kołowrotek <span class="translation">Reel</span><span class="ec-level-badge">I</span></p>
   <p class="ec-desc">Automatycznie wyciąga przedmiot z wody po jego złowieniu.</p>
   <dl class="ec-meta">
     <dt>Przeznaczenie</dt>
@@ -531,7 +531,7 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
   border-color: var(--color-mono-4);
 }
 
-/* Name and level badge share the first row; the English name wraps below them. */
+/* Name and max level share the first row; the English name wraps below them. */
 .enchant-card .ec-title {
   display: flex;
   flex-wrap: wrap;
@@ -556,14 +556,9 @@ Na serwerze dostępne są nowe, unikalne zaklęcia na przedmioty, których zadan
 .ec-level-badge {
   order: 1;
   margin-left: auto;
-  padding: 1px 8px;
   white-space: nowrap;
-  font-family: var(--font-family-mono);
-  font-size: 0.75em;
-  border-radius: 4px;
-  color: var(--color-mono-6);
-  border: 1px solid var(--color-mono-3);
-  background-color: var(--color-mono-2);
+  font-size: 1.25em;
+  color: var(--color-mono-5);
 }
 
 .enchant-card .ec-desc {
